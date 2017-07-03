@@ -1,0 +1,16 @@
+p {
+    font-size: 19px;
+    font-weight: 300;
+    color: #000000;
+}
+
+span {
+    color: #126585;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    h3 {
+        font-size: 16px !important;
+    }
+}

@@ -1,0 +1,291 @@
+.what h2, .who h2, .contact h2, .how h2 {
+    margin-bottom: 30px;
+}
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+#checkBalanceResponse_body {
+  margin-bottom: 0px;
+}
+
+/*
+.trade h1 {
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+
+.trade h2 {
+    margin-bottom: 0px !important;
+}
+
+.trade .alert {
+	border: 0;
+	color: #333;
+	border-radius: 0;
+}
+
+.trade .alert-success {
+	background-color: #f8f8f8;
+}
+
+.trade button {
+	margin-bottom: 10px !important;
+}
+
+.trade h3 {
+	margin-top: 40px;
+}
+*/
+
+#_buyAmount, #checkBalanceResponse {
+	background-color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+   h3 {
+     display: none !important;
+   }
+	 #myAddress {
+		 font-size: 12px !important;
+	 }
+   #calc-button {
+     font-size: 18px !important;
+   }
+   #arrow {
+     font-size: 20px !important;
+   }
+}
+/* Sergey's code */
+#mc_embed_signup_scroll{
+  background:#fff;
+  clear:left;
+  font:80% 'Nunito', sans-serif;
+  width:100%;
+}
+
+#claim_text, #presale_starts {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+.underline{
+  color: #777;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#days, #hours, #minutes, #seconds, #gmt {
+  width: 90px;
+  margin: 2px;
+  cursor: text;
+}
+
+#gmt {
+  color:gray;
+}
+
+#mce-EMAIL {
+  width: 66%;
+  position: relative;
+  left: 17%
+}
+
+#calc {
+  font-weight: normal;
+  font-size: 73%;
+}
+
+#arrow {
+  font-size: 30px;
+}
+
+#calc-button {
+  font-size: 23px;
+  text-decoration: underline;
+  position: relative;
+  bottom: 2px;
+}
+
+#faq {
+  color: gray;
+  position: relative;
+  top: 8px;
+  font-weight: normal;
+}
+
+/* progress bar */
+
+
+.progress-bar {
+  width: 0%;
+  background-color: #126585;
+}
+
+.progress {
+  position: relative;
+  margin: 0 16% 0 16%;
+  height: 44px;
+}
+.redLine, .greenLine {
+  position: absolute;
+  left: 5%;
+  width: 2px;
+  height: 44px;
+  background-color: #FF0000;
+  cursor:  url(pics/min.png), help;
+}
+
+.greenLine {
+  left: 20%;
+  background-color: #01DF3A;
+  cursor:  url(pics/comfort.png), help;
+}
+
+/* distribution chart responsive */
+.chart {
+  width: 100%;
+  min-height: 450px;
+}
+
+
+/* end code Jeremias */
+
+@media screen and (max-width: 500px){
+#cont, .smallOnMobile {
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+}
+}
+
+@media screen and (max-width: 767px){
+  #cont, .smallOnMobile {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  #cont, .smallOnMobile {
+    font-size: 12px;
+  }
+}
+
+.modal-header > h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.modal-header > p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.modal-body {
+  font-size: 15px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.modal-body > div {
+  height: 275px;
+  overflow: auto;
+}
+
+.modal-body > div > p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.modal-body > div > h2 {
+  font-size: 20px;
+}
+
+.modal-body > div > h3 {
+  font-size: 17px;
+}
+
+.modal-dialog {
+  text-align: left;
+  width: 38%;
+}
+
+#check {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.modal-footer {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.modal-footer > p {
+  float: left;
+  width: 100%;
+}
+
+#agree {
+  float: left;
+}
+
+#name {
+    height: 32px;
+    width: 79%;
+    float: left;
+}
+
+#strong {
+  font-size: 20px;
+}
+
+#name {
+  width: 70%;
+}
+
+#btn {
+  width: 26%;
+}
+
+#btn2 {
+  width: 26%;
+}
+
+@media screen and (max-width: 767px){
+  .modal-dialog {
+    width: 95%;
+  }
+  #name {
+  width: 60%;
+}
+#btn {
+  width: 38%;
+}
+#btn2 {
+  width: 48%;
+}
+
+}
+
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.about h1 {
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px){
+#network {
+    position: relative;
+    right: 5%;
+}
+}
