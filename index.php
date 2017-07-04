@@ -1127,7 +1127,13 @@
                       data-scale="1.5"
                       data-translatey="50"
                   >
-                      <h3 class="text-center">Ali Hashem</h3>
+                      <h3 class="text-center">Ali Hashem
+                            <span class="text-center">
+                                <a href="https://linkedin.com/in/ali-hashem-541600b4/" target="_blank" class="sl">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                            </span>
+                      </h3>
                       <p class="text-center"><strong>Customer Support</strong></p>
                       <p class="text-center">
                           The Connector. Years of experience as a customer relations representative and sales manager in service industries. Always finding ways to align company targets with customer needs. Exploring the potential of Blockchain in building stronger bonds with customers.
