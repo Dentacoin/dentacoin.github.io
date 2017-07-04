@@ -80,7 +80,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="text-center" class="presale">Healthcare Industry should be in the hands of the people.</h1>
                     <div class="form">
-                    <h3 class="text-center question1" id="question1"><a href="https://www.dentacoin.com/presale/">Ongoing Public Presale: BUY NOW</a></h3>
+                    <h3 class="text-center question1" id="question1">Ongoing Public Presale: &nbsp;&nbsp;<a href="https://www.dentacoin.com/presale/" class="btn btn-default btn-lg text-center" id="buy"> BUY NOW</a></h3>
                   </div>
               </div>
             </div>

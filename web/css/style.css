@@ -1121,12 +1121,6 @@ audio, canvas, progress, video {
     font-size: 180%;
 }
 
-.question1:hover {
-  color: gray;
-  cursor:pointer;
-  text-decoration: underline;
-}
-
 .form {
   position: relative;
   bottom: 50px;
@@ -1175,4 +1169,9 @@ h3 > a {
     position: relative;
     right: 5%;
 }
+}
+
+#buy {
+    position: relative;
+    bottom: 2px;
 }
