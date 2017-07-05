@@ -263,15 +263,14 @@ section {
     width: 95%;
   }
   #name {
-  width: 60%;
-}
-#btn {
-  width: 38%;
-}
-#btn2 {
-  width: 48%;
-}
-
+    width: 60%;
+  }
+  #btn {
+    width: 38%;
+  }
+  #btn2 {
+    width: 48%;
+  }
 }
 
 .modal-body {
@@ -284,8 +283,39 @@ section {
 }
 
 @media screen and (min-width: 768px){
-#network {
+  #network {
     position: relative;
     right: 5%;
+  }
 }
+
+#tag {
+  position: relative;
+  right: 24px;
+}
+
+span > img {
+      width: 21%;
+}
+
+@media screen and (max-width: 320px){
+  span > img {
+      width: 70%;
+}
+}
+
+@media screen and (min-width: 767px) {
+  #timer {
+    position: relative;
+    left: 11%;
+  }
+}
+
+@media screen and (max-width: 426px) { 
+  @media screen and (min-width: 326px) {
+    #small {
+      position: relative;
+      left: 12%;
+    }
+  }
 }
