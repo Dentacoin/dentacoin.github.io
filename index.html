@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="awFFZOLlss9PFAo1lY7J3m_BY5bYeBA6shUxvWFny1U" />
+        <meta property="og:image" content="https://dentacoin.com/web/img/DCN.png"/>
         <link rel="shortcut icon" type="image/x-icon" href="web/img/favicon.ico">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Dentacoin</title>
