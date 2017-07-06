@@ -92,9 +92,11 @@
         			<h1 class="text-center">
                 Ongoing Public Presale
                 <br>
-                <small id="sale-tag">
+                <small>
                   Start: July 1st (08:00 a.m. GMT) End:
+                  <br>
                 </small>
+                <!-- Sergey's code start here -->
                 <div>
                     <section class="form-groups" id="timer">
                       <p id="days" class="btn btn-default btn-lg"></p>
@@ -102,7 +104,7 @@
                       <p id="minutes" class="btn btn-default btn-lg"></p>
                       <span id="small">
                       <p id="seconds" class="btn btn-default btn-lg"></p>
-                      <span id="tag"><img src="pics/tag.png"><h1 id="txCount"></h1></span>
+                      <span id="tag"><img src="pics/tag.png"><span id="txCount"></span></span>
                       </span>
                     </section>
                 </div>
@@ -537,6 +539,8 @@
         </div>
 <!-- /#SignIn -->
 
+
+
       <div id="who" class="who">
       <div class="container">
         <h2 class="text-center">Buy</h2>
@@ -575,34 +579,33 @@
         </section>
       </div>
       </div>
-	    
-	    
-	
-	    
-	    
 
-	    
-<!-- #transfer Dentacoins -->
-      <div id="how" class="container how">
-        <h2 class="text-center">Transfer</h2>
-        <section>
-        <h3>Transfer Dentacoins</h3>
-        <div class="form-group">
-            <label for="_transferAccount">DCN address of receiver</label>
-            <input type="text" id="_transferAccount" class="form-control" placeholder="0x0000000000000000000000000000000000000000" />
-        </div>
-        <div class="form-group">
-            <label for="_transferAmount">Amount</label>
-            <input type="number" id="_transferAmount" class="form-control" placeholder="Minimum 10 ٨" />
-        </div>
-        <button id="_transfer" class="btn btn-default btn-lg">Transfer</button>
-        <div id="transferTokenResponse" class="alert alert-success">
-            <h4>Transfer Dentacoins</h4>
-            <p id="transferTokenResponse_body"></p>
-        </div>
-        </section>
-      </div>
-<!-- /#transfer Dentacoins -->
+
+
+
+
+
+      <!-- #transfer Dentacoins -->
+            <div id="how" class="container how">
+              <h2 class="text-center">Transfer</h2>
+              <section>
+              <h3>Transfer Dentacoins</h3>
+              <div class="form-group">
+                  <label for="_transferAccount">DCN address of receiver</label>
+                  <input type="text" id="_transferAccount" class="form-control" placeholder="0x0000000000000000000000000000000000000000" />
+              </div>
+              <div class="form-group">
+                  <label for="_transferAmount">Amount</label>
+                  <input type="number" id="_transferAmount" class="form-control" placeholder="Minimum 10 ٨" />
+              </div>
+              <button id="_transfer" class="btn btn-default btn-lg">Transfer</button>
+              <div id="transferTokenResponse" class="alert alert-success">
+                  <h4>Transfer Dentacoins</h4>
+                  <p id="transferTokenResponse_body"></p>
+              </div>
+              </section>
+            </div>
+    <!--  /#transfer Dentacoins  -->
 
 
 
@@ -823,6 +826,8 @@
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       <script src="../web/js/chart.js"></script>
       <script src="../web/js/txList.js"></script>
+      <!-- counter.html stats from etherscan api -->
+      <script type="text/javascript" src="etherscanStats.js"></script>
 <!-- /#Scripts area -->
 
   </body>

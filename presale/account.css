@@ -271,6 +271,9 @@ section {
   #btn2 {
     width: 48%;
   }
+  #txCount {
+    display: none;
+  }
 }
 
 .modal-body {
@@ -307,7 +310,7 @@ span > img {
 @media screen and (min-width: 767px) {
   #timer {
     position: relative;
-    left: 11%;
+    left: 17%;
   }
 }
 
@@ -315,7 +318,36 @@ span > img {
   @media screen and (min-width: 326px) {
     #small {
       position: relative;
-      left: 12%;
+      left: 32%;
     }
+  }
+}
+
+@media screen and (max-width: 326px) {
+  #tag {
+    position: relative;
+    left: 13px;
+  }
+}
+
+@media screen and (max-width: 1999px) {
+  #txCount {
+    font-size: 26%;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    right: 14%;
+    top: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #txCount {
+    font-size: 31%;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    right: 14%;
+    top: 11px;
   }
 }
