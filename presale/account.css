@@ -303,7 +303,9 @@ span > img {
 
 @media screen and (max-width: 320px){
   span > img {
-      width: 70%;
+    width: 50%;
+    position: relative;
+    right: 10%;
 }
 }
 
@@ -318,7 +320,7 @@ span > img {
   @media screen and (min-width: 326px) {
     #small {
       position: relative;
-      left: 32%;
+      left: 12%;
     }
   }
 }
