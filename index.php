@@ -16,7 +16,6 @@
         <link href="web/css/font-awesome.min.css" rel="stylesheet">
         <link href="web/css/plyr.css" rel="stylesheet">
         <link href="web/css/style.css" rel="stylesheet">
-        <link href="faq.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -79,7 +78,7 @@
         <div id="about" class="container about">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1 class="text-center" class="presale">Healthcare Industry should be in the hands of the people.</h1>
+                    <h1 class="text-center" class="presale">Dentacoin: Crowd Power to Shape the Future of Dental Care.</h1>
                     <div class="form">
                     <h3 class="text-center question1" id="question1">Ongoing Public Presale: &nbsp;&nbsp;<a href="https://www.dentacoin.com/presale/" class="btn btn-default btn-lg text-center" id="buy"> BUY NOW</a></h3>
                   </div>
@@ -87,23 +86,69 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 clearfix">
-                    <p class="lead about-text">
-                        Dentacoin is an industrial blockchain concept invented by Dentacoin Foundation in the Netherlands. The Dentacoin ERC20 token is configured to be used globally by all individuals.<br><br>
-                        <b>The starting point:</b>
-                        Nowadays, each service industry, aiming at long-term success, is driven by the customers’ feedback. Healthcare Industry is no exception. No regulatory authority, no central institution, no powerful organization or individual could control the industry better than the patient community. People trust people. Always have, always will. Therefore, there is nothing more valuable to the industry players than a constant, trustworthy feedback from the patients.  But what if this community doesn’t exist yet? This is where Dentacoin steps in.<br><br>
-                        <b>The Concept:</b>
-                        Through creating and implementing the first Blockchain-based platform for trusted dental treatment reviews, Dentacoin will allow patients to raise their voice.  Simultaneously, dentists will have access to up-to-date, extremely valuable market research data and qualified patient feedback - the most powerful tool to improve service quality and to establish a loyal patient base. Through a self-executing Smart Contract, the Dentacoin review platform will assure optimal autonomy, trust, speed and safety. No manipulations are possible.
-                        <a href="#leadTextMore" class="learn-more">Learn more ...</a>
-                        <span id="leadTextMore" class="more-text hidden"><br>
-                        Dentacoin’s one-of-a-kind feedback platform will be supported by various other value-creating solutions devoted to the same purpose - to improve dental care quality worldwide. These include: a dental insurance model, a healthcare database, an aftercare mobile app, an educational website.<br><br>
-                        <b>The Currency:</b>
-                        As the DCN distribution model is aimed at value creation for the dental industry worldwide, each patient activity which generates value for the dental industry will be rewarded with Dentacoin. DCNs could later be used for paying dental treatments. Dentists, on the other hands, could consider DCN as a financial investment or they could remunerate employees for their extraordinary performance in the workplace. They could also pay suppliers in Dentacoin with no extra time, no middlemen and no more high international transaction costs. This direct connection between producers and dentists will then allow dentists to provide lower prices to patients.<br>
-                        The currency cycle is closed. Moreover, the establishment of Dentacoin as an industrial currency will put all market players - suppliers, dentists and patients - in a “win-win-win” situation.<br><br>
-                        <b>Indirect profit sharing</b>
-                        In order to create prerequisites for a long-term increase in value, Dentacoin will implement an unique approach of indirect profit sharing for all Dentacoin holders. Once a year, the Dentacoin Foundation will buy DCN with 50% of all profits gained throughout the last Financial year. These include interests from assets, profits of the clinics bought by the Foundation and any other return on investment. Thus, the global DCN supply decreases and in return, the demand and the market price increase.<br><br>
-                        <b>The Community Influence:</b>
-                        According to the statute of the Foundation every single decision that is made by the management, as well as all financial statements, must be shown and clarified to the Dentacoin owners. The integrated voting system then gives coin owners the opportunity to vote on these decisions. Coin owners are therefore involved in all business activities and have a great influence on them.
-                        </span>
+                    <p id="top">
+                        Dentacoin is the first Blockchain concept designed for the Global Dental Industry. The Dentacoin ERC20 token is configured to be used globally by all individuals.
+                        <br><br>
+                        Dentacoin aims at improving dental care worldwide and making it affordable through utilizing the Blockchain advantages. We believe that empowering patients to become 
+                        an active part in the industry development process is the key to shaping the future of dental care. The pilot Dentacoin project 
+                        (<a href="https://dentacoin.com/trusted-review-platform/" target="_Blank">Trusted Review Platform</a>) is on its 
+                        way to be developed as the fist transparent, tamper-resistant and manipulation-protected platform of its kind.
+                        <br><br>
+                        <p id="leadabout">
+                            <strong>&#10003; Shifting the Paradigm from Treatment to Prevention.</strong> By bringing patients and dentists into a community, numerous win-win effects could be realized. 
+                            Through a “Hippocratic” dental insurance model patients will no longer pay for treatments, but for prevention.
+                            <a id="article1" onclick="minus1()">more...</a>
+                        </p>
+                        <p id="lead1">
+                        Lifelong, full-covered dental care will be provided to the patient with very low, monthly rates, paid in DCN. A self-executing Smart Insurance Contract will guarantee 
+                        shared responsibility, no manipulations and very low fees. The usual profits of insurance companies will be shared between patients and dentists.
+                        <br><br>
+                        </p>
+                        <p id="leadabout">
+                            <strong>&#10003; Generating Value through Crowd Power.</strong> Through the Blockchain-based tools to be developed (a trusted review platform, an aftercare mobile app, an 
+                            educational website) patients and dentists will be rewarded with Dentacoin for their willingness to contribute to the Foundation’s mission.
+                            <a id="article2" onclick="minus2()">more...</a>
+                        </p>
+                        <p id="lead2">
+                        Dentacoin will create a tribune for patient voice to be heard and will help patients to improve their oral care habits. Simultaneously, the DCN tools will allow dentists 
+                        to improve their service quality based on the gathered feedback, as well as to create a loyal patient community around themselves – the most important asset for every 
+                        service industry.
+                        <br><br>
+                        </p>
+                        <p id="leadabout">
+                            <strong>&#10003; Making Dental Care affordable.</strong> With the collected Dentacoins, patients could: 
+                            • pay for their treatments;
+                            • pay for their dental insurance;
+                            • buy oral care products. <br>
+                            As for the dentists, Dentacoin will allow them to: 
+                            <a id="article3" onclick="minus3()">more...</a>
+                        </p>
+                        <p id="lead3">
+                        • have a stable basic income; 
+                        • buy cheaper dental materials and equipment through the Dentacoin Trading platform ;
+                        • create a patient community;                        
+                        • reduce the marketing costs; 
+                        • reduce the treatment costs.
+                        <br><br>
+                        </p>
+                        <p id="leadabout">
+                            <strong>&#10003; Jumping over the Dentistry Borders.</strong> Dentacoin also plans on developing a decentralized, highly secure database of all patient health records. Health Data will be 
+                            highly protected, updatable and accessible exclusively by patients or by dentists, upon a given permission.
+                            <a id="article4" onclick="minus4()">more...</a>
+                        </p>
+                        <p id="lead4">
+                        This kind of database would simplify the lives of both patients and dentists when searching for health records and would help provide the most accurate diagnostics.
+                        <br><br>
+                        </p>
+                        <p id="leadabout">
+                            <strong>&#10003; Indirect Profit Sharing.</strong> In order to create prerequisites for a long-term increase in value, Dentacoin will implement a unique approach of indirect profit sharing 
+                            for all Dentacoin holders. Once a year, the Dentacoin Foundation will buy DCN with 50% of all profits gained throughout the last financial year.
+                            <a id="article5" onclick="minus5()">more...</a>
+                        </p>
+                        <p id="lead5">
+                        These include interests from assets, profits of the clinics bought by the Foundation and any other return on investment. Thus, the global DCN supply decreases and in return, 
+                        the demand and the market price increase.
+                        </p>
                     </p>
                     <br><br>
                     <h1 class="text-center scrollme animateme" id="white">Whitepaper
@@ -1687,5 +1732,7 @@
         <script src="web/js/jquery.scrollme.min.js"></script>
         <script src="web/js/questions.js"></script>
         <script src="web/js/minus.js"></script>
+        <script src="web/js/article.js"></script>
+        <script src="web/js/more-less.js"></script>
     </body>
 </html>

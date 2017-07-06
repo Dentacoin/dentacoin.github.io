@@ -1175,3 +1175,57 @@ h3 > a {
     position: relative;
     bottom: 2px;
 }
+
+#article1 {
+  cursor:pointer;
+}
+
+#article2 {
+  cursor:pointer;
+}
+
+#article3 {
+  cursor:pointer;
+}
+
+#article4 {
+  cursor:pointer;
+}
+
+#article5 {
+  cursor:pointer;
+}
+
+#lead1 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead2 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead3 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead4 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead5 {
+  display: none;
+  font-size: 19px;
+}
+
+#top {
+  font-size: 19px;
+}
+
+#leadabout {
+   font-size: 19px;
+
+}
