@@ -312,7 +312,7 @@ span > img {
 @media screen and (min-width: 767px) {
   #timer {
     position: relative;
-    left: 17%;
+    left: 11%;
   }
 }
 
@@ -351,5 +351,16 @@ span > img {
     position: relative;
     right: 14%;
     top: 11px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  #buy {
+    position: relative;
+    top: 14px;
+  }
+
+  #about {
+    padding-top: 0px;
   }
 }

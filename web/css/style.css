@@ -1154,6 +1154,9 @@ audio, canvas, progress, video {
     position: relative;
     bottom: 22px;
   }
+  #about {
+    padding-top: 0px;
+  }
 }
 
 .fa {
@@ -1228,4 +1231,11 @@ h3 > a {
 #leadabout {
    font-size: 19px;
 
+}
+
+@media screen and (max-width: 407px) {
+  #buy {
+    position: relative;
+    top: 14px;
+  }
 }

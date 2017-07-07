@@ -19,13 +19,13 @@
         <script type="text/javascript" src="web3.min.js"></script>
         <script type="text/javascript" src="jquery-2.2.2.min.js"></script>
         <script type="text/javascript" src="semantic.min.js"></script>
-        <script type="text/javascript" src="newsletter.js"></script>
         <!-- Bootstrap -->
         <link href="../web/css/bootstrap.min.css" rel="stylesheet">
         <link href="../web/css/font-awesome.min.css" rel="stylesheet">
         <link href="../web/css/plyr.css" rel="stylesheet">
         <link href="../web/css/style.css" rel="stylesheet">
         <link href="account.css" rel="stylesheet">
+        <link href="../ShapeShift-Skeleton-master/css/main.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -105,7 +105,7 @@
                       <p id="minutes" class="btn btn-default btn-lg"></p>
                       <span id="small">
                       <p id="seconds" class="btn btn-default btn-lg"></p>
-                      <span id="tag"><img src="pics/tag.png"><span id="txCount"></span></span>
+                      <span id="tag"><img src="pics/tag.png"></span>
                       </span>
                     </section>
                 </div>
@@ -566,7 +566,7 @@
       </div>
 
 
-
+<div class="container" ng-transclude>gsdgsdgsdgsdgs</div>
 
       <div id="what" class="container how">
       <div class="container">
@@ -827,13 +827,16 @@
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       <script src="../web/js/chart.js"></script>
       <script src="../web/js/txList.js"></script>
+      <script type="text/javascript" src="time.js"></script>
+      <script type="text/javascript" src="progress.js"></script>
+      <script scr="../ShapeShift-Skeleton-master/lib/widgets.js"></script>
+      <script scr="../ShapeShift-Skeleton-master/lib/shapeshift-api.js"></script>
       <!-- counter.html stats from etherscan api -->
-      <script type="text/javascript" src="etherscanStats.js"></script>
-<!-- /#Scripts area -->
+  <!-- /#Scripts area -->
 
   </body>
   <script>
-function startTime() {
+  function startTime() {
     var today = new Date();
     var h = today.getHours();
     var m = today.getMinutes();
@@ -843,12 +846,10 @@ function startTime() {
     document.getElementById('txt').innerHTML =
     h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
+  }
+  function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
-}
-</script>
-<script type="text/javascript" src="time.js"></script>
-<script type="text/javascript" src="progress.js"></script>
+  }
+  </script>
 </html>
