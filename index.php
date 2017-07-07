@@ -92,7 +92,7 @@
                         Dentacoin aims at improving dental care worldwide and making it affordable through utilizing the Blockchain advantages. We believe that empowering patients to become 
                         an active part in the industry development process is the key to shaping the future of dental care. The pilot Dentacoin project 
                         (<a href="https://dentacoin.com/trusted-review-platform/" target="_Blank">Trusted Review Platform</a>) is on its 
-                        way to be developed as the fist transparent, tamper-resistant and manipulation-protected platform of its kind.
+                        way to be developed as the first transparent, tamper-resistant and manipulation-protected platform of its kind.
                         <br><br>
                         <p id="leadabout">
                             <strong>&#10003; Shifting the Paradigm from Treatment to Prevention.</strong> By bringing patients and dentists into a community, numerous win-win effects could be realized. 
