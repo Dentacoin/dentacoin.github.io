@@ -89,50 +89,50 @@
                     <p id="top">
                         Dentacoin is the first Blockchain concept designed for the Global Dental Industry. The Dentacoin ERC20 token is configured to be used globally by all individuals.
                         <br><br>
-                        Dentacoin aims at improving dental care worldwide and making it affordable through utilizing the Blockchain advantages. We believe that empowering patients to become 
-                        an active part in the industry development process is the key to shaping the future of dental care. The pilot Dentacoin project 
-                        (<a href="https://dentacoin.com/trusted-review-platform/" target="_Blank">Trusted Review Platform</a>) is on its 
+                        Dentacoin aims at improving dental care worldwide and making it affordable through utilizing the Blockchain advantages. We believe that empowering patients to become
+                        an active part in the industry development process is the key to shaping the future of dental care. The pilot Dentacoin project
+                        (<a href="https://dentacoin.com/trusted-review-platform/" target="_Blank">Trusted Review Platform</a>) is on its
                         way to be developed as the first transparent, tamper-resistant and manipulation-protected platform of its kind.
                         <br><br>
                         <p id="leadabout">
-                            <strong>&#10003; Shifting the Paradigm from Treatment to Prevention.</strong> By bringing patients and dentists into a community, numerous win-win effects could be realized. 
+                            <strong>&#10003; Shifting the Paradigm from Treatment to Prevention.</strong> By bringing patients and dentists into a community, numerous win-win effects could be realized.
                             Through a “Hippocratic” dental insurance model patients will no longer pay for treatments, but for prevention.
                             <a id="article1" onclick="minus1()">more...</a>
                         </p>
                         <p id="lead1">
-                        Lifelong, full-covered dental care will be provided to the patient with very low, monthly rates, paid in DCN. A self-executing Smart Insurance Contract will guarantee 
+                        Lifelong, full-covered dental care will be provided to the patient with very low, monthly rates, paid in DCN. A self-executing Smart Insurance Contract will guarantee
                         shared responsibility, no manipulations and very low fees. The usual profits of insurance companies will be shared between patients and dentists.
                         <br><br>
                         </p>
                         <p id="leadabout">
-                            <strong>&#10003; Generating Value through Crowd Power.</strong> Through the Blockchain-based tools to be developed (a trusted review platform, an aftercare mobile app, an 
+                            <strong>&#10003; Generating Value through Crowd Power.</strong> Through the Blockchain-based tools to be developed (a trusted review platform, an aftercare mobile app, an
                             educational website) patients and dentists will be rewarded with Dentacoin for their willingness to contribute to the Foundation’s mission.
                             <a id="article2" onclick="minus2()">more...</a>
                         </p>
                         <p id="lead2">
-                        Dentacoin will create a tribune for patient voice to be heard and will help patients to improve their oral care habits. Simultaneously, the DCN tools will allow dentists 
-                        to improve their service quality based on the gathered feedback, as well as to create a loyal patient community around themselves – the most important asset for every 
+                        Dentacoin will create a tribune for patient voice to be heard and will help patients to improve their oral care habits. Simultaneously, the DCN tools will allow dentists
+                        to improve their service quality based on the gathered feedback, as well as to create a loyal patient community around themselves – the most important asset for every
                         service industry.
                         <br><br>
                         </p>
                         <p id="leadabout">
-                            <strong>&#10003; Making Dental Care affordable.</strong> With the collected Dentacoins, patients could: 
+                            <strong>&#10003; Making Dental Care affordable.</strong> With the collected Dentacoins, patients could:
                             • pay for their treatments;
                             • pay for their dental insurance;
                             • buy oral care products. <br>
-                            As for the dentists, Dentacoin will allow them to: 
+                            As for the dentists, Dentacoin will allow them to:
                             <a id="article3" onclick="minus3()">more...</a>
                         </p>
                         <p id="lead3">
-                        • have a stable basic income; 
+                        • have a stable basic income;
                         • buy cheaper dental materials and equipment through the Dentacoin Trading platform ;
-                        • create a patient community;                        
-                        • reduce the marketing costs; 
+                        • create a patient community;
+                        • reduce the marketing costs;
                         • reduce the treatment costs.
                         <br><br>
                         </p>
                         <p id="leadabout">
-                            <strong>&#10003; Jumping over the Dentistry Borders.</strong> Dentacoin also plans on developing a decentralized, highly secure database of all patient health records. Health Data will be 
+                            <strong>&#10003; Jumping over the Dentistry Borders.</strong> Dentacoin also plans on developing a decentralized, highly secure database of all patient health records. Health Data will be
                             highly protected, updatable and accessible exclusively by patients or by dentists, upon a given permission.
                             <a id="article4" onclick="minus4()">more...</a>
                         </p>
@@ -141,12 +141,12 @@
                         <br><br>
                         </p>
                         <p id="leadabout">
-                            <strong>&#10003; Indirect Profit Sharing.</strong> In order to create prerequisites for a long-term increase in value, Dentacoin will implement a unique approach of indirect profit sharing 
+                            <strong>&#10003; Indirect Profit Sharing.</strong> In order to create prerequisites for a long-term increase in value, Dentacoin will implement a unique approach of indirect profit sharing
                             for all Dentacoin holders. Once a year, the Dentacoin Foundation will buy DCN with 50% of all profits gained throughout the last financial year.
                             <a id="article5" onclick="minus5()">more...</a>
                         </p>
                         <p id="lead5">
-                        These include interests from assets, profits of the clinics bought by the Foundation and any other return on investment. Thus, the global DCN supply decreases and in return, 
+                        These include interests from assets, profits of the clinics bought by the Foundation and any other return on investment. Thus, the global DCN supply decreases and in return,
                         the demand and the market price increase.
                         </p>
                     </p>
@@ -164,7 +164,7 @@
                           <div id="mc_embed_signup_scroll" class="form-groups">
                             <div class="form-group row">
         	                     <div class=""><input type="email" value="" name="EMAIL" class="form-control col-sm-5" id="input-email" placeholder="Enter your email here and never miss a thing!" required></div>
-                              <div class="clear"><input type="submit" value="SIGN UP FOR UPDATES" name="subscribe" id="calc" class="btn btn-default btn-lg col-sm-4"></div>
+                              <div class="clear"><input type="submit" value="SIGN UP FOR UPDATES" name="subscribe" id="sign" class="btn btn-default btn-lg col-sm-4"></div>
                             </div>
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2db886e44db15e869246f6964_ee212b20d7" tabindex="-1" value=""></div>
@@ -1423,7 +1423,7 @@
                             data-translatex="-200"
                             data-rotatez="360"
                             >
-                            <a href="https://join.slack.com/dentacoin/shared_invite/MjA1NzE2Mzk5NzEyLTE0OTg4NDAwNzEtZmU4OWU3NDM1OA" target="_blank" class="sl">
+                            <a href="https://join.slack.com/t/dentacoin/shared_invite/MjA5Nzk0MzU1OTg2LTE0OTk0ODk4MzQtNzViNzFiZjk4OQ" target="_blank" class="sl">
                             <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/slack.png"></i>
                             <span class="mask">
                             <span class="tip">Slack</span>
@@ -1440,7 +1440,7 @@
                             data-translatex="200"
                             data-rotatez="360"
                             >
-                            <a href="https://github.com/dentacoin/Dentacoin" target="_blank" class="sl">
+                            <a href="https://github.com/Dentacoin" target="_blank" class="sl">
                             <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/github.png"></i>
                             <span class="mask">
                             <span class="tip">GitHub</span>

@@ -354,26 +354,15 @@ span > img {
   }
 }
 
-@media screen and (max-width: 407px) {
-  #buy {
-    position: relative;
-    top: 14px;
-  }
-
-  #about {
-    padding-top: 0px;
-  }
-}
-
 #mc_embed_signup {
-  margin: 0 13% 0 12%;
+  margin-left: 14%;
+  margin-right: 15%;
 }
 
 #input-email {
-  width: 63%;
+  width: 64%;
 }
 
-#submit {
-  font-size: 18px;
-  width: 34%;
+#sign {
+  width: 36%;
 }
