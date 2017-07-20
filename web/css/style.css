@@ -1098,6 +1098,7 @@ audio, canvas, progress, video {
   font-weight: normal;
   font-size: 200%;
   margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 #en, #it, #ru, #ukr, #jp, #idn {
@@ -1127,7 +1128,7 @@ audio, canvas, progress, video {
 }
 
 #input-email {
-  width: 72%;
+  width: 66%;
 }
 
 #calc {
@@ -1238,4 +1239,9 @@ h3 > a {
     position: relative;
     top: 14px;
   }
+}
+
+#sign {
+    width: 32%;
+    height: 48px;
 }
