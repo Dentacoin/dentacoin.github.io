@@ -159,6 +159,18 @@
                       <a href="..\white-paper\Whitepaper-ukr v.0.9.pdf" class="btn btn-default btn-lg text-center get-dentacoins" id="ukr" target="_blank"><span id="ukr-text">UKR</span></a>
                       <a href="..\white-paper\Whitepaper-idn v.0.9.pdf" class="btn btn-default btn-lg text-center get-dentacoins" id="idn" target="_blank"><span id="idn-text">IDN</span></a>
                     </h1>
+                    <div id="mc_embed_signup" class="lead about-text">
+                        <form action="//dentacoin.us15.list-manage.com/subscribe/post?u=2db886e44db15e869246f6964&amp;id=ee212b20d7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                          <div id="mc_embed_signup_scroll" class="form-groups">
+                            <div class="form-group row">
+        	                     <div class=""><input type="email" value="" name="EMAIL" class="form-control col-sm-5" id="input-email" placeholder="Enter your email here and never miss a thing!" required></div>
+                              <div class="clear"><input type="submit" value="SIGN UP FOR UPDATES" name="subscribe" id="calc" class="btn btn-default btn-lg col-sm-4"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2db886e44db15e869246f6964_ee212b20d7" tabindex="-1" value=""></div>
+                          </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
