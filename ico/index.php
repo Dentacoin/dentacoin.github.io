@@ -114,6 +114,8 @@
                                 <br>
                                 <div>
                                 <p class="text-left">Hard Cap</p>
+                                <div title="comfort zone" class="greenLine"></div>
+                                
                                     <div class="progress">
                                         <div class="text-left" style="width: 100%;height: 100%;">
                                           <!-- <div title="minimal request" class="redLine"></div> -->
