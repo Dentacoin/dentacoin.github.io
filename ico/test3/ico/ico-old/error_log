@@ -1,0 +1,10 @@
+[19-Sep-2017 11:46:42 Europe/Sofia] PHP Warning:  include(web/php_functions/mailchimp_functions.php): failed to open stream: No such file or directory in /home/dentacoi/public_html/ico/index.php on line 15
+[19-Sep-2017 11:46:42 Europe/Sofia] PHP Warning:  include(): Failed opening 'web/php_functions/mailchimp_functions.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/dentacoi/public_html/ico/index.php on line 15
+[19-Sep-2017 11:46:42 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_member_count() in /home/dentacoi/public_html/ico/index.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/ico/index.php on line 119
+[20-Sep-2017 05:12:17 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_member_count() in /home/dentacoi/public_html/ico/test.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/ico/test.php on line 1

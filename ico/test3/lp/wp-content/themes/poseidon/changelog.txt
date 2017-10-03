@@ -1,0 +1,27 @@
+===================================
+Poseidon Changelog
+===================================
+
+Version 1.0.4
+-----------------------------------
+[added] support for Jetpack Infinite Scroll feature
+[fixed] wrong section name in customizer controls
+
+Version 1.0.3
+-----------------------------------
+[added] theme styling to Visual Editor
+[added] proper escaping for the $theme_content variable
+[fixed] PHP notices in Magazine Post Widgets
+[removed] unused header-bar.php template file
+
+Version 1.0.2
+-----------------------------------
+[added] German translation files
+
+Version 1.0.1
+-----------------------------------
+[added] Magazine Homepage template
+
+Version 1.0
+-----------------------------------
+Final Version

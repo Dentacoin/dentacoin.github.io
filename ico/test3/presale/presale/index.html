@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-title" content="Dentacoin">
+        <meta property="og:image" content="https://dentacoin.com/web/img/DCN.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="../web/img/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo76.png" sizes="76x76">
+        <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo120.png" sizes="120x120">
+        <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo152.png" sizes="152x152">
+        <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo180.png" sizes="180x180">
+
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Dentacoin</title>
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+        <script type="text/javascript" src="web3.min.js"></script>
+        <script type="text/javascript" src="jquery-2.2.2.min.js"></script>
+        <script type="text/javascript" src="semantic.min.js"></script>
+        <script type="text/javascript" src="newsletter.js"></script>
+        <!-- Bootstrap -->
+        <link href="../web/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../web/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../web/css/plyr.css" rel="stylesheet">
+        <link href="../web/css/style.css" rel="stylesheet">
+        <link href="account.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+            ga('create', 'UA-97167262-1', 'auto');
+
+            ga('send', 'pageview');
+
+
+        </script>
+    </head>
+    <body onload="startTime()">
+    	<header>
+	        <nav class="navbar navbar-default navbar-fixed-top navbar-top">
+	            <div class="container">
+	                <div class="navbar-header">
+	                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    </button>
+	                    <a class="navbar-brand logo" href="https://dentacoin.com/">
+	                    	<img src="../web/img/logo.png" alt="">
+	                    </a>
+	                </div>
+	                <div>
+
+	                    <div class="collapse navbar-collapse" id="mainMenu">
+	                        <ul class="nav navbar-nav navbar-right main-menu">
+                            <li><a href="https://dentacoin.com/">Why</a></li>
+	                            <li><a href="https://dentacoin.com/">What</a></li>
+                              <li><a href="https://dentacoin.com/">When</a></li>
+                              <li><a href="https://dentacoin.com/">How</a></li>
+	                            <li><a href="https://dentacoin.com/">Who</a></li>
+                                <!-- <li><a href="http://www.dentacoin.com/ico/" target="_blank">ICO</a></li> -->
+                              <!-- <li><a href="http://dentacoin.com/">Who</a></li> -->
+                              <!-- <li><a href="http://dentacoin.com/">Contact</a></li> -->
+                              <li><a href="#">Presale</a></li>
+                              <li><a href="https://www.dentacoin.com/blog/" target="_blank">Blog</a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+        			<button class="btn btn-default btn-lg scroll-top">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+					</button>
+	            </div>
+	        </nav>
+        </header>
+
+        <div id="about" class="container about">
+        	<div class="row">
+        		<div class="col-md-10 col-md-offset-1">
+        			<h1 class="text-center">
+                Ongoing Public Presale
+                <br>
+                <small>
+                  Start: July 1st (08:00 a.m. GMT) End:
+                  <br>
+                </small>
+                <!-- Sergey's code start here -->
+                <div>
+                    <section class="form-groups" id="timer">
+                      <p id="days" class="btn btn-default btn-lg"></p>
+                      <p id="hours" class="btn btn-default btn-lg"></p>
+                      <p id="minutes" class="btn btn-default btn-lg"></p>
+                      <span id="small">
+                      <p id="seconds" class="btn btn-default btn-lg"></p>
+                      <span id="tag"><img src="pics/tag.png"><span id="txCount"></span></span>
+                      </span>
+                    </section>
+                </div>
+                <br>
+                <div class="text-center">
+                  <a style="text-decoration: underline;" id="faq" href="https://dentacoin.com/presale-faq/">How to contribute</a>
+                </div>
+                <br>
+                <small style="display: block; font-size: 40%;">Please read and agree to the Terms &amp; Conditions before you proceed to purchase.</small>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                  Terms and Conditions
+                </button>
+                <br><br>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div>
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Dentacoin Presale</h4>
+                        <p>Contribution Agreement &amp; Terms and Conditions</p>
+                      </div>
+                      <div class="modal-body">
+                        <div>
+                        <h2>1. Principles</h2>
+                        <p>
+                          By transferring Ether (“ETH”) to the Smart Contract System and distributing Dentacoin Tokens (“DCN”),
+                          the User understands and accepts that the User makes a contribution into a Smart Contract System for
+                          the development of the Dentacoin value-creating tools (“Contribution”), further described in the Dentacoin
+                          Whitepaper. For the Whitepaper and/or further information on Dentacoin, visit: <a href="https://dentacoin.com/" target="_blank">https://dentacoin.com/</a>.
+                          The information contained in the Whitepaper and on the website are of descriptive nature only, are not
+                          binding and do – unless explicitly referred to herein – not form part of the Terms as set forth under para 5 below.
+                          <br><br>
+                          The User understands and accepts that while the individuals and entities, including Dentacoin Foundation,
+                          assigned to this task will make reasonable efforts to develop and complete the Dentacoin tools,
+                          <strong>it is possible that such development may fail and User’s DCN become useless and/or valueless
+                          due to technical, commercial, regulatory or any other reasons </strong> (see also section 5 regarding Risks).
+                          <br><br>
+                          The User is also aware of the risk that even if all or parts of the Dentacoin tools are successfully
+                          developed and released in full or in parts, due to a lack of public interest, the Dentacoin tools could
+                          be fully or partially abandoned, remain commercially unsuccessful or shut down for lack of interest,
+                          regulatory or other reasons.<strong>The User therefore understands and accepts that the transfer of
+                          ETH to the Smart Contract System and the distribution of DCN by the Smart Contract System carry
+                          significant financial, regulatory and/or reputational risks (including the complete loss of value
+                          of created DCN if any, and attributed features of the Dentacoin tools).</strong>
+                          <br><br>
+                          By transferring ETH to the Smart Contract System, the User expressly agrees to all of the terms and
+                          conditions set forth in Smart Contract System Code existing on the Ethereum blockchain (at the addresses
+                          set forth under para 4) and in this document (together the “Terms”), which is incorporated by reference
+                          herein. This document does not constitute a prospectus of any sort, is not a solicitation for investment
+                          and does not pertain in any way to an initial public offering or a share/equity offering and does not
+                          pertain in any way to an offering of securities in any jurisdiction. It is a description of the functionality
+                          of a Smart Contract System.
+                          <br><br>
+                          By transferring ETH to the Smart Contract System and receiving DCN, no form of partnership, joint
+                          venture or any similar relationship between the Users and Dentacoin Foundation and/or other individuals
+                          or entities involved with the deployment of the Smart Contract System and the setting up of the Dentacoin
+                          tools is created.
+                          <br><br>
+                          The Contribution into the Smart Contract System will not involve any fiat currencies and will strictly be
+                           done in cryptocurrencies (ETH).
+                        </p>
+                        <h2>2. DCN Creation Function</h2>
+                        <h3>2.1 Usage License; No Ownership, Revenue or Governance Rights</h3>
+                        <p>
+                          <strong>Usage License:</strong> Ownership of DCN carries no rights express or implied other than a limited
+                          right (license) to use the Dentacoin network (“Dentacoin Network”), if and to the extent the Dentacoin tools
+                          has been successfully completed and launched.
+                          <br><br>
+                          <strong>No Ownership, Revenue or Governance Rights:</strong> In particular, User understands and accepts that
+                          <strong>DCN do not represent or constitute any ownership right or stake, share or security or equivalent rights
+                          nor any right to receive future revenues, shares or any other form of participation or governance right
+                          in or relating to the Dentacoin tools or the Dentacoin Foundation.</strong>
+                          <br><br>
+                        </p>
+                        <h3>2.2 Contribution</h3>
+                        <p>
+                          <strong>Contribution Cap:</strong> The total amount of Contributions will be hard-capped to 10 000 ETH.
+                          Contributions (pending or transacted) exceeding the respective Hard Cap, will not be accepted as Contributions
+                          (in total, not just the exceeding part). Once the Hard Cap has been reached, the Contribution Period ends.
+                          <br><br>
+                          <strong>Token Pool:</strong> At the end of the Contribution Period, an amount of max. 80 000 000 000 DCN
+                          is planned to be distributed by the Smart Contract System, all of equal value and functionality.
+                          <br><br>
+                          <strong>Creation Rate:</strong> The Smart Contract System will allocate 8 000 000 DCN for every Contribution of 1 ETH.
+                          <br><br>
+                          <strong>Minimum Purchase Requirements:</strong> Purchases of less than 10 DCN do not result in the allocation of DCN.
+                          <br><br>
+                          <strong>Contribution Period:</strong> The Contribution Period starts on 1st of July 2017 (8:00 a.m. GMT)
+                          and ends on 1st of August 2017 (8:00 a.m. GMT) or when the Hard Cap is reached - whichever is earlier.
+                          <br><br>
+                          <strong>Creation and Allocation of DCN:</strong> The creation and allocation of DCN is initiated by the
+                          User sending an amount of ETH to the Smart Contract System, located on the Ethereum blockchain at the
+                          address set forth under para 4, which triggers a smart contract operation. After the confirmation of the
+                          transaction, the Smart Contract System creates and allocates the corresponding DCN to the User’s wallet
+                          address, from where the ETH were sent from. User must assure to make his contribution using an ETH address
+                          to which they hold the according private key (e.g. not an address of a currency exchange
+                          like Coinbase, Kraken, Poloniex or wallets that doesn't support Dentacoin tokens yet e.g. Jaxx).
+                          Issuance of DCN (meaning that respective entries of the Public Key
+                          (PUK) of User) are made by the Smart Contract System on the blockchain according to the allocation information
+                          in the Smart Contract System.
+                          <br><br>
+                          <strong>No Refund:</strong> The User understands and accepts that all Contributions for DCN are final and may
+                          not be reversed, except in case Contributions have surpassed the Hard Cap (see para 11). User therefore shall
+                          assure to make his Contribution using an ETH address
+                          to which they hold the according private key (e.g. not an address of a currency exchange
+                          like Coinbase, Kraken, Poloniex or wallets that doesn't support Dentacoin tokens yet e.g. Jaxx). Other Contributions are
+                          non-refundable. By contributing for DCN, the User acknowledges that he has no right to request a refund for any
+                          reason, and that the User will not receive money or other compensation for any DCN that is not used or remains unused.
+                          <br><br>
+                          <strong>Assure to use the original Smart Contracts:</strong> Only the Smart Contract(s) existing at the address
+                          set forth under para 4 will issue DCN during the Contribution Period. Access to this Smart Contract will be
+                          available through 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6. To the extent that any third-party website,
+                          service or smart-contract offers DCN during the Contribution Period and/or facilitates the allocation or transfer
+                          of DCN in any way during the Contribution Period, such third-party websites or services are not authorised by
+                          Dentacoin Foundation and have no relationship in any way with Dentacoin Foundation.
+                          <br><br>
+                          <strong>Early Termination of the Contribution Period:</strong> During the Contribution Period, Dentacoin Foundation
+                          may at any time stop the contribution function at its own discretion and thereby end the Contribution procedure,
+                          in particular for security reasons.
+                          <br><br>
+                        </p>
+                        <h3>2.3 DCN Functionality</h3>
+                        <p>
+                          DCN are only for use in connection with the Dentacoin tools under the terms of the Smart Contract System and
+                          only constitute a transferable representation of attributed functions specified in the Smart Contract System.
+                          <br><br>
+                          DCN is a usage token, which enables to participate in the Dentacoin Network. Furthermore, certain governance
+                          functions may be implemented. If such governance functions exist, at least at the beginning, Dentacoin Foundation
+                          has the final decision power regarding all matters discussed.
+                          <br><br>
+                          User understands and accepts that subject to a decision of the DCN holders based on a governance mechanism, an
+                          inflation mechanism (e.g. for staking rewards etc.) may be implemented in the future.
+                          <br><br>
+                          Ownership of DCN carries no rights express or implied other than the right to use DCN as a mean to enable usage
+                          of and interaction with and within the Dentacoin Network, if successfully completed and deployed (see section 3).
+                          Beyond this, ownership of DCN carries no rights express or implied. In particular, User understands and accepts
+                          that he has no right to claim as holder of DCN any intellectual property rights, equity or equivalent rights or
+                          any other form of participation in or relating to the Dentacoin tools, Dentacoin Network and/or Dentacoin Foundation.
+                          <br><br>
+                        </p>
+                        <h3>2.4 Representation and Warranties of User</h3>
+                        <p>
+                          By transferring ETH to the Smart Contract System and creating DCN, the User represents and warrants that:
+                          <br><br>
+                          the User is not a citizen or resident of a country, whose legislation conflicts with the present allocation of DCN
+                          and/or the Dentacoin tools in general;
+                          <br><br>
+                          the User is not a citizen or resident of the USA;
+                          <br><br>
+                          the User has a deep understanding of the functionality, usage, storage, transmission mechanisms and intricacies
+                          associated with cryptographic tokens, like bitcoin (BTC) and Ether (ETH), and blockchain-based software systems;
+                          <br><br>
+                          the User understands and accepts that there is no warranty or assurance that the network of miners will allocate
+                          the DCN to the Users as proposed by these Terms. The User understands and accepts that the consensus mechanism
+                          securing the Ethereum Network may change in the future, and the stakeholders who are in control of the Network may
+                          also change as a result.
+                          <br><br>
+                          the User has carefully reviewed the code of the Smart Contract System located on the Ethereum blockchain at the
+                          addresses set forth under para 4 and fully understands and accepts the functions implemented therein;
+                          <br><br>
+                          the User is legally permitted to transfer ETH to the Smart Contract System, create and obtain DCN in the User’s jurisdiction;
+                          <br><br>
+                          User will contribute ETH from a wallet respectively within a wallet or wallet service provider that technically
+                          supports the DCN. User understands and accepts, that failure to assure this may have the result that User will not
+                          gain access to his DCN;
+                          <br><br>
+                          User understands and accepts, that if he exceeds with his Contribution the Hard Cap as described within para 11,
+                          the total amount of his Contribution will not be accepted by the Smart Contract System. User further understands
+                          and accepts, that in such case the Gas necessary for the transaction will be lost.
+                          <br><br>
+                          the User is legally permitted to receive software and contributing to the Smart Contract System for the development
+                          of the Dentacoin tools;
+                          <br><br>
+                          the User is of a sufficient age to legally create and obtain DCN;
+                          <br><br>
+                          the User will take sole responsibility for any restrictions and risks associated with the creation of DCN by the
+                          Smart Contract System as set forth below;
+                          <br><br>
+                          the User is not submitting ETH to the Smart Contract System to obtain DCN for the purpose of speculative investment;
+                          <br><br>
+                          the User is not obtaining or using DCN for any illegal purposes;
+                          <br><br>
+                          the User is purchasing the functionality of the DCN issued by the Smart Contract System primarily to support the
+                          development, testing, deployment and operation of the Dentacoin tools, being aware of the commercial risks
+                          associated with the Dentacoin tools;
+                          <br><br>
+                          the User waives the right to participate in a class action lawsuit or a classwide arbitration against Dentacoin
+                          Foundation or any individual involved with the creation of DCN;
+                          <br><br>
+                          the User understands the creation of DCN does not involve the purchase of shares or any equivalent in any
+                          existing or future public or private company, corporation or other entity in any jurisdiction;
+                          <br><br>
+                          the User understands that the transfer of ETH to the Smart Contract System, the creation of DCN and the development
+                          of the Dentacoin tools carries significant financial, regulatory and reputational risks as further set forth in the Terms;
+                          <br><br>
+                          the User understands and expressly accepts that there is no warranty whatsoever on DCN, the Smart Contract System
+                          and/or the success of the Dentacoin tools, expressed or implied, to the extent permitted by law, and that the Smart
+                          Contract System is used and DCN are created and obtained at the sole risk of the User on an “as is” and “under
+                          development” basis and without, to the extent permitted by law, any warranties of any kind, including, but not
+                          limited to, warranties of title or implied warranties, merchantability or fitness for a particular purpose;
+                          <br><br>
+                          the User understands that the User has no right against any other party to request any refund of the ETH submitted
+                          to the Smart Contract System for the creation of the DCN under any circumstance;
+                          <br><br>
+                          the User understands with regard to DCN no market liquidity may be guaranteed and that the value of DCN over time may
+                          experience extreme volatility or depreciate in full;
+                          <br><br>
+                          the User understands that the User bears the sole responsibility to determine if the User’s contribution to the Smart
+                          Contract System for the development of the Dentacoin tools, the transfer of ETH to the Smart Contract System, the
+                          creation, ownership or use of DCN, the potential appreciation or depreciation in the value of DCN over time (if any),
+                          the allocation of DCN and/or any other action or transaction related to the Dentacoin tools have tax implications for
+                          him; by creating, holding or using DCN, and to the extent permitted by law, the User agrees not to hold any third party
+                          (including developers, auditors, contractors or founders) liable for any tax liability associated with or arising from
+                          the creation, ownership or use of DCN or any other action or transaction related to the Dentacoin tools.
+                          <br><br>
+                          As part of the contribution process the User will use own account (address) on the Ethereum network, with a private
+                          key associated to this address and password. The password is used to encrypt the User’s private key. Following the
+                          creation of DCN by the Smart Contract System, the DCN will be transferred to the User's address by the Smart Contract
+                          System. The User understands that the User must keep his password and private key safe and that the User may not share
+                          them with anybody. The User further understands that if his private key and/or password is lost or stolen, the User
+                          will not be able to generate a new password or recover his private key, and if the User also loses his private keys and
+                          password, the DCN associated with the User's account (address) will be unrecoverable and will be permanently lost.
+                          Furthermore, the User understands that there is no recovery mechanism for lost keys and passwords, so no one will be able
+                          to help the User retrieve or reconstruct a lost password and private keys and provide the User with access to any lost DCN.
+                        </p>
+                        <h2>3. Dentacoin tools Development</h2>
+                        <p>
+                          The User understands and accepts that the development and execution of the Dentacoin tools will be assigned to a third
+                          party contractor, Dentacoin Foundation, by releasing the amount of contributed ETH by the Smart Contract System to the
+                          wallet of Dentacoin Foundation. Dentacoin Foundation has the right to engage subcontractors to perform the entire or
+                          partial development and execution of the Dentacoin tools. The scope of the development work will be triggered by the
+                          amount of Contributions received during the Contribution Period. Dentacoin Foundation shall further have the right to
+                          assign the Dentacoin tools including the Contributions received for its development to a third party.
+                          <br><br>
+                          The User understands and accepts that for the purpose of the development and execution of the Dentacoin tools, Dentacoin
+                          Foundation receives the full amount of ETH transferred to the Smart Contract System during the Contribution Period.
+                          This amount covers expenses, charges and other costs that may arise by Dentacoin Foundation and/or its subcontractors as
+                          part of the development and execution of the Dentacoin tools. Dentacoin Foundation has the right to support and/or acquire
+                          other companies for the benefit of successfully developing the Dentacoin tools. It remains at Dentacoin Foundation’s sole
+                          discretion to decide how to allocate the funds in order to develop and execute the Dentacoin tools.
+                          <br><br>
+                          The User understands and accepts that the User may not have any expectation of influence over governance on the Dentacoin tools.
+                          <br><br>
+                          The User understands and accepts that the Dentacoin tools will need to go through substantial development works as part
+                          of which it may become subject of significant conceptual, technical and commercial changes before release. User understands
+                          and accepts that as part of the development, an upgrade of the DCN may be required (hard-fork of DCN) and that, if User
+                          decides not to participate in such upgrade, he may no longer use his DCN and that non upgraded DCN may lose their functionality in full.
+                          <br><br>
+                        </p>
+                        <h2>4. Audit of the Smart Contract System</h2>
+                        <p>
+                          The Smart Contract System has been, on a reasonable effort basis, audited and approved by technical experts. The technical
+                          experts have confirmed that the Smart Contract System has, with regard to both accuracy and security, been programmed
+                          according to the current state of the art.
+                          <br><br>
+                          However, the User understands and accepts that smart contract technology is still in an early development stage and its
+                          application of experimental nature which carries significant operational, technological, financial, regulatory and reputational
+                          risks. Accordingly, while the audit conducted raises the level of security and accuracy, the User understands and accepts that
+                          the audit does not amount to any form of warranty, including direct or indirect warranties that the Smart Contract System and
+                          the DCN are fit for a particular purpose or do not contain any weaknesses, vulnerabilities or bugs which could cause, inter alia,
+                          the complete loss of ETH and/or DCN.
+                          <br><br>
+                        </p>
+                        <h2>5. Risks</h2>
+                        <p>
+                          The User understands and accepts the risks in connection with transferring ETH to the Smart Contract System and creating DCN as
+                          exemplary set forth above and hereinafter. In particular, but not concluding, the User understands the inherent risks listed hereinafter:
+                          <br><br>
+                          <strong>Risk of software weaknesses:</strong> The User understands and accepts that the Smart Contract System concept, the underlying
+                          software application and software platform (i.e. the Ethereum blockchain) is still in an early development stage and unproven, why
+                          there is no warranty that the process for creating DCN will be uninterrupted or error-free and why there is an inherent risk that
+                          the software could contain weaknesses, vulnerabilities or bugs causing, inter alia, the complete loss of ETH and/or DCN.
+                          <br><br>
+                          <strong>Regulatory risk:</strong> The User understands and accepts that the blockchain technology allows new forms of interaction
+                          and that it is possible that certain jurisdictions will apply existing regulations on, or introduce new regulations addressing,
+                          blockchain technology based applications, which may be contrary to the current setup of the Smart Contract System and which may,
+                          inter alia, result in substantial modifications of the Smart Contract System and/or the Dentacoin tools, including its termination
+                          and the loss of DCN for the User.
+                          <br><br>
+                          <strong>Risk of abandonment / lack of success:</strong> The User understands and accepts that the creation of the DCN and the development of the
+                          Dentacoin tools may be abandoned for a number of reasons, including lack of interest from the public, lack of funding, lack of
+                          commercial success or prospects (e.g. caused by competing projects). The User therefore understands that there is no assurance
+                          that, even if the Dentacoin tools is partially or fully developed and launched, the User will receive any benefits through the
+                          DCN held by him.
+                          <br><br>
+                          <strong>Risk associated with other applications:</strong> The User understands and accepts that the Dentacoin tools may give
+                          rise to other, alternative projects, promoted by unaffiliated third parties, under which DCN will have no intrinsic value.
+                          <br><br>
+                          <strong>Risk of loss of private key:</strong> DCN can only be accessed by using an Ethereum wallet with a combination of
+                          User’s account information (address), private key and password. The private key is encrypted with a password. The User
+                          understands and accepts that if his private key file or password respectively got lost or stolen, the obtained DCN associated
+                          with the User's account (address) or password will be unrecoverable and will be permanently lost.
+                          <br><br>
+                          <strong>Risk of theft:</strong> The User understands and accepts that the Smart Contract System concept, the underlying software
+                          application and software platform (i.e. the Ethereum blockchain) may be exposed to attacks by hackers or other individuals that could
+                          result in theft or loss of DCN and/or ETH, impacting the ability to develop the Dentacoin tools.
+                          <br><br>
+                          <strong>Risk of Ethereum mining attacks:</strong> The User understands and accepts that, as with other cryptocurrencies, the blockchain
+                          used for the Smart Contract System is susceptible to mining attacks, including but not limited to double-spend attacks, majority mining
+                          power attacks, “selfish-mining” attacks, and race condition attacks. Any successful attacks present a risk to the Smart Contract System,
+                          expected proper execution and sequencing of DCN transactions, and expected proper execution and sequencing of contract computations.
+                          <br><br>
+                          <strong>Risk of governance attacks and failure:</strong> The Contributor understands and accepts that the Dentacoin Network may use
+                          an in-built decentralized governance system (“Governance System”). For these reasons, it is possible that the Governance System adopts
+                          proposals that have an adverse effect on the useful functioning of the Dentacoin Network and/or the value of DCN. If the Governance
+                          System is attacked, or becomes controlled either directly or indirectly by some party who makes unwise decisions, or the community
+                          generally makes unwise decisions, the value of DCN held by a Contributor might be greatly reduced or even permanently lost.
+                          <br><br>
+                          <strong>Risk of incompatible Wallet service:</strong> The User understands and accepts, that the wallet or wallet service provider
+                          used for the contribution, has to be technically compatible with the DCN. The failure to assure this may have the result that User
+                          will not gain access to his DCN.
+                          <br><br>
+                        </p>
+                        <h2>6. Taxation</h2>
+                        <p>
+                          The User bears the sole responsibility to determine if his contribution into the Smart Contract System for the development of the
+                          Dentacoin tools, the transfer of ETH, the creation, ownership or use of DCN, the potential appreciation or depreciation in the value
+                          of DCN over time (if any), the allocation of DCN and/or any other action or transaction related to the Dentacoin tools have tax
+                          implications for him.
+                          <br><br>
+                          By creating, holding or using DCN, and to the extent permitted by law, the User agrees not to hold any third party (including developers,
+                          auditors, contractors or founders) liable for any tax liability associated with or arising from the creation, ownership or use of DCN or
+                          any other action or transaction related to the Dentacoin tools.
+                          <br><br>
+                        </p>
+                        <h2>7. No Liability</h2>
+                        <p>
+                          The User acknowledges and agrees that, to the fullest extent permitted by any applicable law, the User will not hold any developers,
+                          auditors, contractors or founders of the DCN, the Smart Contract System and/or Dentacoin Foundation liable for any and all damages or
+                          injury whatsoever caused by or related to the use of, or the inability to use, DCN or the Smart Contract System under any cause or
+                          action whatsoever of any kind in any jurisdiction, including, without limitation, actions for breach of warranty, breach of contract
+                          or tort (including negligence) and that developers, auditors contractors or founders of the Smart Contract System, the DCN and/or the
+                          Dentacoin tools shall not be liable for any indirect, incidental, special, exemplary or consequential damages, including for loss of
+                          profits, goodwill or data, in any way whatsoever arising out of the use of, or the inability to use of the Smart Contract System, the
+                          Dentacoin tools and/or DCN.
+                          <br><br>
+                          The User further specifically acknowledges that developers, auditors, contractors or founders of the DCN, Smart Contract System and/or
+                          the Dentacoin tools are not liable, and the User agrees not to seek to hold them liable, for the conduct of third parties, including
+                          other creators of DCN, and that the risk of creating, holding and using DCN rests entirely with the User.
+                          <br><br>
+                          By creating, holding or using DCN, and to the extent permitted by law, the User agrees not to hold any third party (including developers,
+                          auditors, contractors or founders) liable for any regulatory implications or liability associated with or arising from the creation,
+                          ownership or use of DCN or any other action or transaction related to the Dentacoin tools.
+                        </p>
+                        <h2>8. Miscellaneous</h2>
+                        <p>
+                          The User understands and accepts that the network of miners will be ultimately in control of the Smart Contract System. The User understands
+                          that a majority of these miners could agree at any point to make changes to the official Smart Contract System and to run the new version of
+                          the Smart Contract System. Such a scenario could lead to DCN losing intrinsic value.
+                          <br><br>
+                          The Smart Contract System is located in Alderney. Consequently, the DCN creation and allocation and the assignment of the development
+                          and execution of the Dentacoin tools to Dentacoin Foundation are considered to be executed in Alderney.
+                          <br><br>
+                          The User agrees that if any portion of these Terms is found illegal or unenforceable, in whole or in part, such provision shall, as
+                          to such jurisdiction, be ineffective solely to the extent of such determination of invalidity or unenforceability without affecting
+                          the validity or enforceability thereof in any other manner or jurisdiction and without affecting the remaining provisions of the Terms,
+                          which shall continue to be in full force and effect.
+                          <br><br>
+                          The Terms govern the creation, ownership and use of DCN and supersede any public statements about the launch of DCN and/or the Smart
+                          Contract System made by anyone in the past, present and future.
+                          <br><br>
+                          The applicable law is Dutch law. Any dispute arising out of or in connection with the creation of the DCN and the development and execution
+                          of the Dentacoin tools shall be finally settled by the ordinary courts of the registered domicile of the defendant.
+                        </p>
+                        </div>
+                          <hr>
+                          <p>
+                            *I hereby agree that I have read and agree to the Contribution Agreement &amp; Terms and Conditions.
+                            <br><br>
+                            *I hereby acknowledge that as a Contributor, I do not receive equity in Dentacoin Foundation.
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal" data-toggle="modal" data-target="#myModal2" id="btn">Sign &amp; Agree</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <!-- Modal 2 -->
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      </div>
+                      <div class="modal-body">
+                        <p><strong id="strong">BUY DCN BY SENDING ETH starting 08:00 a.m. GMT</strong>
+                           <br><br>
+                           Send ETH to the Smart contract address below using MyEtherWallet, MetaMask, Parity, Mist. By doing so, you agree to the Contribution Terms.
+                           <br><br>
+                           <strong id="strong">IMPORTANT:</strong>
+                           <br><br>
+                           DO NOT send ETH from any exchange platform (like Coinbase, Kraken, Poloniex, Bittrex, etc.) or HD wallets like Jaxx as by doing so your ETH could be permanently lost. Instead, transfer your ETH from the exchange to a wallet, where you can access your according private key and which supports Ethereum-based tokens (e.g. MyEtherWallet, MetaMask) and buy DCN following the instructions given here: HOW TO BUY – Detailed Q&A
+                           <br><br>
+                           <strong>ATTN:</strong> Your tokens, transactions, wallets, keys and passwords are your responsibility. Protect your passwords and keys as they are unrecoverable. If you lose them, you lose access to your tokens forever.
+                           <br><br>
+                           Exchange Rate: 1 ETH = 8 000 000 DCN
+                           <br><br>
+                           Smart Contract Address: 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6
+                           <br><br>
+                           Start time: 08:00 a.m. GMT
+                           <br><br>
+                           Recommended Gas Limit: 200 000
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal" id="btn2">Ready to buy</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- progress bar -->
+                <a href="https://www.dentacoin.com/presale/counter.html">
+                  <div class="progress">
+                  <div title="minimal request" class="redLine"></div>
+                  <div title="comfort zone" class="greenLine"></div>
+                  <div class="progress-bar" role="progressbar" id="progress"></div>
+                </a>
+
+                </div>
+
+                <br>
+
+              </h1>
+        		</div>
+        	</div>
+        </div>
+<!-- /#SignIn -->
+
+
+
+      <div id="who" class="who">
+      <div class="container">
+        <h2 class="text-center">Buy</h2>
+
+        <h3>Send ETH to the <a style="text-decoration: underline;" href="https://etherscan.io/token/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6" target="_blank">Smart Contract</a> address:</h3>
+        <h2 class="text-center smallOnMobile">0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6</h2>
+        <div class="text-center" style="color: red;">Never send ETH directly from exchanges and wallets, that don't support Dentacoin yet</div>
+        <br><br>
+        <section>
+        <h3>or buy DCN using <a style="text-decoration: underline;" href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn" target="_blank">Metamask:</a></h3>
+        <div class="form-group">
+            <label for="_buyAmount">Ether to spend</label>
+            <input type="number" id="_buyAmount" class="form-control" placeholder="1 ETH = 8 000 000 DCN" />
+        </div>
+        <button id="_buy" class="btn btn-default btn-lg">Buy</button>
+        <div id="buyTokenResponse" class="alert alert-success">
+            <h4>Buy Dentacoins</h4>
+            <p id="buyTokenResponse_body"></p>
+        </div>
+        </section>
+        </div>
+      </div>
+
+
+
+
+      <div id="what" class="container how">
+      <div class="container">
+        <h2 class="text-center">Balance</h2>
+        <section>
+        <h3>My Dentacoin Balance</h3>
+        <div id="checkBalanceResponse" class="alert">
+            <h2 id="checkBalanceResponse_body"></h2>
+        </div>
+        <h4 id="myAddress" class="text-center"></h4>
+        </section>
+      </div>
+      </div>
+
+
+
+
+
+
+      <!-- #transfer Dentacoins -->
+            <div id="how" class="container how">
+              <h2 class="text-center">Transfer</h2>
+              <section>
+              <h3>Transfer Dentacoins</h3>
+              <div class="form-group">
+                  <label for="_transferAccount">DCN address of receiver</label>
+                  <input type="text" id="_transferAccount" class="form-control" placeholder="0x0000000000000000000000000000000000000000" />
+              </div>
+              <div class="form-group">
+                  <label for="_transferAmount">Amount</label>
+                  <input type="number" id="_transferAmount" class="form-control" placeholder="Minimum 10 ٨" />
+              </div>
+              <button id="_transfer" class="btn btn-default btn-lg">Transfer</button>
+              <div id="transferTokenResponse" class="alert alert-success">
+                  <h4>Transfer Dentacoins</h4>
+                  <p id="transferTokenResponse_body"></p>
+              </div>
+              </section>
+            </div>
+    <!--  /#transfer Dentacoins  -->
+
+
+
+
+
+
+<!-- #sell Dentacoins
+      <div id="contact" class="container contact">
+        <h2 class="text-center">Sell</h2>
+        <section>
+        <h3>Sell Dentacoins</h3>
+        <div class="form-group">
+            <label for="_sellAmount">Amount in Dentacoin</label>
+            <input type="number" id="_sellAmount" class="form-control" placeholder="locked" />
+        </div>
+        <button id="_sell" class="btn btn-default btn-lg">Sell</button>
+        <div id="sellTokenResponse" class="alert alert-success">
+            <h4>Sell Dentacoins</h4>
+            <p id="sellTokenResponse_body"></p>
+        </div>
+        </section>
+      </div>
+ /#sell Dentacoins -->
+
+
+
+
+<!-- #distribution -->
+      <div id="who" class="who">
+      <div class="container">
+        <h2 class="text-center">Distribution</h2>
+        <section>
+        <div class="row">
+  				<div class="col-md-8 col-md-offset-2 clearfix">
+                <div id="chart_div" class="chart" align='center' style="margin: 0 auto;"></div>
+            <p class="lead about-text text-center">
+              Trade Dentacoins against many other cryptocurrencies on <a href="https://etherdelta.github.io/#DCN-ETH" target="_blank">EtherDelta</a> exchange
+            </p>
+            <p class="lead about-text text-center">
+              You don't trust this currency? You're right! Verify it on <a href="https://etherscan.io/token/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6" target="_blank">Etherscan</a>
+            </p>
+          </div>
+        </div>
+        </section>
+        </div>
+
+
+
+
+
+        <h3 class="text-center scrollme animateme"
+            data-when="enter"
+            data-from="0.3"
+            data-to="0"
+            data-easing="easeinout"
+            data-opacity="0"
+            data-scale="1.5"
+            data-translatey="50"
+        >Industry network</h3>
+        <div class="row" style="margin-bottom: 40px;" id="network">
+          <div class="col-sm-3 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+          </div>
+          <div class="col-sm-1 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+              <img src="../industry network/2.png">
+          </div>
+          <div class="col-sm-1 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+              <img src="../industry network/3.png">
+          </div>
+          <div class="col-sm-1 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+              <img src="../industry network/4.png">
+          </div>
+          <div class="col-sm-1 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+              <img src="../industry network/5.png">
+          </div>
+          <div class="col-sm-1 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+              <img src="../industry network/6.png">
+          </div>
+          <div class="col-sm-1 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+              <img src="../industry network/7.png">
+          </div>
+          <div class="col-sm-1 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+              <img src="../industry network/8.png">
+          </div>
+          <div class="col-sm-2 scrollme animateme text-center"
+              data-when="enter"
+              data-from="0.3"
+              data-to="0"
+              data-easing="easeinout"
+              data-opacity="0"
+              data-scale="1.5"
+              data-translatey="50"
+          >
+          </div>
+
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="text-center scrollme animateme"
+                data-when="enter"
+                data-from="0.3"
+                data-to="0"
+                data-easing="easeinout"
+                data-opacity="0"
+                data-scale="1.5"
+                data-translatey="50"
+            >
+                <h3 class="text-center">
+                     <a class="btn btn-default btn-lg text-center" href="https://dentacoin.com/conferences/"><strong>Meet the Team</strong></a>
+                </h3>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+<!-- /#distribution -->
+
+
+
+
+<!-- #Footer area -->
+    <footer>
+      <div class="container">
+        <p class="text-center signature">
+          &copy; Dentacoin Foundation. All rights reserved.
+          <br>
+          Web Design and Development: Boris Nekezov, Sergey Ushakov
+        </p>
+      </div>
+    </footer>
+<!-- /#Footer area -->
+
+
+
+
+
+<!-- #Scripts area -->
+      <!-- Connect to Dentacoin Smart Contract -->
+      <script src="dApp.js"></script>
+
+      <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+      <script src="../web/js/jquery-3.1.1.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="../web/js/bootstrap.min.js"></script>
+      <!-- Plyr core script -->
+      <script src="../web/js/plyr.js"></script>
+      <script src="../web/js/functions.js"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script src="../web/js/chart.js"></script>
+      <script src="../web/js/txList.js"></script>
+      <!-- counter.html stats from etherscan api -->
+      <script type="text/javascript" src="etherscanStats.js"></script>
+<!-- /#Scripts area -->
+
+  </body>
+  <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+<script type="text/javascript" src="time.js"></script>
+<script type="text/javascript" src="progress.js"></script>
+</html>

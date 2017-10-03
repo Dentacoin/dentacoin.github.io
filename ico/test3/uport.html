@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="../web/img/favicon.ico">
+        <link rel="apple-touch-icon" href="iconname.png" >
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Dentacoin</title>
+        <!-- google fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+        <!-- remote uPort integration -->
+        <script src="https://unpkg.com/uport-connect@0.5.1/dist/uportconnect.js"></script>
+        <!-- Bootstrap -->
+        <link href="web/css/bootstrap.min.css" rel="stylesheet">
+        <link href="web/css/font-awesome.min.css" rel="stylesheet">
+        <link href="web/css/plyr.css" rel="stylesheet">
+        <link href="web/css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+
+
+
+    </body>
+</html>
+
+
+<script>
+    var uportconnect = window.uportconnect
+    var uport = new uportconnect.Connect('Dentacoin')
+/*
+    uport.requestAddress().then((address) => {
+      //window.alert(address);
+      console.log(address);
+    })
+*/
+    let web3 = uport.getWeb3()
+
+
+    web3.eth.getCoinbase(function (err, address) {
+      if (err) { throw err }
+      console.log('address: ' + address)
+      web3.eth.defaultAccount = address
+    });
+
+/*
+    uport.requestCredentials().then((credentials) => {
+      console.log(credentials)
+    })
+*/
+</script>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p id="totalamount"></p>
+
+
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      // Add your code below!
+      xhr.send();
+      var json = JSON.parse(xhr.responseText);
+      var totalAmount = parseInt(json.result);
+      document.getElementById("totalamount").innerHTML = totalAmount;
+    </script>
+  </body>
+</html>

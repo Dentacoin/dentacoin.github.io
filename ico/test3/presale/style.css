@@ -1,0 +1,1242 @@
+/* ============================
+    Code by Boris Nekezov
+    boris.nekezov@gmail.com
+============================ */
+/*
+main color:
+#126585
+
+main color:hover
+#004C6C
+*/
+/* line 14, ../sass/style.scss */
+body {
+  padding-top: 100px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+/* line 20, ../sass/style.scss */
+label {
+  color: #126585;
+}
+
+/* line 24, ../sass/style.scss */
+a {
+  color: #126585;
+}
+
+/* line 28, ../sass/style.scss */
+a:focus, a:hover {
+  color: #004C6C;
+}
+
+/* line 32, ../sass/style.scss */
+a, a:hover, a:active, a:focus {
+  outline: 0;
+}
+
+/* line 36, ../sass/style.scss */
+a, .btn {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* bootstrap overwrites*/
+/* line 45, ../sass/style.scss */
+audio, canvas, progress, video {
+  width: 100%;
+}
+
+/* line 49, ../sass/style.scss */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: #126585;
+}
+
+/* line 53, ../sass/style.scss */
+.h1, h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* line 58, ../sass/style.scss */
+.h2, h2 {
+  font-size: 44px;
+}
+
+/* line 62, ../sass/style.scss */
+.lead {
+  font-size: 19px;
+}
+
+/* line 66, ../sass/style.scss */
+.btn {
+  border: 0;
+  color: #fff;
+  border-radius: 0;
+}
+
+/* line 72, ../sass/style.scss */
+.btn-group-lg > .btn,
+.btn-lg {
+  padding: 10px 26px;
+}
+
+/* line 77, ../sass/style.scss */
+.btn-default {
+  color: #fff;
+  background-color: #126585;
+}
+
+/* line 82, ../sass/style.scss */
+.btn-default:hover {
+  color: #fff;
+  background-color: #004C6C;
+}
+
+/* line 87, ../sass/style.scss */
+.btn-link {
+  color: #126585;
+}
+
+/* line 91, ../sass/style.scss */
+.btn-link:focus,
+.btn-link:hover {
+  color: #7d233a;
+  text-decoration: none;
+}
+
+/* line 97, ../sass/style.scss */
+.navbar-default {
+  border: 0;
+  background-color: #fff;
+}
+
+/* line 102, ../sass/style.scss */
+.navbar-toggle {
+  margin-top: 20px;
+}
+
+/* line 106, ../sass/style.scss */
+.navbar-default .navbar-toggle {
+  border: 0;
+}
+
+/* line 110, ../sass/style.scss */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+/* line 115, ../sass/style.scss */
+.btn-default.focus,
+.btn-default:focus,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover, .btn-default.focus:active,
+.btn-default:active:focus, .btn-default:active:hover,
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default.active, .btn-default:active,
+.open > .dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #126585;
+}
+
+/* line 130, ../sass/style.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: 0;
+}
+
+/* line 134, ../sass/style.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #126585;
+}
+
+/* line 138, ../sass/style.scss */
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 8px;
+}
+
+/* line 142, ../sass/style.scss */
+.navbar-toggle .icon-bar {
+  width: 44px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+/* line 148, ../sass/style.scss */
+.navbar-brand {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 0;
+}
+
+/* line 156, ../sass/style.scss */
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #126585;
+  background-color: transparent;
+}
+
+/* line 165, ../sass/style.scss */
+.navbar-top.navbar {
+  height: 70px;
+  margin-bottom: 0;
+}
+
+/* line 170, ../sass/style.scss */
+.navbar-top .container > .navbar-header {
+  background-color: #fff;
+}
+
+/* line 174, ../sass/style.scss */
+.form-control {
+  height: 48px;
+  padding: 8px 14px;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+/* classes */
+/* =main-menu*/
+/* line 189, ../sass/style.scss */
+#mainMenu {
+  background-color: #fff;
+}
+
+/* line 193, ../sass/style.scss */
+.main-menu {
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+/* line 198, ../sass/style.scss */
+.main-menu li a {
+  font-size: 20px;
+}
+
+/* line 202, ../sass/style.scss */
+.about,
+.what,
+.how,
+.who,
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* line 211, ../sass/style.scss */
+.what h2,
+.howh h2,
+.who h2,
+.contact h2 {
+  margin-top: 0;
+}
+
+/* =about */
+/* line 219, ../sass/style.scss */
+.about h1 {
+  margin: 0 0 100px;
+}
+
+/* line 223, ../sass/style.scss */
+.more-text {
+  display: block;
+}
+
+/* line 227, ../sass/style.scss */
+.more-text.hidden {
+  display: none;
+}
+
+/* line 232, ../sass/style.scss */
+.get-dentacoins {
+  margin-top: 50px;
+}
+
+/* =what */
+/* line 237, ../sass/style.scss */
+.what {
+  background-color: #f9f9f9;
+}
+
+/* line 241, ../sass/style.scss */
+.what .player {
+  margin: 100px 0;
+}
+
+/* line 245, ../sass/style.scss */
+.feature i {
+  margin-top: 20px;
+  color: #000;
+  font-size: 80px;
+}
+
+/* line 251, ../sass/style.scss */
+.feature h3 {
+  margin-top: 20px;
+}
+
+/* line 255, ../sass/style.scss */
+.feature strong {
+  display: block;
+}
+
+/* line 259, ../sass/style.scss */
+.feature p {
+  height: 110px;
+  overflow: hidden;
+}
+
+/* line 264, ../sass/style.scss */
+.feature .btn {
+  margin-top: 10px;
+}
+
+/* =how */
+/* line 269, ../sass/style.scss */
+.how h2 {
+  margin-bottom: 100px;
+}
+
+/* line 273, ../sass/style.scss */
+.steps li {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* =who*/
+/* line 279, ../sass/style.scss */
+.who {
+  background-color: #f9f9f9;
+}
+
+/* line 283, ../sass/style.scss */
+.who h2 {
+  margin-bottom: 100px;
+}
+
+/* line 287, ../sass/style.scss */
+.who a {
+  display: inline-block;
+  text-align: center;
+}
+
+/* =contact*/
+/* line 293, ../sass/style.scss */
+.contact h2 {
+  margin-bottom: 100px;
+}
+
+/* line 297, ../sass/style.scss */
+.social {
+  text-align: center;
+}
+
+/* line 300, ../sass/style.scss */
+.social li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* line 305, ../sass/style.scss */
+.social li a {
+  position: relative;
+}
+
+/* tool tip*/
+/* line 310, ../sass/style.scss */
+.social li a .mask {
+  position: absolute;
+  display: block;
+  width: 82px;
+  height: 45px;
+  left: 0;
+  text-align: center;
+}
+
+/* line 319, ../sass/style.scss */
+.social li a.ml .tip {
+  width: 200px;
+  right: 58px;
+}
+
+/* line 332, ../sass/style.scss */
+.social li a .tip {
+  display: block;
+  position: relative;
+  top: 30px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #126585;
+  opacity: 0;
+  white-space: nowrap;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 348, ../sass/style.scss */
+.social li a .tip:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(141, 47, 71, 0);
+  border-bottom-color: #126585;
+  border-width: 10px;
+  margin-left: -10px;
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 369, ../sass/style.scss */
+.social li a:hover .tip {
+  top: 20px;
+  opacity: 1;
+}
+
+/* line 373, ../sass/style.scss */
+.social li a:hover .tip:after {
+  opacity: 1;
+}
+
+/* icons */
+/* line 379, ../sass/style.scss */
+.social li a i {
+  font-size: 60px;
+}
+
+/* line 383, ../sass/style.scss */
+.nav.social > li > a:focus,
+.nav.social > li > a:hover {
+  background-color: transparent;
+}
+
+/* line 388, ../sass/style.scss */
+.social li a i {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+/* line 396, ../sass/style.scss */
+.social li a:hover i {
+  -webkit-transform: scale(1.2) rotate(360deg);
+  -ms-transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2) rotate(360deg);
+}
+
+/* mail */
+/* line 405, ../sass/style.scss */
+.social li a i.fa-envelope-square {
+  color: #58585a;
+}
+
+/* line 408, ../sass/style.scss */
+.social li a:hover i.fa-envelope-square {
+  color: #126585;
+}
+
+/* facebook*/
+/* line 413, ../sass/style.scss */
+.social li a i.fa-facebook-square {
+  color: #3b5998;
+}
+
+/* line 416, ../sass/style.scss */
+.social li a:hover i.fa-facebook-square {
+  color: #126585;
+}
+
+/* twitter */
+/* line 421, ../sass/style.scss */
+.social li a .fa-twitter-square {
+  color: #00aced;
+}
+
+/* line 424, ../sass/style.scss */
+.social li a:hover .fa-twitter-square {
+  color: #126585;
+}
+
+/* slack */
+/* line 429, ../sass/style.scss */
+.social li a .fa-slack {
+  color: #78D4B6;
+}
+
+/* line 432, ../sass/style.scss */
+.social li a:hover .fa-slack {
+  color: #126585;
+}
+
+#cont {
+  width: 56px;
+  height: 60px;
+}
+
+/* player */
+/* line 438, ../sass/style.scss */
+.plyr--video .plyr__controls button.tab-focus:focus,
+.plyr--video .plyr__controls button:hover,
+.plyr__play-large {
+  background-color: #126585;
+}
+
+/* line 443, ../sass/style.scss */
+.plyr__progress--played, .plyr__volume--display {
+  color: #126585;
+}
+
+/* =scroll-top */
+/* line 448, ../sass/style.scss */
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 58px;
+  height: 51px;
+  padding: 4px 14px 8px;
+  font-size: 30px;
+  opacity: 0;
+}
+
+/* line 462, ../sass/style.scss */
+.antispam {
+  display: none;
+}
+
+/* line 466, ../sass/style.scss */
+.signature {
+  font-size: 12px;
+}
+
+/* =roadmap */
+/* line 473, ../sass/style.scss */
+.roadmap {
+  position: relative;
+  width: 700px;
+  height: 550px;
+  margin: 50px auto 0;
+}
+/* line 479, ../sass/style.scss */
+.roadmap a.point {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+/* line 486, ../sass/style.scss */
+.roadmap a.point:after {
+  z-index: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 8px;
+  background-repeat: repeat-x;
+}
+/* line 495, ../sass/style.scss */
+.roadmap a.point:hover {
+  z-index: 0;
+  text-decoration: none;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/* line 501, ../sass/style.scss */
+.roadmap a.point span {
+  display: block;
+}
+/* line 503, ../sass/style.scss */
+.roadmap a.point span span {
+  font-size: 21px;
+}
+/* line 506, ../sass/style.scss */
+.roadmap a.point span small {
+  position: relative;
+  bottom: 7px;
+  font-size: 14px;
+}
+/* line 513, ../sass/style.scss */
+.roadmap a.point img {
+  z-index: 2;
+  position: relative;
+  width: 90px;
+  height: auto;
+}
+/* line 524, ../sass/style.scss */
+.roadmap .point-right:after {
+  width: 85px;
+  top: 89px;
+  right: -82px;
+}
+/* line 531, ../sass/style.scss */
+.roadmap .point-left:after {
+  width: 85px;
+  top: 89px;
+  left: -82px;
+}
+/* line 538, ../sass/style.scss */
+.roadmap .point-bot:after {
+  width: 128px;
+  left: -21px;
+  bottom: -64px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/* line 546, ../sass/style.scss */
+.roadmap .point-text-below:after {
+  top: 32px;
+}
+/* line 552, ../sass/style.scss */
+.roadmap .point-01 {
+  top: 0;
+  left: 0;
+}
+/* line 556, ../sass/style.scss */
+.roadmap .point-01:after {
+  background-image: url("../img/lines/line01.png");
+}
+/* line 560, ../sass/style.scss */
+.roadmap .point-01 span {
+  color: #022c3c;
+}
+/* line 564, ../sass/style.scss */
+.roadmap .point-02 {
+  top: 0;
+  left: 155px;
+}
+/* line 568, ../sass/style.scss */
+.roadmap .point-02:after {
+  background-image: url("../img/lines/line02.png");
+}
+/* line 572, ../sass/style.scss */
+.roadmap .point-02 span {
+  color: #0d4060;
+}
+/* line 576, ../sass/style.scss */
+.roadmap .point-03 {
+  top: 0;
+  left: 308px;
+}
+/* line 580, ../sass/style.scss */
+.roadmap .point-03:after {
+  background-image: url("../img/lines/line03.png");
+}
+/* line 584, ../sass/style.scss */
+.roadmap .point-03 span {
+  color: #156788;
+}
+/* line 588, ../sass/style.scss */
+.roadmap .point-04 {
+  top: 0;
+  left: 463px;
+}
+/* line 592, ../sass/style.scss */
+.roadmap .point-04:after {
+  background-image: url("../img/lines/line04.png");
+}
+/* line 596, ../sass/style.scss */
+.roadmap .point-04 span {
+  color: #3b5168;
+}
+/* line 600, ../sass/style.scss */
+.roadmap .point-05 {
+  top: 0;
+  right: 0;
+}
+/* line 604, ../sass/style.scss */
+.roadmap .point-05:after {
+  background-image: url("../img/lines/line05.png");
+}
+/* line 608, ../sass/style.scss */
+.roadmap .point-05 span {
+  color: #114e87;
+}
+/* line 612, ../sass/style.scss */
+.roadmap .point-06 {
+  top: 244px;
+  right: 0;
+}
+/* line 616, ../sass/style.scss */
+.roadmap .point-06:after {
+  background-image: url("../img/lines/line06.png");
+}
+/* line 620, ../sass/style.scss */
+.roadmap .point-06 span {
+  color: #0b2846;
+}
+/* line 624, ../sass/style.scss */
+.roadmap .point-07 {
+  top: 190px;
+  right: 155px;
+}
+/* line 628, ../sass/style.scss */
+.roadmap .point-07:after {
+  background-image: url("../img/lines/line07.png");
+}
+/* line 632, ../sass/style.scss */
+.roadmap .point-07 span {
+  color: #6e547e;
+}
+/* line 636, ../sass/style.scss */
+.roadmap .point-08 {
+  top: 190px;
+  right: 310px;
+}
+/* line 640, ../sass/style.scss */
+.roadmap .point-08:after {
+  background-image: url("../img/lines/line08.png");
+}
+/* line 644, ../sass/style.scss */
+.roadmap .point-08 span {
+  color: #943939;
+}
+/* line 648, ../sass/style.scss */
+.roadmap .point-09 {
+  top: 190px;
+  right: 465px;
+}
+/* line 652, ../sass/style.scss */
+.roadmap .point-09:after {
+  background-image: url("../img/lines/line09.png");
+}
+/* line 656, ../sass/style.scss */
+.roadmap .point-09 span {
+  color: #b4234f;
+}
+/* line 660, ../sass/style.scss */
+.roadmap .point-10 {
+  top: 190px;
+  left: 0px;
+}
+/* line 664, ../sass/style.scss */
+.roadmap .point-10:after {
+  background-image: url("../img/lines/line10.png");
+}
+/* line 668, ../sass/style.scss */
+.roadmap .point-10 span {
+  color: #6b2929;
+}
+/* line 672, ../sass/style.scss */
+.roadmap .point-11 {
+  top: 433px;
+  left: 0px;
+}
+/* line 676, ../sass/style.scss */
+.roadmap .point-11:after {
+  background-image: url("../img/lines/line11.png");
+}
+/* line 680, ../sass/style.scss */
+.roadmap .point-11 span {
+  color: #3f3786;
+}
+/* line 684, ../sass/style.scss */
+.roadmap .point-12 {
+  top: 380px;
+  left: 155px;
+}
+/* line 688, ../sass/style.scss */
+.roadmap .point-12:after {
+  background-image: url("../img/lines/line12.png");
+}
+/* line 692, ../sass/style.scss */
+.roadmap .point-12 span {
+  color: #4a6396;
+}
+/* line 696, ../sass/style.scss */
+.roadmap .point-13 {
+  top: 380px;
+  left: 310px;
+}
+/* line 704, ../sass/style.scss */
+.roadmap .point-13 span {
+  color: #00628d;
+}
+
+/* /roadmap */
+/* Extra small devices Phones (<768px) */
+@media screen and (max-width: 767px) {
+  /* line 717, ../sass/style.scss */
+  .roadmap {
+    right: 30px;
+    width: 320px;
+    height: 700px;
+  }
+  /* line 726, ../sass/style.scss */
+  .roadmap a.point span span {
+    font-size: 16px;
+  }
+  /* line 729, ../sass/style.scss */
+  .roadmap a.point span small {
+    bottom: 10px;
+    font-size: 12px;
+  }
+  /* line 734, ../sass/style.scss */
+  .roadmap a.point img {
+    position: relative;
+    bottom: 10px;
+    width: 60px;
+    height: auto;
+  }
+  /* line 744, ../sass/style.scss */
+  .roadmap .point-01 {
+    top: 0;
+    left: 30px;
+  }
+  /* line 748, ../sass/style.scss */
+  .roadmap .point-02 {
+    top: 0;
+    left: 130px;
+  }
+  /* line 752, ../sass/style.scss */
+  .roadmap .point-03 {
+    top: 0;
+    left: auto;
+    right: 30px;
+  }
+  /* line 757, ../sass/style.scss */
+  .roadmap .point-04 {
+    top: 170px;
+    right: 30px;
+    left: auto;
+  }
+  /* line 762, ../sass/style.scss */
+  .roadmap .point-05 {
+    top: 124px;
+    right: 130px;
+    left: auto;
+  }
+  /* line 767, ../sass/style.scss */
+  .roadmap .point-06 {
+    top: 124px;
+    right: auto;
+    left: 30px;
+  }
+  /* line 772, ../sass/style.scss */
+  .roadmap .point-07 {
+    top: 307px;
+    right: auto;
+    left: 30px;
+  }
+  /* line 777, ../sass/style.scss */
+  .roadmap .point-08 {
+    top: 260px;
+    right: auto;
+    left: 130px;
+  }
+  /* line 782, ../sass/style.scss */
+  .roadmap .point-09 {
+    top: 260px;
+    right: 30px;
+    left: auto;
+  }
+  /* line 787, ../sass/style.scss */
+  .roadmap .point-10 {
+    top: 440px;
+    right: 30px;
+    left: auto;
+  }
+  /* line 792, ../sass/style.scss */
+  .roadmap .point-11 {
+    top: 394px;
+    right: 130px;
+    left: auto;
+  }
+  /* line 797, ../sass/style.scss */
+  .roadmap .point-12 {
+    top: 394px;
+    right: auto;
+    left: 30px;
+  }
+  /* line 802, ../sass/style.scss */
+  .roadmap .point-13 {
+    top: 575px;
+    right: auto;
+    left: 30px;
+  }
+  /* line 810, ../sass/style.scss */
+  .roadmap .point-right-xs:after {
+    width: 60px;
+    top: 59px;
+    right: -52px;
+    bottom: inherit;
+    left: auto;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  /* line 820, ../sass/style.scss */
+  .roadmap .point-left-xs:after {
+    width: 60px;
+    top: 59px;
+    right: auto;
+    bottom: inherit;
+    left: -52px;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  /* line 830, ../sass/style.scss */
+  .roadmap .point-bot-xs:after {
+    width: 92px;
+    top: 127px;
+    right: -17px;
+    bottom: 0;
+    left: auto;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  /* line 840, ../sass/style.scss */
+  .roadmap .point-text-below-xs > span {
+    position: relative;
+    bottom: 10px;
+  }
+  /* line 844, ../sass/style.scss */
+  .roadmap .point-text-below-xs:after {
+    top: 14px;
+  }
+}
+/* Extra small devices Phones (<768px) */
+/* /roadmap */
+@media screen and (min-width: 350px) {
+  /* line 855, ../sass/style.scss */
+  .roadmap {
+    right: 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  /* line 861, ../sass/style.scss */
+  .lead {
+    font-size: 16px;
+  }
+
+  /* line 865, ../sass/style.scss */
+  .steps li {
+    margin-bottom: 10px;
+  }
+}
+/* Small devices (tablets) */
+@media screen and (max-width: 991px) {
+  /* =what */
+  /* line 874, ../sass/style.scss */
+  .feature {
+    margin-bottom: 40px;
+  }
+
+  /* line 878, ../sass/style.scss */
+  .what,
+  .how,
+  .who,
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* =who */
+  /* line 887, ../sass/style.scss */
+  .who .push-top-md {
+    margin-top: 80px;
+  }
+
+  /* line 891, ../sass/style.scss */
+  .player {
+    margin-top: 50px;
+  }
+}
+/* Extra small devices Phones (<768px) */
+@media screen and (max-width: 767px) {
+  /* bootstrap overwrites*/
+  /* line 899, ../sass/style.scss */
+  .h1, h1 {
+    font-size: 26px;
+  }
+
+  /* line 903, ../sass/style.scss */
+  .h2, h2 {
+    font-size: 30px;
+  }
+
+  /* line 907, ../sass/style.scss */
+  .lead {
+    font-size: 17px;
+  }
+
+  /* line 912, ../sass/style.scss */
+  .navbar-brand {
+    margin-left: 15px;
+  }
+
+  /* line 916, ../sass/style.scss */
+  .navbar-collapse {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+
+  /* line 922, ../sass/style.scss */
+  .main-menu {
+    margin: 7.5px -15px;
+    padding-bottom: 10px;
+    background-color: #fff;
+  }
+
+  /* line 928, ../sass/style.scss */
+  .main-menu li a {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* =about <767 */
+  /* line 934, ../sass/style.scss */
+  .about h1 {
+    margin: 50px 0 50px;
+  }
+
+  /* contact */
+  /* line 939, ../sass/style.scss */
+  .contact form {
+    padding: 0 15px;
+  }
+
+  /* =scroll-top */
+  /* line 944, ../sass/style.scss */
+  .scroll-top {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  /* line 949, ../sass/style.scss */
+  .social li {
+    margin: 0 10px;
+  }
+
+  /* line 953, ../sass/style.scss */
+  .social li {
+    margin: 0 4px;
+  }
+
+  /* line 957, ../sass/style.scss */
+  .social li .tip {
+    font-size: 14px;
+  }
+
+  /* line 960, ../sass/style.scss */
+  .social li a.ml .tip {
+    width: 164px;
+    right: 40px;
+  }
+
+  /* slimmer nav, smaller logo and menu toggle icon*/
+  /* line 966, ../sass/style.scss */
+  .navbar-top.navbar {
+    height: 52px;
+  }
+
+  /* line 970, ../sass/style.scss */
+  .navbar-brand {
+    width: 36px;
+    height: 36px;
+    margin-top: 9px;
+  }
+
+  /* line 975, ../sass/style.scss */
+  .navbar-brand img {
+    width: 36px;
+    height: 36px;
+  }
+
+  /* line 980, ../sass/style.scss */
+  .navbar-toggle {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  /* line 985, ../sass/style.scss */
+  .navbar-toggle .icon-bar {
+    width: 33px;
+    height: 3px;
+  }
+
+  /* line 990, ../sass/style.scss */
+  .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 5px;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* line 998, ../sass/style.scss */
+  .push-top-md {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+#white {
+  font-weight: normal;
+  font-size: 200%;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+#en, #it, #ru, #ukr, #jp, #idn {
+  margin-top: 15px;
+  width: 75px;
+  height: 44px;
+}
+
+#ukr-text, #idn-text {
+  position: relative;
+  right: 6px;
+}
+
+#idn-text {
+  position: relative;
+  right: 5px;
+}
+
+.question1 {
+    color: gray;
+    font-size: 180%;
+}
+
+.form {
+  position: relative;
+  bottom: 50px;
+}
+
+#input-email {
+  width: 66%;
+}
+
+#calc {
+  width: 27%;
+  height: 48px;
+}
+
+#answer1 {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  #input-email {
+    width: 100%;
+  }
+  #calc {
+    width: 100%;
+    height: 48px;
+  }
+  .question1 {
+    font-size: 130%;
+  }
+  .form {
+    position: relative;
+    bottom: 22px;
+  }
+  #about {
+    padding-top: 0px;
+  }
+}
+
+.fa {
+  font-size: 16px;
+}
+
+h3 > a {
+  color: gray;
+}
+
+@media screen and (min-width: 768px){
+#network {
+    position: relative;
+    right: 5%;
+}
+}
+
+#buy {
+    position: relative;
+    bottom: 2px;
+}
+
+#article1 {
+  cursor:pointer;
+}
+
+#article2 {
+  cursor:pointer;
+}
+
+#article3 {
+  cursor:pointer;
+}
+
+#article4 {
+  cursor:pointer;
+}
+
+#article5 {
+  cursor:pointer;
+}
+
+#lead1 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead2 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead3 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead4 {
+  display: none;
+  font-size: 19px;
+}
+
+#lead5 {
+  display: none;
+  font-size: 19px;
+}
+
+#top {
+  font-size: 19px;
+}
+
+#leadabout {
+   font-size: 19px;
+
+}
+
+@media screen and (max-width: 407px) {
+  #buy {
+    position: relative;
+    top: 14px;
+  }
+}
+
+#sign {
+    width: 32%;
+    height: 48px;
+}

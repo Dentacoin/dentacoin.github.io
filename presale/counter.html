@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:image" content="https://dentacoin.com/web/img/DCN.png"/>
+	<meta http-equiv="refresh" content="0; url=https://dentacoin.com/wallet/counter.html" />
     <meta name="apple-mobile-web-app-title" content="Dentacoin">
     <link rel="shortcut icon" type="image/x-icon" href="../web/img/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo76.png" sizes="76x76">
@@ -87,11 +87,14 @@
     <br>
     <h1 id="amountETH"></h1>
     <br>
-    <h1 id="txCount"></h1>
+    <h1 id="txCounter"></h1>
     <br><br>
-    <p><img src="pics/rocket.png" alt="rocket" id="rocket"></p>
+    <!-- <p><img src="pics/rocket.png" alt="rocket" id="rocket"></p> -->
+    <p><img src="pics/PartyEmojiDCNsmall.png" alt="party" id="rocket"></p>
+
+
     <br><br><br>
-    <p>~~ Page reloads every 10 seconds ~~</p>
+    <p>~~ Data reloads every 10 seconds ~~</p>
 
     <script>
 
@@ -126,7 +129,7 @@
 
         document.getElementById("amountDCN").innerHTML = ((80000000000-amountDCN)/1000000000).toFixed(4) + " of 80 billion DCN sold ("+percent.toFixed(2)+" %)";
         document.getElementById("amountETH").innerHTML = amountETH.toFixed(2) + " ETH of 10000 ETH max";
-        document.getElementById("txCount").innerHTML = txCount + " contributions";
+        //document.getElementById("txCounter").innerHTML = txCount + " contributions";
       }
 
 

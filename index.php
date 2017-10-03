@@ -1,1750 +1,1062 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="google-site-verification" content="awFFZOLlss9PFAo1lY7J3m_BY5bYeBA6shUxvWFny1U" />
-        <meta property="og:image" content="https://dentacoin.com/web/img/DCN.png"/>
-        <link rel="shortcut icon" type="image/x-icon" href="web/img/favicon.ico">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Dentacoin</title>
-        <!-- google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
-        <!-- Bootstrap -->
-        <link href="web/css/bootstrap.min.css" rel="stylesheet">
-        <link href="web/css/font-awesome.min.css" rel="stylesheet">
-        <link href="web/css/plyr.css" rel="stylesheet">
-        <link href="web/css/style.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <!-- Google Analytics -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-
-            ga('create', 'UA-97167262-1', 'auto');
-
-            ga('send', 'pageview');
-
-
-        </script>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-default navbar-fixed-top navbar-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand logo scroll-to-top" href="#">
-                        <img src="web/img/logo.png" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <div class="collapse navbar-collapse" id="mainMenu">
-                            <ul class="nav navbar-nav navbar-right main-menu">
-                                <li><a href="#about">Why</a></li>
-                                <li><a href="#what">What</a></li>
-                                <li><a href="#when">When</a></li>
-                                <li><a href="#how">How</a></li>
-                                <li><a href="#who">Who</a></li>
-                                <!-- <li><a href="http://www.dentacoin.com/ico/">ICO</a></li> -->
-                                <li><a href="https://www.dentacoin.com/presale/">Presale</a></li>
-                                <li><a href="https://www.dentacoin.com/blog/" target="_blank">Blog</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <button class="btn btn-default btn-lg scroll-top">
-                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </button>
-                </div>
-            </nav>
-        </header>
-        <!-- #about -->
-        <div id="about" class="container about">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1 class="text-center" class="presale">Dentacoin: Crowd Power to Shape the Future of Dental Care.</h1>
-                    <div class="form">
-                    <h3 class="text-center question1" id="question1">Ongoing Public Presale: &nbsp;&nbsp;<a href="https://www.dentacoin.com/presale/" class="btn btn-default btn-lg text-center" id="buy"> BUY NOW</a></h3>
-                  </div>
-              </div>
+<html lang="en" class="wide wow-animation">
+  <head>
+    <title>Dentacoin</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta property="og:image" content="https://dentacoin.com/web/img/DCN.png"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="web/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,700">
+    <link rel="" type="" href="lexio/leixo-demo-webfont.woff">
+    <link rel="stylesheet" href="web/css2/min.style.css">
+    <link rel="stylesheet" href="web/css2/telegram-hack.css">
+    <link rel="stylesheet" href="web/css2/video.css">
+    <!-- mailchimp counter -->
+    <?php include 'web/php_functions/mailchimp_functions.php'?>
+	  <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-97167262-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="page">
+      <div class="page-loader page-loader-variant-1">
+        <div><a href="index.html" class="brand brand-md brand-inverse"><img src="dentacoinicon.png" alt="" width="135" height="34"/></a>
+          <div class="page-loader-body">
+            <div id="spinningSquaresG">
+              <div id="spinningSquaresG_1" class="spinningSquaresG"></div>
+              <div id="spinningSquaresG_2" class="spinningSquaresG"></div>
+              <div id="spinningSquaresG_3" class="spinningSquaresG"></div>
+              <div id="spinningSquaresG_4" class="spinningSquaresG"></div>
+              <div id="spinningSquaresG_5" class="spinningSquaresG"></div>
+              <div id="spinningSquaresG_6" class="spinningSquaresG"></div>
+              <div id="spinningSquaresG_7" class="spinningSquaresG"></div>
+              <div id="spinningSquaresG_8" class="spinningSquaresG"></div>
             </div>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 clearfix">
-                    <p id="top">
-                        Dentacoin is the first Blockchain concept designed for the Global Dental Industry. The Dentacoin ERC20 token is configured to be used globally by all individuals.
-                        <br><br>
-                        Dentacoin aims at improving dental care worldwide and making it affordable through utilizing the Blockchain advantages. We believe that empowering patients to become
-                        an active part in the industry development process is the key to shaping the future of dental care. The pilot Dentacoin project
-                        (<a href="https://dentacoin.com/trusted-review-platform/" target="_Blank">Trusted Review Platform</a>) is on its
-                        way to be developed as the first transparent, tamper-resistant and manipulation-protected platform of its kind.
-                        <br><br>
-                        <p id="leadabout">
-                            <strong>&#10003; Shifting the Paradigm from Treatment to Prevention.</strong> By bringing patients and dentists into a community, numerous win-win effects could be realized.
-                            Through a “Hippocratic” dental insurance model patients will no longer pay for treatments, but for prevention.
-                            <a id="article1" onclick="minus1()">more...</a>
-                        </p>
-                        <p id="lead1">
-                        Lifelong, full-covered dental care will be provided to the patient with very low, monthly rates, paid in DCN. A self-executing Smart Insurance Contract will guarantee
-                        shared responsibility, no manipulations and very low fees. The usual profits of insurance companies will be shared between patients and dentists.
-                        <br><br>
-                        </p>
-                        <p id="leadabout">
-                            <strong>&#10003; Generating Value through Crowd Power.</strong> Through the Blockchain-based tools to be developed (a trusted review platform, an aftercare mobile app, an
-                            educational website) patients and dentists will be rewarded with Dentacoin for their willingness to contribute to the Foundation’s mission.
-                            <a id="article2" onclick="minus2()">more...</a>
-                        </p>
-                        <p id="lead2">
-                        Dentacoin will create a tribune for patient voice to be heard and will help patients to improve their oral care habits. Simultaneously, the DCN tools will allow dentists
-                        to improve their service quality based on the gathered feedback, as well as to create a loyal patient community around themselves – the most important asset for every
-                        service industry.
-                        <br><br>
-                        </p>
-                        <p id="leadabout">
-                            <strong>&#10003; Making Dental Care affordable.</strong> With the collected Dentacoins, patients could:
-                            • pay for their treatments;
-                            • pay for their dental insurance;
-                            • buy oral care products. <br>
-                            As for the dentists, Dentacoin will allow them to:
-                            <a id="article3" onclick="minus3()">more...</a>
-                        </p>
-                        <p id="lead3">
-                        • have a stable basic income;
-                        • buy cheaper dental materials and equipment through the Dentacoin Trading platform ;
-                        • create a patient community;
-                        • reduce the marketing costs;
-                        • reduce the treatment costs.
-                        <br><br>
-                        </p>
-                        <p id="leadabout">
-                            <strong>&#10003; Jumping over the Dentistry Borders.</strong> Dentacoin also plans on developing a decentralized, highly secure database of all patient health records. Health Data will be
-                            highly protected, updatable and accessible exclusively by patients or by dentists, upon a given permission.
-                            <a id="article4" onclick="minus4()">more...</a>
-                        </p>
-                        <p id="lead4">
-                        This kind of database would simplify the lives of both patients and dentists when searching for health records and would help provide the most accurate diagnostics.
-                        <br><br>
-                        </p>
-                        <p id="leadabout">
-                            <strong>&#10003; Indirect Profit Sharing.</strong> In order to create prerequisites for a long-term increase in value, Dentacoin will implement a unique approach of indirect profit sharing
-                            for all Dentacoin holders. Once a year, the Dentacoin Foundation will buy DCN with 50% of all profits gained throughout the last financial year.
-                            <a id="article5" onclick="minus5()">more...</a>
-                        </p>
-                        <p id="lead5">
-                        These include interests from assets, profits of the clinics bought by the Foundation and any other return on investment. Thus, the global DCN supply decreases and in return,
-                        the demand and the market price increase.
-                        </p>
-                    </p>
-                    <br><br>
-                    <h1 class="text-center scrollme animateme" id="white">Whitepaper
-                      <br>
-                      <!-- <a href="trade/index.html" class="btn btn-default btn-lg text-center get-dentacoins">Get Dentacoins</a> -->
-                      <a href="..\white-paper\Whitepaper-en v.0.9.pdf" class="btn btn-default btn-lg text-center get-dentacoins" id="en" target="_blank">EN</a>
-                      <a href="..\white-paper\Whitepaper-ru v.0.9.pdf" class="btn btn-default btn-lg text-center get-dentacoins" id="ru" target="_blank">RU</a>
-                      <a href="..\white-paper\Whitepaper-ukr v.0.9.pdf" class="btn btn-default btn-lg text-center get-dentacoins" id="ukr" target="_blank"><span id="ukr-text">UKR</span></a>
-                      <a href="..\white-paper\Whitepaper-idn v.0.9.pdf" class="btn btn-default btn-lg text-center get-dentacoins" id="idn" target="_blank"><span id="idn-text">IDN</span></a>
-                    </h1>
-                    <div id="mc_embed_signup" class="lead about-text">
-                        <form action="//dentacoin.us15.list-manage.com/subscribe/post?u=2db886e44db15e869246f6964&amp;id=ee212b20d7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                          <div id="mc_embed_signup_scroll" class="form-groups">
-                            <div class="form-group row">
-        	                     <div class=""><input type="email" value="" name="EMAIL" class="form-control col-sm-5" id="input-email" placeholder="Enter your email here and never miss a thing!" required></div>
-                              <div class="clear"><input type="submit" value="SIGN UP FOR UPDATES" name="subscribe" id="sign" class="btn btn-default btn-lg col-sm-4"></div>
-                            </div>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2db886e44db15e869246f6964_ee212b20d7" tabindex="-1" value=""></div>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- /#about -->
-
-        <!-- #what -->
-        <div id="what" class="what">
-            <div class="container">
-                <h2 class="text-center scrollme animateme"
-                    data-when="enter"
-                    data-from="0.3"
-                    data-to="0"
-                    data-easing="easeinout"
-                    data-opacity="0"
-                    data-scale="1.5"
-                    data-translatey="150"
-                    >What</h2>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="video1" class="player scrollme animateme"
-                            data-when="enter"
-                            data-from="0.3"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.1"
-                            data-translatey="150"
-                            >
-                            <video poster="web/media/video-what.jpg" controls>
-                                <source src="web/media/video-what.mp4" type="video/mp4">
-                                <source src="web/media/video-what.webm" type="video/webm">
-                                <!-- Captions are optional -->
-                                <!-- <track kind="captions" label="English captions" src="web/media/captions.vtt" srclang="en" default> -->
-                            </video>
-                        </div>
-                    </div>
+      </div>
+      <header class="page-head">
+        <div class="rd-navbar-wrap">
+          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-stick-up-clone="false" data-md-stick-up-offset="53px" data-lg-stick-up-offset="53px" data-md-stick-up="true" data-lg-stick-up="true" class="rd-navbar rd-navbar-corporate-dark">
+            <div class="rd-navbar-inner">
+              <div class="rd-navbar-group rd-navbar-search-wrap">
+                <div class="rd-navbar-panel">
+                  <button data-custom-toggle=".rd-navbar-nav-wrap" data-custom-toggle-disable-on-blur="true" class="rd-navbar-toggle"><span></span></button><a href="index.html" class="rd-navbar-brand brand"><img src="web/img/logo.png" alt="" width="50" height="50"/></a>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-
-                    <!-- reviews -->
-                    <div class="col-md-4 text-center feature scrollme animateme"
-                        data-when="enter"
-                        data-from="0.5"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.2"
-                        data-translatex="-200"
-                        >
-                        <img width="100" src="web/img/what/reviews.png" alt="reviews">
-                        <h3 class="h4">Trusted Review Platform</h3>
-                        <strong>Be the driving force for change.</strong>
-                        <p>
-                            The first Blockchain-based platform for trusted dental treatment reviews to allow patients to raise their voice and have an impact on the global dental industry. <a href="/trusted-review-platform" title="">More...</a>
-                        </p>
-
-                    </div>
-                    <!-- /reviews -->
-
-                    <!-- dental insurance -->
-                    <div class="col-md-4 text-center feature scrollme animateme"
-                        data-when="enter"
-                        data-from="0.5"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.2"
-                        data-translatey="200"
-                        >
-                        <img width="100" src="web/img/what/insurance.png" alt="reviews">
-                        <h3 class="h4">Dental Insurance</h3>
-                        <strong>Ensure your dental health.</strong>
-                        <p>
-                            A revolutionary blockchain-based dental insurance concept where responsibility for one’s health is shared and interests are aligned between dentists and patients.
-                        </p>
-                    </div>
-                    <!-- /dental insurance -->
-
-                    <!-- healthcare database -->
-                    <div class="col-md-4 text-center feature scrollme animateme"
-                        data-when="enter"
-                        data-from="0.5"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.2"
-                        data-translatex="200"
-                        >
-                        <img width="100" src="web/img/what/health-database.png" alt="reviews">
-                        <h3 class="h4">Healthcare Database</h3>
-                        <strong>Treat your body as a whole.</strong>
-                        <p>
-                            A decentralized database of patient’s overall medical records where data will be highly protected, updatable and accessible exclusively by patients or by dentists, upon a given permission.
-                        </p>
-                    </div>
-                    <!-- /healthcare database -->
-
-                </div>
-                <!-- /.row -->
-
-                <div class="row push-top-md">
-
-                    <!-- aftercare mobile app -->
-                    <div class="col-md-4 text-center feature scrollme animateme"
-                        data-when="enter"
-                        data-from="0.5"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.2"
-                        data-translatex="-200"
-                        >
-                        <img width="100" src="web/img/what/app.png" alt="reviews">
-                        <h3 class="h4">Aftercare Mobile app</h3>
-                        <strong>Form sustainable oral health habits.</strong>
-                        <p>
-                            An interactive aftercare app to assists patients in steps to be followed post-treatment, aiming at developing long-lasting oral hygiene habits in both children and adults.
-                        </p>
-                    </div>
-                    <!-- /aftercare mobile app -->
-
-                    <!-- edicational website -->
-                    <div class="col-md-4 text-center feature scrollme animateme"
-                        data-when="enter"
-                        data-from="0.5"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.2"
-                        data-translatey="200"
-                        >
-                        <img width="100" src="web/img/what/edu-website.png" alt="reviews">
-                        <h3 class="h4">Educational Website</h3>
-                        <strong>Answer. Learn. Earn.</strong>
-                        <p>
-                            An educational website focused on expanding patients’ awareness on dental care issues. Through questionnaires and games, basic and in-depth knowledge will be formed.
-                        </p>
-                    </div>
-                    <!-- /edicational website -->
-
-                    <!-- store of value -->
-                    <div class="col-md-4 text-center feature scrollme animateme"
-                        data-when="enter"
-                        data-from="0.5"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.2"
-                        data-translatex="200"
-                        >
-                        <img width="100" src="web/img/what/Trading.png" alt="reviews">
-                        <h3 class="h4">Trading Platform</h3>
-                        <strong>Trade with DCN worldwide.</strong>
-                        <p>
-                          A decentralized Trading Platform to provide dental care products, dental materials and equipment, connecting directly manufacturers, dentists and patients. No long supply chains, no more high international transaction costs.
-                        </p>
-                    </div>
-                    <!-- /store of value -->
-
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#what -->
-
-        <!-- #roadmap -->
-        <div id="when">
-            <div class="container">
-                <h2 class="text-center scrollme animateme"
-                    data-when="enter"
-                    data-from="0.3"
-                    data-to="0"
-                    data-easing="easeinout"
-                    data-opacity="0"
-                    data-scale="1.5"
-                    data-translatey="150"
-                >When</h2>
-                <div class="col-lg-12">
-
-
-
-                    <div class="roadmap scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.1"
-                        data-translatey="150"
-                        >
-
-                        <!-- Point 01 -->
-                        <!-- dekstop, tablet, mobile => right -->
-                        <a class="point point-right point-right-xs point-hr point-01" data-toggle="modal" data-target="#modal01">
-                            <span>
-                                <span><strong>FEB</strong> 14</span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-01.png" alt="">
-                        </a>
-                        <!-- /Point 01 -->
-
-                        <!-- Point 02 -->
-                        <!-- dekstop, tablet, mobile => right -->
-                        <a class="point point-right point-right-xs point-02" data-toggle="modal" data-target="#modal02">
-                            <span>
-                                <span><strong>MAR</strong> 03</span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-02.png" alt="">
-                        </a>
-                        <!-- /Point 02 -->
-
-                        <!-- Point 03 -->
-                        <!--
-                            dekstop, tablet => right
-                            mobile => bottom
-                        -->
-                        <a class="point point-right point-bot-xs point-03" data-toggle="modal" data-target="#modal03">
-                            <span>
-                                <span><strong>MAY</strong> 20</span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-03.png" alt="">
-                        </a>
-                        <!-- /Point 03 -->
-
-                        <!-- Point 04 -->
-                        <!--
-                            dekstop, tablet => right
-                            mobile => left, text-below
-                        -->
-                        <a class="point point-right point-left-xs point-text-below-xs point-04" data-toggle="modal" data-target="#modal04">
-                            <span class="hidden-xs">
-                                <span><strong>JUNE</strong> 14</span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-04.png" alt="">
-                            <span class="visble-xs-block hidden-sm hidden-md hidden-lg">
-                                <span><strong>JUNE</strong> 14</span>
-                                <small>2017</small>
-                            </span>
-                        </a>
-                        <!-- /Point 04 -->
-
-                        <!-- Point 05 -->
-                        <!--
-                            dekstop, tablet => bottom
-                            mobile => left
-                        -->
-                        <a class="point point-bot point-left-xs point-05" data-toggle="modal" data-target="#modal05">
-                            <span>
-                                <span><strong>JULY</strong> 1</span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-05.png" alt="">
-                        </a>
-                        <!-- /Point 05 -->
-
-                        <!-- Point 06 -->
-                        <!--
-                            dekstop, tablet => left, text below
-                            mobile => bottom
-                        -->
-                        <a class="point point-left point-bot-xs point-text-below point-06" data-toggle="modal" data-target="#modal06">
-                            <span class="visble-xs-block hidden-sm hidden-md hidden-lg">
-                                <span><strong>AUG</strong> 8</span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-06.png" alt="">
-                            <span class="hidden-xs">
-                                <span><strong>AUG</strong> 8</span>
-                                <small>2017</small>
-                            </span>
-                        </a>
-                        <!-- /Point 06 -->
-
-                        <!-- Point 07 -->
-                        <!--
-                            dekstop, tablet => left
-                            mobile => right, text below
-                        -->
-                        <a class="point point-left point-right-xs point-text-below-xs point-07" data-toggle="modal" data-target="#modal07">
-                            <span class="hidden-xs">
-                                <span><strong>OCT</strong> 1</span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-07.png" alt="">
-                            <span class="visble-xs-block hidden-sm hidden-md hidden-lg">
-                                <span><strong>OCT</strong> 1</span>
-                                <small>2017</small>
-                            </span>
-                        </a>
-                        <!-- /Point 07 -->
-
-                        <!-- Point 08 -->
-                        <!--
-                            dekstop, tablet => left
-                            mobile => right
-                        -->
-                        <a class="point point-left point-right-xs point-08" data-toggle="modal" data-target="#modal08">
-                            <span>
-                                <span><strong>Q4</strong></span>
-                                <small>2017</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-08.png" alt="">
-                        </a>
-                        <!-- /Point 08 -->
-
-                        <!-- Point 09 -->
-                        <!--
-                            dekstop, tablet => left
-                            mobile => bottom
-                        -->
-                        <a class="point point-left point-bot-xs point-09" data-toggle="modal" data-target="#modal09">
-                            <span>
-                                <span><strong>Q1</strong></span>
-                                <small>2018</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-09.png" alt="">
-                        </a>
-                        <!-- /Point 09 -->
-
-                        <!-- Point 10 -->
-                        <!--
-                            dekstop, tablet => bottom
-                            mobile => left
-                        -->
-                        <a class="point point-bot point-left-xs point-text-below-xs point-10" data-toggle="modal" data-target="#modal10">
-                            <span class="hidden-xs">
-                                <span><strong>Q3</strong></span>
-                                <small>2018</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-10.png" alt="">
-                            <span class="visble-xs-block hidden-sm hidden-md hidden-lg">
-                                <span><strong>Q3</strong></span>
-                                <small>2018</small>
-                            </span>
-                        </a>
-                        <!-- /Point 10 -->
-
-                        <!-- Point 11 -->
-                        <!--
-                            dekstop, tablet => right, text below
-                            mobile => left
-                        -->
-                        <a class="point point-right point-left-xs point-text-below point-11" data-toggle="modal" data-target="#modal11">
-                            <span class="visble-xs-block hidden-sm hidden-md hidden-lg">
-                                <span><strong>OCT</strong> 1</span>
-                                <small>2018</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-11.png" alt="">
-                            <span class="hidden-xs">
-                                <span><strong>OCT</strong> 1</span>
-                                <small>2018</small>
-                            </span>
-                        </a>
-                        <!-- /Point 11 -->
-
-                        <!-- Point 12 -->
-                        <!--
-                            dekstop, tablet => right
-                            mobile => bottom
-                        -->
-                        <a class="point point-right point-bot-xs point-12" data-toggle="modal" data-target="#modal12">
-                            <span>
-                                <span><strong>Q4</strong></span>
-                                <small>2018</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-12.png" alt="">
-                        </a>
-                        <!-- /Point 12 -->
-
-                        <!-- Point 13 -->
-                        <!--
-                            dekstop, tablet => right
-                            mobile => right
-                        -->
-                        <a class="point point-right point-right-xs point-text-below-xs point-13" data-toggle="modal" data-target="#modal13">
-                            <span class="hidden-xs">
-                                <span><strong>Q3</strong></span>
-                                <small>2019</small>
-                            </span>
-                            <img width="" height="" src="web/img/roadmap/point-13.png" alt="">
-                            <span class="visble-xs-block hidden-sm hidden-md hidden-lg">
-                                <span><strong>Q3</strong></span>
-                                <small>2019</small>
-                            </span>
-                        </a>
-                        <!-- /Point 13 -->
-
-                    </div>
-                    <!-- /.roadmap -->
-
-                    </div>
-                    <!-- /.col-lg-12 -->
-
-            </div>
-            <!-- .container -->
-        </div>
-        <!-- /#roadmap -->
-
-
-
-        <!-- #how -->
-        <div id="how" class="container how">
-            <h2 class="text-center scrollme animateme"
-                data-when="enter"
-                data-from="0.3"
-                data-to="0"
-                data-easing="easeinout"
-                data-opacity="0"
-                data-scale="1.5"
-                data-translatey="50"
-                >How</h2>
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 scrollme animateme"
-                    data-when="enter"
-                    data-from="0.5"
-                    data-to="0"
-                    data-easing="easeinout"
-                    data-opacity="0"
-                    data-scale="1.2"
-                    data-translatex="-200"
-                    >
-
-                    <ol class="steps">
-
-                        <li>
-                            <h4>Earn Dentacoins</h4>
-
-                            <p>
-                                <strong>As a patient</strong> of a Dentacoin Partner Clinic you can earn Dentacoins by participating in Patient Loyalty Programs, which rewards patients for their honest opinion through feedback survey and referring the clinic to other patients.
-                            </p>
-
-                            <p>
-                                You could also earn DCN <strong>by using our value-creating tools</strong> (a review platform, an aftercare mobile app, an educational website).
-                            </p>
-
-                            <p>
-                                <strong>Spread the word</strong> about Dentacoin and increase awareness by publishing articles, creating podcasts and participating in Ted Talks. These all help us grow together and improve.
-                            </p>
-                        </li>
-
-                        <li>
-                            <h4>Buy Dentacoins</h4>
-
-                            <p>
-                                Limited amount of Dentacoins will be available for <strong>Presale on 1st July 2017.</strong>
-                                Claim your interest in the Presale <a href="https://dentacoin.com/presale/"><strong>here</strong></a>.
-                            </p>
-                        </li>
-
-                    </ol>
-
-                </div>
-                <!-- /col-md-12 col-md-offset-0 scrollme animateme -->
-
-            </div>
-            <!-- /.row -->
-
-            <!-- keep it for later there will be new video -->
-            <!-- <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-
-                        <div class="col-md-12 col-md-offset-0 scrollme animateme"
-                            data-when="enter"
-                            data-from="0.5"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="-200"
-                            >
-
-                            <ol class="steps">
-
-                                <li>
-                                    <h4>Earn Dentacoins</h4>
-
-                                    <p>
-                                        <strong>As a patient</strong> of a Dentacoin Partner Clinic you can earn Dentacoins by participating in Patient Loyalty Programs, which rewards patients for their honest opinion through feedback survey and referring the clinic to other patients.
-                                    </p>
-
-                                    <p>
-                                        You could also earn DCN <strong>by using our value-creating tools</strong> (a review platform, an aftercare mobile app, an educational website).
-                                    </p>
-
-                                    <p>
-                                        <strong>Spread the word</strong> about Dentacoin and increase awareness by publishing articles, creating podcasts and participating in Ted Talks. These all help us grow together and improve.
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <h4>Buy Dentacoins</h4>
-
-                                    <p>
-                                        Limited amount of Dentacoins will be available for <strong>Presale on 1st July 2017.</strong> -->
-                                        <!-- Това последното изречение ще трябва да го добавиш, след като реализираш третата задачка. -->
-                                        <!-- Claim your interest in the Presale <a href="http://dentacoin.com/presale/"><strong>here</strong></a>. -->
-                                    <!-- </p>
-                                </li>
-
-                            </ol>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="col-md-6 scrollme animateme"
-                    data-when="enter"
-                    data-from="0.5"
-                    data-to="0"
-                    data-easing="easeinout"
-                    data-opacity="0"
-                    data-scale="1.2"
-                    data-translatex="200"
-                    >
-                    <div id="video2" class="player">
-                        <video poster="web/media/video-how.jpg" controls>
-                            <source src="web/media/video-how.mp4" type="video/mp4">
-                            <source src="web/media/video-how.webm" type="video/webm">
-
-                            <track kind="captions" label="English captions" src="web/media/captions.vtt" srclang="en" default>
-                        </video>
-                    </div>
-                </div>
-            </div> -->
-            <!-- /.row -->
-            <!-- keep it for later there will be new video -->
-
-        </div>
-        <!-- /#how -->
-
-        <!-- #who -->
-        <div id="who" class="who">
-            <div class="container">
-                <h2 class="text-center scrollme animateme"
-                    data-when="enter"
-                    data-from="0.3"
-                    data-to="0"
-                    data-easing="easeinout"
-                    data-opacity="0"
-                    data-scale="1.5"
-                    data-translatey="50"
-                    style="margin-bottom: 60px;"
-                >Who</h2>
-                <h3 class="text-center scrollme animateme"
-                    data-when="enter"
-                    data-from="0.3"
-                    data-to="0"
-                    data-easing="easeinout"
-                    data-opacity="0"
-                    data-scale="1.5"
-                    data-translatey="50"
-                >Industry network</h3>
-                <div class="row" style="margin-bottom: 40px;" id="network">
-                  <div class="col-sm-3 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                  </div>
-                  <div class="col-sm-1 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <img src="industry network/2.png">
-                  </div>
-                  <div class="col-sm-1 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <img src="industry network/3.png">
-                  </div>
-                  <div class="col-sm-1 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <img src="industry network/4.png">
-                  </div>
-                  <div class="col-sm-1 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <img src="industry network/5.png">
-                  </div>
-                  <div class="col-sm-1 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <img src="industry network/6.png">
-                  </div>
-                  <div class="col-sm-1 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <img src="industry network/7.png">
-                  </div>
-                  <div class="col-sm-1 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <img src="industry network/8.png">
-                  </div>
-                  <div class="col-sm-2 scrollme animateme text-center"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                  </div>
-
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                    <div class="text-center scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                    >
-                        <h3 class="text-center">
-                             <a class="btn btn-default btn-lg text-center" href="https://dentacoin.com/conferences/"><strong>Meet the Team</strong></a>
-                        </h3>
-                    </div>
-                </div>
-                <!-- /.row -->
-                <br><br>
-
-                <div class="row">
-                    <div class="col-sm-4 scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                    >
-                        <h3 class="text-center">Prof. Dr. Dimitar Dimitrakiev</h3>
-                        <p class="text-center"><strong>Founder of Dentacoin Foundation</strong></p>
-                        <p class="text-center">
-                            The Founder. Highly respected University lecturer. More than 27 years experience in financial markets. Devoted to science and engineering. Member of the IEEE Computational Intelligence society, EADM and Union of Automation and Informatics.
-                        </p>
-                    </div>
-                    <div class="col-sm-4 scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                    >
-                        <h3 class="text-center">Philipp Grenzebach </h3>
-                        <p class="text-center"><strong>Co-Founder / Business Developer / M&amp;A</strong></p>
-                        <p class="text-center">
-                            The Economic Brain behind Dentacoin. Studies in Law, Economics and Business Management. Adopted the tripple bottom line to Dentacoin while integrating technical sustainability. Fighter for free, decentralised markets.
-                        </p>
-                    </div>
-                    <div class="col-sm-4 scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                    >
-                        <h3 class="text-center">Jeremias Grenzebach
-                            <span>
-                                <a href="https://twitter.com/neptox" target="_blank" class="sl">
-                                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                        <p class="text-center"><strong>Co-Founder / Core Developer</strong></p>
-                        <p class="text-center">
-                            Our Code Wizard. Early entrant into the Blockchain scene. Immersed within the peer-to-peer technology for 8 years. Contributor to Ethereum, Waves, ZCash, uPort, Status, imToken, Byteball. Strong believer in decentralization and transparency.
-                        </p>
-                    </div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Sergey Ushakov
-                            <span class="text-center">
-                                <a href="https://www.linkedin.com/in/sergey-ushakov-589573119/" target="_blank" class="sl">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                      <p class="text-center"><strong>Front-end &amp; Solidity Developer</strong></p>
-                      <p class="text-center">
-                          Our Digital Transformation Specialist. True Blockchain enthusiast. Degree in Robotics &amp; Mechatronics; currently specializing in Software Engineering. Experienced in Front-end, Solidity Programming, Digital Transformations and Business Process Automation.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Boris Nekezov</h3>
-                      <p class="text-center"><strong>Front-End Developer</strong></p>
-                      <p class="text-center">
-                          The HTML Ninja. Combines the art of design with the art of programming, thus ensuring the technical feasibility of UI/UX designs. Certified and vastly experienced in Javascript, JQuery, CSS, HTML, as well as in Quality Assurance Testing. Involved in front-end development for Blockchain start-ups.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Ayredin Stoyanov
-                            <span class="text-center">
-                                <a href="https://linkedin.com/in/ayredin-stoyanov-9a6573127" target="_blank" class="sl">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                      <p class="text-center"><strong>Graphic Designer</strong></p>
-                      <p class="text-center">
-                          Our Visual Power. Education in Multimedia Design and Software Systems and Technologies. Experienced in using visuals to communicate ideas that inspire, inform and captivate. Passionate about video creation and photography.
-                      </p>
-                  </div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Dr. Elena  Tuma
-                            <span class="text-center">
-                                <a href="https://linkedin.com/in/elena-tuma-893022137" target="_blank" class="sl">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                      <p class="text-center"><strong>Project Manager: Trusted  Review Platform</strong></p>
-
-                      <p class="text-center">
-                          The Patient Voice. Certified by the International Training Center for Dental Implantology (IFZI). Strongly believes in the power of patient feedback to change the industry for the better. Currently developing Blockchain infrastructure to collect and store trustworthy feedback as a basis for implementing a patient-driven strategy. Manages risks, budget, resources, third parties communication in regards to the project Trusted  Review Platform.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Dr.  Desislava Gercheva</h3>
-                      <p class="text-center"><strong>Project Manager: Dental  Insurance</strong></p>
-                      <p class="text-center">
-                          Our Fairness Compass. Experienced as a dentist and as a dental educator. Professional mission: to make first-class dentistry affordable to the crowd. Fights against the unequal access to dental care by constantly seeking new technologies, innovative treatment methods and fair payment options. Highly interested in peer-2-peer Insurance models. Manages risks, budget, deadlines, resources, third parties communication in regards to the project Dental  Insurance.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Dr. Violina  Filipova</h3>
-                      <p class="text-center"><strong>Project Manager: Market Research Platform</strong></p>
-                      <p class="text-center">
-                          The Health Science mind. Active researcher and lecturer on the topic: Dental Problems and their Impact on the Overall Health. Realizes the importance of up-to-date, detailed market research data. Working on creating Blockchain-based methods to collect it, analyze it, make it accessible and usable as a tool for improving the overall treatment, communication and workflow quality in the industry. Manages risks, budget, deadlines, resources, third parties communication in regards to the project Market Research Platform.
-                      </p>
-                  </div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Dr. Deyan  Novakovski</h3>
-                      <p class="text-center"><strong>Project Manager: Healthcare Database</strong></p>
-                      <p class="text-center">
-                          Our Patient Data Engine. Experienced dentist, passionate about implantology. Sees exceptional diagnostics capabilities as a mandatory prerequisite for a precise and risk-free treatment. Currently researching how to utilize Blockchain advantages in developing a storage for accurate, up-to-date and thorough patient information. Manages risks, budget, deadlines, resources, third parties communication in regards to the project Healthcare Database.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Dr. Dimo Daskalov
-                            <span class="text-center">
-                                <a href="https://www.linkedin.com/in/dimo-daskalov-94741376" target="_blank" class="sl">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                      <p class="text-center"><strong>Dental Industry Development Catalyst</strong></p>
-                      <p class="text-center">
-                          The Strongest Link between DCN and the Dental Industry. Leading dentist, currently managing a team of 19 dentists. Educator in Prosthetic Dentistry. Constantly improving dental services by implementing future technologies, delivering “WOW” patient experience and simultaneously reducing the costs. Eager to be a part of the paradigm shift.
-                      </p>
-                  </div>
-                    <div class="col-sm-4 scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                    >
-                        <h3 class="text-center">Dr. Ivan Peev</h3>
-                        <p class="text-center"><strong>Dentistry 4.0 Specialist</strong></p>
-                        <p class="text-center">
-                            Our Guide to the Digital Implantology world. Dental Implant Specialist with a significant experience in providinghigh-tech dental care by surgical guides and computer-navigated implantation systems. Phantom instructor, certified by the International Training Center for Dental Implantology (IFZI). With a Sixth sense for cutting-edge technical solutions.
-                        </p>
-                    </div>
-                </div>
-                <!-- /.row -->
-
-                <div class="row">
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Tsvetomir Ivanov</h3>
-                      <p class="text-center"><strong>Industry 4.0 Engineer</strong></p>
-                      <p class="text-center">
-                          The Future Thinker. Digital Dentistry, CAD/CAM and 3D-printing expert. Highly focused on finding ways to achieve significant efficiency, cost reduction and revenue gains through digitalization and automation. Permanently researching, evaluating and implementing high-tech dental innovations.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                  >
-                        <h3 class="text-center">Donika Kraeva
-                            <span class="text-center">
-                                <a href="https://twitter.com/donikakraeva" target="_blank" class="sl">
-                                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                        <p class="text-center"><strong>Strategic Communications Manager</strong></p>
-                        <p class="text-center">
-                            The Communications Ambassador. Translates big and complex ideas to the target group's language. Experienced in Online Medical Marketing. Developed Feedback Systems and Patient Loyalty Programs for international dental clinics. Seeking ways to utilize Blockchain advantages in building a patient-driven Dental Industry.
-                        </p>
-                  </div>
-                    <div class="col-sm-4 scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                    >
-                        <h3 class="text-center">Mariam Nishanian
-                            <span class="text-center">
-                                <a href="https://twitter.com/luckymariamm" target="_blank" class="sl">
-                                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                        <p class="text-center"><strong>Community &amp; Public Relations</strong></p>
-                        <p class="text-center">
-                            Our Public Voice. International background in PR, social media management, communications consulting and UX design. Interested in Cryptocurrency Investing. Skilled entrepreneur with experience in start-up development. In constant pursuit of new challenges.
-                        </p>
-                    </div>
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Betina Bogdanova</h3>
-                      <p class="text-center"><strong>Senior Legal Advisor</strong></p>
-                      <p class="text-center">
-                          The Voice of law. Supports the legal project management pillar of Dentacoin. Experienced in advising fintech and dental companies. Solid legal background including the Australian National University, Rijks Univesitet and Harvard Law. Previous collaborations with the WHO and Harvard School of Public Health.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Veselin Matov</h3>
-                      <p class="text-center"><strong>CRM &amp; Supply Chain Manager</strong></p>
-                      <p class="text-center">
-                          Our CRM Pro. Focused on identifying technological trends and implementing them as competitive advantages. Experienced in CRM, Dental Software Implementation, Purchasing Management. Background education in Computer Systems and Technology. Constantly exploring state-of-the-art innovations for the benefit of patients.
-                      </p>
-                  </div>
-                  <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                  >
-                      <h3 class="text-center">Ali Hashem
-                            <span class="text-center">
-                                <a href="https://linkedin.com/in/ali-hashem-541600b4/" target="_blank" class="sl">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                      </h3>
-                      <p class="text-center"><strong>Customer Support</strong></p>
-                      <p class="text-center">
-                          The Connector. Years of experience as a customer relations representative and sales manager in service industries. Always finding ways to align company targets with customer needs. Exploring the potential of Blockchain in building stronger bonds with customers.
-                      </p>
-                  </div>
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-sm-4 scrollme animateme"
-                      data-when="enter"
-                      data-from="0.3"
-                      data-to="0"
-                      data-easing="easeinout"
-                      data-opacity="0"
-                      data-scale="1.5"
-                      data-translatey="50"
-                    >
-                      <h3 class="text-center">Hristo Gradechliev</h3>
-                      <p class="text-center"><strong>CFO</strong></p>
-                      <p class="text-center">
-                          The Finance Master. Responsible for managing the finance and accounting divisions. MBA in Law. Experienced in payment ecosystems, building analytic tools, processes and teams to manage the revenue, costs and risks inherent in the payment space. With a strong flair for successful investments.
-                      </p>
-                    </div>
-                    <div class="col-sm-4 scrollme animateme"
-                        data-when="enter"
-                        data-from="0.3"
-                        data-to="0"
-                        data-easing="easeinout"
-                        data-opacity="0"
-                        data-scale="1.5"
-                        data-translatey="50"
-                    >
-                        <h3 class="text-center">Julia Radeva
-                            <span class="text-center">
-                                <a href="https://linkedin.com/in/julia-radeva-40152277" target="_blank" class="sl">
-                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                            </span>
-                        </h3>
-                        <p class="text-center"><strong>Business Development Manager</strong></p>
-                        <p class="text-center">
-                            Our Business Pioneer. 11-year experience in Business Development Management. The driving force behind several successful dental clinic concepts. Overseeing the applications of dental innovations and constantly exploring the opportunities for growth in Dental Industry.
-                        </p>
-                    </div>
-                </div>
-                  <!-- /.row -->
-
-                <!-- #Advisors -->
-                  <div class="container">
-                    <h2 class="text-center scrollme animateme"
-                    data-when="enter"
-                    data-from="0.3"
-                    data-to="0"
-                    data-easing="easeinout"
-                    data-opacity="0"
-                    data-scale="1.5"
-                    data-translatey="50"
-                    style="margin-bottom: 10px;">
-                        <br>
-                        Advisors
-                        <br>
-                        <a class="btn btn-link btn-lg advisors learn-more" role="button" href="#learnMore" aria-expanded="false" aria-controls="learnMore">
-
-                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                        </a>
-                    </h2>
-
-                      <div class="more-text hidden" id="learnMore">
-    					   <div class="lead">
-                          <div class="row">
-                              <div class="col-sm-4 scrollme animateme"
-                                  data-when="enter"
-                                  data-from="0.3"
-                                  data-to="0"
-                                  data-easing="easeinout"
-                                  data-opacity="0"
-                                  data-scale="1.5"
-                                  data-translatey="50"
-                              >
-                                  <h3 class="text-center">Dr. Steven Warren </h3>
-                                  <p class="text-center"><strong>Advisor</strong></p>
-                              </div>
-                              <div class="col-sm-4 scrollme animateme"
-                                  data-when="enter"
-                                  data-from="0.3"
-                                  data-to="0"
-                                  data-easing="easeinout"
-                                  data-opacity="0"
-                                  data-scale="1.5"
-                                  data-translatey="50"
-                              >
-                                  <h3 class="text-center">Dr. Jackson Stark</h3>
-                                  <p class="text-center"><strong>Advisor</strong></p>
-                              </div>
-                              <div class="col-sm-4 scrollme animateme"
-                                  data-when="enter"
-                                  data-from="0.3"
-                                  data-to="0"
-                                  data-easing="easeinout"
-                                  data-opacity="0"
-                                  data-scale="1.5"
-                                  data-translatey="50"
-                              >
-                                  <h3 class="text-center">Dr. Ethan Young</h3>
-                                  <p class="text-center"><strong>Advisor</strong></p>
-                                  <p class="text-center">
-                              </div>
-                          </div>
-                          <div class="row">
-                              <div class="col-sm-4 scrollme animateme"
-                                  data-when="enter"
-                                  data-from="0.3"
-                                  data-to="0"
-                                  data-easing="easeinout"
-                                  data-opacity="0"
-                                  data-scale="1.5"
-                                  data-translatey="50"
-                              >
-                                  <h3 class="text-center">Dr. David Thompson</h3>
-                                  <p class="text-center"><strong>Advisor</strong></p>
-                              </div>
-                              <div class="col-sm-4 scrollme animateme"
-                                  data-when="enter"
-                                  data-from="0.3"
-                                  data-to="0"
-                                  data-easing="easeinout"
-                                  data-opacity="0"
-                                  data-scale="1.5"
-                                  data-translatey="50"
-                              >
-                                  <h3 class="text-center">Benjamin Coleman</h3>
-                                  <p class="text-center"><strong>Advisor</strong></p>
-                              </div>
-                              <div class="col-sm-4 scrollme animateme"
-                                  data-when="enter"
-                                  data-from="0.3"
-                                  data-to="0"
-                                  data-easing="easeinout"
-                                  data-opacity="0"
-                                  data-scale="1.5"
-                                  data-translatey="50"
-                              >
-                                  <h3 class="text-center">Joshua Abelson</h3>
-                                  <p class="text-center"><strong>Advisor</strong></p>
-                                  <p class="text-center">
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!--  -->
-                    </div>
-                    <!-- /#Advisors -->
-            </div>
-        </div>
-        <!-- /#who -->
-
-        <!-- #contact -->
-        <div id="contact" class="container contact">
-            <h2 class="text-center scrollme animateme"
-                data-when="enter"
-                data-from="1"
-                data-to="0"
-                data-easing="easeinout"
-                data-opacity="0"
-                data-scale="1.5"
-                data-translatey="50"
-                >Contact</h2>
-            <div class="row">
-                <div class="col-sm-12">
-                    <ul class="social nav">
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="-200"
-                            data-rotatez="360"
-                            >
-                            <a href="mailto:admin@dentacoin.com" target="_blank" class="ml">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/mail.png"></i>
-                            <span class="mask">
-                            <span class="tip">admin@dentacoin.com</span>
-                            </span>
-                            </a>
-                        </li>
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="-200"
-                            data-rotatez="360"
-                            >
-                            <a href="https://www.facebook.com/dentacoin/" target="_blank" class="fb">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/facebook.png"></i>
-                            <span class="mask">
-                            <span class="tip">Facebook</span>
-                            </span>
-                            </a>
-                        </li>
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="-200"
-                            data-rotatez="360"
-                            >
-                            <a href="https://twitter.com/dentacoin?lang=en" target="_blank" class="tw">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/twitter.png"></i>
-                            <span class="mask">
-                            <span class="tip">Twitter</span>
-                            </span>
-                            </a>
-                        </li>
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="-200"
-                            data-rotatez="360"
-                            >
-                            <a href="https://join.slack.com/t/dentacoin/shared_invite/MjA5Nzk0MzU1OTg2LTE0OTk0ODk4MzQtNzViNzFiZjk4OQ" target="_blank" class="sl">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/slack.png"></i>
-                            <span class="mask">
-                            <span class="tip">Slack</span>
-                            </span>
-                            </a>
-                        </li>
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="200"
-                            data-rotatez="360"
-                            >
-                            <a href="https://github.com/Dentacoin" target="_blank" class="sl">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/github.png"></i>
-                            <span class="mask">
-                            <span class="tip">GitHub</span>
-                            </span>
-                            </a>
-                        </li>
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="200"
-                            data-rotatez="360"
-                            >
-                            <a href="https://steemit.com/@dentacoin" target="_blank" class="sl">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/steemit.png"></i>
-                            <span class="mask">
-                            <span class="tip">Steemit</span>
-                            </span>
-                            </a>
-                        </li>
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="200"
-                            data-rotatez="360"
-                            >
-                            <a href="https://medium.com/@dentacoin/" target="_blank" class="sl">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/medium.png"></i>
-                            <span class="mask">
-                            <span class="tip">Medium</span>
-                            </span>
-                            </a>
-                        </li>
-                        <li class="scrollme animateme"
-                            data-when="enter"
-                            data-from="0.8"
-                            data-to="0"
-                            data-easing="easeinout"
-                            data-opacity="0"
-                            data-scale="1.2"
-                            data-translatex="200"
-                            data-rotatez="360"
-                            >
-                            <a href="https://www.reddit.com/r/Dentacoin/" target="_blank" class="sl">
-                            <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/reddit.png"></i>
-                            <span class="mask">
-                            <span class="tip">Reddit</span>
-                            </span>
-                            </a>
-                        </li>
+                <div class="rd-navbar-nav-wrap">
+                  <div class="rd-navbar-nav-inner">
+                    <ul class="rd-navbar-nav">
+                      <li><a href="https://www.dentacoin.com/">Home</a>
+                      </li>
+                      <li><a href="white-paper\Whitepaper-en.pdf" target="_blank">Whitepaper</a>
+                      </li>
+                      <li><a href="#who">Team</a>
+                      </li>
+                      <li><a href="https://dentacoin.com/ico-faq/">FAQ</a>
+                      </li>
+                      <li><a href="https://www.dentacoin.com/ico/">ICO</a>
+                      </li>
+                      <li><a href="https://www.dentacoin.com/blog/" target="_blank">Blog</a>
+                      </li>
+                      <li><a class="fa fa-globe" href="#" style="font-size: 16px;"></a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="https://www.dentacoin.com/de">Deutsch</a>
+                          </li>
+                          <li><a href="https://www.dentacoin.com/ch">中文</a>
+                          </li>
+                          <li><a href="https://www.dentacoin.com/nl">Dutch</a>
+                          </li>
+                          <li><a href="https://www.dentacoin.com/ru">Русский</a>
+                          </li>
+                        </ul>
+                      </li>
                     </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="divider-fullwidth bg-porcelain"></div>
+      </header>
+
+      <section id="why" class="text-center" style="margin-bottom: 50px;">
+          <div class="shell">
+            <div class="range range-sm-center">
+              <div class="cell-sm-12">
+                <h3 class="text-lowercase">
+                  <img src="dcn.png" alt="Dentacoin"><br> <span class="text-capitalize">The</span>Blockchain Solution for the Global Dental Industry.
+                </h3>
+                <p id="telegram-hack">
+                  <br><span style="color: red;">Our Telegram Channel has been compromised.</span>
+                  <br><span style="color: red;">Do not use any ICO-address, besides the one announced on this website.</span>
+                  <br><span style="color: red;">New <a href="https://t.me/Dentacoin_Official" target="_blank" class="text-blue">Telegram</a> channel</span>
+                </p3>
+                <div class="range offset-top-30">
+                  <div class="cell-xs-12">
+                    <div class="countdown-wrap block-centered">
+                      <h4 class="offset-top-30">Dentacoin Token Sale Live! </h4>
+                      <a class="btn btn-primary btn-block" href="https://www.dentacoin.com/ico/">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="responsive-video">
+                  <iframe width="853" height="480" src="https://www.youtube.com/embed/aJc9cIYFbH0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <div class="range range-sm-center offset-top-60">
+                  <div class="cell-sm-10 cell-md-8 cell-lg-6">
+                    <div class="panel panel-custom panel-light cell-sm-10 cell-md-8 cell-lg-6 offset-top-75">
+                      <div id="accordionOneHeading2" role="tab" class="panel-heading">
+                          <div class="panel-title"><a role="button" href="ico-faq/index.html" aria-controls="accordionOneCollapse2" class="collapsed">FAQ
+                            <div class="panel-arrow"></div></a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lead about-text cell-sm-6 cell-md-5 cell-lg-4 offset-top-0 offset-sm-top-0 offset-xl-top-0" id="mc_embed_signup">
+              <!-- <p style="font-size: 16px;" class="offset-top-15"><span class="text-blue text-ubold h6"><?php echo get_member_count()?></span> subscribers waiting for the start…</p> -->
+                <form action="//dentacoin.us15.list-manage.com/subscribe/post?u=2db886e44db15e869246f6964&amp;id=6906b05278" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-modern form-inverse offset-top-10" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll" class="form-group">
+                    <div class=""><input type="email" name="EMAIL" tabindex="-1" id="input-email" placeholder="Email" style="border-color: rgba(0,0,0,0.5);" class="form-control text-white-05" required></div>
+                    <div class="clear"><input type="submit" value="Sign up for insider info" name="subscribe" id="sign" class="btn btn-primary btn-block offset-top-35"></div>
+                  </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2db886e44db15e869246f6964_6906b05278" tabindex="-1" value=""></div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div style="height: 20px;"></div>
+        </section>
+
+      <!--
+      <section>
+        <div data-loop="false" data-autoplay="true" data-simulate-touch="true" class="swiper-container swiper-slider swiper-variant-1 bg-gray-base">
+          <div class="swiper-wrapper text-center">
+            <div data-slide-bg="images/home-slider-1-slide-1.jpg" class="swiper-slide">
+              <div class="swiper-slide-caption">
+                <div class="shell">
+                  <div class="range range-xs-center">
+                    <div class="cell-sm-11 cell-md-10">
+                      <div data-caption-animate="fadeInUp" data-caption-delay="0s" class="text-white text-uppercase jumbotron-custom border-modern">Dentacoin</div>
+                      <div data-caption-animate="fadeInUp" data-caption-delay="450s" class="offset-sm-top-5">
+                        <p class="text-big-19 text-white veil reveal-sm-inline-block">Crowd Power to Shape the Future of Dental Care</p>
+                      </div>
+                      <div data-caption-animate="fadeInUp" data-caption-delay="550s" class="offset-top-27"><a href="appointment.html" class="btn btn-primary">make An Appointment</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-slide-bg="images/bg-image-5.jpg" class="swiper-slide">
+              <div class="swiper-slide-caption">
+                <div class="shell">
+                  <div class="range range-xs-center">
+                    <div class="cell-sm-11 cell-md-10 cell-lg-12">
+                      <div data-caption-animate="fadeInUp" data-caption-delay="0s" class="text-white text-uppercase jumbotron-custom border-modern">We Provide Proper Audit Solutions<span class="border-modern-item-1"></span><span class="border-modern-item-2"></span><span class="border-modern-item-3"></span><span class="border-modern-item-4"></span></div>
+                      <div data-caption-animate="fadeInUp" data-caption-delay="450s" class="offset-sm-top-5">
+                        <p class="text-big-19 text-white veil reveal-sm-inline-block">Optimize audit costs using our years of experience</p>
+                      </div>
+                      <div data-caption-animate="fadeInUp" data-caption-delay="550s" class="offset-top-27"><a href="appointment.html" class="btn btn-primary">make An Appointment</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-scrollbar veil-lg"></div>
+          <div class="swiper-nav-wrap veil reveal-lg-block">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      -->
+
+      <!--Icon box-->
+      <section id="what" class="text-center section-100">
+        <h3 class="text-center">What</h3>
+        <div class="range range-sm-center">
+          <div class="cell-sm-12">
+            <div class="col-sm-4">
+              <div class="panel panel-custom panel-light cell-sm-10 cell-md-8 cell-lg-6">
+                <div id="accordionOneHeading2" role="tab" class="panel-heading">
+                  <div class="panel-title"><a role="button" href="..\white-paper\Whitepaper-en.pdf" class="collapsed" target="_blank"><center>Whitepaper</center>
+                    <div class="panel-arrow"></div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-custom panel-light cell-sm-10 cell-md-8 cell-lg-6">
+                    <div id="accordionOneHeading2" role="tab" class="panel-heading">
+                      <div class="panel-title"><a role="button" href="concept-summary/index.html" class="collapsed">Concept summary
+                        <div class="panel-arrow"></div></a>
+                      </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- /#contact -->
-        <footer>
-            <div class="container">
-                <p class="text-center signature">
-                    &copy; Dentacoin Foundation. All rights reserved.
-                    <br>
-                    Wim Duisenbergplantsoen 31 6221 SE Maastricht The Netherlands
-                    <br>
-                    Web Design and Development: <a href="mailto:boris.nekezov@gmail.com">Boris Nekezov</a>
-                </p>
+            <div class="col-sm-4">
+                <div class="panel panel-custom panel-light cell-sm-10 cell-md-8 cell-lg-6">
+                    <div id="accordionOneHeading2" role="tab" class="panel-heading">
+                      <div class="panel-title"><a href="https://dentacoin.com/ico-faq/" role="button" class="collapsed">FAQ<div class="panel-arrow"></div></a>
+                      </div>
+                    </div>
+                </div>
             </div>
-        </footer>
-
-        <!-- Modal Windows -->
-
-
-
-
-
-
-        <!-- #modal01 -->
-        <div class="modal fade" id="modal01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Token Release</h4>
-              </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
           </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal01 -->
-
-        <!-- #modal02 -->
-        <div class="modal fade" id="modal02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Formation of Dentacoin Foundation</h4>
-              </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
+          <div class="shell">
+            <p class="cell-sm-8 cell-md-8 cell-lg-6 offset-top-30">Dentacoin is the first Blockchain concept designed for the Global Dental Industry. The Dentacoin ERC20 token is configured to
+            be used globally by all individuals. Dentacoin aims at improving dental care worldwide and making it affordable through crowd
+            power. Numerous Blockchain-based tools will be developed and implemented.
+            </p>
           </div>
-          <!-- /.modal-dialog -->
         </div>
-        <!-- #modal02 -->
-
-        <!-- #modal03 -->
-        <div class="modal fade" id="modal03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="text-center"><a href="http://dentacoin.com/">www.dentacoin.com</a> v0.1 Release</h4>
+        <div class="range range-condensed range-xs-center range-sm-left">
+          <div class="cell-xs-10 cell-sm-4 height-fill">
+            <article class="icon-box icon-box-top-line">
+              <div class="box-top">
+                <span class="icon icon-primary icon-lg icon-1"></span>
+                <div class="box-header">
+                  <h5><a href="https://reviews.dentacoin.com/" target="_blank">Trusted Review Platform</a></h5>
+                </div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
+              <div class="box-body">
+                <p class="text-gray-base"><strong>Be the driving force for change.</strong><br>The first Blockchain-based platform for trusted dental treatment reviews to allow patients to raise their voice and have an impact on the global dental industry.</p>
+              </div><a href="https://reviews.dentacoin.com/" target="_blank" class="btn btn-icon-only btn-icon-single btn-icon-default"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
+            </article>
           </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal03 -->
-
-        <!-- #modal04 -->
-        <div class="modal fade" id="modal04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Dentaprime Internation plc. purchased in DCN (92 000 000 USD) (31 506 350 331 DCN)</h4>
+          <div class="cell-xs-10 cell-sm-4 height-fill offset-top-40 offset-sm-top-0">
+            <article class="icon-box icon-box-top-line">
+              <div class="box-top">
+                <div class="box-icon"><span class="icon icon-primary icon-lg icon-2"></span></div>
+                <div class="box-header">
+                  <h5><a href="#">Dental Insurance</a></h5>
+                </div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
+              <div class="box-body">
+                <p class="text-gray-base"><strong>Ensure your dental health.</strong><br>A revolutionary blockchain-based dental insurance concept where responsibility for one’s health is shared and interests are aligned between dentists and patients.</p>
+              </div><a href="#" class="btn btn-icon-only btn-icon-single btn-icon-default"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
+            </article>
           </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal04 -->
-
-        <!-- #modal05 -->
-        <div class="modal fade" id="modal05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Public Presale</h4>
+          <div class="cell-xs-10 cell-sm-4 height-fill offset-top-40 offset-sm-top-0">
+            <article class="icon-box icon-box-top-line">
+              <div class="box-top">
+                <div class="box-icon"><span class="icon icon-primary icon-lg icon-3"></span></div>
+                <div class="box-header">
+                  <h5><a href="#">Healthcare Database</a></h5>
+                </div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
+              <div class="box-body">
+                <p class="text-gray-base"><strong>Treat your body as a whole.</strong><br>A decentralised database of patients overall medical records where data will be highly protected, updatable and accessible exclusively by patients or by dentists, upon a given permission.</p>
+              </div><a href="#" class="btn btn-icon-only btn-icon-single btn-icon-default"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
+            </article>
           </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal05 -->
-
-        <!-- #modal06 -->
-        <div class="modal fade" id="modal06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Trusted Review Platform Launch (testnet)</h4>
+          <div class="cell-xs-10 cell-sm-4 height-fill offset-top-40 offset-sm-top-0">
+            <article class="icon-box">
+              <div class="box-top">
+                <div class="box-icon"><span class="icon icon-primary icon-lg icon-4"></span></div>
+                <div class="box-header">
+                  <h5><a href="#">Aftercare Mobile app</a></h5>
+                </div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
+              <div class="box-body">
+                <p class="text-gray-base"><strong>Form sustainable oral health habits.</strong><br>An interactive aftercare app to assist patients in steps to be followed post-treatment, aiming at developing long-lasting oral hygiene habits in both children and adults.</p>
+              </div><a href="#" class="btn btn-icon-only btn-icon-single btn-icon-default"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
+            </article>
           </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal06 -->
-
-        <!-- #modal07 -->
-        <div class="modal fade" id="modal07" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Token Sale</h4>
+          <div class="cell-xs-10 cell-sm-4 height-fill offset-top-40 offset-sm-top-0">
+            <article class="icon-box">
+              <div class="box-top">
+                <div class="box-icon"><span class="icon icon-primary icon-lg icon-5"></span></div>
+                <div class="box-header">
+                  <h5><a href="#">DentaVox</a></h5>
+                </div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
+              <div class="box-body">
+                <p class="text-gray-base"><strong>Answer. Learn. Earn.</strong><br>A WebApp for collective customer wisdom, which serves as an up-to-date market research data through questionnaires and rewards. Dentist can have access to this valuable information and apply this "wisdom" to improve.</p>
+              </div><a href="#" class="btn btn-icon-only btn-icon-single btn-icon-default"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
+            </article>
           </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal07 -->
-
-        <!-- #modal08 -->
-        <div class="modal fade" id="modal08" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Trusted Review Platform Launch (mainnet)</h4>
+          <div class="cell-xs-10 cell-sm-4 height-fill offset-top-40 offset-sm-top-0">
+            <article class="icon-box">
+              <div class="box-top">
+                <div class="box-icon"><span class="icon icon-primary icon-lg icon-6"></span></div>
+                <div class="box-header">
+                  <h5><a href="#">Trading Platform</a></h5>
+                </div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
+              <div class="box-body">
+                <p class="text-gray-base"><strong>Trade with DCN worldwide.</strong><br>A decentralised Trading Platform to provide dental care products, dental materials and equipment, connecting directly manufacturers, dentists and patients. No long supply chains, no more high international transaction costs.</p>
+              </div><a href="#" class="btn btn-icon-only btn-icon-single btn-icon-default"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
+            </article>
           </div>
-          <!-- /.modal-dialog -->
         </div>
-        <!-- #modal08 -->
+      </section>
 
-        <!-- #modal09 -->
-        <div class="modal fade" id="modal09" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Review App Release</h4>
+      <section class="section-with-counters text-center">
+          <div class="shell bg-cape-cod context-dark section-100 section-md-90">
+            <h3 class="text-center">Stats</h3>
+            <div class="range offset-top-60 list-md-dashed">
+              <div class="cell-sm-4 offset-top-40 offset-sm-top-0">
+                <div id="circulatingDCN" class="h1 small counter-bold counter">303095254787</div>
+                <div class="offset-top-0 text-bold text-dark text-uppercase">Circulating Supply</div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal09 -->
-
-        <!-- #modal10 -->
-        <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Market Research Survey Integration</h4>
+              <div class="cell-sm-4 offset-top-40 offset-sm-top-0">
+                <div id="lockedDCN" class="h1 small counter-bold counter">7696904745213</div>
+                <div class="offset-top-0 text-bold text-dark text-uppercase">Locked Amount</div>
               </div>
-              <!-- /.modal-body -->
-            </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal10 -->
-
-        <!-- #modal11 -->
-        <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Token Sale</h4>
+              <div class="cell-sm-4 offset-top-40 offset-sm-top-0">
+                <div id="totalDCN" class="h1 small counter-bold counter">8000000000000</div>
+                <div class="offset-top-0 text-bold text-dark text-uppercase">Total Supply</div>
               </div>
-              <!-- /.modal-body -->
             </div>
-            <!-- /.modal-content -->
+            <div class="offset-top-50 inset-xs-left-60 inset-xs-right-60">
+              <div class="text-dark text-center">*K = thousand (10^3, Kilo) / *M = million (10^6, Mega) / *G = billion (10^9, Giga) / *T = trillion (10^12, Tera)</div>
+            </div>
           </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- #modal11 -->
+        </section>
 
-        <!-- #modal12 -->
-        <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Dentacoin Insurance Launch (testnet)</h4>
+      <!--
+      <section class="section-with-counters bg-primary text-center">
+        <div class="shell bg-cape-cod context-dark section-100 section-md-90">
+          <h4 class="text-rolling-stone text-bold text-uppercase">Looking for</h4>
+          <h3 class="offset-top-2"><span class="text-thin">a First-Class</span> auditor?
+          </h3>
+          <p class="text-white">With a lot of experience in audit, hiring us will become a proper solution for your business!</p>
+          <div class="range offset-top-60 list-md-dashed">
+            <div class="cell-sm-3">
+              <div class="h1 small counter-bold counter">850</div>
+              <div class="offset-top-0 text-bold text-white text-uppercase">Trusted Clients</div>
+            </div>
+            <div class="cell-sm-3 offset-top-40 offset-sm-top-0">
+              <div class="h1 small counter-bold counter">18</div>
+              <div class="offset-top-0 text-bold text-white text-uppercase">Awards</div>
+            </div>
+            <div class="cell-sm-3 offset-top-40 offset-sm-top-0">
+              <div class="h1 small counter-bold counter">21</div>
+              <div class="offset-top-0 text-bold text-white text-uppercase">Years of Experience</div>
+            </div>
+            <div class="cell-sm-3 offset-top-40 offset-sm-top-0">
+              <div class="h1 small counter-bold counter">16</div>
+              <div class="offset-top-0 text-bold text-white text-uppercase">Experts</div>
+            </div>
+          </div>
+          <div class="offset-top-50 offset-md-top-75 inset-xs-left-60 inset-xs-right-60">
+            <div class="reveal-sm-flex range-sm-center range-sm-middle"><a href="appointment.html" class="btn btn-rect btn-primary reveal-block reveal-sm-inline-block">Make an Appointment</a><span class="text-italic text-white inset-sm-left-20 inset-sm-right-20 reveal-block reveal-sm-inline-block text-big-18">or</span><a href="services.html" style="min-width:236px;" class="btn btn-rect btn-white-outline offset-top-0 reveal-block reveal-sm-inline-block">See All services</a></div>
+          </div>
+        </div>
+      </section>
+      -->
+      <section id="when" class="section-100">
+        <h3 class="text-center">When</h3>
+        <picture>
+          <source media="(min-width: 992px)" srcset="web/img/roadmap.png">
+          <source media="(max-width: 991px)" srcset="web/img/roadmap-vert.png">
+          <img class="offset-top-22 offset-md-top-60" src="web/img/roadmap.png" alt="dentacoin roadmap">
+        </picture>
+      </section>
+      <section id="how" class="section-100">
+        <div class="shell">
+          <div class="range range-sm-center">
+            <div class="cell-sm-12">
+              <h3 class="text-center">How</h3>
+              <div class="block-centered cell-sm-10 cell-md-8 cell-lg-6 offset-top-60">
+                <p class="col-xs-8 col-xs-push-2 text-big-19">At the moment there are two ways to get Dentacoins. Earn and Buy.</p>
+                <ol type="1" class="col-xs-8 col-xs-push-2">
+                  <li>
+                    <p class="text-big">Earn:</p>
+                    <p>By registering on our first tool, the <a href="https://reviews.dentacoin.com/" terget="_blank">Trusted Review Platform</a></p>
+                    <p>As a patient at a partner clinic, by participating in Patient Loyalty Programs</p>
+                    <p>Our ICO Bounty Program, announced <a href="https://bitcointalk.org/index.php?topic=2033283" target="_blank">here</a></p>
+                  </li>
+                  <li>
+                    <p class="text-big">Buy:</p>
+                    <p> Dentacoin is listed on <a href="https://coinmarketcap.com/assets/dentacoin">Coinmarketcap</a> and is free traded on the following international exchange platforms: <a href="https://www.cryptopia.co.nz/Exchange/?market=DCN_BTC"  target="_blank">Cryptopia</a>, <a href="https://etherdelta.github.io/#DCN-ETH"  target="_blank">EtherDelta</a>, <a href="https://mercatox.com/exchange/DCN/BTC" target="_blank">Mercatox</a> and <a href="https://www.coinexchange.io/" target="_blank">Coinexchange</a></p>
+                    <p>You can also buy Dentacoins on our ICO, starting on 1st of October 2017.</p>
+                  </li>
+                </ol>
               </div>
-              <!-- /.modal-body -->
             </div>
-            <!-- /.modal-content -->
           </div>
-          <!-- /.modal-dialog -->
         </div>
-        <!-- #modal12 -->
+      </section>
 
-        <!-- #modal13 -->
-        <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="text-center">Healthcare Database Integration</h4>
+      <section class="section-100">
+        <div slass="shell">
+          <div class="range range-sm-center">
+            <h3 class="text-center">Where</h3>
+          </div>
+          <h4 class="text-center">Wallets:</h4>
+          <div class="range range-sm-center text-center" style="margin-top: 0;">
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-2 offset-top-15"></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://www.myetherwallet.com/" target="_blank"><img src="web/img/where/myetherwallet.png" alt="myetherwallet.com"></a></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://metamask.io/" target="_blank"><img src="web/img/where/metamask.png" alt="metamask.io"></a></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://coinomi.com/" target="_blank"><img src="web/img/where/coinomi.png" alt="coinomi.com"></a></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://token.im/" target="_blank"><img src="web/img/where/imtoken.png" alt="token.im"></a></div>
+            </div>
+          </div>
+          <h4 class="text-center">Exchange platform:</h4>
+          <div class="range range-sm-center text-center" style="margin-top: 0;">
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-3 offset-top-15"></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://www.cryptopia.co.nz/Home" target="_blank"><img src="web/img/where/cryptopia.png" alt="cryptopia.co.nz"></a></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://www.coinexchange.io/" target="_blank"><img src="web/img/where/coinexchange.png" alt="coinexchange.io"></a></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://mercatox.com/" target="_blank"><img src="web/img/where/mercatox.png" alt="mercatox.com"></a></div>
+            </div>
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-4 offset-top-15"></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://etherdelta.com" target="_blank"><img src="web/img/where/etherdelta.png" alt="etherdelta.com"></a></div>
+              <div class="col-sm-2 offset-top-15"><a href="https://hitbtc.com/" target="_blank"><img src="web/img/where/hitbtc.png" alt="hitbtc.com"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="who" class="section-100">
+        <h3 class="text-center">Who</h3>
+        <div class="shell">
+          <h4 class="text-center">
+            Industry network
+          </h4>
+          <h5 class="small text-center text-dark" style="margin: 0 0 10px;">
+            System providers of the Dentacoin partner clinics.
+          </h5>
+          <div class="row" style="margin-top: 0" id="network">
+            <div class="col-sm-3 text-center">
+            </div>
+            <div class="col-sm-1 text-center">
+                <img src="industry network/2.png">
+            </div>
+            <div class="col-sm-1 text-center">
+                <img src="industry network/3.png">
+            </div>
+            <div class="col-sm-1 text-center">
+                <img src="industry network/4.png">
+            </div>
+            <div class="col-sm-1 text-center">
+                <img src="industry network/5.png">
+            </div>
+            <div class="col-sm-1 text-center">
+                <img src="industry network/6.png">
+            </div>
+            <div class="col-sm-1 text-center">
+                <img src="industry network/8.png">
+            </div>
+            <div class="col-sm-2 text-center">
+            </div>
+          </div>
+          <div class="offset-top-22 offset-md-top-40">
+            <div data-items="1" data-sm-items="3" data-stage-padding="15" data-loop="true" data-autoplay="false" data-margin="15" data-mouse-drag="true" data-nav="true" data-dots="false" class="owl-carousel owl-carousel-center owl-nav-modern owl-style-minimal owl-style-minimal-inverse text-center">
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/profdimitrakiev.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Prof. Dr. Dimitar Dimitrakiev</h4>
+                  <div class="text-dusty-gray profile-width">Founder of Dentacoin Foundation <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Founder. Highly respected University lecturer. More than 27 years experience in financial markets. Devoted to science and engineering.
+                      Member of the IEEE Computational Intelligence society, EADM and Union of Automation and Informatics.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:founder@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                  </div>
+                </div>
               </div>
-              <!-- /.modal-body -->
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/phillip.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Philipp Grenzebach</h4>
+                  <div class="text-dusty-gray profile-width">Co-Founder / Business Developer / M&amp;A <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Economic Brain behind Dentacoin. Studies in Law, Economics and Business Management. Adopted the triple bottom line to Dentacoin while
+                      integrating technical sustainability. Fighter for free, decentralised markets.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:philipp.grenzebach@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://www.linkedin.com/in/philipp-g-986861146/" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/jeri.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Jeremias Grenzebach</h4>
+                  <div class="text-dusty-gray profile-width">Co-Founder / Core Developer <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Code Wizard. Early entrant into the Blockchain scene. Immersed within the peer-to-peer technology for 8 years. Contributor to Ethereum,
+                      Waves, ZCash, uPort, Status, imToken, Byteball. Strong believer in decentralization and transparency.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:jeremias.grenzebach@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://github.com/neptox" target="_blank"><span class="icon icon-xs icon-primary fa fa-github"></span></a>
+                    <a href="https://twitter.com/neptox" target="_blank"><span class="icon icon-xs icon-primary fa fa-twitter-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/sergey.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Sergey Ushakov</h4>
+                  <div class="text-dusty-gray profile-width">Front-end &amp; Solidity Developer <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Digital Transformation Specialist. True Blockchain enthusiast. Degree in Robotics &amp; Mechatronics; currently specializing in
+                      Software Engineering. Experienced in Front-end, Solidity Programming, Digital Transformations and Business Process Automation.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:sergey.ushakov@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://www.linkedin.com/in/sergey-ushakov-589573119/" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/alex.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Alexander Atanasov</h4>
+                  <div class="text-dusty-gray profile-width">Web Developer <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Review Platform developer. Experienced in creating web &amp; mobile experiences and providing IT solutions for business processes optimization &amp;
+                         automation. Diving into the deeps of AI, Machine Learning and crypto technologies.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:alexander.atanasov@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://www.linkedin.com/in/aatanassov/" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/atanas.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Atanas Chervarov</h4>
+                  <div class="text-dusty-gray profile-width">Mobile App Developer <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The developer of our Aftercare Mobile App. Over 6 years experience in developing games and apps for mobile platforms. A solid background in cocos2d/cocos2dx game development as well
+                        as working on games with Unity3D. Following the latest innovations in the IT industry.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:atanas.chervarov@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://github.com/atanaschervarov" target="_blank"><span class="icon icon-xs icon-primary fa fa-github"></span></a>
+                    <a href="https://www.linkedin.com/in/atanaschervarov/" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/harry.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Ayredin Stoyanov</h4>
+                  <div class="text-dusty-gray profile-width">Graphic Designer <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Visual Power. Education in Multimedia Design and Software Systems and Technologies. Experienced in using visuals to communicate
+                      ideas that inspire, inform and captivate. Passionate about video creation and photography.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:ayredin.stoyanov@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://www.linkedin.com/in/ayredin-stoyanov-9a6573127" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/kosierowski.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>F. Mark Kosierowski</h4>
+                  <div class="text-dusty-gray profile-width">Finance and Insurance Adviser <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Insurance Guide. US-based writer with a degree in Economics and over 30 years of experience in the insurance and financial industry.
+                        Former Certified Financial Planner who has advised clients on captive insurance companies, risk transfer and risk distribution strategies.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="https://www.linkedin.com/in/mark-kosierowski-079728aa/" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/drtuma.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Dr. Elena Tuma</h4>
+                  <div class="text-dusty-gray profile-width">Project Manager: Trusted Review Platform <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Patient Voice. Certified by the International Training Center for Dental Implantology (IFZI). Strongly believes in the power of
+                      patient feedback to change the industry for the better. Currently developing Blockchain infrastructure to collect and store trustworthy
+                      feedback as a basis for implementing a patient-driven strategy. Manages risks, budget, resources, third parties communication in regards
+                      to the project Trusted Review Platform.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group"><a href="https://linkedin.com/in/elena-tuma-893022137" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a></div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/drgercheva.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Dr. Desislava Gercheva</h4>
+                  <div class="text-dusty-gray profile-width">Project Manager: Dental Insurance <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Fairness Compass. Experienced as a dentist and as a dental educator. Professional mission: to make first-class dentistry
+                      affordable to the crowd. Fights against the unequal access to dental care by constantly seeking new technologies, innovative treatment
+                      methods and fair payment options. Highly interested in peer-2-peer Insurance models. Manages risks, budget, deadlines, resources, third
+                      parties communication in regards to the project Dental Insurance.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/drfilipova.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Dr. Violina Filipova</h4>
+                  <div class="text-dusty-gray profile-width">Project Manager: Market Research Platform <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Health Science mind. Active researcher and lecturer on the topic: Dental Problems and their Impact on the Overall Health.
+                      Realizes the importance of up-to-date, detailed market research data. Working on creating Blockchain-based methods to collect it,
+                      analyze it, make it accessible and usable as a tool for improving the overall treatment, communication and workflow quality in the
+                      industry. Manages risks, budget, deadlines, resources, third parties communication in regards to the project Market Research Platform.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/drnovakovski.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Dr. Deyan Novakovski</h4>
+                  <div class="text-dusty-gray profile-width">Project Manager: Healthcare Database <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Patient Data Engine. Experienced dentist, passionate about implantology. Sees exceptional diagnostics capabilities as a
+                      mandatory prerequisite for a precise and risk-free treatment. Currently researching how to utilize Blockchain advantages in developing
+                      a storage for accurate, up-to-date and thorough patient information. Manages risks, budget, deadlines, resources, third parties
+                      communication in regards to the project Healthcare Database.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/drdaskalov.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Dr. Dimo Daskalov</h4>
+                  <div class="text-dusty-gray profile-width">Dental Industry Development Catalyst <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Strongest Link between DCN and the Dental Industry. Leading dentist, currently managing a team of 19 dentists. Educator in
+                      Prosthetic Dentistry. Constantly improving dental services by implementing future technologies, delivering “WOW” patient experience
+                      and simultaneously reducing the costs. Eager to be a part of the paradigm shift.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group"><a href="https://www.linkedin.com/in/dimo-daskalov-94741376" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a></div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/drpeev.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Dr. Ivan Peev</h4>
+                  <div class="text-dusty-gray profile-width">Dentistry 4.0 Specialist <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Guide to the Digital Implantology world. Dental Implant Specialist with a significant experience in providing high-tech dental
+                      care by surgical guides and computer-navigated implantation systems. Phantom instructor, certified by the International Training Center
+                      for Dental Implantology (IFZI). With a Sixth sense for cutting-edge technical solutions.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/ceco.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Tsvetomir Ivanov</h4>
+                  <div class="text-dusty-gray profile-width">Industry 4.0 Engineer <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Future Thinker. Digital Dentistry, CAD/CAM and 3D-printing expert. Highly focused on finding ways to achieve significant
+                      efficiency, cost reduction and revenue gains through digitalization and automation. Permanently researching, evaluating and implementing
+                      high-tech dental innovations.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/donika.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Donika Kraeva</h4>
+                  <div class="text-dusty-gray profile-width">Strategic Communications Manager <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Communications Ambassador. Translates big and complex ideas to the target group's language. Experienced in Online Medical
+                      Marketing. Developed Feedback Systems and Patient Loyalty Programs for international dental clinics. Seeking ways to utilize Blockchain
+                      advantages in building a patient-driven Dental Industry.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:donika.kraeva@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://twitter.com/donikakraeva" target="_blank"><span class="icon icon-xs icon-primary fa fa-twitter-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/mariam.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Mariam Nishanian</h4>
+                  <div class="text-dusty-gray profile-width">Community &amp; Public Relations <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Public Voice. International background in PR, social media management, communications consulting and UX design. Interested
+                      in Cryptocurrency Investing. Skilled entrepreneur with experience in start-up development. In constant pursuit of new challenges.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group">
+                    <a href="mailto:mariam.nishanian@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                    <a href="https://twitter.com/luckymariamm" target="_blank"><span class="icon icon-xs icon-primary fa fa-twitter-square"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/tihomir.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Tihomir Petrov</h4>
+                  <div class="text-dusty-gray profile-width">Community Relations &amp; Customer Support <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Community Builder. Experience in Marketing and Customer Support. Currently getting a degree in Business and Management. Passionate
+                         about cryptoeconomics, innovations and sociology. Finding and establishing communication channels to build a strong community around Dentacoin.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <a href="mailto:tihomir.petrov@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/tihomir-petrov-8574b6121/" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                  <a href="https://twitter.com/tisho_" target="_blank"><span class="icon icon-xs icon-primary fa fa-twitter-square"></span></a>
+                  <a href="https://www.reddit.com/user/simplyaphilomath/" target="_blank"><span class="icon icon-xs icon-primary fa fa-reddit"></span></a>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/rafat.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Rafat Hamud</h4>
+                  <div class="text-dusty-gray profile-width">Customer Support &amp; Product Development <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Solid Customer Support Pillar. Education in Software Systems and Game Development. Passionate about projects with a global impact.
+                         Experience at a Norwegian startup company for mobile apps. Supporting the tech and creative aspects of the Dentacoin tools development.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <a href="mailto:rafat.hamud@dentacoin.com" target="_blank"><span class="icon icon-xs icon-primary fa fa-envelope"></span></a>
+                  <a href="https://www.linkedin.com/in/rafat-hamud-0b790a139/?ppe=1" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div style="width: 135px;height: 129px;" class="thumbnail-variant-5-img-wrap"><img src="" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Betina Bogdanova</h4>
+                  <div class="text-dusty-gray profile-width">Senior Legal Advisor <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Voice of law. Supports the legal project management pillar of Dentacoin. Experienced in advising fintech and dental companies.
+                      Solid legal background including the Australian National University, Rijks Univesitet and Harvard Law. Previous collaborations with the
+                      WHO and Harvard School of Public Health.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/vess.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Veselin Matov</h4>
+                  <div class="text-dusty-gray profile-width">CRM &amp; Supply Chain Manager <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our CRM Pro. Focused on identifying technological trends and implementing them as competitive advantages. Experienced in CRM,
+                      Dental Software Implementation, Purchasing Management. Background education in Computer Systems and Technology. Constantly exploring
+                      state-of-the-art innovations for the benefit of patients.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/alih.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Ali Hashem</h4>
+                  <div class="text-dusty-gray profile-width">Sales Specialist &amp; Customer Support <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Connector. Years of experience as a customer relations representative and sales manager in service industries. Always finding
+                      ways to align company targets with customer needs. Exploring the potential of Blockchain in building stronger bonds with customers.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                  <div class="link-group"><a href="https://www.linkedin.com/in/ali-hashem-541600b4/" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a></div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/gradechliev.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Hristo Gradechliev</h4>
+                  <div class="text-dusty-gray profile-width">CFO <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>The Finance Master. Responsible for managing the finance and accounting divisions. MBA in Law. Experienced in payment ecosystems,
+                      building analytic tools, processes and teams to manage the revenue, costs and risks inherent in the payment space. With a strong flair
+                      for successful investments.</small>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item text-center">
+                <div class="thumbnail-variant-5">
+                  <div class="thumbnail-variant-5-img-wrap"><img src="web/img/team/julia.png" width="129" height="129" alt="" class="img-circle"></div>
+                  <h4>Julia Radeva</h4>
+                  <div class="text-dusty-gray profile-width">Business Development Manager <br>
+                    <div class="divider-fullwidth bg-porcelain"></div>
+                      <small>Our Business Pioneer. 11-year experience in Business Development Management. The driving force behind several successful dental
+                      clinic concepts. Overseeing the applications of dental innovations and constantly exploring the opportunities for growth in Dental Industry.</small>
+                    <div class="divider-fullwidth bg-porcelain">
+                  </div>
+                    <div class="link-group"><a href="https://www.linkedin.com/in/julia-radeva-40152277" target="_blank"><span class="icon icon-xs icon-primary fa fa-linkedin-square"></span></a></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- /.modal-content -->
+            <div class="container text-center">
+              <div class="range range-sm-center offset-top-10">
+                <div class="cell-sm-10 cell-md-8 cell-lg-6">
+                  <div class="panel panel-custom panel-light cell-sm-12 cell-md-8 cell-lg-6">
+                    <div id="accordionOneHeading2" role="tab" class="panel-heading">
+                      <div class="panel-title"><a style="font-size: 24px; font-weight: 700;" role="button" data-toggle="collapse" data-parent="#accordionFive" href="#accordionFiveCollapse2" aria-controls="accordionFiveCollapse2" class="collapsed">Advisors
+                          <div class="panel-arrow"></div></a>
+                      </div>
+                    </div>
+                    <div id="accordionFiveCollapse2" role="tabpanel" aria-labelledby="accordionFiveHeading2" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <p class="text-center"><strong>Dr. Steven Warren</strong></p>
+                        <p class="text-center"><strong>Dr. Jackson Stark</strong></p>
+                        <p class="text-center"><strong>Dr. Ethan Young</strong></p>
+                        <p class="text-center"><strong>Dr. David Thompson</strong></p>
+                        <p class="text-center"><strong>Benjamin Coleman</strong></p>
+                        <p class="text-center"><strong>Joshua Abelson</strong></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- /.modal-dialog -->
         </div>
-        <!-- #modal13 -->
+      </section>
 
-        <!-- /Modal Windows -->
+      <section class="section-100">
+        <div slass="shell">
+          <div class="range range-sm-center">
+            <div class="text-center text-italic cell-md-6 cell-xs-16 cell-lg-16 text-big-21 quote" style="margin: 0 30px 0 30px;">​"It is looking as though dentistry could be set for the biggest blockchain shake-up of all.
+              Should pioneering projects like DentaCoin take off, modern dentistry as we know it could change forever."
+              <div class="text-small-16 text-right text-normal text-gray-base-05">as seen on: <a href="https://cryptoinsider.com/medical-professionals-catching-blockchain-fever/" target="_blank"><img src="web/img/seenonmedias/cryptoinsider-logo.png" alt="cryptoinsider"></a></div>
+            </div>
+          </div>
+          <h4 class="text-center">More Publications about Dentacoin:</h4>
+          <div class="range range-sm-center text-center" style="margin-top: 0;">
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-4 offset-top-15"><a href="https://www.valuewalk.com/2017/08/dentacoin/" target="_blank"><img src="web/img/seenonmedias/seen14.png" alt="valuetalk"></a></div>
+              <div class="col-sm-4 offset-top-15"><a href="https://www.inc.com/business-insider/cryptocurrency-mainstream-bitcoin-ethereum-ico-floyd-mayweather-times-square.html" target="_blank"><img src="web/img/seenonmedias/seen2.png" alt="inc.com"></a></div>
+              <div class="col-sm-4 offset-top-15"><a href="https://www.businessinsider.com.au/cryptocurrency-bitcoin-ethereum-ico-mania-going-mainstream-2017-8" target="_blank"><img src="web/img/seenonmedias/seen3.png" alt="businessinsider"></a></div>
+            </div>
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-3 offset-top-15"><a href="https://cointelegraph.com/press-releases/dentacoin-proceeds-trusted-review-platform" target="_blank"><img src="web/img/seenonmedias/seen13.png" alt="cointelegraph"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="http://fortune.com/2017/08/22/bitcoin-ethereum-blockchain-cryptocurrency/" target="_blank"><img src="web/img/seenonmedias/seen5.png" alt="fortune"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="https://thebitcoinnews.com/this-ethereum-based-token-seeks-to-improve-the-dental-industry/" target="_blank"><img src="web/img/seenonmedias/seen8.png" alt="thebitcoinnews"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="http://news.ifeng.com/a/20170824/51735408_0.shtml" target="_blank"><img src="web/img/seenonmedias/seen7.png" alt="ifeng.com"></a></div>
+            </div>
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-4 offset-top-15"><a href="http://www.techweb.com.cn/column/2017-08-25/2578484.shtml" target="_blank"><img src="web/img/seenonmedias/seen6.png" alt="techweb"></a></div>
+              <div class="col-sm-4 offset-top-15"><a href="https://3dnews.ru/957113" target="_blank"><img src="web/img/seenonmedias/seen9.png" alt="3dnews"></a></div>
+              <div class="col-sm-4 offset-top-15"><a href="https://news.bitcoin.com/dentacoin-first-blockchain-concept-global-dental-industry-exclusive-hard-capped-presale-1st-july-2017/" target="_blank"><img src="web/img/seenonmedias/seen10.png" alt="bitcoin"></a></div>
+            </div>
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-3 offset-top-15"><a href="http://bitcoinchaser.com/press-release/dentacoin-revolutionizing-dentistry-blockchain-technology" target="_blank"><img src="web/img/seenonmedias/seen11.png" alt="bitcoinchser"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="https://www.godmode-trader.de/artikel/neue-krypto-waehrungen-fuer-rechtsanwaelte-und-zahnaerzte,5445482" target="_blank"><img src="web/img/seenonmedias/seen16.png" alt="godmode-trader"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="http://www.huffingtonpost.com/entry/how-technology-is-changing-the-face-of-dentistry_us_59a2e088e4b0a62d0987b01f" target="_blank"><img src="web/img/seenonmedias/seen4.png" alt="huffingtonpost"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="http://bit.ly/2w1rE3O" target="_blank"><img src="web/img/seenonmedias/seen17.png" alt="benzinga"></a></div>
+            </div>
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-4 offset-top-15"><a href="https://themerkle.com/dentacoin-the-game-changing-concept-for-the-global-dental-industry/" target="_blank"><img src="web/img/seenonmedias/seen12.png" alt="themerkle"></a></div>
+              <div class="col-sm-4 offset-top-15"><a href="http://newsdog.today/a/article/598a1c1e1290711c84dc809a/?d=false" target="_blank"><img src="web/img/seenonmedias/seen15.PNG" alt="newsdog"></a></div>
+              <div class="col-sm-4 offset-top-15"><a href="https://actualidad.rt.com/actualidad/248864-criptomonedas-extranas-mundo" target="_blank"><img src="web/img/seenonmedias/seen1.png" alt="actualidad"></a></div>
+            </div>
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-3 offset-top-15"><a href="https://www.bloomberg.com/news/articles/2017-09-08/tulip-fever-there-s-a-digital-token-for-that-and-so-much-more" target="_blank"><img src="web/img/seenonmedias/seen20.png" alt="Bloomberg"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="https://www.cryptocoinsnews.com/ethereum-based-token-seeks-improve-dental-industry/" target="_blank"><img src="web/img/seenonmedias/seen18.png" alt="cryptocoinsnews"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="http://www.digitaljournal.com/tech-and-science/technology/paying-dentists-with-cryptocurrency-is-happening/article/501885" target="_blank"><img src="web/img/seenonmedias/seen19.png" alt="digitaljournal"></a></div>
+              <div class="col-sm-3 offset-top-15"><a href="http://www.elespectador.com/tecnologia/el-extrano-mundo-de-las-monedas-digitales-un-bien-que-crece-entre-dudas-y-entusiasmo-articulo-712226" target="_blank"><img src="web/img/seenonmedias/seen21.png" alt="elespectador"></a></div>
+            </div>
+            <div class="col-sm-12 offset-top-22">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4 offset-top-15"><a href="https://blog.icobazaar.com/dentacoin-the-game-changing-blockchain-concept-for-the-global-dental-industry-2f13c6ff873f" target="_blank"><img src="web/img/seenonmedias/seen22.png" alt="Icobazaar"></a></div>
+              <div class="col-sm-4"><a href="http://bit.ly/2jJJWFW​" target="_blank"><img src="web/img/seenonmedias/seen23.png" alt="Steemit"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="web/js/jquery-3.1.1.min.js"></script>
-        <script src="web/js/jquery-migrate-3.0.0.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="web/js/bootstrap.min.js"></script>
-        <!-- Plyr core script -->
-        <script src="web/js/plyr.js"></script>
-        <!-- ScrollMe -->
-        <script src="web/js/functions.js"></script>
-        <script src="web/js/jquery.scrollme.min.js"></script>
-        <script src="web/js/questions.js"></script>
-        <script src="web/js/minus.js"></script>
-        <script src="web/js/article.js"></script>
-        <script src="web/js/more-less.js"></script>
-    </body>
+      <section id="contact" class="section-100">
+        <h3 class="text-center">Contacts</h3>
+        <div class="range range-sm-center">
+          <div class="cell-sm-12">
+            <div class="row">
+              <div class="col-sm-12">
+                <ul class="social nav">
+                  <li class=" ">
+                    <a href="mailto:admin@dentacoin.com" target="_blank" class="ml">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/mail.png"></i>
+                    <span class="mask">
+                    <span class="tip">admin@dentacoin.com</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://www.facebook.com/dentacoin/" target="_blank" class="fb">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/facebook.png"></i>
+                    <span class="mask">
+                    <span class="tip">Facebook</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://twitter.com/dentacoin?lang=en" target="_blank" class="tw">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/twitter.png"></i>
+                    <span class="mask">
+                    <span class="tip">Twitter</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://join.slack.com/t/dentacoin/shared_invite/MjM2MjYyNjI5NTIwLTE1MDQ2OTg0NDAtNWMxYzUzN2FjNg" target="_blank" class="sl">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/slack.png"></i>
+                    <span class="mask">
+                    <span class="tip">Slack</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://github.com/Dentacoin" target="_blank" class="sl">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/github.png"></i>
+                    <span class="mask">
+                    <span class="tip">GitHub</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://steemit.com/@dentacoin" target="_blank" class="sl">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/steemit.png"></i>
+                    <span class="mask">
+                    <span class="tip">Steemit</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://medium.com/@dentacoin/" target="_blank" class="sl">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/medium.png"></i>
+                    <span class="mask">
+                    <span class="tip">Medium</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://www.reddit.com/r/Dentacoin/" target="_blank" class="sl">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/reddit.png"></i>
+                    <span class="mask">
+                    <span class="tip">Reddit</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://t.me/Dentacoin_Official" target="_blank" class="sl">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/telegram.png"></i>
+                    <span class="mask">
+                    <span class="tip">Telegram</span>
+                    </span>
+                    </a>
+                  </li>
+                  <li class=" ">
+                    <a href="https://www.youtube.com/channel/UCSL-UsN8dc4CzHWiCv-NfrQ" target="_blank" class="sl">
+                    <i class="fa" aria-hidden="true"><img id="cont" src="contact-img/youtube.png"></i>
+                    <span class="mask">
+                    <span class="tip">YouTube</span>
+                    </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer style="background-color:transparent;" class="page-foot bg-cape-cod context-dark">
+        <div class="shell">
+        </div>
+        <section class="offset-top-60">
+          <div class="shell text-center">
+            <div class="range range-sm-reverse range-sm-justify range-sm-middle">
+              <div class="cell-sm-12 text-sm-center">
+                <div class="group-sm group-middle">
+                  <p class=""><small>© Dentacoin Foundation. All rights reserved. <br>
+                              <a href="..\docs\Dentacoin foundation.pdf" target="_Blank">The Netherlands Chamber of Commerce Business Register extract</a> <br>
+                              Wim Duisenbergplantsoen 31 6221 SE Maastricht The Netherlands</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <div id="form-output-global" class="snackbars"></div>
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="web/js2/core.min.js"></script>
+    <script src="web/js2/min.script.js"></script>
+    <!-- Particles -->
+    <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+    <script src="https://www.dentacoin.com/web/js2/min.particles.js"></script>
+    <!-- My small chat slack -->
+    <script src="https://embed.small.chat/T4D2LT0D6G6CR1S32A.js" async></script>
+    <!-- Dentacoin supply amounts -->
+    <!-- <script src="info/min.circulatingDCN.js"></script> -->
+  </body>
 </html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:image" content="https://dentacoin.com/web/img/DCN.png"/>
+    <meta name="apple-mobile-web-app-title" content="Dentacoin">
+    <link rel="shortcut icon" type="image/x-icon" href="../web/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo76.png" sizes="76x76">
+    <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo120.png" sizes="120x120">
+    <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo152.png" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="../web/img/homescreen-logo180.png" sizes="180x180">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Dentacoin Stats</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../web/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../web/css/plyr.css" rel="stylesheet">
+    <link href="../web/css/style.css" rel="stylesheet">
+    <link href="account.css" rel="stylesheet">
+
+
+    <style>
+      h1, p {
+        text-align: center;
+        font-size: 250%;
+      }
+      #hl {
+        font-size: 400%;
+      }
+      p {
+        font-size: 150%;
+      }
+    </style>
+
+
+
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="https://dentacoin.com/">
+                      <img src="../web/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div>
+
+                    <div class="collapse navbar-collapse" id="mainMenu">
+                        <ul class="nav navbar-nav navbar-right main-menu">
+                          <li><a href="https://dentacoin.com/">Why</a></li>
+                            <li><a href="https://dentacoin.com/">What</a></li>
+                            <li><a href="https://dentacoin.com/">When</a></li>
+                            <li><a href="https://dentacoin.com/">How</a></li>
+                            <li><a href="https://dentacoin.com/">Who</a></li>
+                              <!-- <li><a href="http://www.dentacoin.com/ico/" target="_blank">ICO</a></li> -->
+                            <!-- <li><a href="http://dentacoin.com/">Who</a></li> -->
+                            <!-- <li><a href="http://dentacoin.com/">Contact</a></li> -->
+                            <li><a href="https://www.dentacoin.com/presale/">Presale</a></li>
+                            <li><a href="https://www.dentacoin.com/blog/" target="_blank">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            <button class="btn btn-default btn-lg scroll-top">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </button>
+            </div>
+        </nav>
+      </header>
+
+
+
+    <h1 id="hl">Dentacoin Presale Stats</h1>
+
+    <br><br>
+    <h1 id="amountDCN"></h1>
+    <br>
+    <h1 id="amountETH"></h1>
+    <br>
+    <h1 id="txCount"></h1>
+    <br><br>
+    <p><img src="pics/rocket.png" alt="rocket" id="rocket"></p>
+    <br><br><br>
+    <p>~~ Page reloads every 10 seconds ~~</p>
+
+    <script>
+
+      var blink = 0;
+
+      function stats() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+        xhr.send();
+
+        var xhr2 = new XMLHttpRequest();
+        xhr2.open("GET", "https://api.etherscan.io/api?module=account&action=balance&address=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+        xhr2.send();
+
+        var xhr3 = new XMLHttpRequest();
+        xhr3.open("GET", "https://api.etherscan.io/api?module=account&action=txlist&address=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&startblock=3956814&sort=asc&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+        xhr3.send();
+
+        var json = JSON.parse(xhr.responseText);
+        var json2 = JSON.parse(xhr2.responseText);
+        var json3 = JSON.parse(xhr3.responseText);
+
+        var amountDCN = parseInt(json.result);
+        var amountETH = parseInt(json2.result)/1000000000000000000;
+        var percent = (80000000000-amountDCN)/80000000000*100;
+        var txCount = Object.keys(json3.result).length;
+        if (blink != txCount) {
+          blink = txCount;
+          document.getElementById("rocket").style.visibility = "hidden";
+          setTimeout(function(){document.getElementById("rocket").style.visibility = "visible";},500);
+        }
+
+        document.getElementById("amountDCN").innerHTML = ((80000000000-amountDCN)/1000000000).toFixed(4) + " of 80 billion DCN sold ("+percent.toFixed(2)+" %)";
+        document.getElementById("amountETH").innerHTML = amountETH.toFixed(2) + " ETH of 10000 ETH max";
+        document.getElementById("txCount").innerHTML = txCount + " contributions";
+      }
+
+
+      stats();
+      var refreshStats = setInterval(function() {
+        stats();
+      }, 10000);
+
+
+    </script>
+
+  </body>
+</html>

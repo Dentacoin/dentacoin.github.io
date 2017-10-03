@@ -1,0 +1,57 @@
+.what h2, .who h2, .contact h2, .how h2 {
+    margin-bottom: 30px;
+}
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+#checkBalanceResponse_body {
+  margin-bottom: 0px;
+}
+/*
+.trade h1 {
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+
+.trade h2 {
+    margin-bottom: 100px;
+}
+
+.trade .alert {
+	border: 0;
+	color: #333;
+	border-radius: 0;
+}
+
+.trade .alert-success {
+	background-color: #f8f8f8;
+}
+
+.trade button {
+	margin-bottom: 10px !important;
+}
+
+.trade h3 {
+	margin-top: 40px;
+}
+*/
+
+#_buyAmount, #checkBalanceResponse {
+	background-color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+   h3 {
+     display: none !important;
+   }
+	 #myAddress {
+		 font-size: 70% !important;
+	 }
+}

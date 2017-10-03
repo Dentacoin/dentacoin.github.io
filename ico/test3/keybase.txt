@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jeremias
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dentacoin.com
+  * I am jeremias (https://keybase.io/jeremias) on keybase.
+  * I have a public key with fingerprint 4847 8068 4989 ACAD 4529  34EF E7D8 B30D 8040 8FA1
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;010128d7a5041bf9fee2fff32235a1ded6694a16a444deeaf9e54a8fda30278864120a&quot;,
+            &quot;fingerprint&quot;: &quot;484780684989acad452934efe7d8b30d80408fa1&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;key_id&quot;: &quot;e7d8b30d80408fa1&quot;,
+            &quot;kid&quot;: &quot;010128d7a5041bf9fee2fff32235a1ded6694a16a444deeaf9e54a8fda30278864120a&quot;,
+            &quot;uid&quot;: &quot;cce1ffa3ef79971b5145c25934394119&quot;,
+            &quot;username&quot;: &quot;jeremias&quot;
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;dentacoin.com&quot;,
+            &quot;protocol&quot;: &quot;https:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;ctime&quot;: 1500544717,
+    &quot;expire_in&quot;: 157680000,
+    &quot;prev&quot;: &quot;3e3cf7bdb0c5b69dccf6a94d3ce0e0f309fb95d16f9f82bad19203f1151d7c68&quot;,
+    &quot;seqno&quot;: 17,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJbSBVBGD52s4RI6PISaW5FVGYzu7M3y4huPmTRhRLtcpjdmdFN3T3u
+7jkmUmAYdAG7qVFRGkE3IsyCKLrqqUgRUchuGD2UEQoVQRHVqVmxtx6bl2H++b7v
+//6PPz5+ZCglaczP+jmZblN5UseD49FQQWRXZ5VgOKRSyK4SSujQRUsJ9fxwiUWE
+bAFAAEWNqFgGCBpMZ5SKjDFJFCUZQ0KJougIQwUjhAilmOlURlhjBEtAVDVNQVAE
+WMgUmGUXUTfiWrbPZZGGVA0oGtI1HZuYIFnUJUQZVYlmSIBoAAGNYciJxY4XMLg5
+A3s0y3J4jT/CQ/b+gf/PvqNDcqZJIWNYokzVdRUaMkSyKcrcs6QjCPUA6FHXxmWU
+o7dTl5ZZ2BN2Zgq8GrNMGgQbTDKMINT2selYdpbplHFyxHV8x3RK+Vex70e87IDq
+V0YCbAU1wsMqYcOyCQ+SM2LU9SzHFrIhR5q+FchCGQAZIRWqmQLdEbFcGrYChKwq
+GuAn6ENjXFKikslUgxjAlA1FJ6bJFKwjIpkUUMAkoDNDlwlUeHCaaGACdRFIDEIZ
+EtVUNCGYq9x2uDZv5eMirulZRTb2oy4Vdrbe3zIqlJQSGjN6RLBhoZRxqX/37mk8
+OSF+utYebsup7W5u23PiUsajQ7fPbmw+617vvHwxZtRWLGu8OqAmi/OM5eNehKdu
+7R5UfjVurKsoylt9eHVu/6Gqyne737w8d2NpXsOF/OnLEitDtwoJbn4pbFi1Pys/
+3tB5M73j6GJw7GdTV8+SXW/TEqenRSNTMxYlJp/pTkuPFJ6fdOPwldznB8QjBadm
+xPatmd3otWzu7drUOnfN9zl9hSypumf3/Pcf7t2Z8EQbOFnXMHH98YOfUerDwSl7
+f8+c0Tc23tOTNWvD63Nff8T7peq6BdtQ9cdv9Yl2tLD3ccnSzppXK3Lm1rasXHvr
+y7fyL1taip/V3HX0/HWPYuOjGTVLfm0LD/4B1UxIzg==
+=1+Bm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeremias
+
+==================================================================

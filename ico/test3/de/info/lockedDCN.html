@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p id="lockedDCN"></p>
+
+
+    <script>
+// Total amount: Fixed amount of ever existing Dentacoins
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr.send();
+      var json = JSON.parse(xhr.responseText);
+      var totalAmount = parseInt(json.result);
+
+// Dentacoins of owner
+      var xhr2 = new XMLHttpRequest();
+      xhr2.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xc99f67433019D1DA18C311e767FAa2b8EC250886&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2.send();
+      var json2 = JSON.parse(xhr2.responseText);
+      var ownerAmount = parseInt(json2.result);
+
+// Dentacoins of contract
+      var xhr3 = new XMLHttpRequest();
+      xhr3.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr3.send();
+      var json3 = JSON.parse(xhr3.responseText);
+      var contractAmount = parseInt(json3.result);
+
+
+// Locked Amounts:--------------------------------------------------------------
+
+      var xhr2018 = new XMLHttpRequest();
+      xhr2018.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x3668F174859271c88537d633a2Cac59de26B0641&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2018.send();
+      var json2018 = JSON.parse(xhr2018.responseText);
+      var amount2018 = parseInt(json2018.result);
+
+      var xhr2019 = new XMLHttpRequest();
+      xhr2019.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xf20fC45f6e6204C3C0a97da219D714937CA7321D&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2019.send();
+      var json2019 = JSON.parse(xhr2019.responseText);
+      var amount2019 = parseInt(json2019.result);
+
+      var xhr2020 = new XMLHttpRequest();
+      xhr2020.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x1b6F112B2C6fbe28Cf9394B64f493E0ffeb5c020&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2020.send();
+      var json2020 = JSON.parse(xhr2020.responseText);
+      var amount2020 = parseInt(json2020.result);
+
+      var xhr2021 = new XMLHttpRequest();
+      xhr2021.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x3d666A7932De1F34121F768fd1Ed27386E84A422&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2021.send();
+      var json2021 = JSON.parse(xhr2021.responseText);
+      var amount2021 = parseInt(json2021.result);
+
+      var xhr2022 = new XMLHttpRequest();
+      xhr2022.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x572f457882102FfeaaC4121338Ced3E94A006Cdc&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2022.send();
+      var json2022 = JSON.parse(xhr2022.responseText);
+      var amount2022 = parseInt(json2022.result);
+
+      var xhr2023 = new XMLHttpRequest();
+      xhr2023.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x2FD80316c6271CbeF643742A3CA8265cF6ab4480&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2023.send();
+      var json2023 = JSON.parse(xhr2023.responseText);
+      var amount2023 = parseInt(json2023.result);
+
+      var xhr2024 = new XMLHttpRequest();
+      xhr2024.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x5fd371718415DaB653D42cc65105AF88dB0205de&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2024.send();
+      var json2024 = JSON.parse(xhr2024.responseText);
+      var amount2024 = parseInt(json2024.result);
+
+      var xhr2025 = new XMLHttpRequest();
+      xhr2025.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xf1EAB24B40C0D040ccfD1d3BbB3419003074E3D9&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2025.send();
+      var json2025 = JSON.parse(xhr2025.responseText);
+      var amount2025 = parseInt(json2025.result);
+
+      var xhr2026 = new XMLHttpRequest();
+      xhr2026.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xEa63C813253E1d30b74A1f46E76a67D499B6d4C8&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2026.send();
+      var json2026 = JSON.parse(xhr2026.responseText);
+      var amount2026 = parseInt(json2026.result);
+
+      var xhr2027 = new XMLHttpRequest();
+      xhr2027.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x2a1bb55f021d40d98f937665b42e69f4be7cc8f9&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2027.send();
+      var json2027 = JSON.parse(xhr2027.responseText);
+      var amount2027 = parseInt(json2027.result);
+
+      var xhr2028 = new XMLHttpRequest();
+      xhr2028.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xA407A4f537e0Ee4936e3Fc32DB64914d4d5d3f43&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2028.send();
+      var json2028 = JSON.parse(xhr2028.responseText);
+      var amount2028 = parseInt(json2028.result);
+
+      var xhr2029 = new XMLHttpRequest();
+      xhr2029.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x3572DE393113A3b4faCDB12deE3e92733058EF67&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2029.send();
+      var json2029 = JSON.parse(xhr2029.responseText);
+      var amount2029 = parseInt(json2029.result);
+
+      var xhr2030 = new XMLHttpRequest();
+      xhr2030.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x22877c076B09A65dbB865b4a29e5436231634Fc4&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2030.send();
+      var json2030 = JSON.parse(xhr2030.responseText);
+      var amount2030 = parseInt(json2030.result);
+
+      var xhr2031 = new XMLHttpRequest();
+      xhr2031.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xE3345eb610C2F3B0d9884A4784B0e980eA420dA3&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2031.send();
+      var json2031 = JSON.parse(xhr2031.responseText);
+      var amount2031 = parseInt(json2031.result);
+
+      var xhr2032 = new XMLHttpRequest();
+      xhr2032.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xbBaf33931dbCFcE91337986f5B953e555DFA0526&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2032.send();
+      var json2032 = JSON.parse(xhr2032.responseText);
+      var amount2032 = parseInt(json2032.result);
+
+      var xhr2033 = new XMLHttpRequest();
+      xhr2033.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x864F9244aF3aBeB595c8d825861E3767FE3849DC&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2033.send();
+      var json2033 = JSON.parse(xhr2033.responseText);
+      var amount2033 = parseInt(json2033.result);
+
+      var xhr2034 = new XMLHttpRequest();
+      xhr2034.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xb8e6Eae57A926b393C3d040CF3F4f9f663c6C487&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2034.send();
+      var json2034 = JSON.parse(xhr2034.responseText);
+      var amount2034 = parseInt(json2034.result);
+
+      var xhr2035 = new XMLHttpRequest();
+      xhr2035.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x0e5a15e153Bd89C113A6e8fb3d14A99004C9CD94&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2035.send();
+      var json2035 = JSON.parse(xhr2035.responseText);
+      var amount2035 = parseInt(json2035.result);
+
+      var xhr2036 = new XMLHttpRequest();
+      xhr2036.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x0d4346f96B7512222448bAD36AC01709634f76B0&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2036.send();
+      var json2036 = JSON.parse(xhr2036.responseText);
+      var amount2036 = parseInt(json2036.result);
+
+      var xhr2037 = new XMLHttpRequest();
+      xhr2037.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x1c6A6cdEE958F3FeF8A9c9ccC9f49649aF9311C1&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2037.send();
+      var json2037 = JSON.parse(xhr2037.responseText);
+      var amount2037 = parseInt(json2037.result);
+
+      var xhr2038 = new XMLHttpRequest();
+      xhr2038.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xA5d2CC94C9251c92C29126C6869E111F8D0a1275&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2038.send();
+      var json2038 = JSON.parse(xhr2038.responseText);
+      var amount2038 = parseInt(json2038.result);
+
+      var xhr2039 = new XMLHttpRequest();
+      xhr2039.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x977a1A431c94d0725E06eAE00F5e33f0F8666274&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2039.send();
+      var json2039 = JSON.parse(xhr2039.responseText);
+      var amount2039 = parseInt(json2039.result);
+
+      var xhr2040 = new XMLHttpRequest();
+      xhr2040.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x918cddD8394bDb7C258bAc66E3DBa4f47078BE87&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2040.send();
+      var json2040 = JSON.parse(xhr2040.responseText);
+      var amount2040 = parseInt(json2040.result);
+
+      var xhr2041 = new XMLHttpRequest();
+      xhr2041.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xa3f9Fe2E8bf25E48E5098cBd48b16B88e7D4742A&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2041.send();
+      var json2041 = JSON.parse(xhr2041.responseText);
+      var amount2041 = parseInt(json2041.result);
+
+      var xhr2042 = new XMLHttpRequest();
+      xhr2042.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0xC8C1a15d6Be8eC0c923a3D251AB85935223d2105&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2042.send();
+      var json2042 = JSON.parse(xhr2042.responseText);
+      var amount2042 = parseInt(json2042.result);
+
+      var xhr2043 = new XMLHttpRequest();
+      xhr2043.open("GET", "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&address=0x24f4F418adc1007F90763a47493aDe189DeFD7Ed&tag=latest&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+      xhr2043.send();
+      var json2043 = JSON.parse(xhr2043.responseText);
+      var amount2043 = parseInt(json2043.result);
+
+      var lockedAmounts = amount2018+amount2019+amount2020+amount2021+amount2022+amount2023+amount2024+amount2025+amount2026+amount2027+amount2028+amount2029+amount2030+amount2031+amount2032+amount2033+amount2034+amount2035+amount2036+amount2037+amount2038+amount2039+amount2040+amount2041+amount2042+amount2043;
+
+// End Locked Amounts:--------------------------------------------------------------
+
+
+
+
+
+      document.getElementById("lockedDCN").innerHTML = lockedAmounts;
+    </script>
+  </body>
+</html>
