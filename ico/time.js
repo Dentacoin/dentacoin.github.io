@@ -1,10 +1,6 @@
 $(document).ready(function(){
 var countDownDate = new Date(Date.UTC(2017, 9, 1, 14));
 
-$("#h_after").hide();
-$("#progress-bar").hide();
-$("#buy").hide();
-
 // Update the count down every 1 second
 var x = setInterval(function() {
 
@@ -28,11 +24,5 @@ var x = setInterval(function() {
   clearInterval(x);
   // document.getElementById("time").innerHTML = "O";
   
-    $("#h_till").hide();
-    $("#time_till").hide();
-    $("#h_after").show();
-    $("#progress-bar").show();
-    $("#buy").show();
-    $("#subcribers").hide();
   }
 }, 1000);});
