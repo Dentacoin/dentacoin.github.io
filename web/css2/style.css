@@ -49485,13 +49485,13 @@ input::placeholder {
   width: 2px;
   height: 44px;
   background-color: #FF0000;
-  cursor:  url(file:///C:/wamp64/www/test3/ico/pics/min.png), help;
+  cursor:  url(https://www.dentacoin.com/ico/pics/min.png), help;
 }
 
 .greenLine {
   left: 20%;
   background-color: #01DF3A;
-  cursor:  url(file:///C:/wamp64/www/test3/ico/pics/comfort.png), help;
+  cursor:  url(https://www.dentacoin.com/ico/pics/comfort.png), help;
 }
 
 @media screen and (max-width: 767px) {

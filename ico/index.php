@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="../web/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,700">
-    <link rel="stylesheet" href="../web/css2/style.css">
+    <link rel="stylesheet" href="../web/css2/min.style.css">
     <script src="time.js"></script>
     <!-- mailchimp counter -->
     <?php include '../web/php_functions/mailchimp_functions.php'?>
@@ -83,10 +83,10 @@
         <div class="shell">
             <div class="range">
                 <div class="cell-xs-12 test">
-                    <div class="countdown-wrap block-centered text-center">
+                    <!-- <div class="countdown-wrap block-centered text-center">
                         <h4 id="h_till" class="">Dentacoin Token Sale starts October 1st, 2PM (UTC)</h4>
                         <div id="time_till" data-type="until" data-date="2017-10-01T14:00:00.000Z" data-format="wdhms" data-color="#126585" data-bg="rgba(255,255,255,0.2)" data-width="0.02" class="DateCountdown DateCountdown-1" style="margin-bottom: 100px;"></div>
-                    </div>
+                    </div> -->
 
                     <section id="h_after" class="section-with-counters text-center section-20">
                         <div class="shell bg-cape-cod context-dark section-md-15">
@@ -114,8 +114,6 @@
                                 <br>
                                 <div>
                                 <p class="text-left">Hard Cap</p>
-                                <div title="comfort zone" class="greenLine"></div>
-                                
                                     <div class="progress">
                                         <div class="text-left" style="width: 100%;height: 100%;">
                                           <!-- <div title="minimal request" class="redLine"></div> -->
