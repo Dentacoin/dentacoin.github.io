@@ -113,11 +113,11 @@
                                 </div>
                                 <br>
                                 <div>
-                                <p class="text-left">Hard Cap</p>
-                                    <div class="progress">
+                                <p class="text-left">Next target will be unlocked upon reaching the <span class="text-capitalize">soft cap</span></p>
+                                    <div id="progress" class="progress">
                                         <div class="text-left" style="width: 100%;height: 100%;">
                                           <!-- <div title="minimal request" class="redLine"></div> -->
-                                          <div title="comfort zone" class="greenLine"></div>
+                                          <!-- <div title="comfort zone" class="greenLine"></div> -->
                                           <div class="progress-bar text-white" role="progressbar" id="progress-comfort"></div>
                                         </div>
                                     </div>
@@ -860,7 +860,7 @@
                           <strong>ICO start:</strong> 1st of October 2017, 2:00 pm GMT
                         <br><br>  <strong>Please, don’t send ETH to our contract before the start of the ICO! The transaction will bounce back but you will still pay for transaction fees in ETH.</strong>
                         <br><br>  <strong>Special ICO Price:</strong>
-                        <br>      1 ETH = 2 500 000 DCN (or 0.0000004 ETH/DCN) 
+                        <br>      1 ETH = 2 500 000 DCN (or 0.0000004 ETH/DCN)
                         <br>      1 BTC = 33 000 000 DCN (or 0.00000003 BTC/DCN)
                         <br><br>  <strong>Hard Cap:</strong> 240 billion DCN
                         <br><br>  <strong>Main modes of payment:</strong> ETH (Ether), Bitcoin (BTC), Indian Rupees (INR). If you don’t have ETH/ BTC, you can buy it on platforms like: <a href="https://www.bitpanda.com/" target="_blank">Bitpanda</a>, <a href="https://www.coinbase.com/" target="_blank">Coinbase</a>, <a href="https://www.kraken.com/" target="_blank">Kraken</a>, <a href="https://poloniex.com/" target="_blank">Poloniex</a>, <a href="https://bittrex.com/" target="_blank">Bittrex</a>, <a href="https://www.etherrush.in/" target="_blank">Ether Rush</a>, <a href="https://www.zebpay.com/" target="_blank">Zebpay</a> (India).
@@ -878,6 +878,18 @@
                     </div>
                   </div>
                 </div>
+
+    <script>
+    $(document).ready(function () {
+        $("#progress").attr('disabled','true');  //lock div here
+
+
+        var condition=$("#progress").val();
+        if(condition==true)
+              $("#progress").attr('disabled','false');//{unlock div here}
+        else{do nothing}
+    });
+</script>
 
     <!-- scripts -->
     <script src="../web/js2/dApp.js"></script>

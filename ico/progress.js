@@ -102,9 +102,33 @@ var elem = document.getElementById("progress-minimal");
 var elem2 = document.getElementById("progress-comfort");
 var width = (240000000000-countObjDCN.amountDCN)/240000000000*100;
 width = 100 - width;
-var width1 = width * 20;
+var width1;
+if (width >= 3) {
+    width1 = 100;
+}
+else {
+    width1 = width * 20;
+}
 var dcndest = countObjDCN.amountDCN;
 document.getElementById("dcndest").innerHTML = dcndest;
+
+$(document).ready(function(){
+    
+
+    if (width <= 5) {
+        $("progress").css({
+            "background-color" : "grey",
+            "opacity": "0.4"
+          });
+    }
+    
+    $("#progress-comfort").hide();
+    
+    if (width1 >= 100) {
+      
+      $("#progress-comfort").show();
+    }
+});
 
 elem.style.width = width1 + '%';
 elem.innerHTML = (width1 * 1).toFixed(2) + '%';
