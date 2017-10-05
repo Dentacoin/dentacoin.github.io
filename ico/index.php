@@ -118,7 +118,7 @@
                                         <div class="text-left" style="width: 100%;height: 100%;">
                                           <!-- <div title="minimal request" class="redLine"></div> -->
                                           <!-- <div title="comfort zone" class="greenLine"></div> -->
-                                          <div class="progress-bar text-white" role="progressbar" id="progress-comfort"></div>
+                                          <div class="progress-bar text-white" role="progressbar" id="progress-comfort" style="visibility: hidden;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -896,7 +896,7 @@
     <script src="../web/js2/core.min.js"></script>
     <script src="min.script.js"></script>
     <script src="min.time.js"></script>
-    <script type="text/javascript" src="progress.js"></script>
+    <script type="text/javascript" src="progress1.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="../web/js2/chart.js"></script>
     <script src="../web/js2/jquery.scrollme.min.js"></script>

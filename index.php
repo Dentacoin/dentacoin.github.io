@@ -198,7 +198,7 @@
             <div class="col-sm-4">
               <div class="panel panel-custom panel-light cell-sm-10 cell-md-8 cell-lg-6">
                 <div id="accordionOneHeading2" role="tab" class="panel-heading">
-                  <div class="panel-title"><a role="button" href="..\white-paper\Whitepaper-en.pdf" class="collapsed" target="_blank"><center>Whitepaper</center>
+                  <div class="panel-title"><a role="button" href="https://www.dentacoin.com/white-paper/Whitepaper-en%20v.1.8.pdf" class="collapsed" target="_blank"><center>Whitepaper</center>
                     <div class="panel-arrow"></div></a>
                   </div>
                 </div>

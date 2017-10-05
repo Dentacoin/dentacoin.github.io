@@ -1,5 +1,6 @@
+// $(document).ready(function(){
 
-
+    // $("#progress-comfort").hide();
 // ------- Function returning response -------------------------------------
 /*function getResponse(_uri) {
     var xhr = new XMLHttpRequest();
@@ -100,38 +101,44 @@ for (var countDCN in countObjDCN) {
 
 var elem = document.getElementById("progress-minimal");
 var elem2 = document.getElementById("progress-comfort");
+var elem3 = document.getElementById("progress");
+elem2.style.visibility = "hidden";
+elem3.style.backgroundColor = "grey";
+elem3.style.opacity = "0.4";
 var width = (240000000000-countObjDCN.amountDCN)/240000000000*100;
 width = 100 - width;
 var width1;
-if (width >= 3) {
+var width2 = width;
+if (width >= 5) {
     width1 = 100;
+    elem2.style.visibility = "visible";
+    elem3.style.backgroundColor = "#F5F5F5";
+    elem3.style.opacity = "unset";
+    width2 = width * 5;
+    elem.innerHTML = (width1 * 1) + '%';
 }
 else {
     width1 = width * 20;
+    elem.innerHTML = (width1 * 1).toFixed(2) + '%';
 }
 var dcndest = countObjDCN.amountDCN;
 document.getElementById("dcndest").innerHTML = dcndest;
 
-$(document).ready(function(){
+
     
 
-    if (width <= 5) {
-        $("progress").css({
-            "background-color" : "grey",
-            "opacity": "0.4"
-          });
-    }
+    // // if (width <= 5) {
+    // //     $("progress").css("background-color", "grey");
+    // // }
     
-    $("#progress-comfort").hide();
-    
-    if (width1 >= 100) {
+    // if (width1 >= 100) {
       
-      $("#progress-comfort").show();
-    }
-});
+    //   $("#progress-comfort").show();
+    // }
+
 
 elem.style.width = width1 + '%';
-elem.innerHTML = (width1 * 1).toFixed(2) + '%';
 
-elem2.style.width = width + '%';
-elem2.innerHTML = (width * 1).toFixed(2) + '%';
+elem2.style.width = width2 + '%';
+elem2.innerHTML = (width2 * 1).toFixed(2) + '%';
+// });
