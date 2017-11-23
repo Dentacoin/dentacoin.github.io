@@ -52,10 +52,15 @@
     data.addColumn('string', 'Topping');
     data.addColumn('number', 'Slices');
     data.addRows([
-      ['Locked Amount', lockedAmount],
-      ['Foundation', team],
-      ['Presale', presale],
-      ['ICO', ico]
+      ['Core team members', 192000000000],
+      ['Timelock contracts', 6088000000000],
+      ['Dentaprime International plc', 32000000000],
+      ['Pre-sale', 80000000000],
+      ['ICO', 240000000000],
+      ['Foundation', 328000000000],
+      ['Founders', 400000000000],
+      ['Coin option plan', 400000000000],
+      ['Dentaprime International plc (bonus)', 240000000000]
     ]);
 
     // Set chart options
@@ -63,14 +68,15 @@
                   //'title':'DCN DISTRIBUTION',
                     'legend':'none',
                     'pieSliceText': 'label',
-                   //'width':300,
-                   //'height':300,
+                   'left':25,
+                   'width':450,
+                   'height':450,
                    'is3D': false,
                    'pieHole': 0.2,
-                   'slices': {  2: {offset: 0.3}},
+                   'slices': {  4: {offset: 0.3}},
                    'pieStartAngle': 100,
-                   'colors': ['#126585', '#8D2F47', '#3366CC','#FF9900'],
-                   'backgroundColor': '#F9F9F9'
+                   'colors': ['#126585', '#8D2F47', '#3366CC','#FF9900','#9af21f','#1ff29a','#1f96f2','#a81ff2','#f2eb1f'],
+                   'backgroundColor': 'transperent'
                  };
 
     // Instantiate and draw our chart, passing in some options.

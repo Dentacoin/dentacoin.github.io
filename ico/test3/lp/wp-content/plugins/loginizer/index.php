@@ -1,1 +1,0 @@
-<?php //prevent directory listing
