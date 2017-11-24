@@ -49530,7 +49530,7 @@ input::placeholder {
 }
 
 .modal-body > div {
-  height: 365px;
+  height: 500px;
   overflow: auto;
 }
 

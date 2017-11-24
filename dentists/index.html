@@ -216,93 +216,98 @@
     <div id="form-output-global" class="snackbars"></div>
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="padding: 0;padding-bottom: 50px;" data-backdrop="static" data-keyboard="false">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div>
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title text-blue" id="myModalLabel">GET IN TOUCH</h4>
-            </div>
-            <div class="modal-body" style="line-height: 1.3;">
-              <div class="cell-md-7 cell-lg-6">
-                  <!-- <form data-form-output="form-output-global" data-form-type="contact" method="post" action="https://www.dentacoin.com/dentists/bat/rd-mailform.php" class="rd-mailform form-modern offset-top-15">
-                    <div class="range">
-                      <div class="cell-sm-6">
-                        <div class="form-group">
-                          <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
-                          <label for="contact-name" class="form-label">Name of the practice/dental clinic</label>
-                        </div>
-                      </div>
-                      <div class="cell-sm-6 offset-top-30 offset-sm-top-0">
-                        <div class="form-group">
-                          <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                          <label for="contact-email" class="form-label">Email</label>
-                        </div>
-                      </div>
-                      <div class="cell-xs-12 offset-top-30">
-                        <div class="form-group">
-                          <div class="textarea-lined-wrap">
-                            <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
-                            <label for="contact-message" class="form-label">Message</label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="cell-xs-8 offset-top-22">
-                        <button type="submit" class="btn btn-primary btn-block">Send</button>
-                      </div>
-                      <div class="cell-xs-4 offset-top-22">
-                        <button type="reset" class="btn btn-silver-outline btn-block">Reset</button>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-blue" id="myModalLabel">GET IN TOUCH</h4>
+          </div>
+          <div class="modal-body" style="line-height: 1.3;">
+            <div class="cell-md-7 cell-lg-6">
+              <form id="gform" data-form-output="form-output-global" data-form-type="contact" method="POST" action="https://script.google.com/macros/s/AKfycbyZAqS6nEPhAfiMTUeMfqmwPMDVu_8LgbC1ieC-k_JzYan3b0OR/exec" class="rd-mailform form-modern offset-top-15">
+                <div class="range offset-top-0">
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="name" type="name" name="name" data-constraints="@Required" class="form-control">
+                      <label for="name" class="form-label">Your Name:</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="position" type="text" name="position" data-constraints="@Required" class="form-control">
+                      <label for="position" class="form-label">Position:</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="dental-clinic-name" type="name" name="dental-clinic-name" data-constraints="@Required" class="form-control">
+                      <label for="dental-clinic-name" class="form-label">Dental Clinic Name:</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="location" type="text" name="location" data-constraints="@Required" class="form-control">
+                      <label for="location" class="form-label">Location:</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="website" type="text" name="website" data-constraints="@Required" class="form-control">
+                      <label for="website" class="form-label">Website (url):</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="team-size" type="text" name="team-size" data-constraints="@Required" class="form-control">
+                      <label for="team-size" class="form-label">Team Size:</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="rooms" type="text" name="rooms" data-constraints="@Required" class="form-control">
+                      <label for="rooms" class="form-label">Number or Treatment Rooms:</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6">
+                    <div class="form-group">
+                      <input id="phone" type="text" name="phone" data-constraints="@Required" class="form-control">
+                      <label for="phone" class="form-label">Phone Number:</label>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6 offset-sm-top-0">
+                    <div class="form-group">
+                      <input id="email" name="email" type="email" value="" data-constraints="@Required" class="form-control">
+                      <label for="email" class="form-label">Your Email Address:</label>
+                    </div>
+                  </div>
+                  <div class="cell-xs-12 offset-top-30">
+                    <div class="form-group">
+                      <div class="textarea-lined-wrap">
+                        <textarea id="message" name="message" data-constraints="@Required" class="form-control"></textarea>
+                        <label for="message" class="form-label">Message</label>
                       </div>
                     </div>
-                  </form> -->
-                  <form method="post" action="mailto:sergey.ushakov@dentacoin.com" class="rd-mailform form-modern offset-top-15">
-                    <input type="hidden" name="_cc" value="admin@dentacoin.com" />
-                    <input type="hidden" name="_subject" value="New submission from dentist!" />
-                    <input type="hidden" name="_format" value="plain" />
-                    <input type="hidden" name="_language" value="en" />
-                    <input type="text" name="_gotcha" style="display:none" />
-                    <div class="range offset-top-0">
-                    <div class="cell-sm-6">
-                      <div class="form-group">
-                        <input id="contact-name" type="name" name="name" data-constraints="@Required" class="form-control">
-                        <label for="contact-name" class="form-label">Name of the practice/dental clinic</label>
-                      </div>
-                    </div>
-                    <div class="cell-sm-6 offset-sm-top-0">
-                      <div class="form-group">
-                        <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                        <label for="contact-email" class="form-label">Email</label>
-                      </div>
-                    </div>
-                    <div class="cell-xs-12 offset-top-30">
-                      <div class="form-group">
-                        <div class="textarea-lined-wrap">
-                          <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
-                          <label for="contact-message" class="form-label">Message</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="cell-xs-8 offset-top-22">
-                      <button type="submit" class="btn btn-primary btn-block">Send</button>
-                    </div>
-                  </form>
+                  </div>
+                  <div class="cell-xs-8 offset-top-22">
+                    <button type="submit" class="btn btn-primary btn-block">Send</button>
+                  </div>
+                  <div class="cell-xs-4 offset-top-22">
+                    <button type="reset" class="btn btn-silver-outline btn-block">Reset</button>
+                  </div>
                 </div>
+              </form>
+              <div style="display:none;" id="thankyou_message">
+                <h4 class="text-center text-dark">Thank you for submitting</h4>
+                <p calss="text-center text-blue">We will review your application and get in touch as soon as posible.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-    <!-- <script>
-      $.ajax({
-      url: "https://formspree.io/you@email.com", 
-      method: "POST",
-      data: {message: "hello!"},
-      dataType: "json"
-      });
-    </script> -->
+    </div>
 
     <!-- scripts -->
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
     <script src="../web/js/core.min.js"></script>
     <script src="../web/js/min.script.js"></script>
     <!-- <script src="../web/js/jquery-3.2.1.min"></script> -->
