@@ -225,7 +225,7 @@
             </div>
             <div class="modal-body" style="line-height: 1.3;">
               <div class="cell-md-7 cell-lg-6">
-                  <form data-form-output="form-output-global" data-form-type="contact" method="post" action="https://www.dentacoin.com/dentists/bat/rd-mailform.php" class="rd-mailform form-modern offset-top-15">
+                  <!-- <form data-form-output="form-output-global" data-form-type="contact" method="post" action="https://www.dentacoin.com/dentists/bat/rd-mailform.php" class="rd-mailform form-modern offset-top-15">
                     <div class="range">
                       <div class="cell-sm-6">
                         <div class="form-group">
@@ -254,6 +254,37 @@
                         <button type="reset" class="btn btn-silver-outline btn-block">Reset</button>
                       </div>
                     </div>
+                  </form> -->
+                  <form method="post" action="mailto:sergey.ushakov@dentacoin.com" class="rd-mailform form-modern offset-top-15">
+                    <input type="hidden" name="_cc" value="admin@dentacoin.com" />
+                    <input type="hidden" name="_subject" value="New submission from dentist!" />
+                    <input type="hidden" name="_format" value="plain" />
+                    <input type="hidden" name="_language" value="en" />
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <div class="range offset-top-0">
+                    <div class="cell-sm-6">
+                      <div class="form-group">
+                        <input id="contact-name" type="name" name="name" data-constraints="@Required" class="form-control">
+                        <label for="contact-name" class="form-label">Name of the practice/dental clinic</label>
+                      </div>
+                    </div>
+                    <div class="cell-sm-6 offset-sm-top-0">
+                      <div class="form-group">
+                        <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+                        <label for="contact-email" class="form-label">Email</label>
+                      </div>
+                    </div>
+                    <div class="cell-xs-12 offset-top-30">
+                      <div class="form-group">
+                        <div class="textarea-lined-wrap">
+                          <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
+                          <label for="contact-message" class="form-label">Message</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cell-xs-8 offset-top-22">
+                      <button type="submit" class="btn btn-primary btn-block">Send</button>
+                    </div>
                   </form>
                 </div>
               </div>
@@ -262,9 +293,19 @@
         </div>
       </div>
 
+    <!-- <script>
+      $.ajax({
+      url: "https://formspree.io/you@email.com", 
+      method: "POST",
+      data: {message: "hello!"},
+      dataType: "json"
+      });
+    </script> -->
+
     <!-- scripts -->
     <script src="../web/js/core.min.js"></script>
     <script src="../web/js/min.script.js"></script>
+    <!-- <script src="../web/js/jquery-3.2.1.min"></script> -->
     <!-- Particles -->
     <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
     <script src="../web/js/min.particles.js"></script>
