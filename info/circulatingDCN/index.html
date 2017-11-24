@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p id="circulatingDCN"></p>
+
+
+    <script>
+
+    // Total amount: Fixed amount of ever existing Dentacoins
+          var xhr = new XMLHttpRequest();
+          xhr.open("GET", "https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6&apikey=NBI9SGSW6P1NZQGYT8BD8DDN5UQ7AIM4E9", false);
+          xhr.send();
+          var json = JSON.parse(xhr.responseText);
+          var totalAmount = parseInt(json.result);
+
+
+
+
+// Non distributed amounts
+          var timeLock = 6088888888873;
+          var coinOptionPlan = 400000000000;
+          var coreTeam1 = 80000000000;
+          var coreTeam2 = 80000000000;
+          var coreTeam3 = 80000000000;
+          var coreTeam4 = 80000000000;
+          var coreTeam5 = 80000000000;
+          var icoTotal = 224398253761;
+          var futureNeeds1 = 312015856340;
+          var futureNeeds2 = 16000000000;
+          var dentaprime = 240000000000;
+
+// Distributed amounts
+          var amount1 = 4800000000;
+          var amount2 = 10000000;
+          var bountyCampaign = 1683214350;
+
+
+//Totals
+          var totalNonDistributed = timeLock+coinOptionPlan+coreTeam1+coreTeam2+coreTeam3+coreTeam4+coreTeam5+icoTotal+futureNeeds1+futureNeeds2+dentaprime;
+          var totalDistributed = amount1 + amount2 + bountyCampaign;
+
+
+
+
+          var circulatingAmount = totalAmount - totalNonDistributed + totalDistributed;
+
+          document.getElementById("circulatingDCN").innerHTML = circulatingAmount;
+    </script>
+  </body>
+</html>
