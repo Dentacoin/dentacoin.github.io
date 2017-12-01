@@ -2,6 +2,7 @@ Options -Indexes
 Options +FollowSymlinks
 RewriteEngine On
 RewriteBase /
+Redirect 301 /blog http://www.blog.dentacoin.com
 RewriteRule ^white-paper/Whitepaper-en\ v.0.9.pdf$ web/white-paper/Whitepaper-en1.pdf [R=301,L]
 RewriteRule ^white-paper/Whitepaper-en\ v.1.0.pdf$ web/white-paper/Whitepaper-en1.pdf [R=301,L]
 RewriteRule ^white-paper/Whitepaper-en\ v.0.8.pdf$ web/white-paper/Whitepaper-en1.pdf [R=301,L]
