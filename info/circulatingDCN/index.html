@@ -18,7 +18,7 @@
 
 
 // Non distributed amounts
-          var timeLock = 6088888888873;
+          var timeLock = 6158604361608;
           var coinOptionPlan = 400000000000;
           var coreTeam1 = 80000000000;
           var coreTeam2 = 80000000000;
@@ -30,20 +30,15 @@
           var futureNeeds2 = 16000000000;
           var dentaprime = 240000000000;
 
-// Distributed amounts
-          var amount1 = 4800000000;
-          var amount2 = 10000000;
-          var bountyCampaign = 1683214350;
 
 
 //Totals
           var totalNonDistributed = timeLock+coinOptionPlan+coreTeam1+coreTeam2+coreTeam3+coreTeam4+coreTeam5+foundationAdmin+futureNeeds1+futureNeeds2+dentaprime;
-          var totalDistributed = amount1 + amount2 + bountyCampaign;
 
 
 
 
-          var circulatingAmount = totalAmount - totalNonDistributed + totalDistributed;
+          var circulatingAmount = totalAmount - totalNonDistributed;
 
           document.getElementById("circulatingDCN").innerHTML = circulatingAmount;
     </script>
