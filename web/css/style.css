@@ -49996,3 +49996,35 @@ input::placeholder {
     float: left;
   }
 }
+
+/* Partner logos on pages: home and dentits */
+@media (max-width: 991px) {
+  .partner-logo1, .partner-logo2, .partner-logo3, .partner-logo4 {
+    width: 240px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .partner-logo1 {
+    margin-top: 5.5em;
+  }
+  .partner-logo2 {
+    margin-top: 5.5em;
+  }
+  .partner-logo3 {
+    margin-top: 6em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .partner-logo1 {
+    margin-top: 3.8em;
+  }
+  .partner-logo2 {
+    margin-top: 3.8em;
+  }
+  .partner-logo3 {
+    margin-top: 4.5em;
+  }
+}
