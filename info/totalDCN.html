@@ -12,7 +12,8 @@
       xhr.send();
       var json = JSON.parse(xhr.responseText);
       var maxAmount = parseInt(json.result);
-      var lockedAmount = 6158604361608;
+      var twoThousandEighteenUnlock = 121777777777;
+      var lockedAmount = 6158604361608 - twoThousandUnlock;
       var totalAmount = maxAmount - lockedAmount;
       document.getElementById("totalamount").innerHTML = totalAmount;
     </script>
