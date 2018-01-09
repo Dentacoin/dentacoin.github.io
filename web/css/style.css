@@ -50007,6 +50007,10 @@ input::placeholder {
     margin-top: 0;
     width: 111px;
   }
+  .partner-logo6 {
+    margin-top: 0;
+    width: 229px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -50026,6 +50030,9 @@ input::placeholder {
   .partner-logo5 {
     margin-top: 4.3em;
   }
+  .partner-logo6 {
+    margin-top: 3.5em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -50043,5 +50050,8 @@ input::placeholder {
   }
   .partner-logo5 {
     margin-top: 4em;
+  }
+  .partner-logo6 {
+    margin-top: 3.1em;
   }
 }
