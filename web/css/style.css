@@ -50007,51 +50007,42 @@ input::placeholder {
     margin-top: 0;
     width: 111px;
   }
-  .partner-logo6 {
+  .partner-logo6, .partner-logo7 {
     margin-top: 0;
     width: 229px;
   }
 }
 
 @media (min-width: 992px) {
-  .partner-logo1 {
-    margin-top: 3.7em;
-  }
-  .partner-logo2 {
-    margin-top: 4em;
-  }
-  .partner-logo3 {
-    margin-top: 4.5em;
+  .partner-logo1, .partner-logo2, .partner-logo3, .partner-logo4, .partner-logo5, .partner-logo6, .partner-logo7 {
+    margin-top: 2.2em;
   }
   .partner-logo4 {
-    margin-top: 2em;
     width: 111px;
-  }
-  .partner-logo5 {
-    margin-top: 4.3em;
+    margin-top: 0;
   }
   .partner-logo6 {
-    margin-top: 3.5em;
+    width: 225px;
+    margin-top: 1em;
+  }
+  .partner-logo7 {
+    margin-top: 9px;
   }
 }
 
 @media (min-width: 1200px) {
-  .partner-logo1 {
-    margin-top: 3.6em;
-  }
-  .partner-logo2 {
-    margin-top: 3.9em;
-  }
-  .partner-logo3 {
-    margin-top: 4.5em;
+  .partner-logo1, .partner-logo2, .partner-logo3, .partner-logo4, .partner-logo5, .partner-logo6, .partner-logo7 {
+    margin-top: 2em;
   }
   .partner-logo4 {
-    width: 111px;
-  }
-  .partner-logo5 {
-    margin-top: 4em;
+    margin-top: 0;
   }
   .partner-logo6 {
-    margin-top: 3.1em;
+    width: 229px;
+    margin-top: 9px;
+  }
+  .partner-logo7 {
+    width: 225px;
+    margin-top: 1em;
   }
 }
