@@ -9,12 +9,13 @@
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Dentacoin: How to boost your dental practice performance through Blockchain"/>
     <meta property="og:description" content="Learn how to benefit from implementing Dentacoin at your practice. The blockchain solution for the global dental industry is here to reshape the future of dental care."/>
-    <meta property="og:image" content="https://www.dentacoin.com/web/img/dentists/dentists.jpg"/>
+    <meta property="og:image" content="https://dentacoin.com/web/img/dentists/dentists.jpg"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="../web/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,700">
     <link rel="stylesheet" href="../web/css/min.style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -179,7 +180,7 @@
                   </div>
               </div>
               <p style="font-size: 14px;">
-                  * Dentacoin is already implemented as means of payment at partner clinics in United Kingdom, Bulgaria, India. Moreover, more than 700 dental practices are registered on reviews.dentacoin.com 
+                  * Dentacoin is already implemented as means of payment at partner clinics in United Kingdom, Bulgaria, India, Australia, United States of America. Moreover, more than 700 dental practices are registered on reviews.dentacoin.com 
               </p>
               <h4 class="text-center">PARTNER CLINICS:</h4>
               <div class="row text-center">
@@ -193,7 +194,9 @@
                 <div class="col-md-4 offset-top-15 text-center"><a href="http://www.dentalonflinders.com.au/" target="_blank" class="partner-logo6"><img src="../web/img/dentists/dental-on-flinders.png" alt=""></a></div>
               </div>
               <div class="row text-center">
-                <div class="col-md-12 offset-top-15 text-center"><a href="https://www.facebook.com/mr.iteeth" target="_blank" class="partner-logo4"><img src="../web/img/dentists/mr-iteeth.png" alt=""></a></div>
+                <div class="col-md-2 offset-top-15 text-center"></div>
+                <div class="col-md-4 offset-top-15 text-center"><a href="https://www.facebook.com/mr.iteeth" target="_blank" class="partner-logo4"><img src="../web/img/dentists/mr-iteeth.png" alt=""></a></div>
+                <div class="col-md-4 offset-top-15 text-center"><a href="http://www.qadental.co.uk/" target="_blank" class="partner-logo8"><img src="../web/img/dentists/qad.png" alt=""></a></div>
               </div>
             </div>
           </div>
@@ -222,13 +225,24 @@
     <div id="form-output-global" class="snackbars"></div>
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="padding: 0;padding-bottom: 50px;" data-backdrop="static" data-keyboard="false">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title text-blue" id="myModalLabel">GET IN TOUCH</h4>
           </div>
-          <div class="modal-body" style="line-height: 1.3;">
+
+          <!-- <div id="modal" class="modal-body" style="line-height: 1.3; padding: 0;">
+            <div id="first" class="cell-md-7 cell-lg-6" style="width: 50%; display: inline-block;" onclick="formModalOne()">
+              test
+            </div>
+            <div id="second" class="cell-md-7 cell-lg-6" style="width: 49.2%; display: inline-block;" onclick="formModalTwo()">
+              test
+            </div>
+          </div> -->
+
+          <!-- Modal body 1 -->
+          <div id="form-modal-1" class="modal-body" style="line-height: 1.3;">
             <div class="cell-md-7 cell-lg-6">
               <form id="gform" data-form-output="form-output-global" data-form-type="contact" method="POST" action="https://script.google.com/macros/s/AKfycbyZAqS6nEPhAfiMTUeMfqmwPMDVu_8LgbC1ieC-k_JzYan3b0OR/exec" class="rd-mailform form-modern offset-top-15">
                 <div class="range offset-top-0">
@@ -286,11 +300,51 @@
                       <label for="email" class="form-label">Your Email Address:</label>
                     </div>
                   </div>
+                  <!-- <div id="formTwo">
+                    <div class="cell-sm-12 offset-sm-top-15">
+                      <div class="form-group">
+                        <input id="one" name="one" type="text" value="" data-constraints="@Required" class="form-control">
+                        <label for="one" class="form-label">What first grabbed your attention about Dentacoin?</label>
+                      </div>
+                    </div>
+                    <div class="cell-sm-12 offset-sm-top-15">
+                      <div class="form-group">
+                        <input id="two" name="two" type="text" value="" data-constraints="@Required" class="form-control">
+                        <label for="two" class="form-label">How did you decide to implement it?</label>
+                      </div>
+                    </div>
+                    <div class="cell-sm-12 offset-sm-top-15">
+                      <div class="form-group">
+                        <input id="three" name="three" type="text" value="" data-constraints="@Required" class="form-control">
+                        <label for="three" class="form-label">Have you already presented Dentacoin to your patients? If yes, what were their reactions?</label>
+                      </div>
+                    </div>
+                    <div class="cell-sm-12 offset-sm-top-15">
+                      <div class="form-group">
+                        <input id="four" name="four" type="text" value="" data-constraints="@Required" class="form-control">
+                        <label for="four" class="form-label">If I am a patient of yours, how will I understand that you work with DCN? 
+                                                              How will I receive more info? 
+                                                              What's the process of me using DCN as a patient?</label>
+                      </div>
+                    </div>
+                    <div class="cell-sm-12 offset-sm-top-15">
+                      <div class="form-group">
+                        <input id="five" name="text" type="text" value="" data-constraints="@Required" class="form-control">
+                        <label for="five" class="form-label">How do you see our future cooperation? What are your expectations?</label>
+                      </div>
+                    </div>
+                    <div class="cell-sm-12 offset-sm-top-15">
+                      <div class="form-group">
+                        <input id="six" name="text" type="text" value="" data-constraints="@Required" class="form-control">
+                        <label for="six" class="form-label">How do you estimate the future potential of the project?</label>
+                      </div>
+                    </div>
+                  </div> -->
                   <div class="cell-xs-12 offset-top-30">
                     <div class="form-group">
                       <div class="textarea-lined-wrap">
                         <textarea id="message" name="message" data-constraints="@Required" class="form-control"></textarea>
-                        <label for="message" class="form-label">Message</label>
+                        <label for="message" class="form-label">Massage:</label>
                       </div>
                     </div>
                   </div>
@@ -321,5 +375,7 @@
     <script src="../web/js/min.particles.js"></script>
     <!-- My small chat slack -->
     <script src="https://embed.small.chat/T4D2LT0D6G6CR1S32A.js" async></script>
+    <!-- modal -->
+    <!-- <script src="dentists.js"></script> -->
   </body>
 </html>
