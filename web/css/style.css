@@ -7011,7 +7011,7 @@ button.close {
 
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 735px;
     margin: 30px auto;
   }
   .modal-content {
@@ -49555,6 +49555,10 @@ input::placeholder {
   width: 38%;
 }
 
+#formTwo {
+  width: 100%;
+}
+
 #check {
   font-size: 15px;
   font-weight: 300;
@@ -49582,6 +49586,12 @@ input::placeholder {
 @media screen and (max-width: 767px){
   .modal-dialog {
     width: 95%;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 735px;
   }
 }
 
@@ -50037,7 +50047,7 @@ input::placeholder {
   .partner-logo4 {
     margin-top: 0;
   }
-  .partner-logo6 {
+  .partner-logo6, .partner-logo8 {
     width: 229px;
     margin-top: 9px;
   }
