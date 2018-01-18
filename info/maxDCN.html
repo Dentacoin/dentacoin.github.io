@@ -12,7 +12,7 @@
       xhr.send();
       var json = JSON.parse(xhr.responseText);
       var maxAmount = parseInt(json.result);
-      document.getElementById("maxamount").innerHTML = maxAmount;
+      document.getElementById("maxamount").innerHTML = maxAmount.toString();
     </script>
   </body>
 </html>
