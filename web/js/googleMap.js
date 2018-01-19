@@ -25,109 +25,148 @@
 
       // Content for the info windows.
       var contentStringSwissDentaprime = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="https://www.dentaprime.com/dental-clinic" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/dp-logo.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
+                                          '<div id="bodyContent">'+
+                                            '<div class="shell">'+
+                                              '<div class="range">'+
+                                                '<div class="col-sm-12">'+
+                                                  '<a href="https://www.dentaprime.com/dental-clinic" target="_blank">'+
+                                                    '<img src="https://www.dentacoin.com/web/img/dentists/dp-logo.png" alt="" style="width: 200px;">'+
+                                                  '</a>'+
+                                                '</div>'+
+                                              '</div>'+
+                                            '</div>'+
+                                          '</div>'+
+                                        '</div>';
       let contentStringDentaprimeFThreeT = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="https://www.dentaprime.co.uk/" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/f3t-logo.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
+                                            '<div id="bodyContent">'+
+                                              '<div class="shell">'+
+                                                '<div class="range">'+
+                                                  '<div class="col-sm-12">'+
+                                                    '<a href="https://www.dentaprime.co.uk/" target="_blank">'+
+                                                      '<img src="https://www.dentacoin.com/web/img/dentists/f3t-logo.png" alt="" style="width: 200px;">'+
+                                                    '</a>'+
+                                                  '</div>'+
+                                                '</div>'+
+                                              '</div>'+
+                                            '</div>'+
+                                          '</div>';
       let contentStringDentech = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="http://www.dentechdentalcare.com/" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/dentch-logo.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
+                                  '<div id="bodyContent">'+
+                                    '<div class="shell">'+
+                                      '<div class="range">'+
+                                        '<div class="col-sm-12">'+
+                                          '<a href="http://www.dentechdentalcare.com/" target="_blank">'+
+                                            '<img src="https://www.dentacoin.com/web/img/dentists/dentch-logo.png" alt="" style="width: 200px;">'+
+                                          '</a>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
                                   '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
+                                '</div>';
       let contentStringContident = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="http://www.contident.com/" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/contident.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12">'+
+                                            '<a href="http://www.contident.com/" target="_blank">'+
+                                              '<img src="https://www.dentacoin.com/web/img/dentists/contident.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>';
       let contentStringLifDental = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="http://www.lifdental.com/"" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/lifdental.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12">'+
+                                            '<a href="http://www.lifdental.com/"" target="_blank">'+
+                                              '<img src="https://www.dentacoin.com/web/img/dentists/lifdental.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>';
       let contentStringFlinders = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="http://www.dentalonflinders.com.au/" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/dental-on-flinders.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12">'+
+                                            '<a href="http://www.dentalonflinders.com.au/" target="_blank">'+
+                                              '<img src="https://www.dentacoin.com/web/img/dentists/dental-on-flinders.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>';
       let contentStringITeeth = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="https://www.facebook.com/mr.iteeth" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/mr-iteeth.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
+                                  '<div id="bodyContent">'+
+                                    '<div class="shell">'+
+                                      '<div class="range">'+
+                                        '<div class="col-sm-12">'+
+                                          '<a href="https://www.facebook.com/mr.iteeth" target="_blank">'+
+                                            '<img src="https://www.dentacoin.com/web/img/dentists/mr-iteeth.png" alt="" style="width: 200px;">'+
+                                          '</a>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
                                   '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
+                                '</div>';
       let contentStringQAD = '<div id="content">'+
-                            '<div id="bodyContent">'+
-                              '<div class="shell">'+
-                                '<div class="range">'+
-                                  '<div class="col-sm-12">'+
-                                    '<a href="http://www.qadental.co.uk/" target="_blank">'+
-                                      '<img src="https://www.dentacoin.com/web/img/dentists/qad.png" alt="" style="width: 200px;">'+
-                                    '</a>'+
+                              '<div id="bodyContent">'+
+                                '<div class="shell">'+
+                                  '<div class="range">'+
+                                    '<div class="col-sm-12">'+
+                                      '<a href="http://www.qadental.co.uk/" target="_blank">'+
+                                        '<img src="https://www.dentacoin.com/web/img/dentists/qad.png" alt="" style="width: 200px;">'+
+                                      '</a>'+
+                                    '</div>'+
                                   '</div>'+
                                 '</div>'+
                               '</div>'+
-                            '</div>'+
-                          '</div>';
+                            '</div>';
+      let contentStringAura = '<div id="content">'+
+                              '<div id="bodyContent">'+
+                                '<div class="shell">'+
+                                  '<div class="range">'+
+                                    '<div class="col-sm-12">'+
+                                      '<a href="http://aurafamilydentistry.com/" target="_blank">'+
+                                        '<img src="https://www.dentacoin.com/web/img/dentists/aura.png" alt="" style="width: 200px;">'+
+                                      '</a>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>';
+      let contentStringDailyCare = '<div id="content">'+
+                              '<div id="bodyContent">'+
+                                '<div class="shell">'+
+                                  '<div class="range">'+
+                                    '<div class="col-sm-12">'+
+                                      '<a href="http://dailycaredental.webs.com/" target="_blank">'+
+                                        '<img src="https://www.dentacoin.com/web/img/dentists/daily-dental.png" alt="" style="width: 200px;">'+
+                                      '</a>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>';
+      let contentStringDentistsThree = '<div id="content">'+
+                              '<div id="bodyContent">'+
+                                '<div class="shell">'+
+                                  '<div class="range">'+
+                                    '<div class="col-sm-12">'+
+                                      '<a href="http://dentist3.com/" target="_blank">'+
+                                        '<img src="https://www.dentacoin.com/web/img/dentists/dentist3.png" alt="" style="width: 200px;">'+
+                                      '</a>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>';
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -154,6 +193,15 @@
     let infowindowQAD = new google.maps.InfoWindow({
       content: contentStringQAD
     });
+    let infowindowAura = new google.maps.InfoWindow({
+      content: contentStringAura
+    });
+    let infowindowDailyCare = new google.maps.InfoWindow({
+      content: contentStringDailyCare
+    });
+    let infowindowDentistsThree = new google.maps.InfoWindow({
+      content: contentStringDentistsThree
+    });
 
     // Creates an array of locations for markers.
     var locations = [
@@ -164,7 +212,10 @@
         {lat: 42.9889753, lng: -78.69631529999998},
         {lat: -37.8178116, lng: 144.96514609999997},
         {lat: 25.0329636, lng: 121.56542680000007},
-        {lat: 51.7589538, lng: -0.47198979999996027}
+        {lat: 51.7589538, lng: -0.47198979999996027},
+        {lat: 34.2784764, lng: -118.73593010000002},
+        {lat: -18.1346392, lng: 178.42604089999998},
+        {lat: 3.246762, lng: 101.47423200000003}
       ];
 
     // Create an array of titles for markers.
@@ -176,7 +227,10 @@
         {title: "LifDental"},
         {title: "Dental on Flinders"},
         {title: "Mr. iTeeth"},
-        {title: "Quality Afordable Dentistry"}
+        {title: "Quality Afordable Dentistry"},
+        {title: "Aura Family Dentistry"},
+        {title: "Daily Care Dental"},
+        {title: "Dentist3"}
       ];
 
     // Adds markers to the map.
@@ -218,6 +272,15 @@
           });
           markers[7].addListener('click', function(){
             infowindowQAD.open(map, markers[7]);
+          });
+          markers[8].addListener('click', function(){
+            infowindowAura.open(map, markers[8]);
+          });
+          markers[9].addListener('click', function(){
+            infowindowDailyCare.open(map, markers[9]);
+          });
+          markers[10].addListener('click', function(){
+            infowindowDentistsThree.open(map, markers[10]);
           });
       
     }
