@@ -30,7 +30,7 @@
                                               '<div class="range">'+
                                                 '<div class="col-sm-12">'+
                                                   '<a href="https://www.dentaprime.com/dental-clinic" target="_blank">'+
-                                                    '<img src="https://www.dentacoin.com/web/img/dentists/dp-logo.png" alt="" style="width: 200px;">'+
+                                                    '<img src="web/img/dentists/dp-logo.png" alt="" style="width: 200px;">'+
                                                   '</a>'+
                                                 '</div>'+
                                               '</div>'+
@@ -43,7 +43,7 @@
                                                 '<div class="range">'+
                                                   '<div class="col-sm-12">'+
                                                     '<a href="https://www.dentaprime.co.uk/" target="_blank">'+
-                                                      '<img src="https://www.dentacoin.com/web/img/dentists/f3t-logo.png" alt="" style="width: 200px;">'+
+                                                      '<img src="web/img/dentists/f3t-logo.png" alt="" style="width: 200px;">'+
                                                     '</a>'+
                                                   '</div>'+
                                                 '</div>'+
@@ -56,7 +56,7 @@
                                       '<div class="range">'+
                                         '<div class="col-sm-12">'+
                                           '<a href="http://www.dentechdentalcare.com/" target="_blank">'+
-                                            '<img src="https://www.dentacoin.com/web/img/dentists/dentch-logo.png" alt="" style="width: 200px;">'+
+                                            '<img src="web/img/dentists/dentch-logo.png" alt="" style="width: 200px;">'+
                                           '</a>'+
                                         '</div>'+
                                       '</div>'+
@@ -69,7 +69,7 @@
                                         '<div class="range">'+
                                           '<div class="col-sm-12">'+
                                             '<a href="http://www.contident.com/" target="_blank">'+
-                                              '<img src="https://www.dentacoin.com/web/img/dentists/contident.png" alt="" style="width: 200px;">'+
+                                              '<img src="web/img/dentists/contident.png" alt="" style="width: 200px;">'+
                                             '</a>'+
                                           '</div>'+
                                         '</div>'+
@@ -82,7 +82,7 @@
                                         '<div class="range">'+
                                           '<div class="col-sm-12">'+
                                             '<a href="http://www.lifdental.com/"" target="_blank">'+
-                                              '<img src="https://www.dentacoin.com/web/img/dentists/lifdental.png" alt="" style="width: 200px;">'+
+                                              '<img src="web/img/dentists/lifdental.png" alt="" style="width: 200px;">'+
                                             '</a>'+
                                           '</div>'+
                                         '</div>'+
@@ -95,7 +95,7 @@
                                         '<div class="range">'+
                                           '<div class="col-sm-12">'+
                                             '<a href="http://www.dentalonflinders.com.au/" target="_blank">'+
-                                              '<img src="https://www.dentacoin.com/web/img/dentists/dental-on-flinders.png" alt="" style="width: 200px;">'+
+                                              '<img src="web/img/dentists/dental-on-flinders.png" alt="" style="width: 200px;">'+
                                             '</a>'+
                                           '</div>'+
                                         '</div>'+
@@ -108,7 +108,7 @@
                                       '<div class="range">'+
                                         '<div class="col-sm-12">'+
                                           '<a href="https://www.facebook.com/mr.iteeth" target="_blank">'+
-                                            '<img src="https://www.dentacoin.com/web/img/dentists/mr-iteeth.png" alt="" style="width: 200px;">'+
+                                            '<img src="web/img/dentists/mr-iteeth.png" alt="" style="width: 200px;">'+
                                           '</a>'+
                                         '</div>'+
                                       '</div>'+
@@ -121,7 +121,7 @@
                                   '<div class="range">'+
                                     '<div class="col-sm-12">'+
                                       '<a href="http://www.qadental.co.uk/" target="_blank">'+
-                                        '<img src="https://www.dentacoin.com/web/img/dentists/qad.png" alt="" style="width: 200px;">'+
+                                        '<img src="web/img/dentists/qad.png" alt="" style="width: 200px;">'+
                                       '</a>'+
                                     '</div>'+
                                   '</div>'+
@@ -134,7 +134,7 @@
                                   '<div class="range">'+
                                     '<div class="col-sm-12">'+
                                       '<a href="http://aurafamilydentistry.com/" target="_blank">'+
-                                        '<img src="https://www.dentacoin.com/web/img/dentists/aura.png" alt="" style="width: 200px;">'+
+                                        '<img src="web/img/dentists/aura.png" alt="" style="width: 200px;">'+
                                       '</a>'+
                                     '</div>'+
                                   '</div>'+
@@ -147,7 +147,7 @@
                                   '<div class="range">'+
                                     '<div class="col-sm-12">'+
                                       '<a href="http://dailycaredental.webs.com/" target="_blank">'+
-                                        '<img src="https://www.dentacoin.com/web/img/dentists/daily-dental.png" alt="" style="width: 200px;">'+
+                                        '<img src="web/img/dentists/daily-dental.png" alt="" style="width: 200px;">'+
                                       '</a>'+
                                     '</div>'+
                                   '</div>'+
@@ -160,7 +160,7 @@
                                   '<div class="range">'+
                                     '<div class="col-sm-12">'+
                                       '<a href="http://dentist3.com/" target="_blank">'+
-                                        '<img src="https://www.dentacoin.com/web/img/dentists/dentist3.png" alt="" style="width: 200px;">'+
+                                        '<img src="web/img/dentists/dentist3.png" alt="" style="width: 200px;">'+
                                       '</a>'+
                                     '</div>'+
                                   '</div>'+
