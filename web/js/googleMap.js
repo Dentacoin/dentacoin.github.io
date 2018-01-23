@@ -129,44 +129,57 @@
                               '</div>'+
                             '</div>';
       let contentStringAura = '<div id="content">'+
-                              '<div id="bodyContent">'+
-                                '<div class="shell">'+
-                                  '<div class="range">'+
-                                    '<div class="col-sm-12">'+
-                                      '<a href="http://aurafamilydentistry.com/" target="_blank">'+
-                                        '<img src="web/img/dentists/aura.png" alt="" style="width: 200px;">'+
-                                      '</a>'+
+                                '<div id="bodyContent">'+
+                                  '<div class="shell">'+
+                                    '<div class="range">'+
+                                      '<div class="col-sm-12">'+
+                                        '<a href="http://aurafamilydentistry.com/" target="_blank">'+
+                                          '<img src="web/img/dentists/aura.png" alt="" style="width: 200px;">'+
+                                        '</a>'+
+                                      '</div>'+
                                     '</div>'+
                                   '</div>'+
                                 '</div>'+
-                              '</div>'+
-                            '</div>';
+                              '</div>';
       let contentStringDailyCare = '<div id="content">'+
-                              '<div id="bodyContent">'+
-                                '<div class="shell">'+
-                                  '<div class="range">'+
-                                    '<div class="col-sm-12">'+
-                                      '<a href="http://dailycaredental.webs.com/" target="_blank">'+
-                                        '<img src="web/img/dentists/daily-dental.png" alt="" style="width: 200px;">'+
-                                      '</a>'+
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12">'+
+                                            '<a href="http://dailycaredental.webs.com/" target="_blank">'+
+                                              '<img src="web/img/dentists/daily-dental.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
                                     '</div>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>';
+                                  '</div>';
       let contentStringDentistsThree = '<div id="content">'+
-                              '<div id="bodyContent">'+
-                                '<div class="shell">'+
-                                  '<div class="range">'+
-                                    '<div class="col-sm-12">'+
-                                      '<a href="http://dentist3.com/" target="_blank">'+
-                                        '<img src="web/img/dentists/dentist3.png" alt="" style="width: 200px;">'+
-                                      '</a>'+
-                                    '</div>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>';
+                                        '<div id="bodyContent">'+
+                                          '<div class="shell">'+
+                                            '<div class="range">'+
+                                              '<div class="col-sm-12">'+
+                                                '<a href="http://dentist3.com/" target="_blank">'+
+                                                  '<img src="web/img/dentists/dentist3.png" alt="" style="width: 200px;">'+
+                                                '</a>'+
+                                              '</div>'+
+                                            '</div>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>';
+      let contentStringStudioTOIA = '<div id="content">'+
+                                      '<div id="bodyContent">'+
+                                        '<div class="shell">'+
+                                          '<div class="range">'+
+                                            '<div class="col-sm-12">'+
+                                              '<a href="http://www.studiotoia.com/en/" target="_blank">'+
+                                                '<img src="web/img/dentists/studio-toia.png" alt="" style="width: 200px;">'+
+                                              '</a>'+
+                                            '</div>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>';
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -202,8 +215,11 @@
     let infowindowDentistsThree = new google.maps.InfoWindow({
       content: contentStringDentistsThree
     });
+    let infowindowStudioToia = new google.maps.InfoWindow({
+      content: contentStringStudioTOIA
+    });
 
-    // Creates an array of locations for markers.
+    // Creates an object of locations for markers.
     var locations = [
         {lat: 43.23082107851708, lng: 28.00166130065918},
         {lat: 51.5355026, lng: -0.006374199999982011},
@@ -215,7 +231,8 @@
         {lat: 51.7589538, lng: -0.47198979999996027},
         {lat: 34.2784764, lng: -118.73593010000002},
         {lat: -18.1346392, lng: 178.42604089999998},
-        {lat: 3.246762, lng: 101.47423200000003}
+        {lat: 3.246762, lng: 101.47423200000003},
+        {lat: 45.6224576, lng: 8.849127400000043}
       ];
 
     // Create an array of titles for markers.
@@ -230,7 +247,8 @@
         {title: "Quality Afordable Dentistry"},
         {title: "Aura Family Dentistry"},
         {title: "Daily Care Dental"},
-        {title: "Dentist3"}
+        {title: "Dentist3"},
+        {title: "TOIA Dental Clinic"}
       ];
 
     // Adds markers to the map.
@@ -281,6 +299,9 @@
           });
           markers[10].addListener('click', function(){
             infowindowDentistsThree.open(map, markers[10]);
+          });
+          markers[11].addListener('click', function(){
+            infowindowStudioToia.open(map, markers[11]);
           });
       
     }
