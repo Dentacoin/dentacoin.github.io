@@ -236,7 +236,7 @@
             <div id="second" class="cell-md-4 cell-lg-4" style="width: 32.3%; display: inline-block;" onclick="formModalTwo()">
               test
             </div>
-            <div id="third" class="cell-md-4 cell-lg-4" style="width: 32.3%; display: inline-block;" onclick="formModalTwo()">
+            <div id="third" class="cell-md-4 cell-lg-4" style="width: 32.3%; display: inline-block;" onclick="formModalThree()">
               test
             </div>
           </div> -->
@@ -261,7 +261,7 @@
                   <div class="cell-sm-6">
                     <div class="form-group">
                       <input id="dental-clinic-name" type="name" name="dental-clinic-name" data-constraints="@Required" class="form-control">
-                      <label for="dental-clinic-name" class="form-label">Dental Clinic Name:</label>
+                      <label id="practice" for="dental-clinic-name" class="form-label">Dental Clinic Name:</label>
                     </div>
                   </div>
                   <div class="cell-sm-6">
@@ -282,7 +282,7 @@
                       <label for="team-size" class="form-label">Team Size:</label>
                     </div>
                   </div>
-                  <div class="cell-sm-6">
+                  <div id="rooms-cell" class="cell-sm-6">
                     <div class="form-group">
                       <input id="rooms" type="text" name="rooms" data-constraints="@Required" class="form-control">
                       <label for="rooms" class="form-label">Number or Treatment Rooms:</label>
@@ -340,6 +340,12 @@
                       </div>
                     </div>
                   </div> -->
+                  <!-- <div id="formThree" class="cell-sm-6">
+                      <div class="form-group">
+                          <input id="specialization" type="name" name="name" data-constraints="@Required" class="form-control">
+                          <label for="specialization" class="form-label">Specialization:</label>
+                      </div>
+                  </div> -->
                   <div class="cell-xs-12 offset-top-30">
                     <div class="form-group">
                       <div class="textarea-lined-wrap">
@@ -358,7 +364,7 @@
               </form>
               <div style="display:none;" id="thankyou_message">
                 <h4 class="text-center text-dark">Thank you for submitting</h4>
-                <p calss="text-center text-blue">We will review your application and get in touch as soon as posible.</p>
+                <p class="text-center text-blue">We will review your application and get in touch as soon as posible.</p>
               </div>
             </div>
           </div>

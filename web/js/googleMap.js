@@ -180,6 +180,19 @@
                                         '</div>'+
                                       '</div>'+
                                     '</div>';
+      let contentStringArkling = '<div id="content">'+
+                                  '<div id="bodyContent">'+
+                                    '<div class="shell">'+
+                                      '<div class="range">'+
+                                        '<div class="col-sm-12">'+
+                                          '<a href="https://www.arklign.com/products/how-we-fabricate/" target="_blank">'+
+                                            '<img src="https://dentacoin.com/web/img/dentists/arkling.png" alt="" style="width: 200px;">'+
+                                          '</a>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>';
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -218,6 +231,9 @@
     let infowindowStudioToia = new google.maps.InfoWindow({
       content: contentStringStudioTOIA
     });
+    let infowindowArkling = new google.maps.InfoWindow({
+      content: contentStringArkling
+    })
 
     // Creates an object of locations for markers.
     var locations = [
@@ -232,7 +248,8 @@
         {lat: 34.2784764, lng: -118.73593010000002},
         {lat: -18.1346392, lng: 178.42604089999998},
         {lat: 3.246762, lng: 101.47423200000003},
-        {lat: 45.6224576, lng: 8.849127400000043}
+        {lat: 45.6224576, lng: 8.849127400000043},
+        {lat: 37.3998888, lng: -121.88700289999997}
       ];
 
     // Create an array of titles for markers.
@@ -248,7 +265,8 @@
         {title: "Aura Family Dentistry"},
         {title: "Daily Care Dental"},
         {title: "Dentist3"},
-        {title: "TOIA Dental Clinic"}
+        {title: "TOIA Dental Clinic"},
+        {title: "Arkling"}
       ];
 
     // Adds markers to the map.
@@ -302,6 +320,9 @@
           });
           markers[11].addListener('click', function(){
             infowindowStudioToia.open(map, markers[11]);
+          });
+          markers[12].addListener('click', function(){
+            infowindowArkling.open(map, markers[12]);
           });
       
     }
