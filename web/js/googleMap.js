@@ -351,7 +351,7 @@
                                   '<div id="bodyContent">'+
                                     '<div class="shell">'+
                                       '<div class="range">'+
-                                        '<div class="col-sm-12" style="background: black;">'+
+                                        '<div class="col-sm-12">'+
                                           '<a href="http://www.grouphealthdental.com/" target="_blank">'+
                                             '<img src="https://dentacoin.com/web/img/dentists/grouphealth.png" alt="" style="width: 200px;">'+
                                           '</a>'+
@@ -377,7 +377,7 @@
                                     '<div id="bodyContent">'+
                                       '<div class="shell">'+
                                         '<div class="range">'+
-                                          '<div class="col-sm-12" style="background: black;">'+
+                                          '<div class="col-sm-12">'+
                                             '<a href="https://www.gramercydentalcenter.com/" target="_blank">'+
                                               '<img src="https://dentacoin.com/web/img/dentists/gramercydental.png" alt="" style="width: 200px;">'+
                                             '</a>'+
