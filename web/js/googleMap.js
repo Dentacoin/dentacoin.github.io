@@ -347,6 +347,45 @@
                                     '</div>'+
                                   '</div>'+
                                 '</div>';
+      let contentStringGroupHealth = '<div id="content">'+
+                                  '<div id="bodyContent">'+
+                                    '<div class="shell">'+
+                                      '<div class="range">'+
+                                        '<div class="col-sm-12" style="background: black;">'+
+                                          '<a href="http://www.grouphealthdental.com/" target="_blank">'+
+                                            '<img src="https://dentacoin.com/web/img/dentists/grouphealth.png" alt="" style="width: 200px;">'+
+                                          '</a>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>';
+      let contentStringParkSouth = '<div id="content">'+
+                                  '<div id="bodyContent">'+
+                                    '<div class="shell">'+
+                                      '<div class="range">'+
+                                        '<div class="col-sm-12">'+
+                                          '<a href="http://www.parksouthdentistry.com" target="_blank">'+
+                                            '<img src="https://dentacoin.com/web/img/dentists/parksouth.png" alt="" style="width: 200px;">'+
+                                          '</a>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>';
+      let contentStringGramercy = '<div id="content">'+
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12" style="background: black;">'+
+                                            '<a href="https://www.gramercydentalcenter.com/" target="_blank">'+
+                                              '<img src="https://dentacoin.com/web/img/dentists/gramercydental.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>';
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -388,6 +427,15 @@
     let infowindowArkling = new google.maps.InfoWindow({
       content: contentStringArkling
     })
+    let infowindowGroupHealth = new google.maps.InfoWindow({
+      content: contentStringGroupHealth
+    })
+    let infowindowParkSouth = new google.maps.InfoWindow({
+      content: contentStringParkSouth
+    })
+    let infowindowGramercy = new google.maps.InfoWindow({
+      content: contentStringGramercy
+    })
 
     // Creates an object of locations for markers.
     var locations = [
@@ -405,10 +453,13 @@
         {lat: -18.1346392, lng: 178.42604089999998},
         {lat: 3.246762, lng: 101.47423200000003},
         {lat: 45.6224576, lng: 8.849127400000043},
-        {lat: 37.3998888, lng: -121.88700289999997}
+        {lat: 37.3998888, lng: -121.88700289999997},
+        {lat: 40.755734, lng: -73.988958},
+        {lat: 40.764943, lng: -73.975114},
+        {lat: 40.737008, lng: -73.986978}
       ];
 
-    // Create an array of titles for markers.
+    // Create an object of titles for markers.
     var titles = [
         {title: "Swiss Dentaprime"},
         {title: "Dentaprime F3T"},
@@ -424,7 +475,10 @@
         {title: "Daily Care Dental"},
         {title: "Dentist3"},
         {title: "TOIA Dental Clinic"},
-        {title: "Arkling"}
+        {title: "Arkling"},
+        {title: "GroupHealthDental"},
+        {title: "Park South Dentistry"},
+        {title: "Gramercy Dental Center"}
       ];
 
     // Adds markers to the map.
@@ -487,6 +541,15 @@
           });
           markers[14].addListener('click', function(){
             infowindowArkling.open(map, markers[14]);
+          });
+          markers[15].addListener('click', function(){
+            infowindowGroupHealth.open(map, markers[15]);
+          });
+          markers[16].addListener('click', function(){
+            infowindowParkSouth.open(map, markers[16]);
+          });
+          markers[17].addListener('click', function(){
+            infowindowGramercy.open(map, markers[17]);
           });
       
     }
