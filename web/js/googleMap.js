@@ -1,9 +1,160 @@
-    // Initializes the Map.
+    // Map styles.
+    var styles = [
+      {
+        elementType: 'geometry',
+        stylers: [{color: '#f5f5f5'}]
+      },
+      {
+        elementType: 'labels.icon',
+        stylers: [{visibility: 'off'}]
+      },
+      {
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#616161'}]
+      },
+      {
+        elementType: 'labels.text.stroke',
+        stylers: [{color: '#f5f5f5'}]
+      },
+      {
+        featureType: 'administrative.land_parcel',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#bdbdbd'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'geometry',
+        stylers: [{color: '#eeeeee'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#757575'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#e5e5e5'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9e9e9e'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#ffffff'}]
+      },
+      {
+        featureType: 'road.arterial',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#757575'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#dadada'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#616161'}]
+      },
+      {
+        featureType: 'road.local',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9e9e9e'}]
+      },
+      {
+        featureType: 'transit.line',
+        elementType: 'geometry',
+        stylers: [{color: '#e5e5e5'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'geometry',
+        stylers: [{color: '#eeeeee'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#c9c9c9'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#9e9e9e'}]
+      }
+    ];
+
+    // Initializing the Map.
     function initMap() {
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 2,
-        center: {lat: 17.23082107851708, lng: 14.00166130065918}
+        center: {lat: 17.23082107851708, lng: 15.00166130065918},
+        styles: styles,
+        gestureHandling: 'cooperative'
       });
+
+      // Create the search box and link it to the UI element.
+      var input = document.getElementById('pac-input');
+      var searchBox = new google.maps.places.SearchBox(input);
+      map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+      // Bias the SearchBox results towards current map's viewport.
+      map.addListener('bounds_changed', function() {
+        searchBox.setBounds(map.getBounds());
+      });
+
+      var markers = [];
+        // Listen for the event fired when the user selects a prediction and retrieve
+        // more details for that place.
+        searchBox.addListener('places_changed', function() {
+          var places = searchBox.getPlaces();
+
+          if (places.length == 0) {
+            return;
+          }
+
+          // Clear out the old markers.
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = [];
+
+          // For each place, get the icon, name and location.
+          var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+            var icon = {
+              url: place.icon,
+              size: new google.maps.Size(71, 71),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(17, 34),
+              scaledSize: new google.maps.Size(25, 25)
+            };
+
+            // Create a marker for each place.
+            markers.push(new google.maps.Marker({
+              map: map,
+              icon: icon,
+              title: place.name,
+              position: place.geometry.location
+            }));
+
+            if (place.geometry.viewport) {
+              // Only geocodes have viewport.
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+        });
 
       // Initializing the markers
       var image = {
@@ -22,6 +173,9 @@
         coords: [1, 1, 1, 53, 51, 53, 51, 1],
         type: 'poly'
       };
+
+      // Map styles.
+      
 
       // Content for the info windows.
       var contentStringSwissDentaprime = '<div id="content">'+
@@ -242,6 +396,8 @@
         {lat: 18.462917, lng: 73.912061},
         {lat: 47.5131012, lng: 19.048879499999998},
         {lat: 42.9889753, lng: -78.69631529999998},
+        {lat: 42.991272, lng: -78.759595},
+        {lat: 42.977661, lng: -78.816705},
         {lat: -37.8178116, lng: 144.96514609999997},
         {lat: 25.0329636, lng: 121.56542680000007},
         {lat: 51.7589538, lng: -0.47198979999996027},
@@ -258,6 +414,8 @@
         {title: "Dentaprime F3T"},
         {title: "Dentech"},
         {title: "Contident"},
+        {title: "LifDental"},
+        {title: "LifDental"},
         {title: "LifDental"},
         {title: "Dental on Flinders"},
         {title: "Mr. iTeeth"},
@@ -301,28 +459,34 @@
             infowindowLifDental.open(map, markers[4]);
           });
           markers[5].addListener('click', function(){
-            infowindowFlinders.open(map, markers[5]);
+            infowindowLifDental.open(map, markers[5]);
           });
           markers[6].addListener('click', function(){
-            infowindowITeeth.open(map, markers[6]);
+            infowindowLifDental.open(map, markers[6]);
           });
           markers[7].addListener('click', function(){
-            infowindowQAD.open(map, markers[7]);
+            infowindowFlinders.open(map, markers[7]);
           });
           markers[8].addListener('click', function(){
-            infowindowAura.open(map, markers[8]);
+            infowindowITeeth.open(map, markers[8]);
           });
           markers[9].addListener('click', function(){
-            infowindowDailyCare.open(map, markers[9]);
+            infowindowQAD.open(map, markers[9]);
           });
           markers[10].addListener('click', function(){
-            infowindowDentistsThree.open(map, markers[10]);
+            infowindowAura.open(map, markers[10]);
           });
           markers[11].addListener('click', function(){
-            infowindowStudioToia.open(map, markers[11]);
+            infowindowDailyCare.open(map, markers[11]);
           });
           markers[12].addListener('click', function(){
-            infowindowArkling.open(map, markers[12]);
+            infowindowDentistsThree.open(map, markers[12]);
+          });
+          markers[13].addListener('click', function(){
+            infowindowStudioToia.open(map, markers[13]);
+          });
+          markers[14].addListener('click', function(){
+            infowindowArkling.open(map, markers[14]);
           });
       
     }
