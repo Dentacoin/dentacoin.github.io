@@ -49700,7 +49700,7 @@ input::placeholder {
 }
 
 /* Home page sprites */
-.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .seen-on1, .seen-on2, .seen-on3, .seen-on4, .seen-on5, .seen-on6, .seen-on7, .seen-on8, .seen-on9, .seen-on10, .seen-on11, .seen-on12, .seen-on13, .seen-on14, .seen-on15, .seen-on16, .seen-on17, .seen-on18, .seen-on19, .seen-on20, .seen-on21, .seen-on22, .seen-on23, .exchange1, .exchange2, .exchange3, .exchange4, .exchange5, .exchange6, .exchange7, .exchange8, .exchange9, .exchange10, .logo, .network1, .network2, .network3, .network4, .network5, .network6, .img-circle {
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .seen-on1, .seen-on2, .seen-on3, .seen-on4, .seen-on5, .seen-on6, .seen-on7, .seen-on8, .seen-on9, .seen-on10, .seen-on11, .seen-on12, .seen-on13, .seen-on14, .seen-on15, .seen-on16, .seen-on17, .seen-on18, .seen-on19, .seen-on20, .seen-on21, .seen-on22, .seen-on23, .exchange1, .exchange2, .exchange3, .exchange4, .exchange5, .exchange6, .exchange7, .exchange8, .exchange9, .exchange10, .exchange11, .logo, .network1, .network2, .network3, .network4, .network5, .network6, .img-circle {
   background: url('../img/sprite/sprite-images.png');
 }
 
@@ -49952,6 +49952,12 @@ input::placeholder {
 
 .exchange10 {
   background-position: -1364px -137px;
+  width: 152px;
+  height: 44px;
+}
+
+.exchange11 {
+  background-position: -2010px -39px;
   width: 152px;
   height: 44px;
 }
