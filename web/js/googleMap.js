@@ -235,7 +235,7 @@
                                       '<div class="shell">'+
                                         '<div class="range">'+
                                           '<div class="col-sm-12">'+
-                                            '<a href="http://www.lifdental.com/"" target="_blank">'+
+                                            '<a href="http://www.lifdental.com/" target="_blank">'+
                                               '<img src="https://dentacoin.com/web/img/dentists/lifdental.png" alt="" style="width: 200px;">'+
                                             '</a>'+
                                           '</div>'+
