@@ -386,6 +386,32 @@
                                       '</div>'+
                                     '</div>'+
                                   '</div>';
+      let contentStringSherwani = '<div id="content">'+
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12">'+
+                                            '<a href="https://www.facebook.com/sherwanidental" target="_blank">'+
+                                              '<img src="https://dentacoin.com/web/img/dentists/sherwani.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>';
+      let contentStringLekodent = '<div id="content">'+
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12">'+
+                                            '<a href="https://www.facebook.com/lekodent/" target="_blank">'+
+                                              '<img src="https://dentacoin.com/web/img/dentists/lekodent.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>';
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -436,6 +462,12 @@
     let infowindowGramercy = new google.maps.InfoWindow({
       content: contentStringGramercy
     })
+    let infowindowSherwani = new google.maps.InfoWindow({
+      content: contentStringSherwani
+    })
+    let infowindowLekodent = new google.maps.InfoWindow({
+      content: contentStringLekodent
+    })
 
     // Creates an object of locations for markers.
     var locations = [
@@ -456,7 +488,9 @@
         {lat: 37.3998888, lng: -121.88700289999997},
         {lat: 40.755734, lng: -73.988958},
         {lat: 40.764943, lng: -73.975114},
-        {lat: 40.737008, lng: -73.986978}
+        {lat: 40.737008, lng: -73.986978},
+        {lat: 31.4776707, lng: 74.3221092},
+        {lat: 44.7647099, lng: 20.41485369999998}
       ];
 
     // Create an object of titles for markers.
@@ -478,7 +512,9 @@
         {title: "Arkling"},
         {title: "GroupHealthDental"},
         {title: "Park South Dentistry"},
-        {title: "Gramercy Dental Center"}
+        {title: "Gramercy Dental Center"},
+        {title: "Sherwani Dental Associates"},
+        {title: "Leko Dent"}
       ];
 
     // Adds markers to the map.
@@ -551,7 +587,12 @@
           markers[17].addListener('click', function(){
             infowindowGramercy.open(map, markers[17]);
           });
-      
+          markers[18].addListener('click', function(){
+            infowindowSherwani.open(map, markers[18]);
+          });
+          markers[19].addListener('click', function(){
+            infowindowLekodent.open(map, markers[19]);
+          });
     }
 
     //   // Drop testing.
