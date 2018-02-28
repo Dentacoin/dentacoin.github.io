@@ -412,6 +412,19 @@
                                       '</div>'+
                                     '</div>'+
                                   '</div>';
+      let contentStringFlossbar = '<div id="content">'+
+                                    '<div id="bodyContent">'+
+                                      '<div class="shell">'+
+                                        '<div class="range">'+
+                                          '<div class="col-sm-12">'+
+                                            '<a href="https://www.theflossbar.com/" target="_blank">'+
+                                              '<img src="https://dentacoin.com/web/img/dentists/flossbar.png" alt="" style="width: 200px;">'+
+                                            '</a>'+
+                                          '</div>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>';
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -468,6 +481,9 @@
     let infowindowLekodent = new google.maps.InfoWindow({
       content: contentStringLekodent
     })
+    let infowindowFlossbar = new google.maps.InfoWindow({
+      content: contentStringFlossbar
+    })
 
     // Creates an object of locations for markers.
     var locations = [
@@ -490,7 +506,10 @@
         {lat: 40.764943, lng: -73.975114},
         {lat: 40.737008, lng: -73.986978},
         {lat: 31.4776707, lng: 74.3221092},
-        {lat: 44.7647099, lng: 20.41485369999998}
+        {lat: 44.7647099, lng: 20.41485369999998},
+        {lat: 40.7174763, lng: -74.00070160000001},
+        {lat: 40.7317415, lng: -73.99278219999997},
+        {lat: 40.7448638, lng: -73.9795494}
       ];
 
     // Create an object of titles for markers.
@@ -514,7 +533,9 @@
         {title: "Park South Dentistry"},
         {title: "Gramercy Dental Center"},
         {title: "Sherwani Dental Associates"},
-        {title: "Leko Dent"}
+        {title: "FlossBar"},
+        {title: "FlossBar"},
+        {title: "FlossBar"}
       ];
 
     // Adds markers to the map.
@@ -592,6 +613,15 @@
           });
           markers[19].addListener('click', function(){
             infowindowLekodent.open(map, markers[19]);
+          });
+          markers[20].addListener('click', function(){
+            infowindowFlossbar.open(map, markers[20]);
+          });
+          markers[21].addListener('click', function(){
+            infowindowFlossbar.open(map, markers[21]);
+          });
+          markers[22].addListener('click', function(){
+            infowindowFlossbar.open(map, markers[22]);
           });
     }
 
