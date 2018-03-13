@@ -425,6 +425,32 @@
                                       '</div>'+
                                     '</div>'+
                                   '</div>';
+   let contentStringTridental = '<div id="content">'+
+                                  '<div id="bodyContent">'+
+                                    '<div class="shell">'+
+                                      '<div class="range">'+
+                                        '<div class="col-sm-12">'+
+                                          '<a href="http://www.tridentalmouthware.nl/0123811/contact/contact.htm" target="_blank">'+
+                                            '<img src="https://dentacoin.com/web/img/dentists/tridental.png" alt="" style="width: 200px;">'+
+                                          '</a>'+
+                                        '</div>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'; 
+   let contentStringClinident = '<div id="content">'+
+                                '<div id="bodyContent">'+
+                                  '<div class="shell">'+
+                                    '<div class="range">'+
+                                      '<div class="col-sm-12">'+
+                                        '<a href="http://www.tridentalmouthware.nl/0123811/contact/contact.htm" target="_blank">'+
+                                          '<img src="https://dentacoin.com/web/img/dentists/clinident.png" alt="" style="width: 200px;">'+
+                                        '</a>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'; 
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -465,25 +491,31 @@
     });
     let infowindowArkling = new google.maps.InfoWindow({
       content: contentStringArkling
-    })
+    });
     let infowindowGroupHealth = new google.maps.InfoWindow({
       content: contentStringGroupHealth
-    })
+    });
     let infowindowParkSouth = new google.maps.InfoWindow({
       content: contentStringParkSouth
-    })
+    });
     let infowindowGramercy = new google.maps.InfoWindow({
       content: contentStringGramercy
-    })
+    });
     let infowindowSherwani = new google.maps.InfoWindow({
       content: contentStringSherwani
-    })
+    });
     let infowindowLekodent = new google.maps.InfoWindow({
       content: contentStringLekodent
-    })
+    });
     let infowindowFlossbar = new google.maps.InfoWindow({
       content: contentStringFlossbar
-    })
+    });
+    let infowindowTridental = new google.maps.InfoWindow({
+      content: contentStringTridental
+    }); 
+    let infowindowClinident = new google.maps.InfoWindow({
+      content: contentStringClinident
+    }); 
 
     // Creates an object of locations for markers.
     var locations = [
@@ -509,7 +541,9 @@
         {lat: 44.7647099, lng: 20.41485369999998},
         {lat: 40.7174763, lng: -74.00070160000001},
         {lat: 40.7317415, lng: -73.99278219999997},
-        {lat: 40.7448638, lng: -73.9795494}
+        {lat: 40.7448638, lng: -73.9795494},
+        {lat: 52.204197, lng: 4.399617},
+        {lat: 52.056744, lng: 4.467956},
       ];
 
     // Create an object of titles for markers.
@@ -535,7 +569,9 @@
         {title: "Sherwani Dental Associates"},
         {title: "FlossBar"},
         {title: "FlossBar"},
-        {title: "FlossBar"}
+        {title: "FlossBar"}, 
+        {title: "Tridental"},
+        {title: "Clinident"},
       ];
 
     // Adds markers to the map.
@@ -623,33 +659,39 @@
           markers[22].addListener('click', function(){
             infowindowFlossbar.open(map, markers[22]);
           });
+          markers[23].addListener('click', function(){
+            infowindowTridental.open(map, markers[23]);
+          }); 
+          markers[24].addListener('click', function(){
+            infowindowClinident.open(map, markers[24]);
+          }); 
     }
 
-    //   // Drop testing.
+      //  Drop testing.
       
 
-    //   var markers = [];
+      // var markers = [];
 
-    //   function drop() {
-    //     clearMarkers();
-    //     for (var i = 0; i < neighborhoods.length; i++) {
-    //       addMarkerWithTimeout(neighborhoods[i], i * 200);
-    //     }
-    //   }
+      // function drop() {
+      //   clearMarkers();
+      //   for (var i = 0; i < neighborhoods.length; i++) {
+      //     addMarkerWithTimeout(neighborhoods[i], i * 200);
+      //   }
+      // }
   
-    //   function addMarkerWithTimeout(position, timeout) {
-    //     window.setTimeout(function() {
-    //       markers.push(new google.maps.Marker({
-    //         position: position,
-    //         map: map,
-    //         animation: google.maps.Animation.DROP
-    //       }));
-    //     }, timeout);
-    //   }
+      // function addMarkerWithTimeout(position, timeout) {
+      //   window.setTimeout(function() {
+      //     markers.push(new google.maps.Marker({
+      //       position: position,
+      //       map: map,
+      //       animation: google.maps.Animation.DROP
+      //     }));
+      //   }, timeout);
+      // }
   
-    //   function clearMarkers() {
-    //     for (var i = 0; i < markers.length; i++) {
-    //       markers[i].setMap(null);
-    //     }
-    //     markers = [];
-    //   }
+      // function clearMarkers() {
+      //   for (var i = 0; i < markers.length; i++) {
+      //     markers[i].setMap(null);
+      //   }
+      //   markers = [];
+      // }
