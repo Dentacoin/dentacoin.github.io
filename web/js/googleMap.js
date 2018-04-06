@@ -445,7 +445,6 @@
                                       '<div class="col-sm-12">'+
                                         '<a href="http://www.tridentalmouthware.nl/0123811/contact/contact.htm" target="_blank">'+
                                           '<img src="https://dentacoin.com/web/img/dentists/clinident.png" alt="" style="width: 200px;">'+
-                                          '<p style="font-size:12px;"> Здрасти Дони! </br> Тук ще поставим текстa, който ще ни предостави клиниката </br> <strong>Adress:</strong> Варна, Златни пясъци. </p>'+
                                         '</a>'+
                                       '</div>'+
                                     '</div>'+
