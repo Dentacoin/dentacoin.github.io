@@ -341,6 +341,9 @@
           </div>
         </div> 
          <!-- End Changelly-->
+         <!--Changelly Api-->
+
+         <!-- END Changelly Api-->
           <h4 class="text-center">Wallets:</h4>
           <div class="range range-sm-center text-center" style="margin-top: 0;">
             <div class="col-sm-12 offset-top-22">
@@ -1320,5 +1323,74 @@
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd5xOHXvqHKf8ulbL8hEhFA4kb7H6u6D4&callback=initMap&libraries=places">
     </script>
+
+<!--Changelly Api-->
+    <script>
+    var Changelly = require('./lib.js');
+
+var changelly = new Changelly(
+  '50ff42f5eb014e6896f721f1bb05d074',
+  '5214c708e2959a8bf15e60710b32846c92ad82725b59f10917469e7dfcf1a31e'
+);
+
+changelly.getCurrencies(function(err, data) {
+  if (err){
+    console.log('Error!', err);
+  } else {
+    console.log('getCurrencies', data);
+  }
+});
+
+changelly.createTransaction('eth', 'btc', '1PKYrd9CC4RFB65wBrvaAsTWnp8fXePuj', 10, undefined, function(err, data) {
+  if (err){
+    console.log('Error!', err);
+  } else {
+    console.log('createTransaction', data);
+  }
+});
+
+changelly.getMinAmount('eth', 'btc', function(err, data) {
+  if (err){
+    console.log('Error!', err);
+  } else {
+    console.log('getMinAmount', data);
+  }
+});
+
+changelly.getExchangeAmount('btc', 'eth', 1, function(err, data) {
+  if (err){
+    console.log('Error!', err);
+  } else {
+    console.log('getExchangeAmount', data);
+  }
+});
+
+changelly.getTransactions(10, 0, 'btc', undefined, undefined, function(err, data) {
+  if (err){
+    console.log('Error!', err);
+  } else {
+    console.log('getTransactions', data);
+  }
+});
+
+changelly.getStatus('1gy2g76', function(err, data) {
+  if (err){
+    console.log('Error!', err);
+  } else {
+    console.log('getStatus', data);
+  }
+});
+
+changelly.on('payin', function(data) {
+  console.log('payin', data);
+});
+
+changelly.on('payout', function(data) {
+  console.log('payout', data);
+});
+    </script>
+
+<!--End Changelly Api-->
+
   </body>
 </html>
