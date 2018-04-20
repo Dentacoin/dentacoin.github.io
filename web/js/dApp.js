@@ -25,18 +25,14 @@
 
 
 
-    window.addEventListener('load', function() {
-
-  // Checking if Web3 has been injected by the browser (Mist/MetaMask)
-  if (typeof web3 !== 'undefined') {
-
-    // Use the browser's ethereum provider
-    var provider = web3.currentProvider
-
-  } else {
-    console.log('No web3? You should consider trying MetaMask!')
-  }
-
+window.addEventListener('load', function () {
+    if (typeof web3 !== 'undefined') {
+        console.log('Web3 Detected! ' + web3.currentProvider.constructor.name)
+        window.web3 = new Web3(web3.currentProvider);
+    } else {
+        console.log('No Web3 Detected... using HTTP Provider')
+        window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/noapikey"));
+    }
 })
 
 
