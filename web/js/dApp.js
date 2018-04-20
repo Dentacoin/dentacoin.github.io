@@ -7,7 +7,7 @@
     //$("#checkBalanceResponse").hide();
 
 
-
+/*
     // Dentacoin contract address
     var DCNaddress = "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6"
     // set web3 object
@@ -21,8 +21,23 @@
         $("#checkMetamask").show();
         web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
     }
+*/
 
 
+
+    window.addEventListener('load', function() {
+
+  // Checking if Web3 has been injected by the browser (Mist/MetaMask)
+  if (typeof web3 !== 'undefined') {
+
+    // Use the browser's ethereum provider
+    var provider = web3.currentProvider
+
+  } else {
+    console.log('No web3? You should consider trying MetaMask!')
+  }
+
+})
 
 
 
