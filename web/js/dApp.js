@@ -6,10 +6,9 @@
     $("#checkMetamask").hide();
     //$("#checkBalanceResponse").hide();
 
-
-/*
     // Dentacoin contract address
     var DCNaddress = "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6"
+/*
     // set web3 object
     //var web3 = typeof window.web3 !== 'undefined' ? window.web3 : new Web3();
 
