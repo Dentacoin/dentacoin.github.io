@@ -6,10 +6,9 @@
     $("#checkMetamask").hide();
     //$("#checkBalanceResponse").hide();
 
-
-
     // Dentacoin contract address
-    var DCNaddress = "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6"
+    var DCNaddress = "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6";
+/*
     // set web3 object
     //var web3 = typeof window.web3 !== 'undefined' ? window.web3 : new Web3();
 
@@ -21,8 +20,19 @@
         $("#checkMetamask").show();
         web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
     }
+*/
 
 
+
+window.addEventListener('load', function () {
+    if (typeof web3 !== 'undefined') {
+        console.log('Web3 Detected! ' + web3.currentProvider.constructor.name)
+        window.web3 = new Web3(web3.currentProvider);
+    } else {
+        console.log('No Web3 Detected... using HTTP Provider')
+        window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/noapikey"));
+    }
+})
 
 
 
