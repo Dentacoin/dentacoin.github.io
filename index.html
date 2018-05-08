@@ -1332,9 +1332,9 @@
     <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
     <script src="web/js/min.particles.js"></script>
     <!-- Start of dentacoin Zendesk Widget script -->
-<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="dentacoin.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
-  /*]]>*/</script>
-  <!-- End of dentacoin Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="dentacoin.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
+    /*]]>*/</script>
+    <!-- End of dentacoin Zendesk Widget script -->
 
     <!-- Pure chat -->
        <!--  <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '43e7770f-9e2a-49af-9c05-3ebb510a55a2', f: true }); done = true; } }; })();</script>
@@ -1348,68 +1348,68 @@
 
 <!--Changelly Api-->
     <script>
-    var Changelly = require('./lib.js');
+        var Changelly = require('./lib.js');
 
-var changelly = new Changelly(
-  '77e457b3e68944f7ba931ec7103e4d1e',
-  'a26d68e3743aad02384ff4e088ad60737d2c358f820a4c56e545de7fcbab034f'
-);
+        var changelly = new Changelly(
+          '77e457b3e68944f7ba931ec7103e4d1e',
+          'a26d68e3743aad02384ff4e088ad60737d2c358f820a4c56e545de7fcbab034f'
+        );
 
-changelly.getCurrencies(function(err, data) {
-  if (err){
-    console.log('Error!', err);
-  } else {
-    console.log('getCurrencies', data);
-  }
-});
+       changelly.getCurrencies(function(err, data) {
+         if (err){
+           console.log('Error!', err);
+         } else {
+           console.log('getCurrencies', data);
+         }
+       });
 
-changelly.createTransaction('eth', 'btc', '1PKYrd9CC4RFB65wBrvaAsTWnp8fXePuj', 10, undefined, function(err, data) {
-  if (err){
-    console.log('Error!', err);
-  } else {
-    console.log('createTransaction', data);
-  }
-});
+       changelly.createTransaction('eth', 'btc', '1PKYrd9CC4RFB65wBrvaAsTWnp8fXePuj', 10, undefined, function(err, data) {
+         if (err){
+           console.log('Error!', err);
+         } else {
+           console.log('createTransaction', data);
+         }
+       });
 
-changelly.getMinAmount('eth', 'btc', function(err, data) {
-  if (err){
-    console.log('Error!', err);
-  } else {
-    console.log('getMinAmount', data);
-  }
-});
+       changelly.getMinAmount('eth', 'btc', function(err, data) {
+         if (err){
+           console.log('Error!', err);
+         } else {
+           console.log('getMinAmount', data);
+         }
+       });
 
-changelly.getExchangeAmount('btc', 'eth', 1, function(err, data) {
-  if (err){
-    console.log('Error!', err);
-  } else {
-    console.log('getExchangeAmount', data);
-  }
-});
+       changelly.getExchangeAmount('btc', 'eth', 1, function(err, data) {
+         if (err){
+           console.log('Error!', err);
+         } else {
+           console.log('getExchangeAmount', data);
+         }
+       });
 
-changelly.getTransactions(10, 0, 'btc', undefined, undefined, function(err, data) {
-  if (err){
-    console.log('Error!', err);
-  } else {
-    console.log('getTransactions', data);
-  }
-});
+       changelly.getTransactions(10, 0, 'btc', undefined, undefined, function(err, data) {
+         if (err){
+           console.log('Error!', err);
+         } else {
+           console.log('getTransactions', data);
+         }
+       });
 
-changelly.getStatus('1gy2g76', function(err, data) {
-  if (err){
-    console.log('Error!', err);
-  } else {
-    console.log('getStatus', data);
-  }
-});
+       changelly.getStatus('1gy2g76', function(err, data) {
+         if (err){
+           console.log('Error!', err);
+         } else {
+           console.log('getStatus', data);
+         }
+       });
 
-changelly.on('payin', function(data) {
-  console.log('payin', data);
-});
+       changelly.on('payin', function(data) {
+         console.log('payin', data);
+       });
 
-changelly.on('payout', function(data) {
-  console.log('payout', data);
-});
+       changelly.on('payout', function(data) {
+         console.log('payout', data);
+       });
     </script>
 
 <!--End Changelly Api-->
