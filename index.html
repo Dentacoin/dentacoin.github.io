@@ -1436,11 +1436,33 @@
 
 <!--End Changelly Api-->
 
-<!-- Coockies alert-->       
-    <script type="text/javascript" id="cookieinfo"
-      src="https://dentacoin.com/privacy/">
-    </script>
-<!-- End Cookie alert -->
+<!-- Begin Cookie Consent script https://cookiescript.info/ -->
+<link rel="stylesheet" type="text/css" href="//cookiescriptcdn.pro/libs/cookieconsent.7.min.css" />
+<a id="cookieconsent:learn_more" aria-label="learn more about cookies" role=button tabindex="0" class="cc-link" href="https://cookie-policy.org/" target="_blank">Read here</a><script>var cookieconsent_ts = 1526653635058; var learnmore2 = document.getElementById("cookieconsent:learn_more");learnmore2.setAttribute("style", "display:none");</script>
+<script src="//cookiescriptcdn.pro/libs/cookieconsent.7.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#3695b3"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "We have updated our Privacy Policy. ",
+    "dismiss": "I agree!",
+    "link": "Read here",
+    "href": "https://dentacoin.com/privacy/"
+  }
+})});
+</script>
+<noscript><a href="https://cookiescript.info/">Cookie consent script</a></noscript>
+<!-- End Cookie Consent script -->
 
   </body>
 </html>
