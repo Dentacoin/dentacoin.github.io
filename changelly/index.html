@@ -76,7 +76,7 @@
                             </li>
                             <li><a href="#">Partners</a>
                             </li>
-                            <li><a href="changelly/index.html">Buy DCN</a>
+                            <li><a href="changelly/#buy">Buy DCN</a>
                             </li>
                             <li><a href="../wallet/index.html">Wallet</a>
                             </li>
@@ -102,19 +102,58 @@
           <br>
           <div class="col-lg-12 center-col">
 
-            <iframe class="col-lg-12 center-col" 
-            src="https://changelly.com/widget/v1?auth=email&from=USD&to=DCN&merchant_id=e329f113040f&address=&amount=1&ref_id=e329f113040f&color=136584"
-            width="600"
-            height="500"
-            class="changelly"
-            scrolling="no"
-            style="overflow-y: hidden; border: none"
-          >
-            Can't load widget
-          </iframe>
-        
+         <!-- Changelly Mobile--> 
+         <div class="hidden-lg">    
+          <link rel="stylesheet" href="https://changelly.com/widget.css"/>
+          <a class="center-col" id="changellyButton" href="https://changelly.com/widget/v1?auth=email&from=USD&to=DCN&merchant_id=e329f113040f&address=&amount=1&ref_id=e329f113040f&color=136584" target="_blank">
+            <img class="img-responsive center-col" src="https://changelly.com/pay_button_buy_sell.png" />
+          </a>
+          <div id="changellyModal" style="z-index:1000">
+            <div class="changellyModal-content">
+              <span class="changellyModal-close">x</span>
+              <iframe
+                src="https://changelly.com/widget/v1?auth=email&from=USD&to=DCN&merchant_id=e329f113040f&address=&amount=1&ref_id=e329f113040f&color=136584"
+                width="600"
+                height="500"
+                class="changelly"
+                scrolling="no"
+                style="overflow-y: hidden; border: none;"
+              >
+                Can't load widget
+              </iframe>
+            </div>
+            <script type="text/javascript">
+              var changellyModal = document.getElementById('changellyModal');
+              var changellyButton = document.getElementById('changellyButton');
+              var changellyCloseButton = document.getElementsByClassName('changellyModal-close')[0];
+              changellyCloseButton.onclick = function() {
+                  changellyModal.style.display = 'none';
+              };
+  
+              changellyButton.onclick = function widgetClick(e) {
+                e.preventDefault();
+                changellyModal.style.display = 'block';
+              };
+            </script>
           </div>
-         <!-- End Changelly-->
+        </div>  
+            <!-- End Changelly Mobile-->
+            <!-- Changelly -->
+          <div class="hidden-sm hidden-xs">
+            <div class="col-lg-12 center-col">
+              <iframe class="col-lg-12 center-col embed-responsive-item" 
+              src="https://changelly.com/widget/v1?auth=email&from=USD&to=DCN&merchant_id=e329f113040f&address=&amount=1&ref_id=e329f113040f&color=136584"
+              width="600"
+              height="500"
+              class="changelly"
+              scrolling="no"
+              style="overflow-y: hidden; border: none"
+            >
+              Can't load widget
+            </iframe>  
+            </div>
+          </div> 
+           <!-- End Changelly-->
 
             </section>
             <section id="contact" class="section-100">
