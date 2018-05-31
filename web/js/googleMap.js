@@ -451,6 +451,19 @@
                                   '</div>'+
                                 '</div>'+
                               '</div>'; 
+   let shineDental = '<div id="content">'+
+                                 '<div id="bodyContent">'+
+                                   '<div class="shell">'+
+                                     '<div class="range">'+
+                                       '<div class="col-sm-12">'+
+                                         '<a href="https://www.shinedental.net/" target="_blank">'+
+                                           '<img src="https://dentacoin.com/web/img/dentists/shinedental.png" alt="" style="width: 200px;">'+
+                                         '</a>'+
+                                       '</div>'+
+                                     '</div>'+
+                                   '</div>'+
+                                 '</div>'+
+                                '</div>';                            
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -516,6 +529,9 @@
     let infowindowClinident = new google.maps.InfoWindow({
       content: contentStringClinident
     }); 
+    let infowindowShineDental = new google.maps.InfoWindow({
+      content: contentStringShineDental
+    }); 
 
     // Creates an object of locations for markers.
     var locations = [
@@ -544,6 +560,7 @@
         {lat: 40.7448638, lng: -73.9795494},
         {lat: 52.204197, lng: 4.399617},
         {lat: 52.056744, lng: 4.467956},
+        {lat: 37.552209, lng: -121.983477}
       ];
 
     // Create an object of titles for markers.
@@ -572,6 +589,7 @@
         {title: "FlossBar"}, 
         {title: "Tridental"},
         {title: "Clinident"},
+        {title: "ShineDental"}
       ];
 
     // Adds markers to the map.
@@ -664,6 +682,9 @@
           }); 
           markers[24].addListener('click', function(){
             infowindowClinident.open(map, markers[24]);
+          }); 
+          markers[25].addListener('click', function(){
+            infowindowShineDental.open(map, markers[25]);
           }); 
     }
 
