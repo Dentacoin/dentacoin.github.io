@@ -451,7 +451,7 @@
                                   '</div>'+
                                 '</div>'+
                               '</div>'; 
-   let shineDental = '<div id="content">'+
+   let contentStringShineDental = '<div id="content">'+
                                  '<div id="bodyContent">'+
                                    '<div class="shell">'+
                                      '<div class="range">'+
@@ -463,7 +463,20 @@
                                      '</div>'+
                                    '</div>'+
                                  '</div>'+
-                                '</div>';                            
+                                '</div>';
+   let contentStringEmergencyUk = '<div id="content">'+
+                                '<div id="bodyContent">'+
+                                  '<div class="shell">'+
+                                    '<div class="range">'+
+                                      '<div class="col-sm-12">'+
+                                        '<a href="https://24houremergencydentistlondon.com/" target="_blank">'+
+                                          '<img src="https://dentacoin.com/web/img/dentists/emergencyUk.png" alt="" style="width: 200px;">'+
+                                        '</a>'+
+                                      '</div>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+
+                               '</div>';                                  
 
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
@@ -532,6 +545,9 @@
     let infowindowShineDental = new google.maps.InfoWindow({
       content: contentStringShineDental
     }); 
+    let infowindowEmergencyUk = new google.maps.InfoWindow({
+      content: contentStringEmergencyUk
+    }); 
 
     // Creates an object of locations for markers.
     var locations = [
@@ -560,7 +576,8 @@
         {lat: 40.7448638, lng: -73.9795494},
         {lat: 52.204197, lng: 4.399617},
         {lat: 52.056744, lng: 4.467956},
-        {lat: 37.552209, lng: -121.983477}
+        {lat: 37.552209, lng: -121.983477},
+        {lat: 51.503752, lng: -0.075668},
       ];
 
     // Create an object of titles for markers.
@@ -589,7 +606,8 @@
         {title: "FlossBar"}, 
         {title: "Tridental"},
         {title: "Clinident"},
-        {title: "ShineDental"}
+        {title: "ShineDental"},
+        {title: "EmergencyUk"},
       ];
 
     // Adds markers to the map.
@@ -685,6 +703,9 @@
           }); 
           markers[25].addListener('click', function(){
             infowindowShineDental.open(map, markers[25]);
+          }); 
+          markers[26].addListener('click', function(){
+            infowindowEmergencyUk.open(map, markers[26]);
           }); 
     }
 
