@@ -477,7 +477,19 @@
                                   '</div>'+
                                 '</div>'+
                                '</div>';                                  
-
+   let contentStringSantoro = '<div id="content">'+
+                               '<div id="bodyContent">'+
+                                 '<div class="shell">'+
+                                   '<div class="range">'+
+                                     '<div class="col-sm-12">'+
+                                       '<a href="https://www.meinzahnarzt.tirol/" target="_blank">'+
+                                         '<img src="https://dentacoin.com/web/img/dentists/santoro.png" alt="" style="width: 200px;">'+
+                                       '</a>'+
+                                     '</div>'+
+                                   '</div>'+
+                                 '</div>'+
+                               '</div>'+
+                              '</div>';    
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
       content: contentStringSwissDentaprime
@@ -548,6 +560,9 @@
     let infowindowEmergencyUk = new google.maps.InfoWindow({
       content: contentStringEmergencyUk
     }); 
+    let infowindowSantoro = new google.maps.InfoWindow({
+      content: contentStringSantoro
+    }); 
 
     // Creates an object of locations for markers.
     var locations = [
@@ -578,6 +593,7 @@
         {lat: 52.056744, lng: 4.467956},
         {lat: 37.552209, lng: -121.983477},
         {lat: 51.503752, lng: -0.075668},
+        {lat: 47.256976, lng: 11.397277},
       ];
 
     // Create an object of titles for markers.
@@ -608,6 +624,7 @@
         {title: "Clinident"},
         {title: "ShineDental"},
         {title: "EmergencyUk"},
+        {title: "Santoro"},
       ];
 
     // Adds markers to the map.
@@ -706,6 +723,9 @@
           }); 
           markers[26].addListener('click', function(){
             infowindowEmergencyUk.open(map, markers[26]);
+          }); 
+          markers[27].addListener('click', function(){
+            infowindowSantoro.open(map, markers[27]);
           }); 
     }
 
