@@ -39,3 +39,11 @@ RewriteRule ^(.*)$ https://www.dentacoin.com/$1 [R,L]
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
 </IfModule>
+
+<filesMatch "\.( jpg|jpeg|gif|png)$">
+Header set Cache-Control "max-age=2419200, public, must-revalidate"
+</filesMatch>
+
+<FilesMatch "\.(xml|txt)$">
+Header set Cache-Control "max-age=86400, public, must-revalidate"
+</FilesMatch>
