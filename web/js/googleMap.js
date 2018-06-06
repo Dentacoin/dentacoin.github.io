@@ -489,7 +489,20 @@
                                    '</div>'+
                                  '</div>'+
                                '</div>'+
-                              '</div>';    
+                              '</div>';   
+   let contentStringDentalpro = '<div id="content">'+
+                              '<div id="bodyContent">'+
+                                '<div class="shell">'+
+                                  '<div class="range">'+
+                                    '<div class="col-sm-12">'+
+                                      '<a href="http://dentalpro.org/" target="_blank">'+
+                                        '<img src="https://dentacoin.com/web/img/dentists/dentalpro.png" alt="" style="width: 200px;">'+
+                                      '</a>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                             '</div>';                               
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
       content: contentStringSwissDentaprime
@@ -563,6 +576,9 @@
     let infowindowSantoro = new google.maps.InfoWindow({
       content: contentStringSantoro
     }); 
+    let infowindowDentalpro = new google.maps.InfoWindow({
+      content: contentStringDentalpro
+    }); 
 
     // Creates an object of locations for markers.
     var locations = [
@@ -594,6 +610,7 @@
         {lat: 37.552209, lng: -121.983477},
         {lat: 51.503752, lng: -0.075668},
         {lat: 47.256976, lng: 11.397277},
+        {lat: 3.142799, lng: 101.670024},
       ];
 
     // Create an object of titles for markers.
@@ -625,6 +642,7 @@
         {title: "ShineDental"},
         {title: "EmergencyUk"},
         {title: "Santoro"},
+        {title: "Dentalpro"},
       ];
 
     // Adds markers to the map.
@@ -726,6 +744,9 @@
           }); 
           markers[27].addListener('click', function(){
             infowindowSantoro.open(map, markers[27]);
+          }); 
+          markers[28].addListener('click', function(){
+            infowindowDentalpro.open(map, markers[28]);
           }); 
     }
 
