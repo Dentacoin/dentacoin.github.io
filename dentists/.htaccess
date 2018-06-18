@@ -1,0 +1,23 @@
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^www.dentists.dentacoin.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) https://www.dentists.dentacoin.com/$1 [R=301,L]
+
+RewriteOptions inherit
+<IfModule mod_headers.c>
+   Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 58.187.21.164
+deny from 36.84.49.134
+deny from 59.153.252.211
+deny from 59.153.255.39
