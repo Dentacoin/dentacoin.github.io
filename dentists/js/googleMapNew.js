@@ -515,7 +515,33 @@
                                  '</div>'+
                                '</div>'+
                              '</div>'+
-                            '</div>';                                                           
+                            '</div>';
+let contentStringEcodent = '<div id="content">'+
+                            '<div id="bodyContent">'+
+                              '<div class="shell">'+
+                                '<div class="range">'+
+                                  '<div class="col-sm-12">'+
+                                    '<a href="https://ecodentlaboratory.com/" target="_blank">'+
+                                      '<img src="https://dentacoin.com/web/img/dentists/ecodent.png" alt="" style="width: 200px;">'+
+                                    '</a>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>'+
+                           '</div>';    
+let contentStringSkinteeth = '<div id="content">'+
+                           '<div id="bodyContent">'+
+                             '<div class="shell">'+
+                               '<div class="range">'+
+                                 '<div class="col-sm-12">'+
+                                   '<a href="https://www.instagram.com/skinteeth37/" target="_blank">'+
+                                     '<img src="https://dentacoin.com/web/img/dentists/skin.png" alt="" style="width: 200px;">'+
+                                   '</a>'+
+                                 '</div>'+
+                               '</div>'+
+                             '</div>'+
+                           '</div>'+
+                          '</div>';                                                                                     
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
       content: contentStringSwissDentaprime
@@ -594,7 +620,13 @@
     });
     let infowindowDentalwork = new google.maps.InfoWindow({
       content: contentStringDentalwork
-    });  
+    });
+    let infowindowEcodent = new google.maps.InfoWindow({
+      content: contentStringEcodent
+    });
+    let infowindowSkinteeth = new google.maps.InfoWindow({
+      content: contentStringSkinteeth
+    });        
 
     // Creates an object of locations for markers.
     var locations = [
@@ -618,9 +650,9 @@
         {lat: 40.737008, lng: -73.986978},
         {lat: 31.4776707, lng: 74.3221092},
         {lat: 44.7647099, lng: 20.41485369999998},
-        {lat: 40.7174763, lng: -74.00070160000001},
-        {lat: 40.7317415, lng: -73.99278219999997},
-        {lat: 40.7448638, lng: -73.9795494},
+        {lat: 40.748907, lng: -73.977392},
+        {lat: 40.731981, lng: -73.992804},
+        {lat: 40.745233, lng: -73.979457},
         {lat: 52.204197, lng: 4.399617},
         {lat: 52.056744, lng: 4.467956},
         {lat: 37.552209, lng: -121.983477},
@@ -633,6 +665,10 @@
         {lat: 40.847195, lng: -73.894615},
         {lat: 40.858613, lng: -73.899067},
         {lat: 40.809525, lng: -73.945012},
+        {lat: 40.597959, lng: -73.962657},
+        {lat: 40.763984, lng: -73.970161},
+        {lat: 40.765191, lng: -73.975061},
+        {lat: 25.406874, lng: 55.541392},
 
       ];
 
@@ -672,6 +708,10 @@
         {title: "Dentalwork"},
         {title: "Dentalwork"},
         {title: "Dentalwork"},
+        {title: "Ecodent Dental Studio"},
+        {title: "FlossBar"}, 
+        {title: "FlossBar"},
+        {title: "Skin & Teeth"},  
       ];
 
     // Adds markers to the map.
@@ -686,7 +726,7 @@
           shape: shape
         });
       });
-
+     
     // Initializing info windows.
     var markerCluster = new MarkerClusterer(map, markers,
         {imagePath: 'https://dentacoin.com/web/img/m'});
@@ -795,6 +835,18 @@
           markers[34].addListener('click', function(){
             infowindowDentalwork.open(map, markers[34]);
           }); 
+          markers[35].addListener('click', function(){
+            infowindowEcodent.open(map, markers[35]);
+          }); 
+          markers[36].addListener('click', function(){
+            infowindowFlossbar.open(map, markers[36]);
+          });
+          markers[37].addListener('click', function(){
+            infowindowFlossbar.open(map, markers[37]);
+          });
+          markers[38].addListener('click', function(){
+            infowindowSkinteeth.open(map, markers[38]);
+          });
     }
 
       //  Drop testing.
