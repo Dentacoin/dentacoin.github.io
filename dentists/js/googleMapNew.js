@@ -541,7 +541,8 @@ let contentStringSkinteeth = '<div id="content">'+
                                '</div>'+
                              '</div>'+
                            '</div>'+
-                          '</div>';                                                                                     
+                          '</div>';   
+                                                                                                            
     // Creating the info windows.
     var infowindowSwissDentaprime = new google.maps.InfoWindow({
       content: contentStringSwissDentaprime
