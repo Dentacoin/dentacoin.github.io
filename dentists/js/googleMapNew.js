@@ -184,7 +184,7 @@
                                               '<div class="range">'+
                                                 '<div class="col-sm-12">'+
                                                   '<a href="https://www.dentaprime.com/dental-clinic" target="_blank">'+
-                                                    '<img src="https://dentacoin.com/web/img/dentists/dp-logo.png" alt="" style="width: 200px;">'+
+                                                    '<img src="//dentacoin.com/web/img/dentists/dp-logo.png" alt="" style="width: 200px;">'+
                                                   '</a>'+
                                                 '</div>'+
                                               '</div>'+
