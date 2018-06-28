@@ -1,0 +1,11 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Dentacoin - The Blockchain Platform for the Global Dental Industry</title>
+
+</head>
+<body>
+form
+</body>
+</html>
