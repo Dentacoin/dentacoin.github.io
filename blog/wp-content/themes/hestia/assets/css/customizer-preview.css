@@ -1,0 +1,375 @@
+/*
+ * Customizer stylesheet.
+ */
+.pirate-forms-placeholder .header-primary {
+	z-index: 100;
+	border: 2px dashed #8a8a8a;
+	background: rgba(60, 60, 60, 0.9);
+}
+
+.pirate-forms-placeholder .card {
+	position: relative;
+	z-index: 50;
+	border: 2px dashed #8a8a8a;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.pirate-forms-placeholder .card:after {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 6px;
+	content: " ";
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay:before {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	content: "";
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay .placeholder-text {
+	padding: 15px 15px;
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0.5);
+	font-weight: 100;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay .placeholder-text .customize-partial-edit-shortcut button {
+	top: -25px;
+}
+
+.pirate-forms-placeholder .pirate_forms_wrap form,
+.pirate-forms-placeholder .pirate_forms_wrap div {
+	z-index: -2;
+	opacity: 0.3;
+}
+
+.pirate-forms-placeholder .pirate_forms_wrap form button,
+.pirate-forms-placeholder .pirate_forms_wrap div button {
+	border: 2px dashed #8a8a8a;
+	background-color: #333;
+	box-shadow: none;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-align {
+	display: inline-block;
+	width: 100%;
+	margin: 0 -7px;
+	vertical-align: middle;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-align:before {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	vertical-align: middle;
+	content: "";
+}
+
+.customize-partial-edit-shortcut-custom_header {
+	z-index: 9999;
+}
+
+.customize-partial-edit-shortcut-hestia_big_title_background {
+	top: 80px;
+	right: 80px;
+}
+
+.customize-partial-edit-shortcut-hestia_placeholder_sidebar_woocommerce,
+.customize-partial-edit-shortcut-hestia_placeholder_sidebar_1 {
+	position: relative;
+	top: -10px;
+	left: 45px;
+}
+
+.customize-partial-edit-shortcut-hestia_feature_thumbnail,
+.customize-partial-edit-shortcut-hestia_copyright_alignment,
+.customize-partial-edit-shortcut-hestia_top_bar_alignment,
+.customize-partial-edit-shortcut-hestia_ribbon_background,
+.customize-partial-edit-shortcut-hestia_subscribe_background,
+.customize-partial-edit-shortcut-hestia_contact_background {
+	z-index: 1029;
+	top: 10px;
+	right: 10px;
+}
+
+.hestia-about,
+section.hestia-features,
+section.products,
+.hestia-work,
+.hestia-team,
+section.pricing,
+.hestia-ribbon,
+.hestia-testimonials,
+.hestia-clients-bar,
+section.subscribe-line,
+body.page .hestia-blogs,
+section.contactus {
+	position: relative;
+}
+
+.hestia-about:before,
+section.hestia-features:before,
+section.products:before,
+.hestia-work:before,
+.hestia-team:before,
+section.pricing:before,
+.hestia-ribbon:before,
+.hestia-testimonials:before,
+.hestia-clients-bar:before,
+section.subscribe-line:before,
+body.page .hestia-blogs:before,
+section.contactus:before {
+	position: absolute;
+	z-index: 100;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	border: 2px dashed rgba(121, 121, 121, 0.22);
+	content: " ";
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	pointer-events: none;
+}
+
+.hestia-about:hover:before,
+section.hestia-features:hover:before,
+section.products:hover:before,
+.hestia-work:hover:before,
+.hestia-team:hover:before,
+section.pricing:hover:before,
+.hestia-ribbon:hover:before,
+.hestia-testimonials:hover:before,
+.hestia-clients-bar:hover:before,
+section.subscribe-line:hover:before,
+body.page .hestia-blogs:hover:before,
+section.contactus:hover:before {
+	border-color: #00a0d0;
+}
+
+.hestia-about .customize-partial-edit-shortcut,
+section.hestia-features .customize-partial-edit-shortcut,
+section.products .customize-partial-edit-shortcut,
+.hestia-work .customize-partial-edit-shortcut,
+.hestia-team .customize-partial-edit-shortcut,
+section.pricing .customize-partial-edit-shortcut,
+.hestia-ribbon .customize-partial-edit-shortcut,
+.hestia-testimonials .customize-partial-edit-shortcut,
+.hestia-clients-bar .customize-partial-edit-shortcut,
+section.subscribe-line .customize-partial-edit-shortcut,
+body.page .hestia-blogs .customize-partial-edit-shortcut,
+section.contactus .customize-partial-edit-shortcut {
+	opacity: 0;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+.hestia-about .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+section.hestia-features .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+section.products .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+.hestia-work .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+.hestia-team .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+section.pricing .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+.hestia-ribbon .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+.hestia-testimonials .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+.hestia-clients-bar .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+section.subscribe-line .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+body.page .hestia-blogs .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_features_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_about_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_shop_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_portfolio_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_team_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_pricing_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_ribbon_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_testimonials_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_subscribe_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_blog_hide,
+section.contactus .customize-partial-edit-shortcut.customize-partial-edit-shortcut-hestia_contact_hide {
+	opacity: 1;
+}
+
+.hestia-about:hover .customize-partial-edit-shortcut,
+section.hestia-features:hover .customize-partial-edit-shortcut,
+section.products:hover .customize-partial-edit-shortcut,
+.hestia-work:hover .customize-partial-edit-shortcut,
+.hestia-team:hover .customize-partial-edit-shortcut,
+section.pricing:hover .customize-partial-edit-shortcut,
+.hestia-ribbon:hover .customize-partial-edit-shortcut,
+.hestia-testimonials:hover .customize-partial-edit-shortcut,
+.hestia-clients-bar:hover .customize-partial-edit-shortcut,
+section.subscribe-line:hover .customize-partial-edit-shortcut,
+body.page .hestia-blogs:hover .customize-partial-edit-shortcut,
+section.contactus:hover .customize-partial-edit-shortcut {
+	opacity: 1;
+}
+
+.customize-partial-edit-shortcut-hestia_features_hide,
+.customize-partial-edit-shortcut-hestia_about_hide,
+.customize-partial-edit-shortcut-hestia_shop_hide,
+.customize-partial-edit-shortcut-hestia_portfolio_hide,
+.customize-partial-edit-shortcut-hestia_team_hide,
+.customize-partial-edit-shortcut-hestia_pricing_hide,
+.customize-partial-edit-shortcut-hestia_ribbon_hide,
+.customize-partial-edit-shortcut-hestia_testimonials_hide,
+.customize-partial-edit-shortcut-hestia_clients_bar_hide,
+.customize-partial-edit-shortcut-hestia_subscribe_hide,
+.customize-partial-edit-shortcut-hestia_blog_hide,
+.customize-partial-edit-shortcut-hestia_contact_hide {
+	z-index: 999;
+	top: 0;
+	left: 40px;
+	opacity: 1;
+}
+
+.customize-partial-edit-shortcut-hestia_shop_items,
+.customize-partial-edit-shortcut-hestia_blog_items,
+.customize-partial-edit-shortcut-hestia_shop_categories,
+.customize-partial-edit-shortcut-hestia_shop_order,
+.customize-partial-edit-shortcut-hestia_shop_shortcode,
+.customize-partial-edit-shortcut-hestia_portfolio_items,
+.customize-partial-edit-shortcut-hestia_portfolio_boxes_type,
+.customize-partial-edit-shortcut-hestia_blog_categories,
+body.blog .customize-partial-edit-shortcut-hestia_blog_hide,
+.customize-partial-edit-shortcut-hestia_slider_alignment {
+	display: none;
+}

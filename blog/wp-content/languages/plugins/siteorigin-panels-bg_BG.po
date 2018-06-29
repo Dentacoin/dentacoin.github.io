@@ -1,0 +1,1359 @@
+# Translation of Plugins - Page Builder by SiteOrigin - Stable (latest release) in Bulgarian
+# This file is distributed under the same license as the Plugins - Page Builder by SiteOrigin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-06 06:48:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: bg\n"
+"Project-Id-Version: Plugins - Page Builder by SiteOrigin - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://siteorigin.com"
+msgstr "https://siteorigin.com"
+
+#. Author of the plugin/theme
+msgid "SiteOrigin"
+msgstr "SiteOrigin"
+
+#. Description of the plugin/theme
+msgid "A drag and drop, responsive page builder that simplifies building your website."
+msgstr "Drag and drop строител на страници с адаптивен дизайн, който опростява изграждането на уебсайта Ви."
+
+#. Plugin URI of the plugin/theme
+msgid "https://siteorigin.com/page-builder/"
+msgstr "https://siteorigin.com/page-builder/"
+
+#. Plugin Name of the plugin/theme
+msgid "Page Builder by SiteOrigin"
+msgstr "Строител на страници от SiteOrigin"
+
+#: widgets/widgets.php:951
+msgid "Auto Play Video"
+msgstr "Автоматично стартиране на видео"
+
+#: widgets/widgets.php:946
+msgid "An image that displays before the video starts playing."
+msgstr "Изображение което се показва преди да започне изпълнението на видеото."
+
+#: widgets/widgets.php:944
+msgid "Poster URL"
+msgstr "URL на постер"
+
+#: widgets/widgets.php:940
+msgid "Video URL"
+msgstr "URL на видеото"
+
+#: widgets/widgets.php:898
+msgid "A self hosted video player."
+msgstr "Мой видео плеър"
+
+#: widgets/widgets.php:896
+msgid "Self Hosted Video (PB)"
+msgstr "Мое видео (PB)"
+
+#: widgets/widgets.php:880
+msgid "Video"
+msgstr "Видео"
+
+#: widgets/widgets.php:842
+msgid "Embeds a video."
+msgstr "Вградено видео."
+
+#: widgets/widgets.php:840
+msgid "Embedded Video (PB)"
+msgstr "Вградено видео (PB)"
+
+#: widgets/widgets.php:789
+msgid "Displays a simple image."
+msgstr "Показване като единично изображение"
+
+#: widgets/widgets.php:787
+msgid "Image (PB)"
+msgstr "Изображение (PB)"
+
+#: widgets/widgets.php:769
+msgid "File"
+msgstr "Файл"
+
+#: widgets/widgets.php:768
+msgid "Attachment Page"
+msgstr "Страница на приложения файл"
+
+#: widgets/widgets.php:766
+msgid "Link To"
+msgstr "Връзка към"
+
+#: widgets/widgets.php:761
+msgid "Columns"
+msgstr "Колони"
+
+#: widgets/widgets.php:756
+msgid "Gallery Type"
+msgstr "Тип на галерията"
+
+#: widgets/widgets.php:748
+msgid "Full"
+msgstr "Пълен размер"
+
+#: widgets/widgets.php:747
+msgid "Thumbnail"
+msgstr "Картинка"
+
+#: widgets/widgets.php:746
+msgid "Medium"
+msgstr "Средно"
+
+#: widgets/widgets.php:745
+msgid "Large"
+msgstr "Голямо"
+
+#: widgets/widgets.php:742
+msgid "Image Size"
+msgstr "Размер на изображението"
+
+#: widgets/widgets.php:738
+msgid "Comma separated attachment IDs. Defaults to all current page's attachments."
+msgstr "Списък от ID-та на прикачени файлове, разделени със запетая. По подразбиране, ще се използват всички прикачени файлове към текущата публикация."
+
+#: widgets/widgets.php:734
+msgid "edit gallery"
+msgstr "редактиране на галерия"
+
+#: widgets/widgets.php:733
+msgid "Gallery Images"
+msgstr "Изображения в галерията"
+
+#: widgets/widgets.php:694
+msgid "Displays a gallery."
+msgstr "Показване на галерия."
+
+#: widgets/widgets.php:692
+msgid "Gallery (PB)"
+msgstr "Галерия (PB)"
+
+#: widgets/widgets.php:631
+msgid "Additional Arguments"
+msgstr "Допълнителни аргументи"
+
+#: widgets/widgets.php:231
+msgid "%s Style"
+msgstr "%s стил "
+
+#: widgets/widgets.php:207
+msgid "Style"
+msgstr "Стил"
+
+#. TRANSLATORS: Uniform Resource Locator
+#: widgets/widgets/testimonial/testimonial.php:32
+msgid "URL"
+msgstr "URL"
+
+#: widgets/widgets/testimonial/testimonial.php:23
+msgid "Image"
+msgstr "Изображение"
+
+#: widgets/widgets/testimonial/testimonial.php:19
+msgid "Location"
+msgstr "Локация"
+
+#: widgets/widgets/testimonial/testimonial.php:8
+msgid "Displays a bullet list of points"
+msgstr "Показване на маркиран списък по точки"
+
+#: widgets/widgets/testimonial/testimonial.php:6
+msgid "Testimonial (PB)"
+msgstr "Мнения и препоръки (PB)"
+
+#: widgets/widgets/price-box/price-box.php:50
+msgid "Feature List"
+msgstr "Списък с екстри"
+
+#: widgets/widgets/price-box/price-box.php:31
+msgid "Features Text"
+msgstr "Текст с екстри"
+
+#: widgets/widgets/price-box/price-box.php:27
+msgid "Information Text"
+msgstr "Информативен текст"
+
+#: widgets/widgets/price-box/price-box.php:23
+msgid "Per"
+msgstr "За"
+
+#: widgets/widgets/price-box/price-box.php:19
+msgid "Price"
+msgstr "Цена"
+
+#: widgets/widgets/price-box/price-box.php:6
+msgid "Price Box (PB)"
+msgstr "Ценови карета (PB)"
+
+#: widgets/widgets/list/list.php:20 widgets/widgets/price-box/price-box.php:32
+msgid "Start each new point with an asterisk (*)"
+msgstr "Започване на всяка нова точка със звезда (*)"
+
+#: widgets/widgets/list/list.php:8 widgets/widgets/price-box/price-box.php:8
+msgid "Displays a bullet list of elements"
+msgstr "Показване на маркиран списък от елементи"
+
+#: widgets/widgets/list/list.php:6
+msgid "List (PB)"
+msgstr "Списък (PB)"
+
+#: widgets/widgets/call-to-action/call-to-action.php:37
+#: widgets/widgets/price-box/price-box.php:49
+msgid "Button"
+msgstr "Бутон"
+
+#: widgets/widgets/call-to-action/call-to-action.php:27
+#: widgets/widgets/price-box/price-box.php:40
+msgid "Button URL"
+msgstr "URL на бутона"
+
+#: widgets/widgets/call-to-action/call-to-action.php:23
+#: widgets/widgets/price-box/price-box.php:36
+msgid "Button Text"
+msgstr "Текст на бутона"
+
+#: widgets/widgets/call-to-action/call-to-action.php:19
+msgid "Sub Title"
+msgstr "Под заглавие"
+
+#: widgets/widgets/call-to-action/call-to-action.php:8
+msgid "A Call to Action block"
+msgstr "Блок \"Зов за действие\""
+
+#: widgets/widgets/call-to-action/call-to-action.php:6
+msgid "Call To Action (PB)"
+msgstr "Зов за действие (PB)"
+
+#: widgets/widgets/button/button.php:32
+msgid "Justify"
+msgstr "Двустранно"
+
+#: widgets/widgets/button/button.php:31
+msgid "Center"
+msgstr "Център"
+
+#: widgets/widgets/button/button.php:30
+msgid "Right"
+msgstr "Дясно"
+
+#: widgets/widgets/button/button.php:29
+msgid "Left"
+msgstr "Ляво"
+
+#: widgets/widgets/button/button.php:27
+msgid "Button Alignment"
+msgstr "Подравняване на бутона"
+
+#: widgets/widgets/button/button.php:23
+#: widgets/widgets/call-to-action/call-to-action.php:31
+#: widgets/widgets/price-box/price-box.php:44
+#: widgets/widgets/testimonial/testimonial.php:36
+msgid "Open In New Window"
+msgstr "Отваряне в нов прозорец"
+
+#: widgets/widgets/button/button.php:19 widgets/widgets.php:826
+msgid "Destination URL"
+msgstr "URL на връзката"
+
+#: widgets/widgets/button/button.php:15 widgets/widgets/list/list.php:19
+#: widgets/widgets/testimonial/testimonial.php:27
+msgid "Text"
+msgstr "Текст"
+
+#: widgets/widgets/button/button.php:6
+msgid "Button (PB)"
+msgstr "Бутон (PB)"
+
+#: widgets/widgets/animated-image/animated-image.php:25
+msgid "Slide Right"
+msgstr "Плъзване от дясно"
+
+#: widgets/widgets/animated-image/animated-image.php:24
+msgid "Slide Left"
+msgstr "Плъзване от ляво"
+
+#: widgets/widgets/animated-image/animated-image.php:23
+msgid "Slide Down"
+msgstr "Плъзване от долу"
+
+#: widgets/widgets/animated-image/animated-image.php:22
+msgid "Slide Up"
+msgstr "Плъзване от горе"
+
+#: widgets/widgets/animated-image/animated-image.php:21
+msgid "Fade In"
+msgstr "Затихване"
+
+#: widgets/widgets/animated-image/animated-image.php:19
+msgid "Animation"
+msgstr "Анимация"
+
+#: widgets/widgets/animated-image/animated-image.php:15 widgets/widgets.php:822
+msgid "Image URL"
+msgstr "URL на изображението"
+
+#: widgets/widgets/animated-image/animated-image.php:8
+msgid "An image that animates in when it enters the screen."
+msgstr "Изображение което се показва анимирано при показване във видимата част на екрана."
+
+#: widgets/widgets/animated-image/animated-image.php:6
+msgid "Animated Image (PB)"
+msgstr "Анимирано изображение (PB)"
+
+#: widgets/basic.php:477 widgets/widgets.php:635
+msgid "Additional query arguments. See 1{query_posts}."
+msgstr "Допълнителни query параметри. Преглед 1{query_posts}. "
+
+#: widgets/basic.php:470
+msgid "Additional "
+msgstr "Допълнително"
+
+#: widgets/basic.php:465 widgets/widgets.php:625
+msgid "Only Sticky"
+msgstr "Само лепнатите"
+
+#: widgets/basic.php:464 widgets/widgets.php:624
+msgid "Exclude Sticky"
+msgstr "Изключване на лепнатите"
+
+#: widgets/basic.php:463 widgets/widgets.php:623
+msgid "Ignore Sticky"
+msgstr "Игнориране на лепнатите да са най-отгоре"
+
+#: widgets/basic.php:462 widgets/widgets.php:622 widgets/widgets.php:744
+msgid "Default"
+msgstr "По подразбиране"
+
+#: widgets/basic.php:460 widgets/widgets.php:620
+msgid "Sticky Posts"
+msgstr "Лепнати статии"
+
+#: widgets/basic.php:455 widgets/widgets.php:613
+msgid "Ascending"
+msgstr "Възходящ"
+
+#: widgets/basic.php:454 widgets/widgets.php:614
+msgid "Descending"
+msgstr "Низходящ"
+
+#: widgets/basic.php:452 widgets/widgets.php:611
+msgid "Order"
+msgstr "Ред"
+
+#: widgets/basic.php:447
+msgid "Post In Order"
+msgstr "Публикации в ред"
+
+#: widgets/basic.php:446 widgets/widgets.php:605
+msgid "Menu Order"
+msgstr "Ред в менюто"
+
+#: widgets/basic.php:445 widgets/widgets.php:604
+msgid "Comment Count"
+msgstr "Брой на коментари"
+
+#: widgets/basic.php:444 widgets/widgets.php:603
+msgid "Random"
+msgstr "Разбъркано"
+
+#: widgets/basic.php:443 widgets/widgets.php:602
+msgid "Parent"
+msgstr "Родител"
+
+#: widgets/basic.php:442 widgets/widgets.php:601
+msgid "Modified"
+msgstr "Последна промяна"
+
+#: widgets/basic.php:441 widgets/widgets.php:600
+msgid "Date"
+msgstr "Дата"
+
+#: widgets/basic.php:439 widgets/basic.php:440
+#: widgets/widgets/testimonial/testimonial.php:15 widgets/widgets.php:598
+#: widgets/widgets.php:599
+msgid "Name"
+msgstr "Име"
+
+#: widgets/basic.php:438 widgets/widgets.php:597
+msgid "Author"
+msgstr "Автор"
+
+#: widgets/basic.php:437 widgets/widgets.php:596
+msgid "Post ID"
+msgstr "Post ID"
+
+#: widgets/basic.php:434 widgets/widgets.php:593
+msgid "Order By"
+msgstr "Подредба по"
+
+#: widgets/basic.php:429 widgets/widgets.php:588
+msgid "Posts Per Page"
+msgstr "Публикации на страница"
+
+#: widgets/basic.php:420 widgets/widgets.php:581
+msgid "Post Type"
+msgstr "Тип съдържание"
+
+#: widgets/basic.php:386
+msgid "If the template supports it, cut posts and display the more link."
+msgstr "Ако шаблонът го поддържа, публикацията ще бъде отразана и ще бъде изобразен линк за още."
+
+#: widgets/basic.php:384
+msgid "More Link "
+msgstr "Връзка към още"
+
+#: widgets/basic.php:368
+msgid "Template"
+msgstr "Шаблон"
+
+#: widgets/basic.php:358
+msgid "Your theme doesn't have any post loops."
+msgstr "Вашата тема не разполага с никакви post loops."
+
+#: widgets/basic.php:159
+msgid "Displays a post loop."
+msgstr "Показване като post loop"
+
+#: widgets/basic.php:157
+msgid "Post Loop"
+msgstr "Post Loop"
+
+#: widgets/basic.php:137
+msgid "Display Content"
+msgstr "Съдържание"
+
+#: widgets/basic.php:132
+msgid "Featured Image"
+msgstr "Откроена картинка"
+
+#: widgets/basic.php:131 widgets/basic.php:364
+#: widgets/widgets/call-to-action/call-to-action.php:15
+#: widgets/widgets/list/list.php:15 widgets/widgets/price-box/price-box.php:15
+msgid "Title"
+msgstr "Заглавие"
+
+#: widgets/basic.php:130 widgets/basic.php:436 widgets/widgets.php:595
+#: widgets/widgets.php:770
+msgid "None"
+msgstr "Няма"
+
+#: widgets/basic.php:84
+msgid "Displays content from the current post."
+msgstr "Изглед на части от съдържанието от текущата публикация"
+
+#: widgets/basic.php:82
+msgid "Post Content"
+msgstr "Съдържание"
+
+#: widgets/basic.php:53
+msgid "Open Builder"
+msgstr "Отваряне на строителя"
+
+#: widgets/basic.php:15
+msgid "A complete SiteOrigin Page Builder layout as a widget."
+msgstr "Пълнофункционален SiteOrigin строител на страници като джаджа."
+
+#. TRANSLATORS: This is the name of a widget
+#: widgets/basic.php:13
+msgid "Layout Builder"
+msgstr "Строител на оформление"
+
+#: tpl/options.php:82
+msgid "Inline CSS"
+msgstr "Inline CSS"
+
+#: tpl/options.php:76
+msgid "Cell Side Margins"
+msgstr "Margin при страните на клетката"
+
+#: tpl/options.php:58
+msgid "Should the layout collapse for mobile devices."
+msgstr "Събиране на оформлението при мобилни устройства"
+
+#: tpl/options.php:48
+msgid "Display"
+msgstr "Изглед"
+
+#: tpl/options.php:40
+msgid "Include the bundled widgets."
+msgstr "Включване на комплекта от джаджи"
+
+#: tpl/options.php:39
+msgid "Bundled Widgets"
+msgstr "Комплект джаджи"
+
+#: tpl/options.php:33
+msgid "Disable animations for improved performance."
+msgstr "Изключване на анимациите може да подобри бързодействието в вашия администраторски панел."
+
+#: tpl/options.php:32
+msgid "Animations"
+msgstr "Анимации"
+
+#: tpl/options.php:26
+msgid "Copy content from Page Builder into the standard content editor."
+msgstr "Копиране на съдържанието от строителя на страници към стандартния редактор."
+
+#: tpl/js-templates.php:560
+msgid "No Results"
+msgstr "Няма резултати"
+
+#: tpl/js-templates.php:512
+msgid "Close Live Editor"
+msgstr "Затваряне"
+
+#: tpl/js-templates.php:487
+msgid "Restore Version"
+msgstr "Възстановяване към версия"
+
+#: tpl/js-templates.php:473
+msgid "Page Builder Change History"
+msgstr "История"
+
+#: tpl/js-templates.php:452
+msgid "Download Layout"
+msgstr "Изтегляне на оформлението"
+
+#: tpl/js-templates.php:440
+msgid "Select Import File"
+msgstr "Избор на файл"
+
+#: tpl/js-templates.php:437
+msgid "Or"
+msgstr "Или"
+
+#: tpl/js-templates.php:436
+msgid "Drop import file here"
+msgstr "Придърпайте файла за импортиране тук"
+
+#: tpl/js-templates.php:426
+msgid "Next"
+msgstr "Следваща"
+
+#: tpl/js-templates.php:425
+msgid "Previous"
+msgstr "Предишен"
+
+#: tpl/js-templates.php:398
+msgid "Your search didn't return any results"
+msgstr "Търсенето ви не намери резултати"
+
+#: tpl/js-templates.php:392
+msgid "Newest Layouts"
+msgstr "Най-нови макети"
+
+#: tpl/js-templates.php:384
+msgid "Enable"
+msgstr "Разрешен"
+
+#: tpl/js-templates.php:383
+msgid "Do you want to browse the Prebuilt Layouts directory?"
+msgstr "Искате ли да прегледате директорията на Предварително Подготвените Оформления?"
+
+#: tpl/js-templates.php:365
+msgid "Clone: %s"
+msgstr "Клониране: %s"
+
+#: tpl/js-templates.php:359
+msgid "Import/Export"
+msgstr "Импорт/Експорт"
+
+#: tpl/js-templates.php:358
+msgid "Layouts Directory"
+msgstr "Директория с макети"
+
+#: tpl/js-templates.php:355
+msgid "Theme Defined"
+msgstr "От темата"
+
+#: tpl/js-templates.php:351
+msgid "Search"
+msgstr "Търсене"
+
+#: tpl/js-templates.php:347
+msgid "Prebuilt Layouts"
+msgstr "Вградени оформления"
+
+#: tpl/js-templates.php:329
+msgid "Save"
+msgstr "Запазване"
+
+#: tpl/js-templates.php:327
+msgid "Insert"
+msgstr "Вмъкване"
+
+#: tpl/js-templates.php:308
+msgid "Set"
+msgstr "Задаване"
+
+#: tpl/js-templates.php:302
+msgid "1{Set row layout}: %1$s columns with a ratio of %2$s going from %3$s"
+msgstr ""
+"1{Оформление за ред}: %1$s колони с пропорции от%2$s идват от %3$s \n"
+"Връзка в: tpl/js-templates.php:302"
+
+#: tpl/js-templates.php:291
+msgid "Right to Left"
+msgstr "Дясно към ляво"
+
+#: tpl/js-templates.php:290
+msgid "Left to Right"
+msgstr "Ляво към дясно"
+
+#: tpl/js-templates.php:254
+msgid "Add New Row"
+msgstr "Добавяне на нов ред"
+
+#: tpl/js-templates.php:199
+msgid "Close"
+msgstr "Затваряне"
+
+#: tpl/js-templates.php:183
+msgid "Add New Widget %s"
+msgstr "Добавяне на нова джаджа %s"
+
+#: tpl/js-templates.php:169 tpl/js-templates.php:234
+msgid "Done"
+msgstr "Готово"
+
+#: tpl/js-templates.php:115 tpl/js-templates.php:230 tpl/js-templates.php:321
+msgid "Delete"
+msgstr "Изтриване"
+
+#: tpl/js-templates.php:114 tpl/js-templates.php:231 tpl/js-templates.php:322
+msgid "Duplicate"
+msgstr "Дублиране"
+
+#: tpl/js-templates.php:113
+msgid "Edit"
+msgstr "Редактиране"
+
+#: tpl/js-templates.php:85
+msgid "Delete Row"
+msgstr "Изтриване на ред"
+
+#: tpl/js-templates.php:84
+msgid "Duplicate Row"
+msgstr "Дублиране на ред"
+
+#: tpl/js-templates.php:83 tpl/js-templates.php:256
+msgid "Edit Row"
+msgstr "Редакция на ред"
+
+#. TRANSLATORS: This message gives suggestions of next steps for the user
+#. x{...} is used to insert links
+#: tpl/js-templates.php:64
+msgid "Add a 1{widget}, 2{row} or 3{prebuilt layout} to get started. Read our 4{documentation} if you need help."
+msgstr "Добавете 1{джаджа}, 2{ред} или 3{използвайте вградените оформления} за да започнете. Прегледайте и нашата 4{документация} за повече информация."
+
+#: tpl/js-templates.php:39
+msgid "Switch to Editor"
+msgstr "Преминаване към редактора"
+
+#: tpl/js-templates.php:34
+msgid "Live Editor"
+msgstr "Визуална редакция"
+
+#: tpl/js-templates.php:29
+msgid "History"
+msgstr "История"
+
+#: tpl/js-templates.php:22
+msgid "Prebuilt"
+msgstr "Вградени"
+
+#: tpl/js-templates.php:12
+msgid "Add Widget"
+msgstr "Добавяне на джаджа"
+
+#: tpl/help.php:18
+msgid "Read the 1{full documentation} on SiteOrigin. Ask a question on our 2{support forum} if you need help and sign up to 3{our newsletter} to stay up to date with future developments."
+msgstr "Прочетете 1{пълната документация} на SiteOrigin. Ако имате нужда от помощ може да се регистрирате и да зададете въпрос в нашият 2{форум за поддръжка}. Може също така и да се регистрирате в 3{нашият бюлетин} за да останете в крак с новостите"
+
+#: tpl/help.php:3
+msgid "The page layouts are responsive and fully customizable."
+msgstr "Оформленията на страниците са респонсив и подлежат на пълна персонализация."
+
+#: tpl/help.php:2
+msgid "You can use SiteOrigin Page Builder to create home and sub pages, filled your own widgets."
+msgstr "Може да използвате SiteOrigin строителя на страници за да създадете ваша собствена начална страница и подрстраници изпълнени с ваши джаджи."
+
+#: tpl/admin-home-page.php:50
+msgid "This interface requires Javascript"
+msgstr "Този интерфейс изисква JavaScript"
+
+#: tpl/admin-home-page.php:46
+msgid "Save Home Page"
+msgstr "Запазване на началната страница"
+
+#: tpl/admin-home-page.php:29
+msgid "Home page updated. 1{View page}."
+msgstr "Началната страница е обновена. 1{Преглед на страница}. "
+
+#: tpl/admin-home-page.php:13
+msgid "Custom Home Page"
+msgstr "Персонална начална страница"
+
+#: tpl/admin-home-page.php:9
+msgid "Off"
+msgstr "Изключен"
+
+#: tpl/admin-home-page.php:9
+msgid "On"
+msgstr "Включен"
+
+#: siteorigin-panels.php:1390
+msgid "Newsletter"
+msgstr "Бюлетин"
+
+#: siteorigin-panels.php:1389
+msgid "Support Forum"
+msgstr "Форум за поддръжка"
+
+#: siteorigin-panels.php:1322
+msgid "The widget 1{%1$s} is not available. Please try locate and install the missing plugin. Post on the 2{support forums} if you need help."
+msgstr "Джаджата 1{%1$s} не е налична. Опитайте да откриете и инсталирате липсващото разширение. Ако се нуждаете от помощ, мобе да попитате в нашият 2{форум за поддръжка}."
+
+#: siteorigin-panels.php:1305
+msgid "Save and reload this page to start using the widget after you've installed it."
+msgstr "Запазете и презаредете страницата за да започнете да използвате джаджата, след като сте я инсталирали."
+
+#: siteorigin-panels.php:1299
+msgid "You need to install 1{%1$s} to use the widget 2{%2$s}."
+msgstr "Нужно е да инсталирате 1{%1$s} за да използвате джаджата 2{%2$s}. "
+
+#: siteorigin-panels.php:1207
+msgid "Edit Home Page"
+msgstr "Редакция на началната страница"
+
+#: siteorigin-panels.php:834
+msgid "Read More"
+msgstr "Прочети още"
+
+#: siteorigin-panels.php:442
+msgid "Untitled Widget"
+msgstr "Неозаглавена джаджа"
+
+#: siteorigin-panels.php:395
+msgid "Error uploading or importing file."
+msgstr "Грешка при качването или импортирането на файл."
+
+#: siteorigin-panels.php:394
+msgid "Page Builder layouts"
+msgstr "Оформления на строителя на страници"
+
+#: siteorigin-panels.php:386
+msgid "Column"
+msgstr "Колона"
+
+#: siteorigin-panels.php:385 tpl/js-templates.php:17
+msgid "Add Row"
+msgstr "Добавяне на ред"
+
+#: siteorigin-panels.php:383 tpl/js-templates.php:187
+msgid "Search Widgets"
+msgstr "Търсене на джаджи"
+
+#: siteorigin-panels.php:382
+msgid "Add Widget to Cell"
+msgstr "Добавяне на джаджа към клетката"
+
+#: siteorigin-panels.php:381
+msgid "Add Widget Below"
+msgstr "Добавяне на джаджата по-долу"
+
+#: siteorigin-panels.php:377
+msgid "Search Results For: "
+msgstr "Резултати от търсенето за:"
+
+#. TRANSLATORS: A standard confirmation message
+#: siteorigin-panels.php:376 tpl/js-templates.php:85
+msgid "Are you sure?"
+msgstr "Сигурен ли си"
+
+#. TRANSLATORS: This is the title for a widget called "Layout Builder"
+#: siteorigin-panels.php:374
+msgid "Layout Builder Widget"
+msgstr "Джаджа за строене на оформления"
+
+#: siteorigin-panels.php:372
+msgid "Would you like to clear your Page Builder content and revert to using the standard visual editor?"
+msgstr "Искате ли да изчистите съдържанието и да върнете към стандартния визуален редактор?"
+
+#: siteorigin-panels.php:371
+msgid "Would you like to copy this editor's existing content to Page Builder?"
+msgstr "Искате ли да пренесете сегашното съдържание от редактора в строителя на страници?"
+
+#: siteorigin-panels.php:370
+msgid "Loading prebuilt layout"
+msgstr "Зареждане на вградени оформления"
+
+#: siteorigin-panels.php:369
+msgid "Are you sure you want to overwrite your current content? This can be undone in the builder history."
+msgstr "Сигурни ли сте, че искате да презапишете текущото съдържание. Това действие не може да бъде отменено от историята."
+
+#: siteorigin-panels.php:365
+msgid "Prebuilt layout loaded"
+msgstr "Вграденото оформление е заредено"
+
+#: siteorigin-panels.php:362
+msgid "Cell resized"
+msgstr "Клетката е преоразмерена"
+
+#. TRANSLATORS: Message displayed in the history when a row is duplicated
+#: siteorigin-panels.php:359
+msgid "Row duplicated"
+msgstr "Редът е дублиран"
+
+#. TRANSLATORS: Message displayed in the history when a row position is changed
+#: siteorigin-panels.php:357
+msgid "Row moved"
+msgstr "Редът е преместен"
+
+#. TRANSLATORS: Message displayed in the history when a row is edited
+#: siteorigin-panels.php:355
+msgid "Row edited"
+msgstr "Редът е обновен"
+
+#. TRANSLATORS: Message displayed in the history when a row is added
+#: siteorigin-panels.php:353
+msgid "Row added"
+msgstr "Редът е добавен"
+
+#. TRANSLATORS: Message displayed in the history when a row is deleted
+#: siteorigin-panels.php:351
+msgid "Row deleted"
+msgstr "Редът е изтрит"
+
+#. TRANSLATORS: Message displayed in the history when a widget position is
+#. changed
+#: siteorigin-panels.php:347
+msgid "Widget moved"
+msgstr "Джаджата е преместена"
+
+#. TRANSLATORS: Message displayed in the history when a widget is duplicated
+#: siteorigin-panels.php:345
+msgid "Widget duplicated"
+msgstr "Джаджата е дублирана"
+
+#. TRANSLATORS: Message displayed in the history when a widget is edited
+#: siteorigin-panels.php:343
+msgid "Widget edited"
+msgstr "Джаджата е обновена"
+
+#. TRANSLATORS: Message displayed in the history when a widget is added
+#: siteorigin-panels.php:341
+msgid "Widget added"
+msgstr "Джаджата е добавена"
+
+#. TRANSLATORS: Message displayed in the history when a widget is deleted
+#: siteorigin-panels.php:339
+msgid "Widget deleted"
+msgstr "Джаджата е изтрита"
+
+#: siteorigin-panels.php:335
+msgid "Converted to editor"
+msgstr "Преобразуване в редактор"
+
+#: siteorigin-panels.php:334
+msgid "Version restored"
+msgstr "Версията е възстановена"
+
+#: siteorigin-panels.php:333
+msgid "Original"
+msgstr "Оригинален"
+
+#: siteorigin-panels.php:332
+msgid "Current"
+msgstr "Сегашен"
+
+#: siteorigin-panels.php:328
+msgid "Now"
+msgstr "Сега"
+
+#. TRANSLATORS: Time ago - eg. "1 minute before".
+#: siteorigin-panels.php:327
+msgid "%s before"
+msgstr "%s преди"
+
+#. TRANSLATORS: A single hour since
+#: siteorigin-panels.php:324
+msgid "%d hour"
+msgstr "%d час"
+
+#. TRANSLATORS: A single minute since
+#: siteorigin-panels.php:322
+msgid "%d minute"
+msgstr "%d минута"
+
+#. TRANSLATORS: A single second since
+#: siteorigin-panels.php:320
+msgid "%d second"
+msgstr "%d секунда"
+
+#. TRANSLATORS: Number of hours since
+#: siteorigin-panels.php:317
+msgid "%d hours"
+msgstr "%d часове"
+
+#. TRANSLATORS: Number of minutes since
+#: siteorigin-panels.php:315
+msgid "%d minutes"
+msgstr "%d минути"
+
+#. TRANSLATORS: Number of seconds since
+#: siteorigin-panels.php:313
+msgid "%d seconds"
+msgstr "%d секунди"
+
+#: siteorigin-panels.php:309
+msgid "Page Builder doesn't know about this widget."
+msgstr "Строителя на страници няма идея за такава джаджа."
+
+#: siteorigin-panels.php:308
+msgid "Missing Widget"
+msgstr "Липсваща джаджа"
+
+#: siteorigin-panels.php:284
+msgid "All Widgets"
+msgstr "Всички джаджи"
+
+#. TRANSLATORS: This is the default name given to a user's home page
+#: siteorigin-panels.php:76 siteorigin-panels.php:136
+msgid "Home Page"
+msgstr "Начална страница"
+
+#: siteorigin-panels.php:75
+msgid "Custom Home Page Builder"
+msgstr "Персонална начална страница"
+
+#: settings/tpl/settings.php:78 tpl/options.php:93
+msgid "Save Settings"
+msgstr "Запазване"
+
+#: settings/tpl/settings.php:29
+msgid "Settings Saved"
+msgstr "Настройките са запазени"
+
+#: settings/tpl/settings.php:12
+msgid "Search Settings"
+msgstr "Търсене в настройките"
+
+#: settings/tpl/help.php:6
+msgid "Please read the 1{settings guide} of the Page Builder documentation for help."
+msgstr "За помощ, може да прочетете 1{частта с настройките} в наръчника по строител на страници от документацията."
+
+#: settings/settings.php:276
+msgid "Copy content from Page Builder to post content."
+msgstr "Копиране на съдържанието от строителя на страници към съдържанието на публикацията"
+
+#: settings/settings.php:275 tpl/options.php:25
+msgid "Copy Content"
+msgstr "Копиране на съдържанието"
+
+#: settings/settings.php:269
+msgid "Content"
+msgstr "Съдържание"
+
+#: settings/settings.php:262
+msgid "The container used for the full width layout."
+msgstr "Контейнер използван за оформлението с пълна ширина."
+
+#: settings/settings.php:261
+msgid "Full Width Container"
+msgstr "Контейнер с крайна ширина"
+
+#: settings/settings.php:255
+msgid "Default spacing between columns in each row."
+msgstr "Отстояние по подразбиране между редовете."
+
+#: settings/settings.php:254
+msgid "Row Gutter"
+msgstr "Отстояние на редовете"
+
+#: settings/settings.php:248
+msgid "Default margin below rows."
+msgstr "Долен margin по подразбиране."
+
+#: settings/settings.php:247 tpl/options.php:70
+msgid "Row Bottom Margin"
+msgstr "Долен margin за редове"
+
+#: settings/settings.php:241
+msgid "Device width, in pixels, to collapse into a mobile view ."
+msgstr "Ширина на устройството, в пиксели, за да се съберат блоковете за мобилен изглед."
+
+#: settings/settings.php:240 tpl/options.php:64
+msgid "Mobile Width"
+msgstr "Мобилна ширина"
+
+#: settings/settings.php:234
+msgid "Collapse widgets, rows and columns on mobile devices."
+msgstr "Събиране на джаджите, редовете и колоните при мобилни устройства."
+
+#: settings/settings.php:233 tpl/options.php:57
+msgid "Responsive Layout"
+msgstr "Оформление при респонсив"
+
+#: settings/settings.php:219
+msgid "Display recommend widgets in Page Builder add widget dialog."
+msgstr "Показване на препоръчаните джаджи в диалога за добавяне"
+
+#: settings/settings.php:213
+msgid "Load legacy widgets from Page Builder 1."
+msgstr "Зареждане на джаджите от старите версии"
+
+#: settings/settings.php:212
+msgid "Legacy Bundled Widgets"
+msgstr "Остарели комплект от джаджи"
+
+#: settings/settings.php:207
+msgid "The HTML used for widget titles. {{title}} is replaced with the widget title."
+msgstr "HTML използван за заглавията на джаджите. Шаблонът {{title}} ще бъде заместен с актуалното заглавие на джаджата."
+
+#: settings/settings.php:206
+msgid "Widget Title HTML"
+msgstr "HTML  на заглавията на джаджите"
+
+#: settings/settings.php:200
+msgid "Widgets"
+msgstr "Джаджи"
+
+#: settings/settings.php:194
+msgid "The post types to use Page Builder on."
+msgstr "Типове в които ще се използва строителя на страници"
+
+#: settings/settings.php:192 tpl/options.php:15
+msgid "Post Types"
+msgstr "Типове на съдържание"
+
+#: settings/settings.php:186 tpl/options.php:11
+msgid "General"
+msgstr "Основни"
+
+#: settings/settings.php:170
+msgid "Page Builder Settings"
+msgstr "Настройки на строителя на страници"
+
+#: settings/settings.php:146 siteorigin-panels.php:110
+#: siteorigin-panels.php:516 tpl/js-templates.php:160
+msgid "Page Builder"
+msgstr "Строител на страници"
+
+#: settings/settings.php:146 settings/tpl/settings.php:9 tpl/options.php:5
+msgid "SiteOrigin Page Builder"
+msgstr "SiteOrigin строител на страници"
+
+#: inc/widgets.php:168 settings/settings.php:218
+msgid "Recommended Widgets"
+msgstr "Препоръчани джаджи"
+
+#. TRANSLATORS: The name of WordPress plugin
+#: inc/widgets.php:160
+msgid "BBPress"
+msgstr "BBPress"
+
+#. TRANSLATORS: The name of WordPress plugin
+#: inc/widgets.php:149
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#. TRANSLATORS: The name of WordPress plugin
+#: inc/widgets.php:138
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/widgets.php:128
+msgid "WordPress Widgets"
+msgstr "WordPress джаджи"
+
+#: inc/widgets.php:120
+msgid "You can enable the legacy (PB) widgets in the 1{Page Builder settings}."
+msgstr "Може да позволите остарелите (PB) джаджи от 1{настройките}. "
+
+#: inc/widgets.php:112
+msgid "Page Builder Widgets"
+msgstr "Строител на страници"
+
+#: inc/widgets.php:107
+msgid "Install the 1{Widgets Bundle} to get extra widgets."
+msgstr "Инсталирайте 1{комплект от джаджи} за да получите допълнителни джаджи."
+
+#: inc/widgets.php:99
+msgid "Enable more widgets in the 1{Widgets Bundle settings}."
+msgstr "Добавяне на допълнителни джаджи от 1{настройките}. "
+
+#: inc/widgets.php:84
+msgid "Widgets Bundle"
+msgstr "Widgets Bundle "
+
+#: inc/widgets-bundle.php:68
+msgid "Display your posts as a carousel."
+msgstr "Показване на публикациите във въртележка."
+
+#: inc/widgets-bundle.php:67
+msgid "SiteOrigin Post Carousel"
+msgstr "SiteOrigin въртележка"
+
+#: inc/widgets-bundle.php:56
+msgid "Display site features as a collection of icons."
+msgstr "Показване на опциите като колекция от икони"
+
+#: inc/widgets-bundle.php:55
+msgid "SiteOrigin Features"
+msgstr "SiteOrigin удобства"
+
+#: inc/widgets-bundle.php:44
+msgid "A basic slider widget."
+msgstr "Прост слайдър"
+
+#: inc/widgets-bundle.php:43
+msgid "SiteOrigin Slider"
+msgstr "SiteOrigin слайдър"
+
+#: inc/widgets-bundle.php:32
+msgid "Choose images from your media library."
+msgstr "Избор на изображения от вашата медийна библиотека"
+
+#: inc/widgets-bundle.php:31
+msgid "SiteOrigin Image"
+msgstr "SiteOrigin изображение"
+
+#: inc/widgets-bundle.php:20 widgets/widgets/button/button.php:8
+msgid "A simple button"
+msgstr "Прост бутон"
+
+#: inc/widgets-bundle.php:19
+msgid "SiteOrigin Button"
+msgstr "SiteOrigin бутон"
+
+#: inc/widgets-bundle.php:11 inc/widgets-bundle.php:23
+#: inc/widgets-bundle.php:35 inc/widgets-bundle.php:47
+#: inc/widgets-bundle.php:59 inc/widgets-bundle.php:71 inc/widgets.php:106
+msgid "SiteOrigin Widgets Bundle"
+msgstr "SiteOrigin комплект от джаджи"
+
+#: inc/widgets-bundle.php:8
+msgid "A rich text editor"
+msgstr "Rich text редактор"
+
+#: inc/widgets-bundle.php:7
+msgid "SiteOrigin Editor"
+msgstr "SiteOrigin редактор"
+
+#: inc/styles.php:201 settings/settings.php:313
+msgid "Enabled"
+msgstr "Включено"
+
+#: inc/styles.php:187
+msgid "Remove"
+msgstr "Премахване"
+
+#: inc/styles.php:183
+msgid "Select Image"
+msgstr "Избор на изображение"
+
+#: inc/styles.php:64
+msgid "Theme"
+msgstr "Тема"
+
+#: inc/styles.php:54
+msgid "Design"
+msgstr "Дизайн"
+
+#: inc/styles.php:50 settings/settings.php:225
+msgid "Layout"
+msgstr "Оформление"
+
+#: inc/styles.php:46
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: inc/styles.php:23
+msgid "Widget Styles"
+msgstr "Стил на джаджи"
+
+#: inc/styles.php:19
+msgid "Row Styles"
+msgstr "Стил на редове"
+
+#: inc/revisions.php:50
+msgid "Page Builder Content"
+msgstr "Съдържание на строителя на страници"
+
+#: inc/plugin-activation.php:74
+msgid "Installing %s"
+msgstr "Инсталиране %s"
+
+#: inc/plugin-activation.php:7 inc/plugin-activation.php:8
+msgid "Install Page Builder Plugin"
+msgstr "Инсталиране на строител на страници разширението"
+
+#: inc/default-styles.php:219
+msgid "Color of text inside this widget."
+msgstr "Цвят на текста в джаджата"
+
+#: inc/default-styles.php:216
+msgid "Font Color"
+msgstr "Цвят на шрифта"
+
+#: inc/default-styles.php:211
+msgid "Border color of the widget."
+msgstr "Цвят на рамката за джаджата."
+
+#: inc/default-styles.php:189
+msgid "Background image of the widget."
+msgstr "Фоново изображение за джаджата."
+
+#: inc/default-styles.php:181
+msgid "Background color of the widget."
+msgstr "Фонов цвят за джаджата."
+
+#: inc/default-styles.php:170
+msgid "Padding around the entire widget."
+msgstr "Padding за цялата джаджа"
+
+#: inc/default-styles.php:151
+msgid "Widget Class"
+msgstr "Клас на джаджата"
+
+#: inc/default-styles.php:142
+msgid "Border color of the row."
+msgstr "Цвят на рамка за ред."
+
+#: inc/default-styles.php:139 inc/default-styles.php:208
+msgid "Border Color"
+msgstr "Цвят на рамка"
+
+#: inc/default-styles.php:134 inc/default-styles.php:203
+msgid "How the background image is displayed."
+msgstr "Начин на показване на фоновите изображения."
+
+#: inc/default-styles.php:132 inc/default-styles.php:201
+msgid "Parallax"
+msgstr "Parallax"
+
+#: inc/default-styles.php:131 inc/default-styles.php:200
+msgid "Centered, with original size"
+msgstr "Центрирано, оригинален размер"
+
+#: inc/default-styles.php:130 inc/default-styles.php:199
+msgid "Cover"
+msgstr "Обложка"
+
+#: inc/default-styles.php:129 inc/default-styles.php:198
+msgid "Tiled Image"
+msgstr "Мозайка"
+
+#: inc/default-styles.php:125 inc/default-styles.php:194
+msgid "Background Image Display"
+msgstr "Изглед на фоновото изображение"
+
+#: inc/default-styles.php:120
+msgid "Background image of the row."
+msgstr "Фоново изображение за реда."
+
+#: inc/default-styles.php:117 inc/default-styles.php:186
+msgid "Background Image"
+msgstr "Фоново изображение"
+
+#: inc/default-styles.php:112
+msgid "Background color of the row."
+msgstr "Цвят на фона за реда."
+
+#: inc/default-styles.php:109 inc/default-styles.php:178
+msgid "Background Color"
+msgstr "Цвят на фона"
+
+#: inc/default-styles.php:101
+msgid "Full Width Stretched"
+msgstr "Разтеглен по цялата ширина"
+
+#: inc/default-styles.php:100
+msgid "Full Width"
+msgstr "Цялата ширина"
+
+#: inc/default-styles.php:99
+msgid "Standard"
+msgstr "Стандартно"
+
+#: inc/default-styles.php:95
+msgid "Row Layout"
+msgstr "Оформление на ред"
+
+#: inc/default-styles.php:89
+msgid "Padding around the entire row."
+msgstr "Padding към целия ред"
+
+#: inc/default-styles.php:86 inc/default-styles.php:167
+msgid "Padding"
+msgstr "Padding"
+
+#: inc/default-styles.php:81
+msgid "Amount of space between columns."
+msgstr "Разстояние между колоните."
+
+#: inc/default-styles.php:78
+msgid "Gutter"
+msgstr "Отстояния"
+
+#: inc/default-styles.php:73
+msgid "Space below the row."
+msgstr "Място под реда"
+
+#: inc/default-styles.php:70
+msgid "Bottom Margin"
+msgstr "Margin отдолу"
+
+#: inc/default-styles.php:63 inc/default-styles.php:162
+msgid "CSS Styles, given as one per row."
+msgstr "CSS стилове, по един на ред."
+
+#: inc/default-styles.php:60 inc/default-styles.php:159
+msgid "CSS Styles"
+msgstr "CSS стилове"
+
+#: inc/default-styles.php:55
+msgid "Class added to all cells in this row."
+msgstr "Клас за клетките в този ред"
+
+#: inc/default-styles.php:52
+msgid "Cell Class"
+msgstr "Клас за клетка"
+
+#: inc/default-styles.php:47 inc/default-styles.php:154
+msgid "A CSS class"
+msgstr "CSS клас"
+
+#: inc/default-styles.php:44
+msgid "Row Class"
+msgstr "Клас за ред"
+
+#. TRANSLATORS: Indicate if there are items to clone. %s will be pages, posts,
+#. etc.
+#: inc/admin-actions.php:129
+msgid "There are no %s with Page Builder content to clone."
+msgstr "Няма %s които използват строителя на страници, за клониране."
+
+#: inc/admin-actions.php:111
+msgid "Clone"
+msgstr "Клониране"
+
+#: inc/admin-actions.php:78
+msgid "You can still clone existing pages though."
+msgstr "Все пак може да клонирате съществуващи страници."
+
+#: inc/admin-actions.php:77
+msgid "Your theme doesn't have any prebuilt layouts."
+msgstr "Вашата тема няма вградени оформления."
+
+#: inc/admin-actions.php:68
+msgid "No description"
+msgstr "Няма описание"

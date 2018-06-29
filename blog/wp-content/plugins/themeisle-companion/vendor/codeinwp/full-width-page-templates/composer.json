@@ -1,0 +1,23 @@
+{
+  "name": "codeinwp/full-width-page-templates",
+  "description": "A WordPress library to create full width page templates.",
+  "type": "library",
+  "version": "1.0.2",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/Codeinwp/full-width-page-templates",
+  "authors": [
+    {
+      "name": "ThemeIsle team",
+      "email": "friends@themeisle.com",
+      "homepage": "https://themeisle.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "load.php"
+    ]
+  },
+  "support": {
+    "issues": "https://github.com/Codeinwp/full-width-page-templates/issues"
+  }
+}

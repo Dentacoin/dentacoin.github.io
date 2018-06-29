@@ -1,0 +1,47 @@
+.post-medium-image {
+  width: 40px;
+  width: 40px;
+}
+.post-medium-image.post-medium-image-logo {
+  float: right;
+}
+.post-medium-image.post-medium-image-avatar {
+  float: left;
+  border-radius: 100%;
+}
+#medium-status {
+  padding-top: 10px;
+  display: block;
+  clear: both;
+}
+#medium-post-link {
+  padding-top: 10px;
+  clear: both;
+}
+#medium-post-link p {
+  margin-bottom: 0;
+}
+.medium-wrapped {
+  width: 500px;
+}
+#medium-migration-progress-bar {
+  height: 30px;
+  width: 100%;
+  margin: 10px 0;
+  background: #ddd;
+  overflow: hidden;
+  position: relative;
+}
+#medium-migration-progress {
+  background: #00ab6b;
+  width: 0;
+  height: 30px;
+}
+#medium-migration-progress-label {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+  z-index: 2;
+  position: absolute;
+}

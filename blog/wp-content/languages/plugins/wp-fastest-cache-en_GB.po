@@ -1,0 +1,112 @@
+# Translation of Plugins - WP Fastest Cache - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - WP Fastest Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-24 20:44:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - WP Fastest Cache - Stable (latest release)\n"
+
+#: wpFastestCache.php:1800
+msgid "Once Every 3 Days"
+msgstr "Once Every 3 Days"
+
+#. Author URI of the plugin/theme
+msgid "http://tr.linkedin.com/in/emrevona"
+msgstr "http://tr.linkedin.com/in/emrevona"
+
+#. Author of the plugin/theme
+msgid "Emre Vona"
+msgstr "Emre Vona"
+
+#. Description of the plugin/theme
+msgid "The simplest and fastest WP Cache system"
+msgstr "The simplest and fastest WP Cache system"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/wp-fastest-cache/"
+msgstr "http://wordpress.org/plugins/wp-fastest-cache/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Fastest Cache"
+msgstr "WP Fastest Cache"
+
+#: wpFastestCache.php:1824
+msgid "Once a Year"
+msgstr "Once a Year"
+
+#: wpFastestCache.php:1818
+msgid "Once a Month"
+msgstr "Once a Month"
+
+#: wpFastestCache.php:1812
+msgid "Once Every 10 Days"
+msgstr "Once Every 10 Days"
+
+#: wpFastestCache.php:1806
+msgid "Once a Week"
+msgstr "Once a Week"
+
+#: wpFastestCache.php:1794
+msgid "Once a Day"
+msgstr "Once a Day"
+
+#: wpFastestCache.php:1788
+msgid "Once Every 10 Hours"
+msgstr "Once Every 10 Hours"
+
+#: wpFastestCache.php:1782
+msgid "Once Every 9 Hours"
+msgstr "Once Every 9 Hours"
+
+#: wpFastestCache.php:1776
+msgid "Once Every 8 Hours"
+msgstr "Once Every 8 Hours"
+
+#: wpFastestCache.php:1770
+msgid "Once Every 7 Hours"
+msgstr "Once Every 7 Hours"
+
+#: wpFastestCache.php:1764
+msgid "Once Every 6 Hours"
+msgstr "Once Every 6 Hours"
+
+#: wpFastestCache.php:1758
+msgid "Once Every 5 Hours"
+msgstr "Once Every 5 Hours"
+
+#: wpFastestCache.php:1752
+msgid "Once Every 4 Hours"
+msgstr "Once Every 4 Hours"
+
+#: wpFastestCache.php:1746
+msgid "Once Every 3 Hours"
+msgstr "Once Every 3 Hours"
+
+#: wpFastestCache.php:1740
+msgid "Once Every 2 Hours"
+msgstr "Once Every 2 Hours"
+
+#: wpFastestCache.php:1734
+msgid "Once an Hour"
+msgstr "Once an Hour"
+
+#: wpFastestCache.php:1728
+msgid "Twice an Hour"
+msgstr "Twice an Hour"
+
+#: wpFastestCache.php:1722
+msgid "Once Every 15 Minutes"
+msgstr "Once Every 15 Minutes"
+
+#: wpFastestCache.php:1716
+msgid "Once Every 5 Minutes"
+msgstr "Once Every 5 Minutes"
+
+#: wpFastestCache.php:1710
+msgid "Once Every 1 Minute"
+msgstr "Once Every 1 Minute"

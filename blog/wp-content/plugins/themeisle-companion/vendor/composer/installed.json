@@ -1,0 +1,195 @@
+[
+    {
+        "name": "codeinwp/themeisle-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/themeisle-sdk.git",
+            "reference": "33d470402379047bc430c39ecab9a8a4a850d0d2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/33d470402379047bc430c39ecab9a8a4a850d0d2",
+            "reference": "33d470402379047bc430c39ecab9a8a4a850d0d2",
+            "shasum": ""
+        },
+        "time": "2018-06-06 14:49:32",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "description": "ThemeIsle SDK ",
+        "homepage": "https://github.com/Codeinwp/themeisle-sdk",
+        "keywords": [
+            "wordpress"
+        ]
+    },
+    {
+        "name": "codeinwp/elementor-extra-widgets",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/elementor-extra-widgets.git",
+            "reference": "4169cc53dc84502d85ea43c52b1ea255b699b6d5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/elementor-extra-widgets/zipball/4169cc53dc84502d85ea43c52b1ea255b699b6d5",
+            "reference": "4169cc53dc84502d85ea43c52b1ea255b699b6d5",
+            "shasum": ""
+        },
+        "time": "2018-06-19 11:53:09",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "homepage": "https://github.com/Codeinwp/elementor-extra-widgets"
+    },
+    {
+        "name": "codeinwp/full-width-page-templates",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/full-width-page-templates.git",
+            "reference": "770990cf96bd9cb6b8c846b1c9bff16450e2dff9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/full-width-page-templates/zipball/770990cf96bd9cb6b8c846b1c9bff16450e2dff9",
+            "reference": "770990cf96bd9cb6b8c846b1c9bff16450e2dff9",
+            "shasum": ""
+        },
+        "time": "2018-03-02 08:33:03",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "description": "A WordPress library to create full width page templates.",
+        "homepage": "https://github.com/Codeinwp/full-width-page-templates"
+    },
+    {
+        "name": "codeinwp/templates-directory",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/templates-directory.git",
+            "reference": "a13b7ddfaa636085e3ad167440c2b0b4c9ab0605"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/templates-directory/zipball/a13b7ddfaa636085e3ad167440c2b0b4c9ab0605",
+            "reference": "a13b7ddfaa636085e3ad167440c2b0b4c9ab0605",
+            "shasum": ""
+        },
+        "require": {
+            "codeinwp/full-width-page-templates": "master"
+        },
+        "time": "2018-06-21 14:36:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "description": "A WordPress library to manage page templates.",
+        "homepage": "https://github.com/Codeinwp/templates-directory"
+    },
+    {
+        "name": "codeinwp/themeisle-content-forms",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/themeisle-content-forms.git",
+            "reference": "41bc455814a993ce17baa5f23d1d02edd3503ccf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-content-forms/zipball/41bc455814a993ce17baa5f23d1d02edd3503ccf",
+            "reference": "41bc455814a993ce17baa5f23d1d02edd3503ccf",
+            "shasum": ""
+        },
+        "time": "2018-06-19 13:14:27",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "description": "ThemeIsle Content Forms ",
+        "homepage": "https://github.com/Codeinwp/themeisle-content-forms",
+        "keywords": [
+            "wordpress"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "name": "codeinwp/elementor-extra-widgets",
+    "type": "library",
+    "version": "1.0.2",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/Codeinwp/elementor-extra-widgets",
+    "authors": [
+        {
+            "name": "ThemeIsle team",
+            "email": "friends@themeisle.com",
+            "homepage": "https://themeisle.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "load.php"
+        ]
+    },
+    "support": {
+        "issues": "https://github.com/Codeinwp/elementor-extra-widgets/issues"
+    }
+}

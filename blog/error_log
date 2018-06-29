@@ -1,0 +1,56 @@
+[07-Mar-2018 17:14:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_count() in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php:74
+Stack trace:
+#0 /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php(121): MonsterInsights_Tracking->get_data()
+#1 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(298): MonsterInsights_Tracking->send_checkin()
+#2 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/dentacoi/blog.dentacoin.com/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/dentacoi/blog.dentacoin.com/wp-cron.php(117): do_action_ref_array('monsterinsights...', Array)
+#5 {main}
+  thrown in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php on line 74
+[14-Mar-2018 17:15:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_count() in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php:74
+Stack trace:
+#0 /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php(121): MonsterInsights_Tracking->get_data()
+#1 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(298): MonsterInsights_Tracking->send_checkin()
+#2 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/dentacoi/blog.dentacoin.com/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/dentacoi/blog.dentacoin.com/wp-cron.php(117): do_action_ref_array('monsterinsights...', Array)
+#5 {main}
+  thrown in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php on line 74
+[21-Mar-2018 17:14:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_count() in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php:74
+Stack trace:
+#0 /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php(121): MonsterInsights_Tracking->get_data()
+#1 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(298): MonsterInsights_Tracking->send_checkin()
+#2 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/dentacoi/blog.dentacoin.com/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/dentacoi/blog.dentacoin.com/wp-cron.php(117): do_action_ref_array('monsterinsights...', Array)
+#5 {main}
+  thrown in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php on line 74
+[28-Mar-2018 17:14:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_count() in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php:74
+Stack trace:
+#0 /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php(121): MonsterInsights_Tracking->get_data()
+#1 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(298): MonsterInsights_Tracking->send_checkin()
+#2 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/dentacoi/blog.dentacoin.com/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/dentacoi/blog.dentacoin.com/wp-cron.php(117): do_action_ref_array('monsterinsights...', Array)
+#5 {main}
+  thrown in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php on line 74
+[04-Apr-2018 17:14:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_count() in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php:74
+Stack trace:
+#0 /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php(121): MonsterInsights_Tracking->get_data()
+#1 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(298): MonsterInsights_Tracking->send_checkin()
+#2 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/dentacoi/blog.dentacoin.com/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/dentacoi/blog.dentacoin.com/wp-cron.php(117): do_action_ref_array('monsterinsights...', Array)
+#5 {main}
+  thrown in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php on line 74
+[11-Apr-2018 17:14:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_count() in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php:74
+Stack trace:
+#0 /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php(121): MonsterInsights_Tracking->get_data()
+#1 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(298): MonsterInsights_Tracking->send_checkin()
+#2 /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /home/dentacoi/blog.dentacoin.com/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#4 /home/dentacoi/blog.dentacoin.com/wp-cron.php(117): do_action_ref_array('monsterinsights...', Array)
+#5 {main}
+  thrown in /home/dentacoi/blog.dentacoin.com/wp-content/plugins/google-analytics-for-wordpress/includes/admin/tracking.php on line 74
+[21-Apr-2018 23:23:29 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-query.php on line 783
+[22-Apr-2018 00:00:54 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/dentacoi/blog.dentacoin.com/wp-includes/class-wp-query.php on line 783
