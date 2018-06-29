@@ -1,0 +1,148 @@
+# Translation of Plugins - Duplicate Page - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - Duplicate Page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-22 07:11:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Duplicate Page - Development (trunk)\n"
+
+#: admin-settings.php:55
+msgid "Draft"
+msgstr "Draft"
+
+#: admin-settings.php:58
+msgid "Pending"
+msgstr "Pending"
+
+#: admin-settings.php:143
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: admin-settings.php:57
+msgid "Private"
+msgstr "Private"
+
+#: admin-settings.php:56
+msgid "Publish"
+msgstr "Publish"
+
+#: admin-settings.php:143
+msgid "Terms of Service"
+msgstr "Terms of Service"
+
+#: admin-settings.php:114
+msgid ""
+"We love making new friends! Subscribe below and we promise to  \n"
+"keep you up-to-date with our latest new plugins, updates,\n"
+"awesome deals and a few special offers."
+msgstr ""
+"We love making new friends! Subscribe below and we promise to  \n"
+"keep you up-to-date with our latest new plugins, updates,\n"
+"awesome deals and a few special offers."
+
+#: admin-settings.php:113
+msgid "Welcome to Duplicate Page"
+msgstr "Welcome to Duplicate Page"
+
+#: admin-settings.php:76
+msgid "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+msgstr "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+
+#: admin-settings.php:86
+msgid "Contribute some donation, to make plugin more stable. You can pay amount of your choice."
+msgstr "Contribute some donation, to make plugin more stable. You can pay amount of your choice."
+
+#: duplicatepage.php:178
+msgid "Donate"
+msgstr "Donate"
+
+#. #-#-#-#-#  duplicate-page-code.pot (Duplicate Page 2.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: duplicatepage.php:189
+msgid "Duplicate Page"
+msgstr "Duplicate Page"
+
+#: admin-settings.php:73
+msgid "Duplicate Post Suffix"
+msgstr "Duplicate Post Suffix"
+
+#. Description of the plugin/theme
+msgid "Duplicate Posts, Pages and Custom Posts using single click."
+msgstr "Duplicate Posts, Pages and Custom Posts using single click."
+
+#: duplicatepage.php:301 duplicatepage.php:314
+msgid "Duplicate This"
+msgstr "Duplicate This"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/mndpsingh287/"
+msgstr "https://profiles.wordpress.org/mndpsingh287/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/duplicate-page/"
+msgstr "https://wordpress.org/plugins/duplicate-page/"
+
+#. Author of the plugin/theme
+msgid "mndpsingh287"
+msgstr "mndpsingh287"
+
+#: duplicatepage.php:177
+msgid "Settings"
+msgstr "Settings"
+
+#: admin-settings.php:40
+msgid ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"<p><strong>Settings not saved.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice.</span></button></div>"
+msgstr ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"<p><strong>Settings not saved.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice.</span></button></div>"
+
+#: admin-settings.php:37
+msgid ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"<p><strong>Settings saved.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice.</span></button></div>"
+msgstr ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"<p><strong>Settings saved.</strong></p><button class=\"notice-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice.</span></button></div>"
+
+#: admin-settings.php:18
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong>Saving Please wait...</strong>"
+
+#: admin-settings.php:12
+msgid "Buy PRO"
+msgstr "Buy PRO"
+
+#: admin-settings.php:12
+msgid "Duplicate Page Settings "
+msgstr "Duplicate Page Settings "
+
+#: admin-settings.php:52
+msgid "Duplicate Post Status"
+msgstr "Duplicate Post Status"
+
+#: admin-settings.php:69
+msgid "Please select any post redirection, redirect you to selected after click on duplicate this link. <strong>Default:</strong> To current list."
+msgstr "Please select any post redirection, redirect you to selected after clicking on duplicate this link. <strong>Default:</strong> To current list."
+
+#: admin-settings.php:60
+msgid "Please select any post status you want to assign for duplicate post. <strong>Default:</strong> Draft."
+msgstr "Please select any post status you want to assign for duplicate post. <strong>Default:</strong> Draft."
+
+#: admin-settings.php:64
+msgid "Redirect to after click on <strong>Duplicate This Link</strong>"
+msgstr "Redirect to after click on <strong>Duplicate This Link</strong>"
+
+#: admin-settings.php:66
+msgid "To All Posts List"
+msgstr "To All Posts List"
+
+#: admin-settings.php:67
+msgid "To Duplicate Edit Screen"
+msgstr "To Duplicate Edit Screen"

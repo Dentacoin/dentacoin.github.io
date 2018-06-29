@@ -1,0 +1,44 @@
+[24-Jul-2017 12:44:16 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[22-Aug-2017 22:02:12 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[26-Aug-2017 19:38:42 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[26-Aug-2017 23:39:20 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[30-Aug-2017 23:42:21 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[05-Sep-2017 19:16:13 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[08-Sep-2017 00:24:50 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[19-Sep-2017 02:58:18 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[19-Sep-2017 02:59:13 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[01-Oct-2017 04:07:21 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8
+[07-Oct-2017 03:23:03 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-includes/rss-functions.php on line 8

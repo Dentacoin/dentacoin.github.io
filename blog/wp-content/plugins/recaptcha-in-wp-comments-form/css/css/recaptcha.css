@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*
+ * Plugin:      reCAPTCHA in WP comments form
+ * Path:        /css
+ * File:        backend-interface.css
+ * Since:       0.0.9
+ */
+
+/*
+ * Module:		reCAPTCHA alignment CSS
+ * Version: 	0.0.9
+ * Description: CSS for alignment of reCAPTCHA field
+ */
+.google-recaptcha-container { } 
+.recaptcha-align-left { text-align: left; }
+.recaptcha-align-center { text-align: center; }
+.recaptcha-align-right { text-align: right; }
+.g-recaptcha { display: inline-block; }
+.plugin-credits { display: inherit; }
+
+
+

@@ -1,0 +1,437 @@
+@charset "utf-8";
+/*
+ * Plugin:      reCAPTCHA in WP comments form
+ * Path:        /css
+ * File:        backend-interface.css
+ * Since:       0.0.2
+ */
+
+/*
+ * Module:		CSS Back-End
+ * Version: 	0.0.9.0.2
+ * Description: CSS for back-End settings Page 
+ *              (RTL interfaces and translations ready)
+ */
+
+/** 
+ * Globals
+ */
+
+/* Structure */
+@media screen and (min-width: 960px) {
+	#nav-menus-frame { margin-left: 400px; }
+	html[dir="rtl"] #nav-menus-frame { margin-right: 400px; margin-left: unset; }
+	
+	#wpbody-content #menu-settings-column { width: 381px; margin-left: -400px; }
+	html[dir="rtl"] #wpbody-content #menu-settings-column { width: 381px; margin-right: -400px; margin-left: unset; }
+}
+
+.is-field-block { margin: 0.2em 0; display: inline-block; width: 100%; }
+.warning { color: #900; }
+
+/** 
+ * Image in title
+ */
+.wrap > h2:first-child { padding: 0px 15px 0px 80px }
+html[dir="rtl"] .wrap > h2:first-child { padding: 0px 80px 0px 15px }
+
+h2.recaptcha-plugin-title {
+    background-color: #f1f1f1;
+    background-image: url('../images/g-backend-title.png');
+    background-position: 0% center;
+    background-size: cover; 
+	background-repeat: no-repeat; background-origin: padding-box; background-clip: border-box;
+	display: block;
+	color: white;
+    margin-top: 1rem 0 !important;
+	height: 55px;
+}
+html[dir="rtl"] h2.recaptcha-plugin-title { 
+    background-image: url('../images/g-backend-title-rtl.png');
+    background-position: 100% center;
+}
+@media screen and (min-width: 390px) { 
+	.wrap > h2:first-child { padding: 5px 15px 5px 85px }
+	html[dir="rtl"] .wrap > h2:first-child { padding: 5px 85px 5px 15px }
+}
+@media screen and (min-width: 440px) {
+	.wrap > h2:first-child { padding: 10px 15px 10px 90px }
+	html[dir="rtl"] .wrap > h2:first-child { padding: 10px 90px 10px 15px }
+}
+@media screen and (min-width: 500px) {
+	.wrap > h2:first-child { padding: 20px 15px 20px 100px }
+	html[dir="rtl"] .wrap > h2:first-child { padding: 20px 100px 20px 15px }
+	h2.recaptcha-plugin-title { height: 45px; }
+}
+@media screen and (min-width: 1100px) {
+	.wrap > h2:first-child { padding: 20px 15px 20px 11% }
+	html[dir="rtl"] .wrap > h2:first-child { padding: 20px 11% 20px 15px }
+}
+
+ 
+/**
+ * Status area
+ */
+.recaptcha-lparams { display: inline-block; margin-right: 0.5rem; }
+html[dir="rtl"] .recaptcha-lparams { margin-left: 0.5rem; margin-right: unset; }
+
+.recaptcha-lparams:before { 
+	color: #82878c;
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    left: -1px;
+    padding: 0 5px 0 0;
+    position: relative;
+    top: 0;
+    text-decoration: none !important;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html[dir="rtl"] .recaptcha-lparams:before { 
+    right: -1px;
+	left: unset;
+    padding: 0 0 0 5px;
+}
+
+@media screen and (min-width: 783px ) {
+	.manage-menus .status-area { float: left; overflow: hidden; width: 75%; }
+	html[dir="rtl"] .manage-menus .status-area { float: right; }
+	
+	.manage-menus .message-area { float: right; overflow: hidden; width: 25%; }
+	.recaptcha-status-line { display: block; overflow: hidden; clear: both; width: 100%; }
+	.recaptcha-lparams { float: left; width: 35%; }
+	html[dir="rtl"] .recaptcha-lparams { float: right; }
+	
+	.recaptcha-msg { float: left; width: calc( 65% - 40px ); }
+}
+@media screen and (min-width: 850px ) {
+	.recaptcha-lparams { width: 32%; }
+	.recaptcha-msg { width: calc( 68% - 40px ); }
+}
+@media screen and (min-width: 1050px ) {
+	.recaptcha-lparams { width: 28%; }
+	.recaptcha-msg { width: calc( 72% - 40px ); }
+}
+@media screen and (min-width: 1200px ) {
+	.recaptcha-lparams { width: 23%; }
+	.recaptcha-msg { width: calc( 77% - 40px ); }
+}
+
+.recaptcha-status:before { content: "\f106"; font-weight: bold; }
+.recaptcha-operation:before { content: "\f173"; font-weight: bold; }
+.recaptcha-messages:before { content: "\f101"; }
+
+
+/**
+ * Accordion sections
+ */
+
+/* Subsections content and Togglers */
+.subsection-content  { padding: 0.5rem 1rem; background-color: #fafafa; }
+.subsection-content._closed  { display: none; }
+
+.subsection-toggler { color: #999; cursor: pointer; }
+.subsection-toggler .dashicons { color: #333; border-radius: 2px; background-color: #f7f7f7; font-size: 14px; width: 14px; height: 14px; border: 1px solid #ccc; padding: 3px; line-height: 14px; }
+.subsection-toggler:before {
+ 	font-family: 'dashicons';
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+}
+.subsection-toggler._closed:before { content: "\f140"; }
+.subsection-toggler._open:before { content: "\f142"; }
+
+/* Button set to default */
+.wp-core-ui p .button-field-operation { vertical-align: top; font-size: 13px; line-height: 12px; height: 14px; padding: 3px 3px 16px 3px; }
+.button-field-operation .dashicons { width: 14px; height: 14px; font-size: 14px; }
+
+
+/* Generic */
+.accordion-section-content label { font-style:normal; }
+.accordion-section-content .menu-item-textbox { width: 100%; }
+.accordion-section-content .field-with-button-operation { width: calc(100% - 25px); }
+.accordion-section-content label input[type="radio"] {
+    width: auto;
+    margin-left: 1em;
+}
+.howto { font-style: normal; }
+
+/* Radio Images */
+.actual-selection { display: inline-block; margin-left: 0.3em; font-weight: bold; }
+html[dir="rtl"] .actual-selection { margin-right: 0.3em; margin-left: unset; }
+
+.radio-image-container { text-align:center !important; }
+.accordion-section-content p legend { float: left; width: 100%; text-align: left; }
+html[dir="rtl"] .accordion-section-content p legend {
+    float: right;
+    text-align: right;
+}
+
+.radio-image-container .options-switcher { clear:both; display: inline-block; border-radius: 3px; word-spacing: -4px; margin-top: 0.5em; box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.04); overflow: hidden; }
+.radio-image-container input { display: none; }
+.radio-image-container input + img  { display: block; padding: 8px !important; margin: 0px; float: left; transition: background-color ease-in-out 0.2s 0s; max-width: 30px; height:auto; background-color: transparrent; }
+.radio-image-container input + img:not(.wp-ui-highlight):hover  { background-color: #d5d5d5; }
+.radio-image-container input + img:not(.wp-ui-highlight):focus  { background-color: #C4C4C4; }
+.radio-image-container input + img:not(.wp-ui-highlight):active  { background-color: #C4C4C4; }
+.radio-image-container input:checked + img  { }
+
+/* Language Selector button */
+#recaptcha_settings #griwpc_params_recaptcha_lang-button { display: none !important;  }
+#recaptcha_settings #language-selector-button-wrap { display:block; text-align: center; overflow: hidden; width: 100%; word-spacing: -4px; clear:both; }
+#recaptcha_settings #language-selector-button { display: inline-block; margin-top: 0.5em; border-radius: 3px; box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.04); overflow: hidden; padding: 8px 14px 2px 14px; text-align: center; cursor: pointer;  transition: background-color ease-in-out 0.2s 0s;  position: relative }
+
+#recaptcha_settings #language-selector-button:hover { background-color: #d5d5d5; }
+#recaptcha_settings #language-selector-button:focus {  background-color: #C4C4C4; }
+#recaptcha_settings #language-selector-button:active {  background-color: #C4C4C4; }
+
+/* #griwpc-params_recaptcha_language_3-img { max-width: 63px !important; } */
+#recaptcha_settings #language-selector-button img { max-width: 63px }
+#griwpc_params_recaptcha_lang-menu { width: 335px; height: 425px; }
+@media screen and (min-width: 783px) and (max-width: 959px) {
+	#griwpc_params_recaptcha_lang-menu { width: 227px; }
+	#griwpc_params_recaptcha_lang-button { width: 212px !important; }
+}
+.lang-item { border-bottom: 1px solid #f0f0f0; padding: 0.3em 0; }
+.ui-menu-item.is-current-language { }
+.oName { font-size: 17px; font-weight: bold; display: inline-block; width: 100%; text-align: center; padding-top: 0.2em; padding-bottom: 0.2em; }
+.eName { font-size: 11px; display: inline-block; width: 100%; text-align: left; padding-left: 0.7em; }
+html[dir="rtl"] .eName { text-align: right; padding-left: unset; padding-right: 0.7em; }
+
+/* Save Section */
+.form-actions-section .accordion-section-content { display: block; background-color: #f5f5f5; padding: 0px 20px 0px; }
+.form-actions-section .inside { margin: unset !important; }
+.form-actions-section .major-publishing-actions { padding: 0px }
+.major-publishing-actions .publishing-action { text-align: right; float: right; }
+.major-publishing-actions .publishing-action p.submit {
+    text-align: left;
+    margin-top: 10px;
+	margin-bottom: 10px;	
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* reCPATCHA Customizer section */
+@media screen and (min-width: 783px) {
+	#recaptcha_settings .accordion-section-content p { margin-bottom: 1.5rem }
+}
+#recaptcha_settings .accordion-section-content p:last-child { margin-bottom: 1rem }
+
+/* API Keys Section */
+#recaptcha_keys .accordion-section-content { /* background-color: #f5f1eb; */ 
+background: repeating-linear-gradient( 45deg, #f9f7f4, #f9f7f4, 10px, #f7f5f0 10px, #f7f5f0 20px ); }
+#recaptcha_keys label { font-weight: bold; }
+
+
+/**
+ * Comments form example
+ */
+#nav-menu-header h3 { font-size: 1rem; margin: 0.75em 0 0.75em 0.4em; }
+#post-body {
+    padding: 0 2rem 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+#post-body-content {
+    position: relative;
+    float: none;
+	min-width: unset;
+}
+.comment-form-example { 
+	display: block;
+	padding: 1rem 2rem;
+	background: repeating-linear-gradient( 45deg, #fafafa, #fafafa 10px, #fefefe 10px, #fefefe 20px );
+    margin: 2.2rem auto 0.4rem auto;
+	max-width: 650px;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.05);
+}
+
+.comment-form-example h2 { font-size: 1.6rem; letter-spacing: -1px; margin-top: 14px; }
+
+.comment-form-example #email-notes { display: inherit; }
+.comment-form-example label { font-weight: 600; text-transform:uppercase; letter-spacing: +1px; font-size: 0.8rem;	 }
+.comment-form-example .field-example{ width: 100% !important; }
+.comment-form-example #submit {
+    background: #1a1a1a;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    text-transform: uppercase;
+	text-align: center;	
+	padding: 0.9rem 0rem;
+	height: inherit;	
+}
+.comment-form-example #submit:hover {
+    background: #007acc;
+}
+.comment-form-example .google-recaptcha {padding: 1em 0; }
+
+@media screen and (max-width: 782px ) {
+	.metabox-holder h3 { padding: 12px !important; }
+	.form-actions-section .major-publishing-actions { padding-top: 3px }
+}
+
+
+/**
+ * Help Tabs
+ */
+.contextual-help-tabs-wrap h2 { font-size: 1.60em; }
+.contextual-help-tabs-wrap h3 { font-size: 1.30em; }
+.contextual-help-tabs-wrap h4 { font-size: 1.15em; }
+.contextual-help-tabs-wrap h5 { font-size: 1.00em; }
+.contextual-help-tabs-wrap h6 { font-size: 0.85em; }
+.contextual-help-tabs-wrap img { border: 5px solid #eaeaea; margin-top: 0.5rem 0rem; max-width: 500px; display: inline-block; width: 100%; height: auto; }
+
+
+/**
+ * Installation wizard
+ */
+#installation-wizard h2 { margin: 1.5rem 0 1.5rem 0; }
+#installation-wizard .inside { padding: 0 24px; overflow: hidden;}
+#installation-wizard .inside > p:last-child { margin-bottom: 24px !important; }
+#installation-wizard .first-margin-message { font-size: 140%; text-align: center; display: block; padding: 2rem; background-color:#f4f4f4; }
+
+#installation-wizard #griwpc_params_site_key,
+#installation-wizard #griwpc_params_secret_key  { width: 99%; }
+
+.custom-counter {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+html[dir="rtl"] .custom-counter {
+	margin-left: unset;
+    padding-right: unset;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.custom-counter li {
+    counter-increment: step-counter;
+	margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background-color: #faf9f6;
+}
+
+.custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+    background-color: rgb(210, 210, 210);
+    color: #bc8d00;
+	width: 40px;
+	height: 32px;
+	text-align: center;
+	padding-top: 9px;
+    border-radius: 50%;
+	float:left;
+	overflow: hidden;
+	position:relative;
+	top: 12px;
+}
+html[dir="rtl"] .custom-counter li::before {
+    margin-right: unset;
+    margin-left: 10px;
+	float:right;
+}
+
+
+.custom-counter li p { font-size: 115% }
+.custom-counter li p:first-child { font-size: 140% }
+.custom-counter li img { display: block; float: none; width: 100%; height: auto; margin: 2rem auto; }
+
+#installation-form { display: block; float: none; width: calc( 100% - 3rem); margin: 2rem auto; padding: 0.5rem 1.5rem; border: 1px solid #ede0c8; /* background-color: #ece3d2; */ background: repeating-linear-gradient( 45deg, #f9f7f4, #f9f7f4, 10px, #f7f5f0 10px, #f7f5f0 20px ); border-radius: 3px; box-shadow: 1px 1px 1px 0px rgba(161, 126, 65, 0.14); overflow: hidden;  }
+#installation-form label { font-weight: 800; }
+#installation-form .submit { padding: 12px 0 !important; margin-top: -20px; }
+
+@media screen and (min-width: 544px) { .custom-counter li img { width: 90%; } #installation-form { width: calc( 100% - 3rem); } }
+@media screen and (min-width: 680px) { .custom-counter li img { width: 80%; } #installation-form { width: calc( 100% - 3rem); } }
+@media screen and (min-width: 783px) { .custom-counter li img { width: 70%; } #installation-form { width: 90%; } }
+@media screen and (min-width: 992px) { .custom-counter li img { width: 60%; } #installation-form { width: 70%; } }
+@media screen and (min-width: 1200px) {.custom-counter li img { width: 50%; } #installation-form { width: 60%; } }
+@media screen and (min-width: 1400px) {.custom-counter li img { width: 40%; } #installation-form { width: 60%; } }
+@media screen and (min-width: 1600px) {.custom-counter li img { width: 35%; } #installation-form { width: 60%; } }
+
+#poststuff .inside h2 {
+    font-size: 28px;
+    padding: 0;
+}
+
+/*
+ * Minor modification based on the code include in https://codepen.io/bbodine1/pen/novBm for on/off switchers
+ */ 
+.slideThree input[type=checkbox] { visibility: hidden; }
+.slideThree {
+	width: 80px;
+	height: 28px;
+	margin: 10px auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.04);
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.04);
+}
+.slideThree.small { width: 56px; height: 20px; }
+html[dir="rtl"] .slideThree.small { float: left; }
+
+.slideThree:after {
+	font-size: 12px/26px;
+/* 	color: #FF6060; */
+	position: absolute;
+	right: 10px;
+	top: 4px;
+	z-index: 0;
+	font-weight: bold;
+}
+.slideThree:before {
+	font: 12px/26px;
+/*	color: #00bf00; */
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	z-index: 0;
+	font-weight: bold;
+}
+.slideThree.small:after { right: 6px; }
+.slideThree.small:before { left: 6px; }
+.slideThree.small:after, .slideThree.small:before { top: 0; font-size: 9px; }
+
+.slideThree label {
+	display: block;
+	width: 34px;
+	height: 22px;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 1;
+
+}
+.slideThree.small label { width: 25px; height: 14px; }
+
+.slideThree input[type=checkbox]:checked + label { 
+	left: 43px;
+}
+.slideThree.small input[type=checkbox]:checked + label { left: 28px; }
+
+.isOnlineBlock { display: inline-block; }
+.isToRight { display: inline-block; margin-top: 0; float:right; position: relative;  }

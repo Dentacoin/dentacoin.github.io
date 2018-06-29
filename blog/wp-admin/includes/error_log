@@ -1,0 +1,48 @@
+[28-Aug-2017 01:26:55 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[28-Aug-2017 04:58:36 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[29-Aug-2017 12:22:50 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[29-Aug-2017 12:22:52 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[29-Aug-2017 12:22:53 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[29-Aug-2017 15:34:10 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[29-Aug-2017 15:34:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[29-Aug-2017 15:34:12 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[31-Aug-2017 01:47:29 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[31-Aug-2017 01:47:32 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[31-Aug-2017 04:40:29 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16
+[31-Aug-2017 04:40:32 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/dentacoi/public_html/blog/wp-admin/includes/admin.php on line 16

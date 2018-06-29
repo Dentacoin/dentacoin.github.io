@@ -1,0 +1,13 @@
+admindcn
+P_`33qzP}:m-^eX>
+
+Име на MySQL база данни
+dentacoi_
+iwR
+Потребител за MySQL база данни
+dentacoi_
+iwR
+Парола за MySQL база данни 
+fZmyUPhoJ]Sv
+Префикс на имената на таблиците 
+dIf_

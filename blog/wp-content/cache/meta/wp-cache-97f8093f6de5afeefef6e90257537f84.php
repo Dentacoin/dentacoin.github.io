@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Cookie","Last-Modified":"Last-Modified: Fri, 01 Dec 2017 07:08:33 GMT","Content-Type":"Content-Type: application\/rss+xml; charset=\"UTF-8\""},"uri":"www.dentacoin.com\/blog\/feed\/","blog_id":1,"post":0,"key":"www.dentacoin.com443\/blog\/feed\/"}
