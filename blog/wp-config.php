@@ -21,14 +21,14 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/home/dentacoi/public_html/blog/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/var/html/www/dentacoin.github.io/blog/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'dentacoi_iwR');
 
 /** MySQL database username */
-define('DB_USER', 'dentacoi_iwR');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'fZmyUPhoJ]Sv');
+define('DB_PASSWORD', '3xT,:C5w3nI-');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
