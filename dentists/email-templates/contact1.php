@@ -9,7 +9,7 @@
 	
 	// Email Receiver Address
 	$receiver="admin@dentacoin.com";
-	$subject="Contact form details from basic indian gy";
+	$subject="Dentacare support questions";
 
 	$message = "
 	<html>
