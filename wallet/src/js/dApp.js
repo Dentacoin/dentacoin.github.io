@@ -1,5 +1,4 @@
     // hide all messages
-    $("#newTokenResponse").hide();
     $("#transferTokenResponse").hide();
     $("#buyTokenResponse").hide();
     $("#sellTokenResponse").hide();
@@ -9,15 +8,15 @@
     var DCNaddress = "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6";
 
 
-window.addEventListener('load', function () {
-    if (typeof web3 !== 'undefined') {
-        console.log('Web3 Detected! ' + web3.currentProvider.constructor.name)
-        window.web3 = new Web3(web3.currentProvider);
-    } else {
-        console.log('No Web3 Detected... using HTTP Provider')
-        window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/DiuyDUaIEnC8xc17zogx"));
-    }
-})
+    window.addEventListener('load', function () {
+        if (typeof web3 !== 'undefined') {
+            console.log('Web3 Detected! ' + web3.currentProvider.constructor.name)
+            window.web3 = new Web3(web3.currentProvider);
+        } else {
+            console.log('No Web3 Detected... using HTTP Provider')
+            window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/DiuyDUaIEnC8xc17zogx"));
+        }
+    })
 
 
 
