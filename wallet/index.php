@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" class="wide wow-animation">
+<html lang="en">
+
   <head>
     <title>Dentacoin Wallet</title>
     <meta name="google-site-verification" content="WdJb5v0M6eYSaSR7WAsTYJkS-MQ-R8ZWZX7jw_eY4Us" />
-    <meta name="description" content="The first blockchain solution for the global dental industry.">
+    <meta name="description" content="Official Dentacoin Web-App Wallet">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="https://dentacoin.com/web/img/favicon.ico" type="image/x-icon">
-
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -19,7 +19,8 @@
         ga('send', 'pageview');
     </script>
   </head>
-  <body style="padding: 0;">
+
+  <body>
     <div class="page">
 
     <header class="page-head">
