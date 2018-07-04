@@ -3,25 +3,10 @@
     $("#transferTokenResponse").hide();
     $("#buyTokenResponse").hide();
     $("#sellTokenResponse").hide();
-    $("#checkMetamask").hide();
     //$("#checkBalanceResponse").hide();
 
     // Dentacoin contract address
     var DCNaddress = "0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6";
-/*
-    // set web3 object
-    //var web3 = typeof window.web3 !== 'undefined' ? window.web3 : new Web3();
-
-    // setup metamask provider
-    if(typeof window.web3.currentProvider !== 'undefined') {
-        web3.setProvider(window.web3.currentProvider);
-    }
-    else {
-        $("#checkMetamask").show();
-        web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
-    }
-*/
-
 
 
 window.addEventListener('load', function () {
@@ -30,7 +15,7 @@ window.addEventListener('load', function () {
         window.web3 = new Web3(web3.currentProvider);
     } else {
         console.log('No Web3 Detected... using HTTP Provider')
-        window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/noapikey"));
+        window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/DiuyDUaIEnC8xc17zogx"));
     }
 })
 
@@ -48,7 +33,7 @@ window.addEventListener('load', function () {
 
 
     // setup token instance
-    var token = Token.at(DCNaddress);
+    var dentacoin = Token.at(DCNaddress);
 
 
     // setup transaction object
@@ -78,17 +63,17 @@ window.addEventListener('load', function () {
       }
 
       //auto refresh balance
-      token.balanceOf(account, function(error, balance){
+      dentacoin.balanceOf(account, function(error, balance){
           return $("#checkBalanceResponse_body").html(String(balance.toString(10)) + " ٨");
       });
 
       // auto buy price refresh
-      token.buyPriceEth(function(error, buypr){
+      dentacoin.buyPriceEth(function(error, buypr){
           var res = "1 ETH = 2 500 000 DCN"
           return $("#_buyAmount").attr('placeholder', res)
       });
       // auto sell price refresh
-      token.sellPriceEth(function(error, sellpr){
+      dentacoin.sellPriceEth(function(error, sellpr){
           var res = (1000000000000000000/sellpr) + " DCN = 1 ETH"
           return $("#_sellAmount").attr('placeholder', res)
       });
@@ -123,7 +108,7 @@ window.addEventListener('load', function () {
         console.log("Transfer Details", account, amount);
 
         // transfer tokens
-        token.transfer(account, amount, transactionObject, function(error, transactionHash){
+        dentacoin.transfer(account, amount, transactionObject, function(error, transactionHash){
             if(amount < 10) {
                 $("#transferTokenResponse").show();
                 return $("#transferTokenResponse_body").html("Error: minimum amount 10+" + String(error));
@@ -139,7 +124,7 @@ window.addEventListener('load', function () {
             return $("#transferTokenResponse_body").html("Ok, pending transaction. Give it a minute and check for confirmation on <a href='https://etherscan.io/tx/" + String(transactionHash) + "' target='_blank'>Etherscan</a> ");
         });
 
-        token.Transfer({}, function(error, result){
+        dentacoin.Transfer({}, function(error, result){
             if(error) {
                 $("#transferTokenResponse").show();
                 return $("#transferTokenResponse_body").html("There was an error transfering your Dentacoins: " + String(error));
@@ -161,7 +146,7 @@ window.addEventListener('load', function () {
         console.log("Transfer Details", account, amount);
 
         // transfer ether
-        token.buyDentacoinsAgainstEther({value: web3.toWei(amount, "ether"), gas: 100000}, function(error, transactionHash){
+        dentacoin.buyDentacoinsAgainstEther({value: web3.toWei(amount, "ether"), gas: 100000}, function(error, transactionHash){
             if(error) {
                 $("#buyTokenResponse").show();
                 return $("#buyTokenResponse_body").html("There was an error transfering your ETH: " + String(error));
@@ -171,7 +156,7 @@ window.addEventListener('load', function () {
             return $("#buyTokenResponse_body").html("Ok, pending transaction. Give it a minute and check for confirmation on <a href='https://etherscan.io/tx/" + String(transactionHash) + "' target='_blank'>Etherscan</a> ");
 
         });
-        token.Transfer({}, function(error, result){
+        dentacoin.Transfer({}, function(error, result){
             if(error) {
                 $("#buyTokenResponse").show();
                 return $("#buyTokenResponse_body").html("There was an error transfering your ETH: " + String(error));
@@ -193,7 +178,7 @@ window.addEventListener('load', function () {
         console.log("Transfer Details", amount);
 
         // transfer tokens
-        token.sellDentacoinsAgainstEther(amount, transactionObject, function(error, transactionHash){
+        dentacoin.sellDentacoinsAgainstEther(amount, transactionObject, function(error, transactionHash){
             if(error) {
                 $("#sellTokenResponse").show();
                 //return $("#sellTokenResponse_body").html("There was an error selling your Dentacoins: " + String(error));
@@ -205,7 +190,7 @@ window.addEventListener('load', function () {
             return $("#sellTokenResponse_body").html("Ok, pending transaction. Give it a minute and check for confirmation on <a href='https://etherscan.io/tx/" + String(transactionHash) + "' target='_blank'>Etherscan</a> then check your balance. ");
         });
 
-        token.Transfer({}, function(error, result){
+        dentacoin.Transfer({}, function(error, result){
             if(error) {
                 $("#sellTokenResponse").show();
                 //return $("#sellTokenResponse_body").html("There was an error selling your Dentacoins: " + String(error));
