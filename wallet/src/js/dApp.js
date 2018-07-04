@@ -1,4 +1,5 @@
     // hide all messages
+    $("#newTokenResponse").hide();
     $("#transferTokenResponse").hide();
     $("#buyTokenResponse").hide();
     $("#sellTokenResponse").hide();
