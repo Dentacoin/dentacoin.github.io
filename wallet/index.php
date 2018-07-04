@@ -20,24 +20,7 @@
     </script>
   </head>
   <body style="padding: 0;">
-    <div id="particles-js"></div>
     <div class="page">
-      <div class="page-loader page-loader-variant-1">
-        <div><a href="index.html" class="brand brand-md brand-inverse"><img src="https://dentacoin.com/web/img/dentacoinicon.png" alt="" width="135" height="34"/></a>
-          <div class="page-loader-body">
-            <div id="spinningSquaresG">
-              <div id="spinningSquaresG_1" class="spinningSquaresG"></div>
-              <div id="spinningSquaresG_2" class="spinningSquaresG"></div>
-              <div id="spinningSquaresG_3" class="spinningSquaresG"></div>
-              <div id="spinningSquaresG_4" class="spinningSquaresG"></div>
-              <div id="spinningSquaresG_5" class="spinningSquaresG"></div>
-              <div id="spinningSquaresG_6" class="spinningSquaresG"></div>
-              <div id="spinningSquaresG_7" class="spinningSquaresG"></div>
-              <div id="spinningSquaresG_8" class="spinningSquaresG"></div>
-            </div>
-          </div>
-        </div>
-      </div>
     <header class="page-head">
         <div class="rd-navbar-wrap">
           <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-stick-up-clone="false" data-md-stick-up-offset="53px" data-lg-stick-up-offset="53px" data-md-stick-up="true" data-lg-stick-up="true" class="rd-navbar rd-navbar-corporate-dark">
@@ -135,9 +118,7 @@
 
 
     <!-- scripts -->
-    <script src="https://dentacoin.com/web/js/core.min.js"></script>
-    <script src="https://dentacoin.com/web/js/min.script.js"></script>
-    <script src="https://dentacoin.com/web/js/dApp.js"></script>
+    <script src="/src/js/dApp.js"></script>
 
  </body>
 </html>
