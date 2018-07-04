@@ -22,42 +22,7 @@
   <body style="padding: 0;">
     <div class="page">
     <header class="page-head">
-        <div class="rd-navbar-wrap">
-          <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-stick-up-clone="false" data-md-stick-up-offset="53px" data-lg-stick-up-offset="53px" data-md-stick-up="true" data-lg-stick-up="true" class="rd-navbar rd-navbar-corporate-dark">
-            <div class="rd-navbar-inner">
-              <div class="rd-navbar-group rd-navbar-search-wrap">
-                <div class="rd-navbar-panel">
-                  <button data-custom-toggle=".rd-navbar-nav-wrap" data-custom-toggle-disable-on-blur="true" class="rd-navbar-toggle"><span></span></button><a href="https://dentacoin.com" class="rd-navbar-brand brand"><img src="https://dentacoin.com/web/img/logo.png" alt="" width="50" height="50"/></a>
-                </div>
-                <div class="rd-navbar-nav-wrap">
-                  <div class="rd-navbar-nav-inner">
-                    <ul class="rd-navbar-nav">
-                      <li><a href="https://dentacoin.com/index.html">Home</a>
-                      </li>
-                      <li><a href="https://dentists.dentacoin.com/" target="_blank">For Dentists</a>
-                      </li>
-                      <li><a href="https://dentacoin.com/web/white-paper/Whitepaper-en1.pdf" target="_blank">Whitepaper</a>
-                      </li>
-                      <li><a href="https://dentacoin.com/index.html#team">Team</a>
-                      </li>
-                      <li><a href="https://dentacoin.com/partners">Partners</a>
-                      </li>
-                      <li><a href="https://dentacoin.com/index.html#buy">BUY</a>
-                      </li>
-                      <li><a href="#">Wallet</a>
-                      </li>
-                      <li><a href="https://dentacoin.com/faq/index.html">FAQ</a>
-                      </li>
-                      <li><a href="https://www.blog.dentacoin.com" target="_blank">Blog</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div class="divider-fullwidth bg-porcelain"></div>
+
     </header>
 
     <section id="balance" class="text-center section-30 offset-top-50">
