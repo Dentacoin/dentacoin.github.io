@@ -77,7 +77,7 @@
 
 
     <!-- scripts -->
-    <script src="/src/js/dApp.js"></script>
+    <script src="https://wallet.dentacoin.com/src/js/dApp.js"></script>
 
  </body>
 </html>
