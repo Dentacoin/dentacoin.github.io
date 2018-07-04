@@ -21,52 +21,49 @@
   </head>
   <body style="padding: 0;">
     <div class="page">
-    <header class="page-head">
 
+    <header class="page-head">
     </header>
 
-    <section id="balance" class="text-center section-30 offset-top-50">
-        <div class="shell">
-            <div id="checkMetamask" class="alert alert-success">
-              <h4>Get <a class="text-underline" href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn" target="_blank">METAMASK</a> to check your balance and transfer DCN</h4>
-            </div>
-            <h3 class="text-blue" style="font-weight: 300;">Balance</h3>
-            <div class="range range-sm-left">
-                <p style="font-size: 24px;" class="cell-sm-12 text-left text-blue">My Dentacoin Balance</p>
-                <div class="cell-sm-12">
-                    <div id="checkBalanceResponse" class="form-group">
+    <section id="balance" class="section">
+        <div>
+            <h3>Balance</h3>
+            <div>
+                <p>My Dentacoin Balance</p>
+                <div>
+                    <div id="checkBalanceResponse">
                         <h3 id="checkBalanceResponse_body"></h3>
                     </div>
-                    <div class="divider-fullwidth bg-porcelain"></div>
-                    <h4 id="myAddress" class="text-center"></h4>
+                    <div></div>
+                    <h4 id="myAddress"></h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="transfer" class="text-center section-30">
+    <section id="transfer" class="section">
         <div class="shell">
-            <h3 class="text-blue" style="font-weight: 300;">Transfer</h3>
-            <div class="range range-sm-left">
-                <p style="font-size: 24px;" class="cell-sm-12 text-left text-blue">Transfer Dentacoins</p>
-                <p class="text-bold cell-sm-12 text-left text-blue offset-top-15">DCN address of receiver</p>
-                <div class="cell-sm-12">
-                    <div id="checkBalanceResponse" class="form-group">
-                        <input type="text" id="_transferAccount" placeholder="0x0000000000000000000000000000000000000000" class="form-control text-blue"/>
+            <h3>Transfer</h3>
+            <div>
+                <p>Transfer Dentacoins</p>
+                <p>DCN address of receiver</p>
+                <div>
+                    <div id="checkBalanceResponse">
+                        <input type="text" id="_transferAccount" placeholder="0x0000000000000000000000000000000000000000"/>
                         <div class="divider-fullwidth bg-porcelain"></div>
                     </div>
                 </div>
-                <p class="text-bold cell-sm-12 text-left text-blue offset-top-15">Amount</p>
-                <div class="cell-sm-12">
-                    <div class="form-group">
-                        <input type="number" id="_transferAmount" placeholder="Minimum 10 ٨" class="form-control text-blue" style="color: #126585;" />
-                        <div class="divider-fullwidth bg-porcelain"></div>
+                <p>Amount</p>
+                <div>
+                    <div>
+                        <input type="number" id="_transferAmount" placeholder="Minimum 10 ٨"/>
+                        <div></div>
                     </div>
-                    <div class="range" style="margin: 0;">
-                        <div class="lead about-text cell-sm-4 cell-md-3 cell-lg-2 offset-top-0 offset-sm-top-0 offset-xl-top-0">
-                            <button id="_transfer" class="btn btn-primary btn-block offset-top-35">Transfer</button>
+                    <div>
+                        <div>
+                            <button id="_transfer">Transfer</button>
                         </div>
-                        <div id="transferTokenResponse" class="alert alert-success">
+                        <div id="transferTokenResponse">
                             <h4>Transfer Dentacoins</h4>
                             <p id="transferTokenResponse_body"></p>
                         </div>
@@ -75,10 +72,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
 
 
