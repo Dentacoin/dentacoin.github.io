@@ -1,0 +1,18 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 58.187.21.164
+deny from 36.84.49.134
+deny from 59.153.252.211
+deny from 59.153.255.39
+deny from 88.230.171.75
+deny from 103.213.131.52
+deny from 110.232.74.242
+deny from 36.77.172.242
