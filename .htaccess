@@ -39,7 +39,7 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ 
 
 RewriteCond %{REQUEST_URI} ^/blog
 
-RewriteRule ^blog(.*)$ https://blog.dentacoin.com/$1 [R=301,L]
+RewriteRule ^/blog(.*)$ https://blog.dentacoin.com/$1 [R=301,L]
 
 
 <IfModule mod_headers.c>
