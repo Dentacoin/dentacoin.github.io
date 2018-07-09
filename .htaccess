@@ -35,7 +35,13 @@ RewriteCond %{SERVER_PORT} 80
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/.+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(.*)$ https://www.dentacoin.com/$1 [R,L]
+
+
+RewriteCond %{REQUEST_URI} ^/blog
+
+RewriteRule ^blog(.*)$ https://blog.dentacoin.com/$1 [R=301,L]
+
+
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
 </IfModule>
