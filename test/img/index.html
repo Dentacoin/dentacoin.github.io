@@ -104,5 +104,18 @@
         $('html, body').animate( { scrollTop: 0 }, 400, "swing" );
       }); // end click
     </script>
+	<script> 
+	
+			(function($) {
+				$(document).ready(function() {
+				    $(document).alton({
+				        bodyContainer: 'pageWrapper',
+				        scrollMode: 'headerScroll'
+				    });
+				});
+			})(jQuery);
+		
+	</script>
+	
   </body>
 </html>
