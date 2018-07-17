@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RowScroll: Vertical auto-scrolling for your webpage</title>
+    <!--Note: CSS is for this demo only. No CSS is needed for RowScroll to work.-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
+    <link rel="stylesheet" href="demo.css">
+  </head>
+  <body>
+
+    <div class="scroll-target">
+      <div class="bg-text">Hey</div>
+      <div>
+        This is RowScroll.<br>
+        Scroll or swipe down to learn more.
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text"></div>
+      <div>
+        <div class="section"><img src="/1.jpg" width="314" height="487" alt="" class="img-circle"></div>
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text"></div>
+      <div>
+      <div class="section"><img src="/2.jpg" width="314" height="487" alt="" class="img-circle"></div>
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text"></div>
+      <div>
+      <div class="section"><img src="/3.jpg" width="314" height="487" alt="" class="img-circle"></div>
+      </div>
+    </div>
+
+    <div class="scroll-target" style="height:380px;height:65vh;">
+      <div class="bg-text">4</div>
+      <div>
+        Row heights can vary.<br>
+        The row elements don't have to all be the same height, they can all be different if you want. Doesn't matter.
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text">5</div>
+      <div>
+        The type of element isn't important, either.<br>
+        Use <code>&lt;div&gt;</code>s, <code>&lt;section&gt;</code>s, or any other element you prefer for your row containers.<br>
+        You can even mix and match.
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text">6</div>
+      <div>
+        Just add a <code style="padding:0 5px;">scroll-target</code> class to each row container you want your visitors to auto-scroll to.
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text">7</div>
+      <div>
+        That's it!
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text">8</div>
+      <div>
+        Customize it.<br>
+        You can also change the scroll-target selector, the speed of the auto-scroll,<br>
+        and the amount of "wiggle room" or offset of the scroll targets.<br>
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div class="bg-text">9</div>
+      <div>
+        Remember to load <a href="http://jquery.com/" target="_blank">jQuery</a> and <a href="https://github.com/jquery/jquery-mousewheel" target="_blank">jQuery Mousewheel</a> before you include RowScroll:
+        <pre>
+  &lt;script src="http://code.jquery.com/jquery-1.11.3.min.js"&gt;&lt;/script&gt;
+  &lt;script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"&gt;&lt;/script&gt;
+  &lt;script src="your/path/to/rowScroll.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</pre>
+      </div>
+    </div>
+
+    <div class="scroll-target">
+      <div>
+        Enjoy!<br>
+        <a href="https://github.com/ericbutler555/row-scroll">Visit the GitHub page</a> to grab the files and more info.
+      </div>
+    </div>
+
+    <div id="backToTop">
+      back to top
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="rowScroll.js"></script>
+    <script>
+      /*
+      Note: this stuff is NOT part of RowScroll;
+      it's only used to show/hide the "back to top" button,
+      and auto-scroll to the top of the page when you click it.
+      */
+      $(document).scroll(function(e){
+        if ( $(window).scrollTop() < 200 ) { $('#backToTop').fadeOut(); }
+        else { $('#backToTop').fadeIn(); }
+      }); // end scroll
+      $('#backToTop').click(function(){
+        $('html, body').animate( { scrollTop: 0 }, 400, "swing" );
+      }); // end click
+    </script>
+  </body>
+</html>
