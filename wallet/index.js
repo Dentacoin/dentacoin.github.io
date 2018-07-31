@@ -1,9 +1,10 @@
-import { Connect } from './node_modules/uport-connect/dist/uport-connect.js';
-//import * as uportconnect from "./node_modules/uport-connect/dist/uport-connect.js";
-// Setup
 
+
+// Setup
+//import { Connect } from './node_modules/uport-connect/dist/uport-connect.js';
+var uportconnect = window.uportconnect
 const appName = 'Dentacoin Wallet'
-const connect = new Connect(appName, {network: 'rinkeby'})
+const connect = new uportconnect.Connect(appName, {network: 'rinkeby'})
 const web3 = connect.getWeb3()
 
 
