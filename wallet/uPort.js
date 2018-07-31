@@ -17,9 +17,15 @@ const uport = new uportConnect.Connect(appName, {
     signer: uportConnect.SimpleSigner(signingKey.key)
 });
 
+const web3 = uport.getWeb3();
+console.log(web3.eth.getCoinbase());
+
+/*
 // Request credentials
 uport.requestCredentials({
   requested: ['name'],
 }).then((credentials) => {
   console.log(credentials);
 })
+
+*/
