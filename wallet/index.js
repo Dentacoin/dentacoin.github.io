@@ -1,4 +1,4 @@
-import { Connect } from 'uport-connect'
+import { Connect } from './node_modules/uport-connect/dist/uport-connect.js';
 //import * as uportconnect from "./node_modules/uport-connect/dist/uport-connect.js";
 // Setup
 
