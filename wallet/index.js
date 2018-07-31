@@ -1,5 +1,5 @@
-//import * as uportconnect from "uport-connect";
-import * as uportconnect from "./node_modules/uport-connect/dist/uport-connect.js";
+import * as uportconnect from "uport-connect";
+//import * as uportconnect from "./node_modules/uport-connect/dist/uport-connect.js";
 // Setup
 
 const Connect = window.uportconnect.Connect
