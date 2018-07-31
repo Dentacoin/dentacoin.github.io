@@ -35,7 +35,7 @@ import { Connect, SimpleSigner } from 'uport-connect'
 
     const uport = new Connect('Dentacoin Wallet', {
       clientId: '2oqwHbLQ8Ao28LvFFThbd1Jxpj45EBPb8jd',
-      network: 'rinkeby or ropsten or kovan',
+      network: 'rinkeby',
       signer: SimpleSigner(signingKey.key)
     })
 
