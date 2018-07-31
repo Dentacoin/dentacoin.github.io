@@ -14,7 +14,7 @@ const uport = new uportConnect.Connect(appName, {
     uriHandler,
     clientId: mnidAddress,
     network: 'rinkeby',
-    signer: uportConnect.SimpleSigner(signingKey.key)
+    signer: uportConnect.SimpleSigner(signingKey.key)    
 });
 
 // Request credentials
