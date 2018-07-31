@@ -1,5 +1,3 @@
-#!/usr/bin/ nodejs
-
 const uportConnect = require('uport-connect');
 const qrcode = require('qrcode-terminal');
 
