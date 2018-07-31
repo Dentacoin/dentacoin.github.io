@@ -30,13 +30,12 @@ uport.requestCredentials({
 })
 */
 
+import { Connect, SimpleSigner } from 'uport-connect';
 
-import { Connect, SimpleSigner } from 'uport-connect'
-    const signingKey = require('./uPortKey')
     const uport = new Connect('Dentacoin Wallet', {
       clientId: '2oqwHbLQ8Ao28LvFFThbd1Jxpj45EBPb8jd',
       network: 'rinkeby',
-      signer: SimpleSigner(signingKey.key)
+      signer: SimpleSigner('33e090f34dbd2fc20e87408f90c078d1018bd77fb8806bb0b69da945fb4eaefc'),
     })
 
     // Request credentials to login
