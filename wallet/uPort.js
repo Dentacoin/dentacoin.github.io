@@ -2,11 +2,10 @@ const uportConnect = require('uport-connect');
 const qrcode = require('qrcode-terminal');
 
 const mnidAddress = '2oqwHbLQ8Ao28LvFFThbd1Jxpj45EBPb8jd';
-//const signingKey = require('./signingKey');
-const signingKey = require('./signingKey');
+const signingKey = require('./uPortKey');
 const appName = 'Dentacoin Wallet';
 
-console.log(signingKey);
+console.log(signingKey.key);
 
 const uriHandler = (uri) => {
   qrcode.generate(uri, {small: true})
