@@ -1,4 +1,3 @@
-
 #!/usr/bin/ nodejs
 
 const uportConnect = require('uport-connect');
