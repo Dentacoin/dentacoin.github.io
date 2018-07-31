@@ -3,7 +3,7 @@
 // Setup
 
 const Connect = window.uportconnect.Connect
-const appName = 'UportTutorial'
+const appName = 'Dentacoin Wallet'
 const connect = new Connect(appName, {network: 'rinkeby'})
 const web3 = connect.getWeb3()
 
