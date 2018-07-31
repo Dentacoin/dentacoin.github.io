@@ -28,7 +28,6 @@ uport.requestCredentials({
 }).then((credentials) => {
   console.log(credentials);
 })
-
 */
 
 const signingKey = require('./uPortKey');
