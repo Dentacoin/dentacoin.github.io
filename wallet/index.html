@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -12,6 +13,7 @@
     *{ max-width:100%}
     html{
         height: 100%;
+       
     }
     body{
         height: 100%;
@@ -55,11 +57,36 @@
 </style>
 </head>
   <body>
+
+     
+
+        <div class="container-fluid bg-white ">
+                <div class="row ">
+                  <div class="col-sm text-center">
+                        <a class="nav-link nav-button" href="buy.html">BUY</a>
+                  </div>
+                  <div class="col-sm text-center">
+                        <a class="nav-link nav-active" href="/wallet/">WALLET</a>
+                  </div>
+                  <div class="col-sm text-center">
+                        <a class="nav-link nav-button" href="send.html" >SEND</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
     <div class="container-fluid ">
         <div class="row ">
                 <div class="col p-0 pt-3">
         <!-- Navigation-->
-        <nav class="navbar navbar-light light-blue lighten-4">
+        <nav class="navbar navbar-light light-blue lighten-4"></nav>
                  <!-- Logo -->
 
 
@@ -93,20 +120,7 @@
    </nav>
                         <!--/.Navbar-->
             <!-- Second Nav-->
-            <div class="container-fluid col-lg-12 col-sm-12 col-xs-12" style="width:100%">
-                    <ul class="nav nav-pills nav-justified bg-white" style=" list-style-type: none; height:60px; width:100%;">
-                            <li class="nav-item" >
-                              <a class="nav-link " href="buy.html" style="border-radius:10px; margin:5px ; height:85%; text-align:center; font-size:25px; color:black; ">BUY</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link " style="background-color:#00b7d9; border-radius:10px; margin:5px ; height:85%; text-align:center; font-size:25px; color:white; " href="/wallet/">WALLET</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="send.html" style="border-radius:10px; margin:5px ; height:85%; text-align:center; font-size:25px; color:black;">SEND</a>
-                            </li>
 
-                    </ul>
-                </div>
             <!-- End Second Nav-->
 
             </div>
@@ -169,7 +183,7 @@
                     <h5 class="ml-5">Transaction History</h5>
                 </div>
             </div>
-            <div class="row row-no-gutter">
+            <div class="table-responsive row row-no-gutter">
 
                     <table class=" table " style="width:100%">
                             <tbody>
