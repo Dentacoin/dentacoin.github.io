@@ -1,0 +1,50 @@
+.nav-button{
+    border-radius:10px; 
+    margin:5px ; 
+    height:85%; 
+    text-align:center; 
+    font-size:25px; 
+    color:black;
+
+}
+
+.nav-button:hover{
+
+    background-color:#00b7d9; 
+    color:white; 
+}
+
+.nav-active{
+    border-radius:10px; 
+    margin:5px ; 
+    height:85%; 
+    text-align:center; 
+    font-size:25px; 
+    color:black;
+    background-color:#00b7d9; 
+    color:white; 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav-button{
+        border-radius:10px; 
+        margin:0px ; 
+        height:100%; 
+        text-align:center; 
+        font-size:20px; 
+        color:black;
+    
+    }    
+
+    .nav-active{
+        border-radius:10px; 
+        margin:0px ; 
+        height:100%; 
+        text-align:center; 
+        font-size:20px; 
+        background-color:#00b7d9; 
+        color:white; 
+    }
+}
