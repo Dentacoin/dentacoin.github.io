@@ -69,5 +69,5 @@ const setStatus = () => {
 
 
 $(document).ready(function(){
-  $('.header').height($(window).height());
+  $('.body').height($(window).height());
  })
