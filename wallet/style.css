@@ -25,7 +25,55 @@
     color:white; 
 }
 
+.navbar{
+    background:#F97300;
+   }
+   .nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background:#fff !important;
+   }
 
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+
+
+   /*header style*/
+.body{
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+            background: #008db8; /* Old browsers */
+            background: -moz-linear-gradient(top, #008db8 0%, #008db8 14%, #62cfe6 22%, #ffffff 34%, #ffffff 85%, #008db8 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #008db8 0%,#008db8 14%,#62cfe6 22%,#ffffff 34%,#ffffff 85%,#008db8 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #008db8 0%,#008db8 14%,#62cfe6 22%,#ffffff 34%,#ffffff 85%,#008db8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008db8', endColorstr='#008db8',GradientType=0 ); /* IE6-9 */
+        
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+   }
 
 @media only screen and (max-width: 600px) {
     .nav-button{
