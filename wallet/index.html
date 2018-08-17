@@ -9,226 +9,201 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="./index.js"></script>
-<style>
-    *{ max-width:100%}
-    html{
-        height: 100%;
-       
-    }
-    body{
-        height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-            background: #008db8; /* Old browsers */
-            background: -moz-linear-gradient(top, #008db8 0%, #008db8 14%, #62cfe6 22%, #ffffff 34%, #ffffff 85%, #008db8 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, #008db8 0%,#008db8 14%,#62cfe6 22%,#ffffff 34%,#ffffff 85%,#008db8 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, #008db8 0%,#008db8 14%,#62cfe6 22%,#ffffff 34%,#ffffff 85%,#008db8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008db8', endColorstr='#008db8',GradientType=0 ); /* IE6-9 */
-        }
-/*Navigation drop down*/
+    </head>
+    <body class="body">
+          
+         <!-- Top navigation-->
+            <div class="top-navigation">
+               <div class="container-fluid">
+                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 item ">
+                        <nav class="navbar navbar-expand-lg  ">
+                            <a class="navbar-brand" href="#"><img src="bitcoin_PNG48.png" width="50px" ></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                             <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-4">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Daniel</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link " href="#">HUB</a>
+                                  </li>
+                                </ul>
+                             </div>
+                        </nav>
+                    </div>
+                 </div>
+               </div>
+             </div>
+         <!--End Top Navigation-->
 
-.fa-1x {
-    font-size: 1.5rem;
-}
-.navbar.navbar-9 .navbar-toggler-icon {
-    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
-}
-.navbar-toggler.toggler-example {
-    cursor: pointer;
-}
-.dark-blue-text {
-    color: #0A38F5;
-}
-.dark-pink-text {
-    color: #AC003A;
-}
-.dark-amber-text {
-    color: #ff6f00;
-}
-.dark-teal-text {
-    color: #004d40;
-}
+         <!-- Navigation Menu-->
+         <div class="navigation-menu">
+            <div class="container-fluid bg-white ">
+              <div class="row align-middle text-center">
+                  <ul class="align-middle nav nav-pills nav-justified bg-white" style=" list-style-type: none; height:60px; width:100%;">
+                      <li class="nav-item" >
+                        <a class="nav-link nav-button" href="buy.html" style="border-radius:10px; margin:5px ; height:85%; text-align:center; font-size:25px; color:black;">BUY</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-button" style=" background-color:#00b7d9; border-radius:10px; margin:5px ; height:85%; text-align:center; font-size:25px; color:white; " href="/wallet/">WALLET</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-button" href="send.html" style="border-radius:10px; margin:5px ; height:85%; text-align:center; font-size:25px; color:black; ">SEND</a>
+                      </li>
+  
+              </ul>
+              </div>
+            </div>
+          </div>
+      <!--End navigation Menu-->
 
-.paddingBetweenCols td
-{
-    padding:0 15px 0 15px;
-}
-</style>
-</head>
-  <body>
-
-     
-
-        <div class="container-fluid bg-white ">
-                <div class="row ">
-                  <div class="col-sm text-center">
-                        <a class="nav-link nav-button" href="buy.html">BUY</a>
-                  </div>
-                  <div class="col-sm text-center">
-                        <a class="nav-link nav-active" href="/wallet/">WALLET</a>
-                  </div>
-                  <div class="col-sm text-center">
-                        <a class="nav-link nav-button" href="send.html" >SEND</a>
-                  </div>
+        <!-- My Wallet Address-->
+            <div class="my-wallet-address mt-4">
+              <div class="container">
+                <div class="row">
+                   <div class="col-lg-12 col-md-12 col-sm-12 item text-center">
+                    <span class="text-center text-white " > <strong >Your Dentacoin wallet:</strong></span>
+                   </div>
+                   <div class="col-lg-12 col-md-12 col-sm-12 item text-center">
+                     <span  class="text-center text-white"> <a class="" href="#"> <img class="img-fluid" src="copy.svg" width="40px" > </a> <strong class="my-wallet-address" >7182730uasdnmasndasu902183901jksdjkls</strong></span>
+                   </div>
                 </div>
               </div>
-
-
-
-
-
-
-
-
-
-    <div class="container-fluid ">
-        <div class="row ">
-                <div class="col p-0 pt-3">
-        <!-- Navigation-->
-        <nav class="navbar navbar-light light-blue lighten-4"></nav>
-                 <!-- Logo -->
-
-
-
-                            <!-- Navbar brand -->
-                            <a class="navbar-brand" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a>
-
-                            <!-- Collapse button -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
-        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                              <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto float-right" style=" list-style-type: none;">
-                <li class="nav-item active">
-                        <a class="navbar-brand" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a>
-
-                </li>
-                <li class="nav-item">
-                        <a class="navbar-brand" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a>
-                </li>
-                <li class="nav-item">
-                        <a class="navbar-brand" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a>
-                </li>
-            </ul>
-            <!-- Links -->
-
-        </div>
-        <!-- Collapsible content -->
-   </nav>
-                        <!--/.Navbar-->
-            <!-- Second Nav-->
-
-            <!-- End Second Nav-->
-
+              <hr>
             </div>
-        </div>
-        <!-- Your wallet address-->
-            <div class="row">
-                    <div class="col text-center center-col mt-4">
-                    <p class="text-center text-wight" style="color:white;"> Your Dentacoin Wallet:</p>
-                    <p class="text-center text-wight" style="color:white;"  >  <a class="navbar-brand" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a> 7182730uasdnmasndasu902183901jksdjkls</p>
-                </div>
+        <!--End My Wallet Address-->
 
-        </div>
-        <hr/>
-
-               <!-- Your wallet amount-->
-            <div class="row row-no-gutter">
-                <div class="col"></div>
-                <table>
-                        <tbody>
-                          <tr>
-                              <td class="">
-
-                              </td>
-                            <td class="align-middle">
-                                <ul class="col align-middle" style=" list-style-type: none;">
-                                    <li> <h1 class=""> <a class="" href="#"> <img src="exchange2.png" width="30px" > </a> 20000 DCN</h1> </li>
-                                    <li> <p class="float-left">= 50 USD  <div class="dropdown">
-                                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                                            <div class="dropdown-menu">
-                                              <a class="dropdown-item" href="#">Euro</a>
-                                              <a class="dropdown-item" href="#">Bitcoin</a>
-
-                                            </div>
-
-                                            </button>
-                                            <div class="dropdown-menu">
-                                              <a class="dropdown-item" href="#">USD</a>
-                                              <a class="dropdown-item" href="#">EURO</a>
-                                              <a class="dropdown-item" href="#">USDT</a>
-                                            </div>
-                                          </div>
-                                         </p>
-                                    </li>
-                                </ul></td>
-                            <td class="align-middle">
-                                <a class=" col align-middle" href="#"> <img class="border border-dark" src="qrcode.png" width="200px" > </a>
-                             </td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                <div class="col"></div>
-                </div>
-            </div>
-
-            <!--Transaction History-->
-            <div class="container-fluid " style="background:white;">
-            <div class="row row-no-gutter">
-                <div class="col">
-                    <h5 class="ml-5">Transaction History</h5>
-                </div>
-            </div>
-            <div class="table-responsive row row-no-gutter">
-
-                    <table class=" table " style="width:100%">
+        <!-- My Amount-->
+        <div class="my-wallet-amount mt-5 ">
+          
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col"></div>
+                    <table>
                             <tbody>
                               <tr>
-                                <td class="align-middle"> <a class=" col align-middle" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a> </td>
+                                  <td class="">
+    
+                                  </td>
+                                <td class="align-middle ">
+                                    <ul class="col align-middle" style=" list-style-type: none;">
+                                        <li class="amount-mobile hidden-lg hidden-md"> <h1 >
+                                          <ul class="col " style=" list-style-type: none; padding-left:0px;">
+                                            <li><img src="exchange2.png" width="30px" ></li>
+                                            <li class="mt-1" style="font-size:18px; height:auto;"><span> DCN</span></li>
+                                            <li><span> 200000</span></li>
+                                          </ul>  
+                                        </li>
+                                        <li class="amount-desktop hidden-sm hidden-xs"> <h1 style="font-size:4em;"> <a class="" href="#"> <img src="exchange2.png" width="30px" > </a> 20000 DCN</h1> </li>
+                                        <li> <p class="float-left amount-in-fiat">= 50 USD  <div class="dropdown ">
+                                                <button style="border:none!important;" class="btn btn-outline-secondary dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Euro</a>
+                                                  <a class="dropdown-item" href="#">Bitcoin</a>
+                                                </div>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">USD</a>
+                                                  <a class="dropdown-item" href="#">EURO</a>
+                                                  <a class="dropdown-item" href="#">USDT</a>
+                                                </div>
+                                              </div>
+                                             </p>
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="align-middle ">
+                                    <a class=" col align-middle" href="#">
+                                       <img class="qr-code img-fluid" src="qr-border.jpg" style="position:relative;" width="205px;" >
+                                       <img class="qr-code-border img-fluid " src="qrcode.png"  width="195px;" style="position:absolute;  top:-85px; left:18px;" > 
+                                     </a>
+                                 </td>
+                              </tr>
+                            </tbody>
+                          </table>
+    
+                    <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+      
+          </div>
+      <!--End My Amount-->
+
+      
+
+         <!--Transaction History-->
+         <div class="transaction-history mt-5 mb-5 pt-2" >
+         <div class="container-fluid " style="background:white;">
+            <div class="row">
+                <div class="col">
+                    <h5 class=" float-left">Transaction History</h5>
+                </div>
+            </div>
+            <div class="table-responsive ">
+
+                    <table class=" table table-transactions" style="width:100%">
+                            <tbody>
+                              <tr>
+                                <td class="align-middle"> <a class=" col align-middle" href="#"> <img src="send-icon.svg" width="35px" > </a> </td>
                                 <td class="align-middle">
                                     <ul class="align-middle" style=" list-style-type: none;">
                                         <li> 01/15/2018</li>
                                         <li> 12:06 Am</li>
                                     </ul></td>
-                                <td class="align-middle"> <p> <strong>Send to:</strong> 0x7osadmnaops890312dnaso8123192j</p> </td>
+                                <td class="align-middle">  
+                                  <ul class="align-middle" style=" list-style-type: none;">
+                                    <li> <span> <strong>Send to:</strong> 0x7osadmnaops890312dnaso8123192j</span></li>
+                                    <li><a href="#"><strong>Transaction ID</strong></a></li>
+                                </ul>
+                                </td>
 
                                 <td class="align-middle">
                                         <ul class="align-middle" style=" list-style-type: none;">
-                                            <li> <h6>-100DCN</h6> </li>
+                                            <li> <h6 style="color:#d0796e">-100DCN</h6> </li>
                                             <li> 2 USD</li>
                                         </ul></td>
                               </tr>
                               <tr>
-                                    <td class="align-middle"> <a class=" col align-middle" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a> </td>
+                                    <td class="align-middle"> <a class=" col align-middle" href="#"> <img src="pay-icon.svg" width="35px" > </a> </td>
                                     <td class="align-middle">
                                         <ul class="align-middle" style=" list-style-type: none;">
                                             <li> 01/15/2018</li>
                                             <li> 12:06 Am</li>
                                         </ul></td>
-                                    <td class="align-middle"> <p> <strong>Send to:</strong> 0x7osadmnaops890312dnaso8123192j</p> </td>
+                                        <td class="align-middle">  
+                                          <ul class="align-middle" style=" list-style-type: none;">
+                                            <li> <span> <strong>Payed to:</strong><a href="#"> Dentaprime City</a> (0x7osadmnaops890312dnaso8123192j)</span></li>
+                                            <li><a href="#"><strong>Transaction ID</strong></a></li>
+                                        </ul>
+                                        </td>
 
                                     <td class="align-middle">
                                             <ul class="align-middle" style=" list-style-type: none;">
-                                                <li> <h6>-100DCN</h6> </li>
+                                                <li> <h6 style="color:#55a2d7" >-100DCN</h6> </li>
                                                 <li> 2 USD</li>
                                             </ul></td>
                                   </tr>
                                   <tr>
-                                        <td class="align-middle"> <a class=" col align-middle" href="#"> <img src="bitcoin_PNG48.png" width="50px" > </a> </td>
+                                        <td class="align-middle"> <a class=" col align-middle" href="#"> <img class="img-responsive" src="receive-icon.svg" width="35px" > </a> </td>
                                         <td class="align-middle">
                                             <ul class="align-middle" style=" list-style-type: none;">
                                                 <li> 01/15/2018</li>
                                                 <li> 12:06 Am</li>
                                             </ul></td>
-                                        <td class="align-middle"> <p> <strong>Send to:</strong> 0x7osadmnaops890312dnaso8123192j</p> </td>
+                                            <td class="align-middle">  
+                                              <ul class="align-middle" style=" list-style-type: none;">
+                                                <li> <span> <strong>Received from:</strong> 0x7osadmnaops890312dnaso8123192j</span></li>
+                                                <li><a href="#"><strong>Transaction ID</strong></a></li>
+                                            </ul>
+                                            </td>
 
                                         <td class="align-middle">
                                                 <ul class="align-middle" style=" list-style-type: none;">
-                                                    <li> <h6>-100DCN</h6> </li>
+                                                    <li> <h6 style="color:#5ccb92">+100DCN</h6> </li>
                                                     <li> 2 USD</li>
                                                 </ul></td>
                                       </tr>
@@ -246,13 +221,20 @@
                     <div class="row" style="height:50px;"></div>
                 </div>
             </div>
-
-
-            <div class="row ">
-                <h1 class="col-lg-12 text-center"> Footer Dentacoin</col>
-            </div>
-
-
+         
+     <!--End Transaction History-->
+     <div class="row   text-center align-middle mt-5" style="margin-top:50px;"> 
+      <p class="text-center col-lg-12 col-sm-12"><small>© Dentacoin Foundation. All rights reserved. <br>
+        <a href="docs/Dentacoin foundation.pdf" target="_Blank">The Netherlands Chamber of Commerce Business Register extract</a> <br>
+        Wim Duisenbergplantsoen 31 6221 SE Maastricht The Netherlands</small>
+      </p>
     </div>
-  </body>
-</html>
+
+
+   
+                  
+          
+      
+      
+    </body>
+    </html>
