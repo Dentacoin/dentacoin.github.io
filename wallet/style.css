@@ -5,9 +5,12 @@
     text-align:center; 
     font-size:25px; 
     color:black;
-
+    
 }
-
+.nav-button li{
+width:100%;
+padding:50px;
+}
 .nav-button:hover{
 
     background-color:#00b7d9; 
@@ -26,7 +29,7 @@
 }
 
 .navbar{
-    background:#F97300;
+    background:rgba(250,250,250,0);
    }
    .nav-link , .navbar-brand{
     color: #f4f4f4;
@@ -37,7 +40,7 @@
    }
    .nav-link:hover{
     background: #f4f4f4;
-    color: #f97300;
+    color:rgba(250,250,250,0);
    }
    .navbar-collapse{
     justify-content: flex-end;
@@ -53,17 +56,12 @@
 
    /*header style*/
 .body{
-      background-repeat: no-repeat;
-    background-attachment: fixed;
-            background: #008db8; /* Old browsers */
-            background: -moz-linear-gradient(top, #008db8 0%, #008db8 14%, #62cfe6 22%, #ffffff 34%, #ffffff 85%, #008db8 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, #008db8 0%,#008db8 14%,#62cfe6 22%,#ffffff 34%,#ffffff 85%,#008db8 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, #008db8 0%,#008db8 14%,#62cfe6 22%,#ffffff 34%,#ffffff 85%,#008db8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008db8', endColorstr='#008db8',GradientType=0 ); /* IE6-9 */
-        
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    background-image: url("background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
    }
 
    .overlay{
@@ -72,27 +70,115 @@
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.79);
+   
+   }
+   .btn-outline  {
+       border-color: white;
    }
 
+   .amount-mobile{
+       display:none;
+   }
+   .amount-desktop{
+    display:initial;
+}
+.amount-in-fiat{
+    font-size:2em;
+}
+@media only screen and (max-width: 860px) {
+    .navigation-menu{
+        margin:0 auto;
+    }
+    .navigation-menu ul{
+      
+        display:inline;
+        margin:0 auto;
+
+    }
+    .navigation-menu ul li{
+        margin:0 auto;
+        display:inline-block;
+
+    }
+    .qr-code{
+        Display:none;
+    }
+
+    .qr-code-border {
+        position:relative!important;  top:0px!important; left:0px!important;
+     
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
-    .nav-button{
+    .amount-in-fiat{
+        font-size:1em;
+    }
+    .amount-desktop{
+        display:none;
+    }
+    .amount-mobile{
+        display:initial;
+    }
+    .nav-button  {
         border-radius:10px; 
         margin:0px ; 
+        padding:0px;
         height:100%; 
         text-align:center; 
-        font-size:20px; 
+        font-size:18px; 
         color:black;
+       
+      
+      
     
     }    
+    .nav-link{
+        font-size:18px!important; 
+        
+    }
 
     .nav-active{
         border-radius:10px; 
         margin:0px ; 
+        padding:0px;
         height:100%; 
         text-align:center; 
-        font-size:20px; 
+        font-size:18px; 
         background-color:#00b7d9; 
         color:white; 
+       
+     
+    }
+
+    .table-transactions tr td ul li{
+        font-size:12px!important; 
+        padding-left: 10px!important;
+    }
+
+    .table-transactions tr td ul, menu, dir {
+        
+        padding: 0px!important;
+    
+    }
+    .table-transactions .col{
+        padding:0px!important;
+    }
+    .table-transactions td{
+        padding:3px!important;
+    }
+
+    .my-wallet-address {
+        font-size:12px;
+    }
+    
+    .qr-code{
+        float:left;
+        margin-right:13%;
+    }
+    .qr-code-border {
+        position:relative!important;  top:0px!important; left:0px!important;
+     
     }
 }
