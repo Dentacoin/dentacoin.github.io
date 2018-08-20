@@ -11,6 +11,7 @@ wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 
+/.wallet/node_modules
 /.htaccess
 /license.txt
 /readme.html
