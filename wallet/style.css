@@ -1,0 +1,184 @@
+.nav-button{
+    border-radius:10px; 
+    margin:5px ; 
+    height:85%; 
+    text-align:center; 
+    font-size:25px; 
+    color:black;
+    
+}
+.nav-button li{
+width:100%;
+padding:50px;
+}
+.nav-button:hover{
+
+    background-color:#00b7d9; 
+    color:white; 
+}
+
+.nav-active{
+    border-radius:10px; 
+    margin:5px ; 
+    height:85%; 
+    text-align:center; 
+    font-size:25px; 
+    color:black;
+    background-color:#00b7d9; 
+    color:white; 
+}
+
+.navbar{
+    background:rgba(250,250,250,0);
+   }
+   .nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #f4f4f4;
+    color:rgba(250,250,250,0);
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background:#fff !important;
+   }
+
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+
+
+   /*header style*/
+.body{
+    background-image: url("background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+   
+   }
+   .btn-outline  {
+       border-color: white;
+   }
+
+   .amount-mobile{
+       display:none;
+   }
+   .amount-desktop{
+    display:initial;
+}
+.amount-in-fiat{
+    font-size:2em;
+}
+@media only screen and (max-width: 860px) {
+    .navigation-menu{
+        margin:0 auto;
+    }
+    .navigation-menu ul{
+      
+        display:inline;
+        margin:0 auto;
+
+    }
+    .navigation-menu ul li{
+        margin:0 auto;
+        display:inline-block;
+
+    }
+    .qr-code{
+        Display:none;
+    }
+
+    .qr-code-border {
+        position:relative!important;  top:0px!important; left:0px!important;
+     
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .amount-in-fiat{
+        font-size:1em;
+    }
+    .amount-desktop{
+        display:none;
+    }
+    .amount-mobile{
+        display:initial;
+    }
+    .nav-button  {
+        border-radius:10px; 
+        margin:0px ; 
+        padding:0px;
+        height:100%; 
+        text-align:center; 
+        font-size:18px; 
+        color:black;
+       
+      
+      
+    
+    }    
+    .nav-link{
+        font-size:18px!important; 
+        
+    }
+
+    .nav-active{
+        border-radius:10px; 
+        margin:0px ; 
+        padding:0px;
+        height:100%; 
+        text-align:center; 
+        font-size:18px; 
+        background-color:#00b7d9; 
+        color:white; 
+       
+     
+    }
+
+    .table-transactions tr td ul li{
+        font-size:12px!important; 
+        padding-left: 10px!important;
+    }
+
+    .table-transactions tr td ul, menu, dir {
+        
+        padding: 0px!important;
+    
+    }
+    .table-transactions .col{
+        padding:0px!important;
+    }
+    .table-transactions td{
+        padding:3px!important;
+    }
+
+    .my-wallet-address {
+        font-size:12px;
+    }
+    
+    .qr-code{
+        float:left;
+        margin-right:13%;
+    }
+    .qr-code-border {
+        position:relative!important;  top:0px!important; left:0px!important;
+     
+    }
+}
