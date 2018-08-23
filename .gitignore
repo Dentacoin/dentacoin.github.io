@@ -11,10 +11,12 @@ wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 
+/.wallet/node_modules
 /.htaccess
 /license.txt
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+/uploads/dentacoi_iwR.sql
 
 phpmydcnadmin
