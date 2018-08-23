@@ -54,10 +54,11 @@ padding:50px;
    }
 
 
-   /*header style*/
+
 .body{
+    overflow-x:hidden;
     background-image: url("background.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-color: white; /* Used if the image is unavailable */
     height: 100%; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -85,6 +86,207 @@ padding:50px;
 .amount-in-fiat{
     font-size:2em;
 }
+
+.send-address-mobile{
+    display:none;
+}
+.transaction-history{
+    display:initial;
+}
+
+
+.card-form input[type=text],input[type=tel],input[type=number], select {
+    width: 50%;
+    float:left;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.card-form input[type=submit] {
+    width: 100%;
+    background-color: #00b7d9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-form input[type=submit]:hover {
+    background-color: #45a049;
+}
+.pay-get-field{
+    display:none!important;
+}
+.buy-info-mobile{
+    display:none!important;
+}
+
+/*input BUY section */
+.form-input-group{
+    padding-right: 0%;
+    font-size: 0;
+    position:relative;
+    width:100%;
+}
+.form-input-control{
+    width: calc(100% - 80px);
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;     padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s 
+}
+.form-input-append{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    width: 80px;
+}
+.form-input-append button{
+    width:100%;
+    background: #dddddd!important;
+   
+}
+.row-buy{
+    padding-left:15px!important;
+}
+
+/*CREDIT CARD PIN CODE INSERT*/
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar.navbar-9 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+
+.paddingBetweenCols td
+{
+    padding:0 15px 0 15px;
+}
+#containor{
+  margin-top:40px;
+  margin-bottom:40px;
+  background-color:#1195bc;
+  
+}
+.field{
+    
+  outline:none;
+  background-color:#1195bc;
+  font-family:"open sans";
+  font-weight:200;
+  letter-spacing: 10px;
+  border-radius:8px;
+  width:220px;
+  font-size:1.1em;
+  border:1px solid white;
+  height:45px;
+  color:white;
+  text-align:center;
+  margin-top:-15px;
+  position:absolute;
+  margin-top:15px;
+  margin-left:30px;
+  display:inline-block;
+}
+
+.number{
+  width:40px;
+  height:40px;
+  padding:0px;
+  font-size:1.3em;
+  font-weight:200;
+  color:white;
+  font-family:"open sans";
+  border-radius:100%;
+  border:1px solid white;
+  text-align:center;
+  line-height:43px;
+  display:inline-block;
+  margin:10px;
+  cursor:pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:0.4s;
+}
+.number:hover{
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.number:active{
+  box-shadow:none;
+}
+/* another class just like number, so the x and check buttons wont interrupt to the javascript */
+.numberS{
+  width:40px;
+  height:40px;
+  padding:10px;
+  font-size:1.3em;
+  font-weight:200;
+  color:white;
+  font-family:"open sans";
+  border-radius:100%;
+  border:1px solid white;
+  text-align:center;
+  line-height:43px;
+  display:inline-block;
+  margin:10px;
+  cursor:pointer;
+}
+#x{
+    width:40px;
+  height:40px;
+  padding:0px;
+  display:inline-block;
+  margin-left:300px;
+  background:white;
+  border:none;
+  color:black;
+  transition:0.4s;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#x:hover{
+ color:#1195bc;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#x:active{
+  box-shadow:none;
+}
+#y{
+  font-size:1.0em;
+  border:none;
+  transition:0.6s;
+  color:#9E9E9E;
+}
+#y:hover{
+  color:white;
+}
 @media only screen and (max-width: 860px) {
     .navigation-menu{
         margin:0 auto;
@@ -110,6 +312,7 @@ padding:50px;
     }
 
 }
+
 
 @media only screen and (max-width: 600px) {
     .amount-in-fiat{
@@ -181,4 +384,70 @@ padding:50px;
         position:relative!important;  top:0px!important; left:0px!important;
      
     }
+
+
+    .send-address .col-lg-5,  .col-md-9,  .col-sm-9, .col-xs-9, .col-lg-4, .col-md-2, .col-sm-2, .xs-2{
+        width:80%!important;
+        float:left;
+        display:inline-block!important;
+        
+    }
+    .send-address  .col-lg-4, .col-md-2, .col-sm-2, .xs-2{
+        width:20%!important;
+        float:left;
+        display:inline-block!important;
+        
+    }
+    .menu-background{
+        height:auto!important;
+    }
+
+    .pay-with-buy{
+        width:100%;
+    }
+    .you-get-buy{
+        width:100%;
+    }
+
+   .send-address-desktop{
+       display:none;
+   }
+   .send-address-mobile{
+    display:initial;
+    margin-top:30px;
+    padding-top:30px;
+}
+.buy-instructions{
+    display:none;
+}
+.pay-get-field{
+  
+    display:initial!important;
+}
+
+.pay-get-field > tbody > tr > th:nth-child(1) {
+    width:156px;
+    padding-left:20px;
+    
+}
+.pay-get-field > tbody > tr > td:last-child {
+    width:400px;
+    padding-right:20px;
+    padding-left:0px;   
+}
+.pay-get-field > tbody > tr > td > ul {
+  
+    padding-left:5px;   
+}
+.buy-info-mobile{
+    display:initial!important;
+    margin-top:0px!important;
+    margin-bottom:0px!important;
+    padding-top:0px!important;
+    padding-bottom:0px!important;
+}
+
+.input-field-desktop{
+    display:none;
+}
 }
