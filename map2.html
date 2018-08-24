@@ -139,56 +139,7 @@
                 '</div>';
         }
     });
-    plotOptions: {
-            series: {
-                states: {
-                    hover: {
-                        color: 'rgba(175,232,255,1)'
-                    }
-                },
-                point: {
-                    events: {
-                        mouseOut: mouseOut,
-                        mouseOver: mouseOver
-                    }
-                }
-            }
-        },
-
-        series: [{
-            color: 'blue',
-            name: 'Country',
-            mapData: Highcharts.maps['custom/europe'],
-            data: maCountryData,
-            joinBy: ['iso-a2', 'code'],
-
-            tooltip: {
-                headerFormat: '',
-                pointFormat: '{point.name}'
-            }
-        }]
-    });
-
-
-    function mouseOver(e) {
-        var maCountryList = [];
-        var countryID = this['iso-a2'];
-        if (typeof (countryID) !== 'undefined' && euCountries.indexOf(countryID) >= 0) {
-            for (var i = 0; i < euCountries.length; i++) {
-                $('#container').highcharts().get(euCountries[i]).update('hover');
-            }
-        }
-    }
-
-    function mouseOut(e) {
-        var maCountryList = [];
-        var countryID = this['iso-a2'];
-        if (typeof (countryID) !== 'undefined' && euCountries.indexOf(countryID) >= 0) {
-            for (var i = 0; i < euCountries.length; i++) {
-                $('#container').highcharts().get(euCountries[i]).update('');
-            }
-        }
-    }
+    
     </script>
 </body>
 </html>
