@@ -287,6 +287,9 @@ padding:50px;
 #y:hover{
   color:white;
 }
+.field-pin-code{
+
+}
 @media only screen and (max-width: 860px) {
     .navigation-menu{
         margin:0 auto;

@@ -9,6 +9,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="./index.js"></script>
+<link href="bootstrap-pincode-input.css" rel="stylesheet">
+<script src="bootstrap-pincode-input.js"></script>
+
     </head>
     <body class="body">
           
@@ -178,21 +181,41 @@
 
              
                         <!--Credit Card PIN CODE-->
-                        <div class="container-fluid ">
-                            <div class="row " style="background-color:#1195bc;">
+                        <div class="container ">
+                            <div class="row " style="">
                                     <div class="col"> </div>
                                 <div class="center-col"> 
-                                    <center>
-                                            <h2 style="margin-top:20px; color:white;">Enter The Code</h2>
-                                            <div id="containor">
-                                              <button  id="y" type="button" class="btn btn-success animated bounceIn" onclick="check()"  data-toggle="modal" data-target="#myModal" style="color:white">CONFIRM</button>
-                                              
-                                              <input type="textfield" class="field animated bounceInUp" id="field-pin" maxlength="4" />
-                                              <div id="x" class="x numberS animated bounceIn">x</div>
-                                              <div id="cont">
-                                              </div>
-                                            </div>
-                
+                                    <h2 style="margin-top:10px; color:#1195bc;">Enter Your Pin Code</h2>
+                                  <input type="text" id="demo">
+                                  <script> $('#demo').pincodeInput(); 
+                                  $('#demo').pincodeInput({
+
+// 4 input boxes = code of 4 digits long
+inputs:4,        
+
+// hide digits like password input             
+hideDigits:true,   
+
+// keyDown callback             
+keydown : function(e){},
+
+// callback on every input on change (keyup event)
+change: function(input,value,inputnumber){    
+  //input = the input textbox DOM element
+  //value = the value entered by user (or removed)
+  //inputnumber = the position of the input box (in touch mode we only have 1 big input box, so always 1 is returned here)
+},
+
+// callback when all inputs are filled in (keyup event)
+complete : function(value, e, errorElement){
+  // value = the entered code
+  // e = last keyup event
+  // errorElement = error span next to to this, fill with html 
+  // e.g. : $(errorElement).html("Code not correct");
+}
+
+});</script>
+
                                  </div>
                                  <div class="col"> </div>
                                 </div>
