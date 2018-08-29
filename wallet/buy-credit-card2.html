@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -234,13 +234,45 @@
     });
 });</script>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-          <button type="button" class="btn btn-primary">BUY</button>
+        <div class="modal-footer" style="display:block!important;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" style="width:40%;" >Back</button>
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter2" style="width:40%;" >Next</button>
         </div>
       </div>
     </div>
   </div>
+    <!--End Modal 1 -->
+      <!-- Modal 2-->
+  <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Transaction details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+          <h2 class="mb-4"> Are you sure you want to buy:</h2>
+          <ul class="text-center" style="list-style:none; text-align:center; padding-left:0px!important;">
+            <li><strong>2 000 000 DCN</strong></li>
+            <li>(2 000 000 USD)</li>
+            <li>from</li>
+            <li>Your credit card details</li>
+            <li><hr></li>
+            <li>Transaction fee: <p>0,009 USD</p></li>
+            <li><hr></li>
+            <li><h3>TOTAL: 2 000 009 USD</h3></li>
+          </ul>
+          </div>
+          <div class="modal-footer text-center align-middle" style="display:block!important;">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" style="width:40%;">Back</button>
+            <button type="button" class="btn btn-info" style="width:40%;">BUY</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--End Modal 1 -->
                                                </form>
                                            </div>
                                    
