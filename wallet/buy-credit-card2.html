@@ -189,8 +189,58 @@
                                                    <input id="number" class="card-input" placeholder="Card number" type="tel" name="number">
                                                    <input class="card-input" placeholder="Full name" type="text" name="name">
                                                    <input class="card-input" placeholder="MM/YY" type="tel" name="expiry">
-                                                   <input class="card-input" placeholder="CVC &#128274; " type="number" name="cvc">
-                                                   <a href="buy-credit-card-pin-code2.html"> <input type="submit" value="NEXT" class="card-input button btn-info postfix" > ENTER PIN CODE</a>
+                                                   <input class="card-input" placeholder="CVC &#128274; " type="number" name="cvc" >
+                                                 
+                                                   <!-- Button trigger modal -->
+                                                   <button type="button" class="btn btn-info mt-2" data-toggle="modal" data-target="#exampleModalCenter" style="padding:10px 120px; ">
+                                                      Next
+                                                    </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Input Your Pin Code</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <input type="hidden" name="formType" value="confirmPassword">
+            <div class="form-group">
+                <div class="col-sm-12 col-sm-5 text-center">
+                    <input name="firstdigit" class="digit text-center" type="password" required id="firstdigit" size="1" maxlength="1" tabindex="0">
+                    <input name="secondtdigit" class="digit text-center" type="password" required id="firstdigit" size="1" maxlength="1" tabindex="1">
+                    <input name="thirddigit" class="digit text-center" type="password" required id="thirddigit" size="1" maxlength="1"  tabindex="2" >
+                    <input name="fourthdigit" class="digit text-center" type="password" required id="fourthdigit" size="1" maxlength="1" tabindex="3">
+                </div>
+            <script> 
+               $( document ).ready(function() {
+    $('#digitPasswordbtn').click(function() {
+        $('#digitPassword').modal('show');
+    });
+    $(":input[type='password']").keyup(function(event){
+        if ($(this).next('[type="password"]').length > 0){
+            $(this).next('[type="password"]')[0].focus();
+        }else{
+            if ($(this).parent().next().find('[type="password"]').length > 0){
+                $(this).parent().next().find('[type="password"]')[0].focus();
+            }
+        }
+    });
+    $('#digitPassword').on('shown.bs.modal', function (e) {
+        $("#firstdigit").focus();
+    });
+});</script>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary">BUY</button>
+        </div>
+      </div>
+    </div>
+  </div>
                                                </form>
                                            </div>
                                    
@@ -302,6 +352,7 @@
           
       
     <script src="card.js"></script>
+   
     <script>
             new Card({
                 form: document.querySelector('form'),
