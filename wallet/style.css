@@ -314,7 +314,11 @@ padding:50px;
         position:relative!important;  top:0px!important; left:0px!important;
      
     }
-
+    .input-field-desktop{
+        width:100%;
+        padding:0px;
+        max-width:100%!important;
+    }
 }
 
 
