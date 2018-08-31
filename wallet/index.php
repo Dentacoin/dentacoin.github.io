@@ -29,14 +29,14 @@
                       </td>
                       <td class="align-middle ">
                             <ul class="col align-middle" style=" list-style-type: none;">
-                                <li class="hide-on-desktop hidden-lg hidden-md"> <h1 >
+                                <li class="amount-mobile hidden-lg hidden-md"> <h1 >
                                     <ul class="col " style=" list-style-type: none; padding-left:0px;">
                                          <li><img src="exchange2.png" width="30px" ></li>
                                          <li class="mt-1" style="font-size:18px; height:auto;"><span> DCN</span></li>
                                          <li><span> 200000</span></li>
                                      </ul>  
                                 </li>
-                                <li class="show-on-desktop hidden-sm hidden-xs"> <h1 style="font-size:4em;"> <a class="" href="#"> <img src="./img/exchange2.png" width="30px" > </a> 20000 DCN</h1> </li>
+                                <li class="amount-mobile hidden-sm hidden-xs"> <h1 style="font-size:4em;"> <a class="" href="#"> <img src="./img/exchange2.png" width="30px" > </a> 20000 DCN</h1> </li>
                                 <li> 
                                     <p class="float-left amount-in-fiat">= 50 USD  
                                         <div class="dropdown ">
