@@ -1,63 +1,3 @@
-.row{
-    display:block!important;
-}
-.nav-button{
-    border-radius:10px; 
-    margin:5px ; 
-    height:85%; 
-    text-align:center; 
-    font-size:25px; 
-    color:black;
-    
-}
-.nav-button li{
-width:100%;
-padding:50px;
-}
-.nav-button:hover{
-
-    background-color:#00b7d9; 
-    color:white; 
-}
-
-.nav-active{
-    border-radius:10px; 
-    margin:5px ; 
-    height:85%; 
-    text-align:center; 
-    font-size:25px; 
-    color:black;
-    background-color:#00b7d9; 
-    color:white; 
-}
-
-.navbar{
-    background:rgba(250,250,250,0);
-   }
-   .nav-link , .navbar-brand{
-    color: #f4f4f4;
-    cursor: pointer;
-   }
-   .nav-link{
-    margin-right: 1em !important;
-   }
-   .nav-link:hover{
-    background: #f4f4f4;
-    color:rgba(250,250,250,0);
-   }
-   .navbar-collapse{
-    justify-content: flex-end;
-   }
-   .navbar-toggler{
-     background:#fff !important;
-   }
-
-   .navbar-collapse{
-    justify-content: flex-end;
-   }
-
-
-
 .body{
     overflow-x:hidden;
     background-image: url("../img/background.jpg"); /* The image used */
@@ -76,26 +16,106 @@ padding:50px;
     top: 0;
    
    }
+   .row{
+    display:block!important;
+    }
+/* ----- Buttons, navigation menu ----- */
+.nav-button{
+    border-radius:10px; 
+    margin:5px ; 
+    height:85%; 
+    text-align:center; 
+    font-size:25px; 
+    color:black!important;
+    
+}
+.nav-button li{
+    width:100%;
+    padding:50px;
+    }
+    .nav-button:hover{
+    
+        background-color:#00b7d9; 
+        color:white; 
+    }
+    
+    .nav-active{
+        border-radius:10px; 
+        margin:5px ; 
+        height:85%; 
+        text-align:center; 
+        font-size:25px; 
+        color:black;
+        background-color:#00b7d9; 
+        color:white!important; 
+    }
+.navbar{
+        background:rgba(250,250,250,0);
+       }
+       .nav-link , .navbar-brand{
+        color: #f4f4f4;
+        cursor: pointer;
+       }
+       .nav-link{
+        margin-right: 1em !important;
+       }
+       .nav-link:hover{
+        background: #f4f4f4;
+        color:rgba(250,250,250,0);
+       }
+       .navbar-collapse{
+        justify-content: flex-end;
+       }
+       .navbar-toggler{
+         background:#fff !important;
+       }
+    
+       .navbar-collapse{
+        justify-content: flex-end;
+}    
+/* ----- End Buttons, navigation menu ----- */
+
+.hide-on-desktop{
+    display:none!important;
+}
+.show-on-desktop{
+    display:initial!important;
+}
+
+/*--index page section My amount */
+.amount-in-fiat{
+    font-size:2em;
+}
+/*--End index page section My amount */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    .btn-outline  {
        border-color: white;
    }
 
-   .amount-mobile{
-       display:none;
-   }
-   .amount-desktop{
-    display:initial;
-}
-.amount-in-fiat{
-    font-size:2em;
-}
+
+
 
 .send-address-mobile{
     display:none;
 }
-.transaction-history{
-    display:initial;
-}
+
 
 
 .card-form input[type=text],input[type=tel],input[type=number], select {
