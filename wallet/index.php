@@ -4,7 +4,8 @@
 <head>
     <?php include("includes/head-tag-contents.php");?>
 </head>
-<body>
+<body class="body" >
+<div class="container-fluid">
     <?php include("includes/header.php");?>
     <?php include("includes/navigation.php");?>
 
@@ -116,5 +117,6 @@
 
           <?php include("includes/transaction-history.php");?>
           <?php include("includes/footer.php");?>
+    </div>
 </body>
 </html>
