@@ -328,10 +328,20 @@ padding:50px;
         padding-right:7%!important;
         margin:-10px 0 30px 0 ;
     }
+
+    .buy-field-desktop{
+        display:none!important;
+    }
+    .hide-on-mobile{
+        display:none!important;
+    }
 }
 
 
 @media only screen and (max-width: 600px) {
+        .buy-field-desktop{
+        display:none!important;
+    }
     .amount-in-fiat{
         font-size:1em;
     }
@@ -474,4 +484,7 @@ padding:50px;
         padding-right:7%!important;
         margin:-10px 0 30px 0 ;
 }
+    .hide-on-mobile{
+        display:none!important;
+    }
 }
