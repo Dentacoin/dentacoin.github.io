@@ -21,7 +21,7 @@
                            <div class="form-input-append">
                                <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
                                <div class="dropdown-menu">
-                                   <a class="dropdown-item" href="../buy/buy-credit-card.html">DCN</a>
+                                   <a class="dropdown-item" href="buy-credit-card.php">DCN</a>
                                    <a class="dropdown-item" href="#">Euro</a>
                                    <a class="dropdown-item" href="#">Bitcoin</a>
                                </div>
@@ -29,7 +29,7 @@
                    </div>
             </div> 
             <div class="d-none col-lg-3 col-md-2 d-md-inline-block d-lg-inline-block mr-4 ml-4" style="width:40px;">  
-                    <img src="../img/exchange.png" width="40px" >
+                    <img src="./img/exchange.png" width="40px" >
             </div>
             <div class="send-input-mobile col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block mr-4" style="">
                     <strong class="d-lg-none d-md-none d-sm-inline-block d-xs-inline-block" style="font-size: 14px; color:white; text-align:right;">You get</strong>  
@@ -37,7 +37,7 @@
                             <div class="form-input-append">
                                    <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DCN</button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="../buy/buy-credit-card.html">DCN</a>
+                                    <a class="dropdown-item" href="buy-credit-card.php">DCN</a>
                                     <a class="dropdown-item" href="#">Euro</a>
                                     <a class="dropdown-item" href="#">Bitcoin</a>
                                 </div>
@@ -56,7 +56,7 @@
                         <div class="input-group-append">
                           <button class="btn btn-outline dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTC</button>
                           <div class="dropdown-menu">
-                            <a class="dropdown-item" href="buy-credit-card2.html">USD</a>
+                            <a class="dropdown-item" href="buy-credit-card.php">USD</a>
                             <a class="dropdown-item" href="#">Euro</a>
                             <a class="dropdown-item" href="#">BTC</a>
                            <!-- <div role="separator" class="dropdown-divider"></div>
@@ -73,7 +73,7 @@
                                 <div class="input-group-append">
                                   <button class="btn btn-outline dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DCN</button>
                                   <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="../buy/buy-credit-card.html">USD</a>
+                                    <a class="dropdown-item" href="buy-credit-card.php">USD</a>
                                     <a class="dropdown-item" href="#">Euro</a>
                                     <a class="dropdown-item" href="#">BTC</a>
                                    <!-- <div role="separator" class="dropdown-divider"></div>
@@ -206,7 +206,7 @@
           <?php include("includes/transaction-history.php");?>
           <?php include("includes/footer.php");?>
     </div>
-<script src="../js/card.js"></script> 
+<script src="./js/card.js"></script> 
 <script>
         new Card({
             form: document.querySelector('form'),
