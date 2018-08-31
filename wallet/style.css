@@ -293,6 +293,10 @@ padding:50px;
 .field-pin-code{
 
 }
+.credit-card-input{
+    width:60%!important;
+    margin:0 auto!important;
+} 
 @media only screen and (max-width: 860px) {
     .navigation-menu{
         margin:0 auto;
@@ -334,6 +338,14 @@ padding:50px;
     }
     .hide-on-mobile{
         display:none!important;
+    }
+    .credit-card-input{
+        width:80%!important;
+        margin:0 auto!important;
+    } 
+    .credit-card-card{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
 }
 
@@ -487,4 +499,13 @@ padding:50px;
     .hide-on-mobile{
         display:none!important;
     }
+
+    .credit-card-card{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .credit-card-input{
+        width:100%!important;
+        margin:0 auto!important;
+    }    
 }
