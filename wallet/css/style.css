@@ -96,18 +96,7 @@
 }
 /* ----- End Home page Amount Section ----- */
 
-
-
-
-
-.send-address-mobile{
-    display:none;
-}
-.transaction-history{
-    display:initial;
-}
-
-
+/* ----- Buy section Credit card ----- */
 .card-form input[type=text],input[type=tel],input[type=number], select {
     width: 50%;
     float:left;
@@ -130,6 +119,10 @@
     cursor: pointer;
 }
 
+.credit-card-input{
+    width:60%!important;
+    margin:0 auto!important;
+} 
 .card-form input[type=submit]:hover {
     background-color: #45a049;
 }
@@ -151,7 +144,7 @@
     width: calc(100% - 80px);
     display: inline-block;
     margin: 0;
-    vertical-align: middle;     padding: .375rem .75rem;
+    vertical-align: middle; padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
@@ -176,7 +169,7 @@
     padding-left:15px!important;
 }
 
-/*CREDIT CARD PIN CODE INSERT*/
+/*CREDIT CARD PIN CODE INSERT - for the page that can be used*/
 
 .fa-1x {
     font-size: 1.5rem;
@@ -300,13 +293,14 @@
 #y:hover{
   color:white;
 }
-.field-pin-code{
-
+/* ----- End Buy section Credit card ----- */
+.send-address-mobile{
+    display:none;
 }
-.credit-card-input{
-    width:60%!important;
-    margin:0 auto!important;
-} 
+.transaction-history{
+    display:initial;
+}
+
 @media only screen and (max-width: 860px) {
     .navigation-menu{
         margin:0 auto;
@@ -380,15 +374,10 @@
         height:100%; 
         text-align:center; 
         font-size:18px; 
-        color:black;
-       
-      
-      
-    
+        color:black; 
     }    
     .nav-link{
-        font-size:18px!important; 
-        
+        font-size:18px!important;   
     }
 
     .nav-active{
@@ -399,9 +388,7 @@
         text-align:center; 
         font-size:18px; 
         background-color:#00b7d9; 
-        color:white; 
-       
-     
+        color:white;  
     }
 
     .table-transactions tr td ul li{
@@ -409,10 +396,8 @@
         padding-left: 10px!important;
     }
 
-    .table-transactions tr td ul, menu, dir {
-        
+    .table-transactions tr td ul, menu, dir {  
         padding: 0px!important;
-    
     }
     .table-transactions .col{
         padding:0px!important;
@@ -420,44 +405,35 @@
     .table-transactions td{
         padding:3px!important;
     }
-
     .my-wallet-address {
         font-size:12px;
     }
-    
     .qr-code{
-        float:left;
-       
+        float:left;  
     }
     .qr-code-border {
         position:relative!important;  top:0px!important; left:0px!important;
         padding-right: 20px ;
     }
-
-
     .send-address .col-lg-5,  .col-md-9,  .col-sm-9, .col-xs-9, .col-lg-4, .col-md-2, .col-sm-2, .xs-2{
         width:80%!important;
         float:left;
-        display:inline-block!important;
-        
+        display:inline-block!important;  
     }
     .send-address  .col-lg-4, .col-md-2, .col-sm-2, .xs-2{
         width:20%!important;
         float:left;
-        display:inline-block!important;
-        
+        display:inline-block!important;  
     }
     .menu-background{
         height:auto!important;
     }
-
     .pay-with-buy{
         width:100%;
     }
     .you-get-buy{
         width:100%;
     }
-
    .send-address-desktop{
        display:none;
    }
@@ -465,51 +441,44 @@
     display:initial;
     margin-top:30px;
     padding-top:30px;
-}
-.buy-instructions{
-    display:none;
-}
-.pay-get-field{
-  
+    }
+    .buy-instructions{
+        display:none;
+    }
+    .pay-get-field{
     display:initial!important;
-}
-
-.pay-get-field > tbody > tr > th:nth-child(1) {
+    }
+    .pay-get-field > tbody > tr > th:nth-child(1) {
     width:156px;
-    padding-left:20px;
-    
-}
-.pay-get-field > tbody > tr > td:last-child {
+    padding-left:20px; 
+    }
+    .pay-get-field > tbody > tr > td:last-child {
     width:400px;
     padding-right:20px;
     padding-left:0px;   
-}
-.pay-get-field > tbody > tr > td > ul {
-  
+    }
+    .pay-get-field > tbody > tr > td > ul {
     padding-left:5px;   
-}
-.buy-info-mobile{
+    }
+    .buy-info-mobile{
     display:initial!important;
     margin-top:0px!important;
     margin-bottom:0px!important;
     padding-top:0px!important;
     padding-bottom:0px!important;
-}
-
-.input-field-desktop{
+    }
+    .input-field-desktop{
     display:none;
-}
-
-.send-input-mobile{
+    }
+    .send-input-mobile{
         width:100%!important;
         padding-left:0px!important;
         padding-right:7%!important;
         margin:-10px 0 30px 0 ;
-}
+    }
     .hide-on-mobile{
         display:none!important;
     }
-
     .credit-card-card{
         padding-left: 0px!important;
         padding-right: 0px!important;
