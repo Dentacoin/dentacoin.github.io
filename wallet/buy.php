@@ -21,7 +21,7 @@
                            <div class="form-input-append">
                                <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
                                <div class="dropdown-menu">
-                                   <a class="dropdown-item" href="buy-credit-card2.html">DCN</a>
+                                   <a class="dropdown-item" href="buy-credit-card.php">DCN</a>
                                    <a class="dropdown-item" href="#">Euro</a>
                                    <a class="dropdown-item" href="#">Bitcoin</a>
                                </div>
