@@ -58,8 +58,8 @@
                         </td>
                         <td class="align-middle ">
                             <a class=" col align-middle" href="#">
-                               <img class="qr-code img-fluid" src="/img/qr-border.jpg" style="position:relative;" width="205px;" >
-                               <img class="qr-code-border img-fluid " src="/img/qrcode.png"  width="195px;" style="position:absolute;  top:-84px; left:18px;" > 
+                               <img class="qr-code img-fluid" src="./img/qr-border.jpg" style="position:relative;" width="205px;" >
+                               <img class="qr-code-border img-fluid " src="./img/qrcode.png"  width="195px;" style="position:absolute;  top:-84px; left:18px;" > 
                              </a>
                          </td>
                       </tr>

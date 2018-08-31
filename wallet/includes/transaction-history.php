@@ -8,8 +8,9 @@
                  <table class=" table table-transactions" style="width:100%">
                     <tbody>
                         <tr>
-                                <td class="align-middle"> <a class=" col align-middle" href="#"> 
-                                    <img src="../img/send-icon.svg" width="35px" > </a> 
+                                <td class="align-middle"> 
+                                    <a class=" col align-middle" href="#"> 
+                                    <img src="./img/send-icon.svg" width="35px" > </a> 
                                 </td>
                                 <td class="align-middle">
                                     <ul class="align-middle" style=" list-style-type: none;">
@@ -31,7 +32,8 @@
                         </tr>
                         <tr>
                                 <td class="align-middle"> 
-                                    <a class=" col align-middle" href="#"> <img src="../img/pay-icon.svg" width="35px" ></a> 
+                                    <a class=" col align-middle" href="#"> 
+                                        <img src="./img/pay-icon.svg" width="35px" ></a> 
                                 </td>
                                     <td class="align-middle">
                                         <ul class="align-middle" style=" list-style-type: none;">
@@ -54,7 +56,8 @@
                                 </tr>
                                 <tr>
                                     <td class="align-middle"> 
-                                        <a class=" col align-middle" href="#"> <img class="img-responsive" src="../img/receive-icon.svg" width="35px" > </a> 
+                                        <a class=" col align-middle" href="#"> 
+                                            <img class="img-responsive" src="./img/receive-icon.svg" width="35px" > </a> 
                                     </td>
                                     <td class="align-middle">
                                             <ul class="align-middle" style=" list-style-type: none;">
