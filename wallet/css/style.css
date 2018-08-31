@@ -76,10 +76,10 @@
 /* ----- End Buttons, navigation menu ----- */
 
 .hide-on-desktop{
-    display:none!important;
+    display:none;
 }
 .show-on-desktop{
-    display:initial!important;
+    display:initial;
 }
 
 /*--index page section My amount */
