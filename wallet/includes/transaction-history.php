@@ -1,6 +1,6 @@
 <?php ?>
         <!--Transaction History-->
-        <div class="row text-left mt-3">
+        <div class="row text-left mt-5">
             <div class="col">
                 <h5 class="text-left">Transaction History</h5>
             </div>
@@ -9,7 +9,7 @@
                     <tbody>
                         <tr>
                                 <td class="align-middle"> <a class=" col align-middle" href="#"> 
-                                    <img src="send-icon.svg" width="35px" > </a> 
+                                    <img src="../img/send-icon.svg" width="35px" > </a> 
                                 </td>
                                 <td class="align-middle">
                                     <ul class="align-middle" style=" list-style-type: none;">
@@ -31,7 +31,7 @@
                         </tr>
                         <tr>
                                 <td class="align-middle"> 
-                                    <a class=" col align-middle" href="#"> <img src="pay-icon.svg" width="35px" ></a> 
+                                    <a class=" col align-middle" href="#"> <img src="../img/pay-icon.svg" width="35px" ></a> 
                                 </td>
                                     <td class="align-middle">
                                         <ul class="align-middle" style=" list-style-type: none;">
@@ -54,7 +54,7 @@
                                 </tr>
                                 <tr>
                                     <td class="align-middle"> 
-                                        <a class=" col align-middle" href="#"> <img class="img-responsive" src="receive-icon.svg" width="35px" > </a> 
+                                        <a class=" col align-middle" href="#"> <img class="img-responsive" src="../img/receive-icon.svg" width="35px" > </a> 
                                     </td>
                                     <td class="align-middle">
                                             <ul class="align-middle" style=" list-style-type: none;">
