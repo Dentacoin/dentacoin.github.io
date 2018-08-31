@@ -75,10 +75,10 @@
 }    
 /* ----- End Buttons, navigation menu ----- */
 .hide-on-desktop{
-    display:none!important;
+    display:none;
 }
 .show-on-desktop{
-    display:initial!important;
+    display:initial;
 }
 /* ----- Home page Amount Section ----- */
 .btn-outline  {
