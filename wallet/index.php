@@ -15,7 +15,7 @@
                     <span class="text-center text-white " > <strong >Your Dentacoin wallet:</strong></span>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 item text-center">
-                    <span  class="text-center text-white"> <a class="" href="#"> <img class="img-fluid" src="copy.svg" width="40px" > </a> <strong class="my-wallet-address" >7182730uasdnmasndasu902183901jksdjkls</strong></span>
+                    <span  class="text-center text-white"> <a class="" href="#"> <img class="img-fluid" src="./img/copy.svg" width="40px" > </a> <strong class="my-wallet-address" >7182730uasdnmasndasu902183901jksdjkls</strong></span>
                 </div>
                 <hr>
         </div> <!--End Your Wallet Address-->
