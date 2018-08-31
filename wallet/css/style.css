@@ -60,7 +60,7 @@ padding:50px;
 
 .body{
     overflow-x:hidden;
-    background-image: url("background.jpg"); /* The image used */
+    background-image: url("../img/background.jpg"); /* The image used */
     background-color: white; /* Used if the image is unavailable */
     height: 100%; /* You must set a specified height */
     background-position: center; /* Center the image */
