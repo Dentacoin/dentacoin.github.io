@@ -81,6 +81,10 @@
     display:initial!important;
 }
 /* ----- Home page Amount Section ----- */
+.btn-outline  {
+    border-color: white;
+}
+
 .amount-mobile{
     display:none;
 }
@@ -93,9 +97,6 @@
 /* ----- End Home page Amount Section ----- */
 
 
-   .btn-outline  {
-       border-color: white;
-   }
 
 
 
