@@ -16,7 +16,7 @@
         </div> <!--End Input wallet address field-->
         <!--Iput Field desktop-->
         <div class="row text-center mt-4">
-             <strong class="" style="font-size: 14px; color:black; text-align:center;">Input the amount that you want to send in DCN ot USD</strong>
+             <strong class="" style="font-size: 14px; color:black; text-align:center;">Input the amount that you want to send in DCN or USD</strong>
         </div>
         <div class="row text-center mt-4">
           <div class="send-input-mobile col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block" style="width:calc(45%-20px)">
