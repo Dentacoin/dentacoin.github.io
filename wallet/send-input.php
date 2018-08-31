@@ -12,7 +12,7 @@
         <!--Input wallet address field-->
         <div class="row text-center mt-4">
            <input class="col-lg-6 col-md-10 col-8 form-control input-lg d-inline" id="inputlg" type="text" placeholder="Input wallet address or Clinic's name">
-           <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="copy.svg"  style="max-width:100px">
+           <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="./img/copy.svg"  style="max-width:100px">
         </div> <!--End Input wallet address field-->
         <!--Iput Field desktop-->
         <div class="row text-center mt-4">
