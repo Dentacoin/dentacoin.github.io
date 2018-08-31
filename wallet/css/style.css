@@ -74,35 +74,23 @@
         justify-content: flex-end;
 }    
 /* ----- End Buttons, navigation menu ----- */
-
 .hide-on-desktop{
-    display:none;
+    display:none!important;
 }
 .show-on-desktop{
-    display:initial;
+    display:initial!important;
 }
-
-/*--index page section My amount */
+/* ----- Home page Amount Section ----- */
+.amount-mobile{
+    display:none;
+}
+.amount-desktop{
+ display:initial;
+}
 .amount-in-fiat{
-    font-size:2em;
+ font-size:2em;
 }
-/*--End index page section My amount */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ----- End Home page Amount Section ----- */
 
 
    .btn-outline  {
@@ -111,11 +99,12 @@
 
 
 
-
 .send-address-mobile{
     display:none;
 }
-
+.transaction-history{
+    display:initial;
+}
 
 
 .card-form input[type=text],input[type=tel],input[type=number], select {
