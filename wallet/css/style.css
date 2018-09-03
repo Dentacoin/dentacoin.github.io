@@ -352,6 +352,11 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .buy-field-desktop{
+        display:block!important;
+    }
+}    
 
 @media only screen and (max-width: 600px) {
         .buy-field-desktop{
