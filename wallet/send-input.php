@@ -11,7 +11,7 @@
 
         <!--Input wallet address field-->
         <div class="row text-center mt-4">
-           <span class="col-lg-6 col-md-10 col-8 form-control input-lg d-inline"> g232faks33hdaskAKjskja2312HAS1239S(Ud) </span>
+           <span class="col-lg-6 col-md-10 col-8 d-inline color-white"> g232faks33hdaskAKjskja2312HAS1239S(Ud) </span>
            <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="./img/edit.png"  style="max-width:100px">
         </div> <!--End Input wallet address field-->
         <!--Iput Field desktop--> 
@@ -89,7 +89,7 @@
                      <p class="text-center">  Input the amount that you want to send to the wallet address above.</p>
             </div>
         </div> <!--End Input wallet address field-->
-        <div class="row text-center mt-4 pl-4 pr-4">
+        <div class="row text-center mt-4 ">
              <button type="button" class="btn btn-info mt-2" data-toggle="modal" data-target="#exampleModalCenter" style="padding:10px 120px; "> Send </button>
         </div>
           <?php include("includes/transaction-history.php");?>
