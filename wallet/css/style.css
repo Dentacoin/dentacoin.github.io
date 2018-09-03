@@ -301,7 +301,7 @@
     display:initial;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (min-width: 800px) {
     .buy-field-desktop{
         display:block!important;
     }
@@ -351,12 +351,6 @@
         padding-right: 0px!important;
     }
 }
-
-@media only screen and (min-width: 800px) {
-    .buy-field-desktop{
-        display:block!important;
-    }
-}    
 
 @media only screen and (max-width: 600px) {
         .buy-field-desktop{
