@@ -15,38 +15,37 @@
            <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="./img/copy.svg"  style="max-width:100px">
         </div> <!--End Input wallet address field-->
         <!--Iput Field desktop-->
-        <div class="row text-center mt-4">
-             <strong class="" style="font-size: 14px; color:black; text-align:center;">Input the amount that you want to send in DCN or USD</strong>
-        </div>
-        <div class="row text-center mt-4">
-          <div class="send-input-mobile col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block" style="width:calc(45%-20px)">
-                    <div class="col-lg-6 col-md-10 col-4 d-inline form-input-group">
-                        <input class="form-input-control" type="text" class="" aria-label="Text input with dropdown button" >
+       <div class="row buy-field-desktop text-center   ">
+         <div class=" col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block" style="">
+                   <div class="col-lg-6 col-md-10 col-sm-4 d-inline form-input-group">
+                       <input class="form-input-control " type="text" class="" aria-label="Text input with dropdown button" >
+                           <div class="form-input-append">
+                               <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
+                               <div class="dropdown-menu">
+                                   <a class="dropdown-item" href="buy-credit-card.php">DCN</a>
+                                   <a class="dropdown-item" href="#">Euro</a>
+                                   <a class="dropdown-item" href="#">Bitcoin</a>
+                               </div>
+                            </div>
+                   </div>
+            </div> 
+            <div class="d-none col-lg-3 col-md-2 d-md-inline-block d-lg-inline-block mr-4 ml-4" style="width:40px;">  
+                    <img src="./img/exchange.png" width="40px" >
+            </div>
+            <div class="send-input-mobile col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block mr-4" style="">  
+                    <div class="col-lg-6 col-md-10 col-sm-2 col-4 d-inline form-input-group">
                             <div class="form-input-append">
-                                <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
+                                   <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DCN</button>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="buy-credit-card.php">DCN</a>
                                     <a class="dropdown-item" href="#">Euro</a>
                                     <a class="dropdown-item" href="#">Bitcoin</a>
                                 </div>
                              </div>
+                             <input class="form-input-control" type="text" class="" aria-label="Text input with dropdown button" >
                     </div>
-             </div> 
-             <h1 class="d-none d-md-inline-block pl-5 col-lg-1 ">=</h1>
-             <div class="d-none d-md-inline-block col-lg-4 col-md-5" style="width:calc(45%-20px)">
-                     <div class="col-lg-6 col-md-10 col-4 d-inline form-input-group">
-                             <div class="form-input-append">
-                                    <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DCN</button>
-                                 <div class="dropdown-menu">
-                                     <a class="dropdown-item" href="buy-credit-card.php">DCN</a>
-                                     <a class="dropdown-item" href="#">Euro</a>
-                                     <a class="dropdown-item" href="#">Bitcoin</a>
-                                 </div>
-                              </div>
-                              <input class="form-input-control" type="text" class="" aria-label="Text input with dropdown button" >
-                     </div>
-              </div>   
-        </div> <!--End Iput Field desktop-->   
+             </div>   
+       </div> <!--End Iput Field desktop-->
 
           <?php include("includes/transaction-history.php");?>
           <?php include("includes/footer.php");?>
