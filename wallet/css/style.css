@@ -302,6 +302,9 @@
 }
 
 @media only screen and (max-width: 860px) {
+    .buy-field-desktop{
+        display:block!important;
+    }
     .navigation-menu{
         margin:0 auto;
     }
