@@ -13,7 +13,7 @@
             <strong class="d-none d-lg-inline-block d-md-inline-block col-lg-4 col-md-5 col-sm-5 col-xs-4 " style="font-size: 14px; color:white; text-align:left;">Pay with</strong>  
             <strong class="d-none d-lg-inline-block d-md-inline-block col-lg-4 col-md-5 col-sm-5 col-xs-4 " style="font-size: 14px; color:white; text-align:right;">You get</strong>  
        </div> 
-       <div class="row buy-field-desktop text-center   ">
+       <div class="row text-center   ">
          <div class=" col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block" style="">
                 <strong class="d-lg-none d-md-none d-sm-inline-block d-xs-inline-block col-sm-4" style="font-size: 14px; color:white; text-align:left;">Pay with</strong>  
                    <div class="col-lg-6 col-md-10 col-sm-4 d-inline form-input-group">
