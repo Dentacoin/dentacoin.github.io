@@ -46,6 +46,102 @@
                     </div>
              </div>   
        </div> <!--End Iput Field desktop-->
+       
+       <!--Iput Field Mobile-->
+        <div class="row d-lg-none d-md-none d-sm-block d-xs-block text-center mt-4">
+            <ul class="list-unstyled pl-4 pr-4">
+                <li class="pb-2"> 
+                    <div class="input-group ">
+                            <strong class=" text-white mr-3 pt-2">Pay with</strong>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTC</button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="buy-credit-card.php">USD</a>
+                            <a class="dropdown-item" href="#">Euro</a>
+                            <a class="dropdown-item" href="#">BTC</a>
+                           <!-- <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a> 
+                          </div>-->
+                        </div>
+                        </div>
+                    </div>
+                </li>
+                <li> 
+                    <div class="input-group ">
+                                    <strong class=" text-white mr-3 pt-2">You get</strong>
+                                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DCN</button>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="buy-credit-card2.html">USD</a>
+                                    <a class="dropdown-item" href="#">Euro</a>
+                                    <a class="dropdown-item" href="#">BTC</a>
+                                   <!-- <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a> 
+                                  </div>-->
+                                </div>
+                                </div>
+                    </div>
+                 </li>
+            </ul> 
+        </div> <!--End Iput Field Mobile-->
+        <!--Input wallet address field-->
+        <div class="row text-center mt-4 pl-4 pr-4">
+            <div class="text-center">
+                    <img class="hide-on-mobile d-lg-block d-md-block img-responsive d-sm-none d-xs-none text-center" src="./img/Line.png" width="2px" style="margin:0 auto!important;">
+                     <p class="text-center">  Choose the currency that you want to pay with and receive, from the drop-down menu.
+                            <br> Than input the amount that you want to be exchanged.
+                     </p>
+            </div>
+        </div> <!--End Input wallet address field-->
+            <!--Iput Field Mobile-->
+            <div class="row d-lg-none d-md-none d-sm-block d-xs-block text-center mt-4">
+            <ul class="list-unstyled pl-4 pr-4">
+                <li class="pb-2"> 
+                    <div class="input-group ">
+                            <strong class=" text-white mr-3 pt-2">Pay with</strong>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTC</button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="buy-credit-card.php">USD</a>
+                            <a class="dropdown-item" href="#">Euro</a>
+                            <a class="dropdown-item" href="#">BTC</a>
+                           <!-- <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a> 
+                          </div>-->
+                        </div>
+                        </div>
+                    </div>
+                </li>
+                <li> 
+                    <div class="input-group ">
+                                    <strong class=" text-white mr-3 pt-2">You get</strong>
+                                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DCN</button>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="buy-credit-card2.html">USD</a>
+                                    <a class="dropdown-item" href="#">Euro</a>
+                                    <a class="dropdown-item" href="#">BTC</a>
+                                   <!-- <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a> 
+                                  </div>-->
+                                </div>
+                                </div>
+                    </div>
+                 </li>
+            </ul> 
+        </div> <!--End Iput Field Mobile-->
+        <!--Input wallet address field-->
+        <div class="row text-center mt-4 pl-4 pr-4">
+            <div class="text-center">
+                    <img class="hide-on-mobile d-lg-block d-md-block img-responsive d-sm-none d-xs-none text-center" src="./img/Line.png" width="2px" style="margin:0 auto!important;">
+                     <p class="text-center"> Input the amount that you want to send to the address above.
+                     </p>
+            </div>
+        </div> <!--End Input wallet address field-->   
 
           <?php include("includes/transaction-history.php");?>
           <?php include("includes/footer.php");?>
