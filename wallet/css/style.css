@@ -363,8 +363,12 @@
 
 
 }
-
-@media only screen and (max-width: 600px) { /* ----------- MOBILE ------------ */
+/*@media only screen and (max-width: 767px){
+    .buy-field-desktop{
+        display:none!important;
+    }
+}*/
+@media only screen and (max-width: 767px) { /* ----------- MOBILE ------------ */
     .input-field-desktop{
         display:none;
     }
