@@ -88,7 +88,7 @@
         <!--Input wallet address field-->
         <div class="row text-center mt-4 pl-4 pr-4">
             <div class="text-center">
-                    <img class="hide-on-mobile d-lg-block d-md-block img-responsive d-sm-none d-xs-none text-center" src="./img/Line.png" width="2px" style="margin:0 auto:">
+                    <img class="hide-on-mobile d-lg-block d-md-block img-responsive d-sm-none d-xs-none text-center" src="./img/Line.png" width="2px" style="margin:0 auto!important;">
                      <p class="text-center">  Choose the currency that you want to pay with and receive, from the drop-down menu.
                             <br> Than input the amount that you want to be exchanged.
                      </p>
