@@ -363,11 +363,11 @@
 
 
 }
-/*@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
     .buy-field-desktop{
         display:none!important;
     }
-}*/
+}
 @media only screen and (max-width: 600px) { /* ----------- MOBILE ------------ */
     .input-field-desktop{
         display:none;
@@ -488,6 +488,12 @@
     }/* ----- End Buy Section Credit Card Input ----- */   
 
     /* ----- Send Section ----- */   
+    #send-wallet{
+        font-size:12px;
+    }
+    .edit-icon{
+        max-width:80px;
+    }
     .send-address .col-lg-5,  .col-md-9,  .col-sm-9, .col-xs-9, .col-lg-4, .col-md-2, .col-sm-2, .xs-2{
         width:80%!important;
         float:left;
