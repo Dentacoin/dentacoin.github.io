@@ -18,8 +18,7 @@
         <div class="row text-center mt-4 pl-4 pr-4">
             <div class="text-center">
                     <img class="hide-on-mobile img-responsive " src="./img/Line.png" width="2px" style="margin:0 auto:">
-                     <p class="text-center"> Fill the address or the name of the clinic that
-                        <br> you want to Send DCN, in the field above.
+                     <p class="text-center"> Fill the address or the name of the clinic that you want to Send DCN, in the field above.
                      </p>
             </div>
         </div> <!--End Input Inforamtion Text-->
