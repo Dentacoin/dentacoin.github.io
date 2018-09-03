@@ -15,7 +15,7 @@
            <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="./img/copy.svg"  style="max-width:100px">
         </div> <!--End Input wallet address field-->
         <!--Iput Field desktop--> 
-       <div class="row buy-field-desktop text-center   ">
+       <div class="row buy-field-desktop text-center mt-4">
          <div class=" col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block" style="">
                    <div class="col-lg-6 col-md-10 col-sm-4 d-inline form-input-group">
                        <input class="form-input-control " type="text" class="" aria-label="Text input with dropdown button" >
@@ -86,9 +86,7 @@
         <!--Input wallet address field-->
         <div class="row text-center mt-4 pl-4 pr-4">
             <div class="text-center">
-                    <img class="hide-on-mobile d-lg-block d-md-block img-responsive d-sm-none d-xs-none text-center" src="./img/Line.png" width="2px" style="margin:0 auto!important;">
-                     <p class="text-center">  Input the amount that you want to send to the wallet address above.
-                     </p>
+                     <p class="text-center">  Input the amount that you want to send to the wallet address above.</p>
             </div>
         </div> <!--End Input wallet address field-->
 
