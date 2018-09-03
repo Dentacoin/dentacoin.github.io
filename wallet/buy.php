@@ -47,7 +47,7 @@
              </div>   
        </div> <!--End Iput Field desktop-->
        <!--Iput Field Mobile-->
-        <div class="row d-lg-none d-md-none  text-center mt-4">
+        <div class="row d-lg-none d-md-none d-sm-block d-xs-block text-center mt-4">
             <ul class="list-unstyled pl-4 pr-4">
                 <li class="pb-2"> 
                     <div class="input-group ">
