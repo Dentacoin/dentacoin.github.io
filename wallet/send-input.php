@@ -84,7 +84,7 @@
             </ul> 
         </div> <!--End Iput Field Mobile-->
         <!--Input wallet address field-->
-        <div class="row text-center mt-2 pl-4 pr-4">
+        <div class="row text-center mt-3 pl-4 pr-4">
             <div class="text-center">
                      <p class="text-center">  Input the amount that you want to send to the wallet address above.</p>
             </div>
