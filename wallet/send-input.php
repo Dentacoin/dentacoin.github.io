@@ -11,8 +11,8 @@
 
         <!--Input wallet address field-->
         <div class="row text-center mt-4">
-           <input class="col-lg-6 col-md-10 col-8 form-control input-lg d-inline" id="inputlg" type="text" placeholder="Input wallet address or Clinic's name">
-           <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="./img/copy.svg"  style="max-width:100px">
+           <span class="col-lg-6 col-md-10 col-8 form-control input-lg d-inline"> g232faks33hdaskAKjskja2312HAS1239S(Ud) </span>
+           <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="./img/edit.png"  style="max-width:100px">
         </div> <!--End Input wallet address field-->
         <!--Iput Field desktop--> 
        <div class="row buy-field-desktop text-center mt-4">
@@ -30,7 +30,7 @@
                    </div>
             </div> 
             <div class="d-none col-lg-3 col-md-2 d-md-inline-block d-lg-inline-block mr-4 ml-4" style="width:40px;">  
-                    <img src="./img/exchange.png" width="40px" >
+                    <img src="./img/equal.png" width="40px" >
             </div>
             <div class="send-input-mobile col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block mr-4" style="">
                     <div class="col-lg-6 col-md-10 col-sm-2 col-4 d-inline form-input-group">
@@ -89,7 +89,9 @@
                      <p class="text-center">  Input the amount that you want to send to the wallet address above.</p>
             </div>
         </div> <!--End Input wallet address field-->
-
+        <div class="row text-center mt-4 pl-4 pr-4">
+             <button type="button" class="btn btn-info mt-2" data-toggle="modal" data-target="#exampleModalCenter" style="padding:10px 120px; "> Send </button>
+        </div>
           <?php include("includes/transaction-history.php");?>
           <?php include("includes/footer.php");?>
     </div>
