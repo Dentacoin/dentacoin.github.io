@@ -11,7 +11,7 @@
 
         <!--Input wallet address field-->
         <div class="row text-center mt-4">
-           <span class="col-lg-6 col-md-10 col-8 d-inline color-white"> g232faks33hdaskAKjskja2312HAS1239S(Ud) </span>
+           <span class="col-lg-6 col-md-10 col-8 d-inline text-white">Sent to: <span id="send-wallet">0x13D0c7ADA3F98EEc232ed7E57FeFc4c300f25095</span></span>
            <img class="col-lg-1 col-md-1 col-sm-1 d-inline" src="./img/edit.png"  style="max-width:100px">
         </div> <!--End Input wallet address field-->
         <!--Iput Field desktop--> 
