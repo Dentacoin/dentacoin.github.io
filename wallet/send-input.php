@@ -29,7 +29,7 @@
                             </div>
                    </div>
             </div> 
-            <div class="d-none col-lg-3 col-md-2 d-md-inline-block d-lg-inline-block mr-4 ml-4" style="width:40px;">  
+            <div class="d-none col-lg-3 col-md-2 d-md-inline-block d-lg-inline-block mr-4 ml-4" style="margin-left: -8px; width:40px;">  
                     <img src="./img/equal.png" width="40px" >
             </div>
             <div class="send-input-mobile col-lg-4 col-md-5 col-sm-12 col-xs-12 d-inline-block mr-4" style="">
