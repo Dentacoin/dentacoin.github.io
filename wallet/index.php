@@ -36,7 +36,7 @@
                                          <li><span> 200000000</span></li>
                                      </ul>  
                                 </li>
-                                <li class="amount-desktop  hidden-sm hidden-xs"> <h1 style="font-size:4em;"> <a class="" href="#"> <img src="./img/exchange2.png" width="30px" > </a> 20000 DCN</h1> </li>
+                                <li class="amount-desktop  hidden-sm hidden-xs"> <h1 style="font-size:4em;"> <a class="" href="#"> <img src="./img/exchange2.png" width="30px" > </a> 200000000 DCN</h1> </li>
                                 <li> 
                                     <p class="float-left amount-in-fiat">= 50 USD  
                                         <div class="dropdown ">
